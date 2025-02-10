@@ -39,6 +39,23 @@ async function checkImageExists(url: string): Promise<boolean> {
 	}
 }
 
+async function fetchImage(url: string): Promise<Response | null> {
+	try {
+		const response = await fetch(url);
+		if (!response.ok) return null;
+
+		const contentType = response.headers.get('content-type');
+		return new Response(response.body, {
+			headers: {
+				'content-type': contentType || 'image/png',
+				'cache-control': 'public, max-age=3600',
+			},
+		});
+	} catch {
+		return null;
+	}
+}
+
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
 		try {
@@ -47,7 +64,8 @@ export default {
 			// Extract course alias from path
 			const match = url.pathname.match(/\/(.+)\.png$/);
 			if (!match) {
-				return Response.redirect(DEFAULT_COVER, 302);
+				const defaultImage = await fetchImage(DEFAULT_COVER);
+				return defaultImage || new Response('Image not found', { status: 404 });
 			}
 
 			const courseAlias = match[1];
@@ -61,17 +79,21 @@ export default {
 			const exists = await checkImageExists(coverUrl);
 
 			if (exists && !overwrite) {
-				// Return existing cover
-				return Response.redirect(coverUrl, 302);
+				// Return existing cover directly
+				const image = await fetchImage(coverUrl);
+				if (image) return image;
 			} else {
 				// Trigger GitHub Action to generate cover
 				await triggerGithubAction(courseAlias, lang, overwrite, env.GITHUB_TOKEN);
-				// Return default cover while generating
-				return Response.redirect(DEFAULT_COVER, 302);
 			}
+
+			// Return default cover if anything fails or while generating
+			const defaultImage = await fetchImage(DEFAULT_COVER);
+			return defaultImage || new Response('Image not found', { status: 404 });
 		} catch (error) {
 			console.error('Error processing request:', error);
-			return Response.redirect(DEFAULT_COVER, 302);
+			const defaultImage = await fetchImage(DEFAULT_COVER);
+			return defaultImage || new Response('Image not found', { status: 404 });
 		}
 	},
 } satisfies ExportedHandler<Env>;
