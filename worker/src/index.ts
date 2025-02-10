@@ -8,6 +8,7 @@ interface Env {
 
 async function triggerGithubAction(courseAlias: string, lang: string, overwrite: boolean, token: string) {
 	try {
+		console.log(`Triggering GitHub Action for course: ${courseAlias}, lang: ${lang}, overwrite: ${overwrite}`);
 		const response = await fetch(GITHUB_API, {
 			method: 'POST',
 			headers: {
@@ -15,7 +16,7 @@ async function triggerGithubAction(courseAlias: string, lang: string, overwrite:
 				Authorization: `Bearer ${token}`,
 			},
 			body: JSON.stringify({
-				ref: 'main',
+				ref: 'master',
 				inputs: {
 					course_alias: courseAlias,
 					course_lang: lang,
@@ -23,6 +24,7 @@ async function triggerGithubAction(courseAlias: string, lang: string, overwrite:
 				},
 			}),
 		});
+		console.log(`GitHub Action trigger ${response.ok ? 'succeeded' : 'failed'}`);
 		return response.ok;
 	} catch (error) {
 		console.error('Error triggering GitHub Action:', error);
@@ -32,9 +34,12 @@ async function triggerGithubAction(courseAlias: string, lang: string, overwrite:
 
 async function checkImageExists(url: string): Promise<boolean> {
 	try {
+		console.log(`Checking if image exists at: ${url}`);
 		const response = await fetch(url, { method: 'HEAD' });
+		console.log(`Image check result: ${response.ok ? 'exists' : 'not found'}`);
 		return response.ok;
 	} catch {
+		console.error(`Failed to check image at: ${url}`);
 		return false;
 	}
 }
@@ -60,10 +65,12 @@ export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
 		try {
 			const url = new URL(request.url);
+			console.log(`Processing request for URL: ${url.toString()}`);
 
 			// Extract course alias from path
 			const match = url.pathname.match(/\/(.+)\.png$/);
 			if (!match) {
+				console.log('No course alias found in URL, returning default cover');
 				const defaultImage = await fetchImage(DEFAULT_COVER);
 				return defaultImage || new Response('Image not found', { status: 404 });
 			}
@@ -71,6 +78,7 @@ export default {
 			const courseAlias = match[1];
 			const lang = url.searchParams.get('lang') || 'en';
 			const overwrite = url.searchParams.get('overwrite') === 'true';
+			console.log(`Request parameters - Course: ${courseAlias}, Lang: ${lang}, Overwrite: ${overwrite}`);
 
 			// Construct cover URL
 			const coverUrl = `${JSDELIVR_BASE}/${lang}/${courseAlias}.png`;
@@ -79,15 +87,15 @@ export default {
 			const exists = await checkImageExists(coverUrl);
 
 			if (exists && !overwrite) {
-				// Return existing cover directly
+				console.log('Using existing cover image');
 				const image = await fetchImage(coverUrl);
 				if (image) return image;
 			} else {
-				// Trigger GitHub Action to generate cover
+				console.log('Cover needs to be generated');
 				await triggerGithubAction(courseAlias, lang, overwrite, env.GITHUB_TOKEN);
 			}
 
-			// Return default cover if anything fails or while generating
+			console.log('Returning default cover while generating or after failure');
 			const defaultImage = await fetchImage(DEFAULT_COVER);
 			return defaultImage || new Response('Image not found', { status: 404 });
 		} catch (error) {
