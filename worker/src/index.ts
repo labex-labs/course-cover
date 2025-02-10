@@ -37,7 +37,7 @@ async function triggerGithubAction(courseAlias: string, lang: string, overwrite:
 		});
 
 		if (response.ok) {
-			await kv.put(key, Date.now().toString(), { expirationTtl: 300 });
+			await kv.put(key, Date.now().toString(), { expirationTtl: 600 });
 
 			// 当 Action 触发成功后，清除原有的存在性缓存
 			// 这样下次请求会重新检查图片是否存在
