@@ -12,8 +12,11 @@ async function triggerGithubAction(courseAlias: string, lang: string, overwrite:
 		const response = await fetch(GITHUB_API, {
 			method: 'POST',
 			headers: {
-				Accept: 'application/vnd.github.v3+json',
-				Authorization: `Bearer ${token}`,
+				'Accept': 'application/vnd.github+json',
+				'Authorization': `Bearer ${token}`,
+				'X-GitHub-Api-Version': '2022-11-28',
+				'Content-Type': 'application/json',
+				'User-Agent': 'LabEx-Course-Cover-Generator',
 			},
 			body: JSON.stringify({
 				ref: 'master',
@@ -24,6 +27,17 @@ async function triggerGithubAction(courseAlias: string, lang: string, overwrite:
 				},
 			}),
 		});
+
+		if (!response.ok) {
+			const errorText = await response.text();
+			console.error('GitHub API Error:', {
+				status: response.status,
+				statusText: response.statusText,
+				body: errorText,
+				headers: Object.fromEntries(response.headers.entries()),
+			});
+		}
+
 		console.log(`GitHub Action trigger ${response.ok ? 'succeeded' : 'failed'}`);
 		return response.ok;
 	} catch (error) {
