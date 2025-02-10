@@ -160,7 +160,7 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         file_url = f"file://{template_path}?{params_str}"
 
         # Navigate and screenshot
-        logger.info("Taking screenshot")
+        logger.info(f"Taking screenshot: {file_url}")
         page.goto(file_url)
         page.wait_for_load_state("networkidle")
 
