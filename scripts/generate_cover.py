@@ -3,6 +3,7 @@ import sys
 import random
 import requests
 import logging
+import time
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
@@ -35,7 +36,7 @@ def get_course_type(type_id: int) -> str:
 
 
 def get_freepik_image(term: str) -> str:
-    """Get a random Freepik icon URL"""
+    """Get a random Freepik icon URL with retry mechanism"""
     logger.info(f"Searching Freepik image for term: {term}")
     api_key = os.environ.get("FREEPIK_API_KEY")
     if not api_key:
@@ -57,33 +58,45 @@ def get_freepik_image(term: str) -> str:
         "x-freepik-api-key": api_key,
     }
 
-    try:
-        response = requests.get(
-            "https://api.freepik.com/v1/icons", params=params, headers=headers
-        )
-        response.raise_for_status()
-        data = response.json()
+    max_retries = 3
+    retry_delay = 1  # seconds
 
-        if not data.get("data"):
-            logger.warning("No Freepik data found for term: %s", term)
-            return "https://placehold.co/512x512"
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(
+                "https://api.freepik.com/v1/icons", params=params, headers=headers
+            )
+            response.raise_for_status()
+            data = response.json()
 
-        lineal_color = [
-            item
-            for item in data["data"]
-            if "lineal color" in item["style"]["name"].lower()
-        ]
-        image_list = lineal_color if lineal_color else data["data"]
-        random_image = random.choice(image_list)
+            if not data.get("data"):
+                logger.warning("No Freepik data found for term: %s", term)
+                return "https://cdn.jsdelivr.net/gh/labex-labs/course-cover/default.png"
 
-        logger.info(
-            f"Successfully fetched Freepik image: {random_image['thumbnails'][0]['url']}"
-        )
-        return random_image["thumbnails"][0]["url"]
+            lineal_color = [
+                item
+                for item in data["data"]
+                if "lineal color" in item["style"]["name"].lower()
+            ]
+            image_list = lineal_color if lineal_color else data["data"]
+            random_image = random.choice(image_list)
 
-    except Exception as e:
-        logger.error(f"Freepik API request failed for term: {term}", exc_info=e)
-        return "https://placehold.co/512x512"
+            logger.info(
+                f"Successfully fetched Freepik image: {random_image['thumbnails'][0]['url']}"
+            )
+            return random_image["thumbnails"][0]["url"]
+
+        except Exception as e:
+            logger.warning(
+                f"Attempt {attempt + 1}/{max_retries} failed for term: {term}",
+                exc_info=e,
+            )
+            if attempt < max_retries - 1:
+                time.sleep(retry_delay)
+                retry_delay *= 2  # Exponential backoff
+            else:
+                logger.error(f"All retries failed for term: {term}", exc_info=e)
+                return "https://cdn.jsdelivr.net/gh/labex-labs/course-cover/labex-icon-blue.png"
 
 
 def generate_random_color() -> str:
