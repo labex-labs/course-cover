@@ -1,0 +1,48 @@
+name: Generate Course Cover
+
+on:
+  workflow_dispatch:
+    inputs:
+      course_alias:
+        description: "Course alias (e.g. html-for-beginners)"
+        required: true
+      course_lang:
+        description: "Course language (e.g. en, zh)"
+        required: true
+        default: "en"
+      overwrite:
+        description: "Overwrite existing cover (true/false)"
+        required: false
+        default: "false"
+        type: boolean
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests playwright
+          playwright install chromium
+
+      - name: Generate course cover
+        env:
+          FREEPIK_API_KEY: ${{ secrets.FREEPIK_API_KEY }}
+        run: python scripts/generate_cover.py "${{ github.event.inputs.course_alias }}" "${{ github.event.inputs.course_lang }}" "${{ github.event.inputs.overwrite }}"
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git pull
+          git add public
+          git commit -m "chore: update course cover for ${{ github.event.inputs.course_alias }}"
+          git push
