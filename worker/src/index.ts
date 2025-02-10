@@ -38,6 +38,12 @@ async function triggerGithubAction(courseAlias: string, lang: string, overwrite:
 
 		if (response.ok) {
 			await kv.put(key, Date.now().toString(), { expirationTtl: 300 });
+
+			// 当 Action 触发成功后，清除原有的存在性缓存
+			// 这样下次请求会重新检查图片是否存在
+			const coverUrl = `${JSDELIVR_BASE}/${lang}/${courseAlias}.png`;
+			const cacheKey = `exists:${coverUrl}`;
+			await kv.delete(cacheKey);
 		}
 
 		console.log(`GitHub Action trigger ${response.ok ? 'succeeded' : 'failed'}`);
@@ -48,12 +54,26 @@ async function triggerGithubAction(courseAlias: string, lang: string, overwrite:
 	}
 }
 
-async function checkImageExists(url: string): Promise<boolean> {
+async function checkImageExists(url: string, kv: KVNamespace): Promise<boolean> {
+	const cacheKey = `exists:${url}`;
+
+	// 先检查 KV 缓存
+	const cached = await kv.get(cacheKey);
+	if (cached !== null) {
+		console.log(`Using cached result for ${url}`);
+		return cached === 'true';
+	}
+
 	try {
 		console.log(`Checking if image exists at: ${url}`);
 		const response = await fetch(url, { method: 'HEAD' });
-		console.log(`Image check result: ${response.ok ? 'exists' : 'not found'}`);
-		return response.ok;
+		const exists = response.ok;
+
+		// 缓存结果，设置 1 天的过期时间
+		await kv.put(cacheKey, exists.toString(), { expirationTtl: 86400 });
+
+		console.log(`Image check result: ${exists ? 'exists' : 'not found'}`);
+		return exists;
 	} catch {
 		console.error(`Failed to check image at: ${url}`);
 		return false;
@@ -100,7 +120,7 @@ export default {
 			const coverUrl = `${JSDELIVR_BASE}/${lang}/${courseAlias}.png`;
 
 			// Check if cover exists
-			const exists = await checkImageExists(coverUrl);
+			const exists = await checkImageExists(coverUrl, env.COURSE_COVER_KV);
 
 			if (exists && !overwrite) {
 				console.log('Using existing cover image');
