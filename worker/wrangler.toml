@@ -16,3 +16,7 @@ enabled = false
 enabled = true
 head_sampling_rate = 0.1
 invocation_logs = true
+
+[[kv_namespaces]]
+id = "ef1d0658912e4bb7a4d3809fa4435df2"
+binding = "COURSE_COVER_KV"

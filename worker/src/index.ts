@@ -4,16 +4,24 @@ const GITHUB_API = 'https://api.github.com/repos/labex-labs/course-cover/actions
 
 interface Env {
 	GITHUB_TOKEN: string;
+	COURSE_COVER_KV: KVNamespace;
 }
 
-async function triggerGithubAction(courseAlias: string, lang: string, overwrite: boolean, token: string) {
+async function triggerGithubAction(courseAlias: string, lang: string, overwrite: boolean, token: string, kv: KVNamespace) {
+	const key = `trigger:${courseAlias}:${lang}`;
+	const lastTrigger = await kv.get(key);
+	if (lastTrigger) {
+		console.log(`Action recently triggered for ${courseAlias}, skipping`);
+		return true;
+	}
+
 	try {
 		console.log(`Triggering GitHub Action for course: ${courseAlias}, lang: ${lang}, overwrite: ${overwrite}`);
 		const response = await fetch(GITHUB_API, {
 			method: 'POST',
 			headers: {
-				'Accept': 'application/vnd.github+json',
-				'Authorization': `Bearer ${token}`,
+				Accept: 'application/vnd.github+json',
+				Authorization: `Bearer ${token}`,
 				'X-GitHub-Api-Version': '2022-11-28',
 				'Content-Type': 'application/json',
 				'User-Agent': 'LabEx-Course-Cover-Generator',
@@ -28,14 +36,8 @@ async function triggerGithubAction(courseAlias: string, lang: string, overwrite:
 			}),
 		});
 
-		if (!response.ok) {
-			const errorText = await response.text();
-			console.error('GitHub API Error:', {
-				status: response.status,
-				statusText: response.statusText,
-				body: errorText,
-				headers: Object.fromEntries(response.headers.entries()),
-			});
+		if (response.ok) {
+			await kv.put(key, Date.now().toString(), { expirationTtl: 300 });
 		}
 
 		console.log(`GitHub Action trigger ${response.ok ? 'succeeded' : 'failed'}`);
@@ -106,7 +108,7 @@ export default {
 				if (image) return image;
 			} else {
 				console.log('Cover needs to be generated');
-				await triggerGithubAction(courseAlias, lang, overwrite, env.GITHUB_TOKEN);
+				await triggerGithubAction(courseAlias, lang, overwrite, env.GITHUB_TOKEN, env.COURSE_COVER_KV);
 			}
 
 			console.log('Returning default cover while generating or after failure');
