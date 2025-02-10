@@ -16,6 +16,10 @@ on:
         default: "false"
         type: boolean
 
+concurrency:
+  group: generate-course-cover
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
