@@ -1,3 +1,5 @@
+import { KVNamespace } from '@cloudflare/workers-types';
+
 const DEFAULT_COVER = 'https://cdn.jsdelivr.net/gh/labex-labs/course-cover/default.png';
 const JSDELIVR_BASE = 'https://cdn.jsdelivr.net/gh/labex-labs/course-cover/public';
 const GITHUB_API = 'https://api.github.com/repos/labex-labs/course-cover/actions/workflows/generate-course-cover.yml/dispatches';
@@ -103,8 +105,22 @@ export default {
 			const url = new URL(request.url);
 			console.log(`Processing request for URL: ${url.toString()}`);
 
+			// Validate URL path format
+			const pathRegex = /^\/[a-z0-9-]+\.png$/;
+			if (!pathRegex.test(url.pathname)) {
+				return new Response('Invalid URL format', { status: 400 });
+			}
+
+			// Validate query parameters
+			const allowedParams = new Set(['lang', 'overwrite']);
+			for (const param of url.searchParams.keys()) {
+				if (!allowedParams.has(param)) {
+					return new Response(`Invalid query parameter: ${param}`, { status: 400 });
+				}
+			}
+
 			// Extract course alias from path
-			const match = url.pathname.match(/\/(.+)\.png$/);
+			const match = url.pathname.match(/\/([a-z0-9-]+)\.png$/);
 			if (!match) {
 				console.log('No course alias found in URL, returning default cover');
 				const defaultImage = await fetchImage(DEFAULT_COVER);
