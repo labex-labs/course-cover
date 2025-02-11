@@ -47,8 +47,14 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
+          # Stash any changes before pull
+          git stash
+
           # Pull with rebase to handle concurrent executions
           git pull --rebase origin master
+
+          # Pop stashed changes
+          git stash pop
 
           # Check if there are any changes to commit
           if git status --porcelain | grep -q "public/"; then
@@ -60,7 +66,9 @@ jobs:
               if git push; then
                 break
               fi
+              git stash
               git pull --rebase origin master
+              git stash pop
               sleep $((i * 2))
             done
           else
