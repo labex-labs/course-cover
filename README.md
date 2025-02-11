@@ -1,5 +1,7 @@
 # LabEx Course Cover Generator
 
+[![](https://data.jsdelivr.com/v1/package/gh/labex-labs/course-cover/badge)](https://www.jsdelivr.com/package/gh/labex-labs/course-cover)
+
 A service that automatically generates course cover images for LabEx courses. It includes a GitHub Action workflow for image generation and a Cloudflare Worker for serving and managing cover images.
 
 ## Features
