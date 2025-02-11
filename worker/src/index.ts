@@ -105,6 +105,19 @@ export default {
 			const url = new URL(request.url);
 			console.log(`Processing request for URL: ${url.toString()}`);
 
+			// Skip browser special requests
+			const skipPaths = [
+				'/favicon.png',
+				'/favicon.ico',
+				'/apple-touch-icon.png',
+				'/apple-touch-icon-precomposed.png',
+				'/robots.txt'
+			];
+
+			if (skipPaths.includes(url.pathname)) {
+				return new Response('Not Found', { status: 404 });
+			}
+
 			// Validate URL path format
 			const pathRegex = /^\/[a-z0-9-]+\.png$/;
 			if (!pathRegex.test(url.pathname)) {

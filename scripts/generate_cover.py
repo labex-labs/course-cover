@@ -20,13 +20,21 @@ def get_course_info(course_alias: str, lang: str) -> dict:
     """Get course information from LabEx API"""
     logger.info(f"Fetching course info for {course_alias} in {lang}")
     url = f"https://labex.io/api/v2/courses/{course_alias}?lang={lang}"
-    # 伪装浏览器
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
-    return response.json()["course"]
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        return response.json()["course"]
+    except requests.exceptions.HTTPError as e:
+        if e.response.status_code == 404:
+            logger.warning(f"Course {course_alias} not found")
+            return None
+        raise
+    except Exception as e:
+        logger.error(f"Error fetching course info: {e}")
+        return None
 
 
 def get_course_type(type_id: int) -> str:
@@ -120,6 +128,14 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         f"Starting cover generation for course: {course_alias}, language: {lang}"
     )
 
+    # Get course info
+    course_info = get_course_info(course_alias, lang)
+    if course_info is None:
+        logger.info(
+            f"Skipping cover generation as course {course_alias} does not exist"
+        )
+        return
+
     # Create output directory and check if file exists
     output_dir = Path(__file__).parent.parent / "public" / lang
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -130,9 +146,6 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
             f"Cover already exists at {output_path} and overwrite=False, skipping generation"
         )
         return
-
-    # Get course info
-    course_info = get_course_info(course_alias, lang)
 
     # Prepare parameters
     params = {
