@@ -99,6 +99,30 @@ async function fetchImage(url: string): Promise<Response | null> {
 	}
 }
 
+async function checkCourseExists(courseAlias: string, lang: string): Promise<{ exists: boolean; error?: string }> {
+	try {
+		const response = await fetch(`https://labex.io/api/v2/courses/${courseAlias}?lang=${lang}`, {
+			headers: {
+				'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+			}
+		});
+
+		if (response.status === 404) {
+			return { exists: false, error: `Course ${courseAlias} not found` };
+		}
+
+		if (!response.ok) {
+			return { exists: false, error: `Failed to check course: ${response.statusText}` };
+		}
+
+		const data = await response.json();
+		return { exists: !!data.course };
+	} catch (error) {
+		console.error('Error checking course existence:', error);
+		return { exists: false, error: 'Failed to check course existence' };
+	}
+}
+
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
 		try {
@@ -148,19 +172,28 @@ export default {
 			// Construct cover URL
 			const coverUrl = `${JSDELIVR_BASE}/${lang}/${courseAlias}.png`;
 
-			// Check if cover exists
-			const exists = await checkImageExists(coverUrl, env.COURSE_COVER_KV);
+			// First check if cover exists
+			const coverExists = await checkImageExists(coverUrl, env.COURSE_COVER_KV);
 
-			if (exists && !overwrite) {
+			if (coverExists && !overwrite) {
 				console.log('Using existing cover image');
 				const image = await fetchImage(coverUrl);
 				if (image) return image;
-			} else {
-				console.log('Cover needs to be generated');
-				await triggerGithubAction(courseAlias, lang, overwrite, env.GITHUB_TOKEN, env.COURSE_COVER_KV);
 			}
 
-			console.log('Returning default cover while generating or after failure');
+			// Only check course existence if we need to generate a new cover
+			console.log('Checking course existence before generating cover');
+			const { exists, error } = await checkCourseExists(courseAlias, lang);
+			if (!exists) {
+				console.log(`Course check failed: ${error}`);
+				const defaultImage = await fetchImage(DEFAULT_COVER);
+				return defaultImage || new Response(error, { status: 404 });
+			}
+
+			console.log('Cover needs to be generated');
+			await triggerGithubAction(courseAlias, lang, overwrite, env.GITHUB_TOKEN, env.COURSE_COVER_KV);
+
+			console.log('Returning default cover while generating');
 			const defaultImage = await fetchImage(DEFAULT_COVER);
 			return defaultImage || new Response('Image not found', { status: 404 });
 		} catch (error) {
