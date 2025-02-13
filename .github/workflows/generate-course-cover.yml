@@ -46,32 +46,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-
-          # Stash any changes before pull
-          git stash
-
-          # Pull with rebase to handle concurrent executions
+          git add public
+          git commit -m "chore: update course cover for ${{ github.event.inputs.course_alias }}"
           git pull --rebase origin master
-
-          # Pop stashed changes
-          git stash pop
-
-          # Check if there are any changes to commit
-          if git status --porcelain | grep -q "public/"; then
-            git add public
-            git commit -m "chore: update course cover for ${{ github.event.inputs.course_alias }}"
-            
-            # Push with retry for concurrent pushes
-            for i in 1 2 3 4 5; do
-              if git push; then
-                break
-              fi
-              git stash
-              git pull --rebase origin master
-              git stash pop
-              sleep $((i * 2))
-            done
-          else
-            echo "No changes to commit"
-            exit 0
-          fi
+          git push
