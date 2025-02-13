@@ -9,6 +9,11 @@ pattern = "cover-creator.labex.io"
 zone_name = "labex.io"
 custom_domain = true
 
+[[routes]]
+pattern = "cover-creator.appbot.io"
+zone_name = "appbot.io"
+custom_domain = true
+
 [observability]
 enabled = false
 
