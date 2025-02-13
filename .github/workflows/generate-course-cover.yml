@@ -47,6 +47,11 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add public
-          git commit -m "chore: update course cover for ${{ github.event.inputs.course_alias }}"
-          git pull --rebase origin master
-          git push
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Changes detected, committing..."
+            git commit -m "chore: update course cover for ${{ github.event.inputs.course_alias }}"
+            git pull --rebase origin master
+            git push
+          else
+            echo "No changes to commit"
+          fi
