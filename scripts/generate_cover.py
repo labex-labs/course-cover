@@ -22,13 +22,23 @@ def get_course_info(course_alias: str, lang: str) -> dict:
     """Get course information from LabEx API"""
     logger.info(f"Fetching course info for {course_alias} in {lang}")
     url = f"https://labex.io/api/v2/courses/{course_alias}?lang={lang}"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
     try:
-        response = requests.get(url, headers=headers)
+        logger.info(f"Fetching: {url}")
+        response = requests.get(url)
         response.raise_for_status()
-        return response.json()["course"]
+        course_info = response.json()["course"]
+
+        # Check if requested language is available
+        available_langs = course_info.get("langs", [])
+        if lang not in available_langs:
+            logger.warning(
+                f"Course {course_alias} is not available in {lang}. "
+                f"Available languages: {', '.join(available_langs)}"
+            )
+            return None
+
+        logger.info(f"Course name: {course_info['name']}")
+        return course_info
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 404:
             logger.warning(f"Course {course_alias} not found")
@@ -197,8 +207,9 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
     course_info = get_course_info(course_alias, lang)
     if course_info is None:
         logger.info(
-            f"Skipping cover generation as course {course_alias} does not exist"
+            f"Skipping cover generation as course {course_alias} does not exist or not available in {lang}"
         )
+        # Return successfully - this is an expected condition, not an error
         return
 
     # Create output directory and check if file exists
