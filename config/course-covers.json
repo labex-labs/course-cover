@@ -1,8 +1,3127 @@
 {
+  "100-numpy-exercises": {
+    "bg_color": "cef7ef",
+    "created_at": "2025-02-21T14:12:13.793278",
+    "image_url": "./assets/icons/100-numpy-exercises.png"
+  },
+  "100-pandas-exercises": {
+    "bg_color": "f8f3c7",
+    "created_at": "2025-02-21T14:11:59.464565",
+    "image_url": "./assets/icons/100-pandas-exercises.png"
+  },
+  "a-beginner-guide-to-labex": {
+    "bg_color": "e1e4ee",
+    "created_at": "2025-02-21T14:12:16.650416",
+    "image_url": "./assets/icons/a-beginner-guide-to-labex.png"
+  },
+  "algorithm-practice-challenges": {
+    "bg_color": "fdd8b8",
+    "created_at": "2025-02-21T14:12:01.112003",
+    "image_url": "./assets/icons/algorithm-practice-challenges.png"
+  },
+  "ansible-practice-plus": {
+    "bg_color": "fee7af",
+    "created_at": "2025-02-21T14:12:06.323654",
+    "image_url": "./assets/icons/ansible-practice-plus.png"
+  },
+  "automatic-partition-management-solution-with-interval-partitioning-of-polardb-mysql": {
+    "bg_color": "e9d1ee",
+    "created_at": "2025-02-21T14:12:12.721838",
+    "image_url": "./assets/icons/automatic-partition-management-solution-with-interval-partitioning-of-polardb-mysql.png"
+  },
+  "basic-usage-of-ansible": {
+    "bg_color": "ccf3fb",
+    "created_at": "2025-02-21T14:12:15.194039",
+    "image_url": "./assets/icons/basic-usage-of-ansible.png"
+  },
+  "build-a-kubernetes-cluster-on-alibaba-cloud-ecs": {
+    "bg_color": "c4e3b8",
+    "created_at": "2025-02-21T14:11:59.624079",
+    "image_url": "./assets/icons/build-a-kubernetes-cluster-on-alibaba-cloud-ecs.png"
+  },
+  "build-a-linux-system-monitor-using-bash": {
+    "bg_color": "c2c2c2",
+    "created_at": "2025-02-21T14:12:02.736866",
+    "image_url": "./assets/icons/build-a-linux-system-monitor-using-bash.png"
+  },
+  "build-a-project-with-jenkins": {
+    "bg_color": "f0cc23",
+    "created_at": "2025-02-21T14:12:09.011455",
+    "image_url": "./assets/icons/build-a-project-with-jenkins.png"
+  },
+  "build-a-simple-translator-using-google-translate-api": {
+    "bg_color": "f2f196",
+    "created_at": "2025-02-21T14:12:10.511487",
+    "image_url": "./assets/icons/build-a-simple-translator-using-google-translate-api.png"
+  },
+  "build-a-task-scheduler-using-bash": {
+    "bg_color": "c2e37b",
+    "created_at": "2025-02-21T14:12:14.678088",
+    "image_url": "./assets/icons/build-a-task-scheduler-using-bash.png"
+  },
+  "build-a-tic-tac-toe-web-app": {
+    "bg_color": "eafcf7",
+    "created_at": "2025-02-21T14:12:14.133609",
+    "image_url": "./assets/icons/build-a-tic-tac-toe-web-app.png"
+  },
+  "build-an-vscode-extension-with-chatgpt": {
+    "bg_color": "acccca",
+    "created_at": "2025-02-21T14:11:59.675672",
+    "image_url": "./assets/icons/build-an-vscode-extension-with-chatgpt.png"
+  },
+  "building-markdown-parser-with-cpp": {
+    "bg_color": "fadf52",
+    "created_at": "2025-02-21T14:12:14.539184",
+    "image_url": "./assets/icons/building-markdown-parser-with-cpp.png"
+  },
+  "building-solar-system-with-cpp": {
+    "bg_color": "7ed8bb",
+    "created_at": "2025-02-21T14:12:13.108267",
+    "image_url": "./assets/icons/building-solar-system-with-cpp.png"
+  },
+  "building-web-service-framework-with-cpp": {
+    "bg_color": "cfc2eb",
+    "created_at": "2025-02-21T14:11:58.393426",
+    "image_url": "./assets/icons/building-web-service-framework-with-cpp.png"
+  },
+  "c-practice-challenges": {
+    "bg_color": "bef0c2",
+    "created_at": "2025-02-21T14:12:15.263012",
+    "image_url": "./assets/icons/c-practice-challenges.png"
+  },
+  "c-practice-labs": {
+    "bg_color": "bdcae8",
+    "created_at": "2025-02-21T14:12:11.251321",
+    "image_url": "./assets/icons/c-practice-labs.png"
+  },
+  "c-practice-plus": {
+    "bg_color": "d6dc77",
+    "created_at": "2025-02-21T14:12:11.829743",
+    "image_url": "./assets/icons/c-practice-plus.png"
+  },
+  "c-programming-for-beginners": {
+    "bg_color": "b6d3dd",
+    "created_at": "2025-02-21T14:12:04.245982",
+    "image_url": "./assets/icons/c-programming-for-beginners.png"
+  },
+  "classic-pong-game-using-python-and-pygame": {
+    "bg_color": "c4f3d9",
+    "created_at": "2025-02-21T14:12:14.509676",
+    "image_url": "./assets/icons/classic-pong-game-using-python-and-pygame.png"
+  },
+  "computing-resource-management-of-kubernetes-clusters": {
+    "bg_color": "d4ddc1",
+    "created_at": "2025-02-21T14:12:02.099576",
+    "image_url": "./assets/icons/computing-resource-management-of-kubernetes-clusters.png"
+  },
+  "conduct-an-access-control-lab-on-kubernetes-clusters": {
+    "bg_color": "d4c0cb",
+    "created_at": "2025-02-21T14:12:04.281709",
+    "image_url": "./assets/icons/conduct-an-access-control-lab-on-kubernetes-clusters.png"
+  },
+  "container-image-management-commands": {
+    "bg_color": "eab6b8",
+    "created_at": "2025-02-21T14:12:13.618521",
+    "image_url": "./assets/icons/container-image-management-commands.png"
+  },
+  "continuous-integration-in-alibaba-cloud-kubernetes-with-bamboo": {
+    "bg_color": "c6f3ee",
+    "created_at": "2025-02-21T14:12:12.319080",
+    "image_url": "./assets/icons/continuous-integration-in-alibaba-cloud-kubernetes-with-bamboo.png"
+  },
+  "cpp-practice-challenges": {
+    "bg_color": "beb9bb",
+    "created_at": "2025-02-21T14:12:09.257503",
+    "image_url": "./assets/icons/cpp-practice-challenges.png"
+  },
+  "cpp-practice-labs": {
+    "bg_color": "c3b6c8",
+    "created_at": "2025-02-21T14:12:07.390617",
+    "image_url": "./assets/icons/cpp-practice-labs.png"
+  },
+  "cpp-practice-plus": {
+    "bg_color": "e3bc97",
+    "created_at": "2025-02-21T14:12:08.093303",
+    "image_url": "./assets/icons/cpp-practice-plus.png"
+  },
+  "cpp-programming-for-beginners": {
+    "bg_color": "f2d7c3",
+    "created_at": "2025-02-21T14:12:04.492270",
+    "image_url": "./assets/icons/cpp-programming-for-beginners.png"
+  },
+  "create-a-gui-calculator-with-python": {
+    "bg_color": "b4dcfa",
+    "created_at": "2025-02-21T14:12:01.175903",
+    "image_url": "./assets/icons/create-a-gui-calculator-with-python.png"
+  },
+  "create-a-sudoku-game-using-python-and-pygame": {
+    "bg_color": "edd0b6",
+    "created_at": "2025-02-21T14:12:14.728950",
+    "image_url": "./assets/icons/create-a-sudoku-game-using-python-and-pygame.png"
+  },
+  "css-practice-challenges": {
+    "bg_color": "fbd8b5",
+    "created_at": "2025-02-21T14:12:04.831392",
+    "image_url": "./assets/icons/css-practice-challenges.png"
+  },
+  "css-practice-labs": {
+    "bg_color": "bfb4b7",
+    "created_at": "2025-02-21T14:12:14.207080",
+    "image_url": "./assets/icons/css-practice-labs.png"
+  },
+  "css-practice-plus": {
+    "bg_color": "d5c1b1",
+    "created_at": "2025-02-21T14:12:13.665646",
+    "image_url": "./assets/icons/css-practice-plus.png"
+  },
+  "cyber-security-with-hands-on-labs": {
+    "bg_color": "bdc0db",
+    "created_at": "2025-02-21T14:11:59.104618",
+    "image_url": "./assets/icons/cyber-security-with-hands-on-labs.png"
+  },
+  "cysec-practice-labs": {
+    "bg_color": "e9bcd9",
+    "created_at": "2025-02-21T14:12:07.189285",
+    "image_url": "./assets/icons/cysec-practice-labs.png"
+  },
+  "deploy-a-multi-region-hybrid-cloud-architecture": {
+    "bg_color": "e5b7cf",
+    "created_at": "2025-02-21T14:12:05.153626",
+    "image_url": "./assets/icons/deploy-a-multi-region-hybrid-cloud-architecture.png"
+  },
+  "deploy-a-security-group-with-cadt": {
+    "bg_color": "dad7b4",
+    "created_at": "2025-02-21T14:12:02.381055",
+    "image_url": "./assets/icons/deploy-a-security-group-with-cadt.png"
+  },
+  "deploy-an-elastic-architecture-with-cadt": {
+    "bg_color": "bcd6b5",
+    "created_at": "2025-02-21T14:12:14.664120",
+    "image_url": "./assets/icons/deploy-an-elastic-architecture-with-cadt.png"
+  },
+  "deploy-jenkins-service-on-ecs": {
+    "bg_color": "dacbf2",
+    "created_at": "2025-02-21T14:12:15.021014",
+    "image_url": "./assets/icons/deploy-jenkins-service-on-ecs.png"
+  },
+  "deploy-the-django-service-on-ecs": {
+    "bg_color": "ffe176",
+    "created_at": "2025-02-21T14:12:16.699705",
+    "image_url": "./assets/icons/deploy-the-django-service-on-ecs.png"
+  },
+  "design-a-high-performance-architecture-with-cadt": {
+    "bg_color": "b5c0eb",
+    "created_at": "2025-02-21T14:12:04.023672",
+    "image_url": "./assets/icons/design-a-high-performance-architecture-with-cadt.png"
+  },
+  "design-a-highly-available-architecture-with-cadt": {
+    "bg_color": "bcdecc",
+    "created_at": "2025-02-21T14:11:58.217847",
+    "image_url": "./assets/icons/design-a-highly-available-architecture-with-cadt.png"
+  },
+  "docker-in-depth-mastery": {
+    "bg_color": "8adc8a",
+    "created_at": "2025-02-21T14:11:58.408627",
+    "image_url": "./assets/icons/docker-in-depth-mastery.png"
+  },
+  "docker-practice-challenges": {
+    "bg_color": "cbe3b8",
+    "created_at": "2025-02-21T14:12:10.630440",
+    "image_url": "./assets/icons/docker-practice-challenges.png"
+  },
+  "docker-practice-labs": {
+    "bg_color": "dad3e6",
+    "created_at": "2025-02-21T14:12:13.228792",
+    "image_url": "./assets/icons/docker-practice-labs.png"
+  },
+  "docker-practice-plus": {
+    "bg_color": "edb78e",
+    "created_at": "2025-02-21T14:12:12.508051",
+    "image_url": "./assets/icons/docker-practice-plus.png"
+  },
+  "foundations-of-deep-learning": {
+    "bg_color": "acd2a8",
+    "created_at": "2025-02-21T14:12:01.476684",
+    "image_url": "./assets/icons/foundations-of-deep-learning.png"
+  },
+  "fundamentals-of-web-development": {
+    "bg_color": "ffc0d2",
+    "created_at": "2025-02-21T14:12:10.455069",
+    "image_url": "./assets/icons/fundamentals-of-web-development.png"
+  },
+  "getting-started-with-algorithm": {
+    "bg_color": "a9dfdf",
+    "created_at": "2025-02-21T14:12:13.641831",
+    "image_url": "./assets/icons/getting-started-with-algorithm.png"
+  },
+  "getting-started-with-ansible": {
+    "bg_color": "f8f0c2",
+    "created_at": "2025-02-21T14:12:06.100387",
+    "image_url": "./assets/icons/getting-started-with-ansible.png"
+  },
+  "getting-started-with-c": {
+    "bg_color": "acb0e7",
+    "created_at": "2025-02-21T14:12:03.011972",
+    "image_url": "./assets/icons/getting-started-with-c.png"
+  },
+  "getting-started-with-cpp": {
+    "bg_color": "eef8cb",
+    "created_at": "2025-02-21T14:12:07.738505",
+    "image_url": "./assets/icons/getting-started-with-cpp.png"
+  },
+  "getting-started-with-css": {
+    "bg_color": "dcd0c2",
+    "created_at": "2025-02-21T14:12:05.706783",
+    "image_url": "./assets/icons/getting-started-with-css.png"
+  },
+  "getting-started-with-django": {
+    "bg_color": "fcff9b",
+    "created_at": "2025-02-21T14:12:04.196121",
+    "image_url": "./assets/icons/getting-started-with-django.png"
+  },
+  "getting-started-with-docker": {
+    "bg_color": "eaf8a4",
+    "created_at": "2025-02-21T14:12:15.602117",
+    "image_url": "./assets/icons/getting-started-with-docker.png"
+  },
+  "getting-started-with-flask": {
+    "bg_color": "ccd285",
+    "created_at": "2025-02-21T14:12:12.650267",
+    "image_url": "./assets/icons/getting-started-with-flask.png"
+  },
+  "getting-started-with-git": {
+    "bg_color": "c4dcf2",
+    "created_at": "2025-02-21T14:12:09.698516",
+    "image_url": "./assets/icons/getting-started-with-git.png"
+  },
+  "getting-started-with-go": {
+    "bg_color": "debe90",
+    "created_at": "2025-02-21T14:11:59.062537",
+    "image_url": "./assets/icons/getting-started-with-go.png"
+  },
+  "getting-started-with-html": {
+    "bg_color": "f8f6ba",
+    "created_at": "2025-02-21T14:12:02.634551",
+    "image_url": "./assets/icons/getting-started-with-html.png"
+  },
+  "getting-started-with-java": {
+    "bg_color": "edeac4",
+    "created_at": "2025-02-21T14:12:12.785353",
+    "image_url": "./assets/icons/getting-started-with-java.png"
+  },
+  "getting-started-with-javascript": {
+    "bg_color": "e3e9eb",
+    "created_at": "2025-02-21T14:12:05.927156",
+    "image_url": "./assets/icons/getting-started-with-javascript.png"
+  },
+  "getting-started-with-jenkins": {
+    "bg_color": "fdb6dc",
+    "created_at": "2025-02-21T14:12:00.540095",
+    "image_url": "./assets/icons/getting-started-with-jenkins.png"
+  },
+  "getting-started-with-jquery": {
+    "bg_color": "ccf2e9",
+    "created_at": "2025-02-21T14:12:09.671760",
+    "image_url": "./assets/icons/getting-started-with-jquery.png"
+  },
+  "getting-started-with-kubernetes": {
+    "bg_color": "f2c8b7",
+    "created_at": "2025-02-21T14:12:01.039651",
+    "image_url": "./assets/icons/getting-started-with-kubernetes.png"
+  },
+  "getting-started-with-linux": {
+    "bg_color": "ffd48c",
+    "created_at": "2025-02-21T14:12:10.823196",
+    "image_url": "./assets/icons/getting-started-with-linux.png"
+  },
+  "getting-started-with-matplotlib": {
+    "bg_color": "d3b2ff",
+    "created_at": "2025-02-21T14:12:06.966112",
+    "image_url": "./assets/icons/getting-started-with-matplotlib.png"
+  },
+  "getting-started-with-mysql": {
+    "bg_color": "e8f083",
+    "created_at": "2025-02-21T14:12:04.213000",
+    "image_url": "./assets/icons/getting-started-with-mysql.png"
+  },
+  "getting-started-with-numpy": {
+    "bg_color": "8fd3e3",
+    "created_at": "2025-02-21T14:12:04.179661",
+    "image_url": "./assets/icons/getting-started-with-numpy.png"
+  },
+  "getting-started-with-opencv": {
+    "bg_color": "f2f296",
+    "created_at": "2025-02-21T14:12:15.035971",
+    "image_url": "./assets/icons/getting-started-with-opencv.png"
+  },
+  "getting-started-with-pandas": {
+    "bg_color": "d3f1c0",
+    "created_at": "2025-02-21T14:12:15.838690",
+    "image_url": "./assets/icons/getting-started-with-pandas.png"
+  },
+  "getting-started-with-python": {
+    "bg_color": "c8dfc7",
+    "created_at": "2025-02-21T14:12:14.789992",
+    "image_url": "./assets/icons/getting-started-with-python.png"
+  },
+  "getting-started-with-react": {
+    "bg_color": "fbffac",
+    "created_at": "2025-02-21T14:12:05.918635",
+    "image_url": "./assets/icons/getting-started-with-react.png"
+  },
+  "getting-started-with-rust": {
+    "bg_color": "f9e9e9",
+    "created_at": "2025-02-21T14:12:12.591468",
+    "image_url": "./assets/icons/getting-started-with-rust.png"
+  },
+  "getting-started-with-scikit-learn": {
+    "bg_color": "f1c4c4",
+    "created_at": "2025-02-21T14:12:12.897539",
+    "image_url": "./assets/icons/getting-started-with-scikit-learn.png"
+  },
+  "getting-started-with-shell": {
+    "bg_color": "ecf1ce",
+    "created_at": "2025-02-21T14:12:15.883888",
+    "image_url": "./assets/icons/getting-started-with-shell.png"
+  },
+  "getting-started-with-tensorflow": {
+    "bg_color": "e8fcc8",
+    "created_at": "2025-02-21T14:11:59.957897",
+    "image_url": "./assets/icons/getting-started-with-tensorflow.png"
+  },
+  "git-in-depth-mastery": {
+    "bg_color": "fee7af",
+    "created_at": "2025-02-21T14:12:05.446603",
+    "image_url": "./assets/icons/git-in-depth-mastery.png"
+  },
+  "git-practice-challenges": {
+    "bg_color": "d6f6c6",
+    "created_at": "2025-02-21T14:12:06.271892",
+    "image_url": "./assets/icons/git-practice-challenges.png"
+  },
+  "git-practice-labs": {
+    "bg_color": "dbc0e4",
+    "created_at": "2025-02-21T14:12:09.805577",
+    "image_url": "./assets/icons/git-practice-labs.png"
+  },
+  "git-practice-plus": {
+    "bg_color": "fab598",
+    "created_at": "2025-02-21T14:12:10.385905",
+    "image_url": "./assets/icons/git-practice-plus.png"
+  },
+  "go-practice-challenges": {
+    "bg_color": "bad2c9",
+    "created_at": "2025-02-21T14:12:13.738032",
+    "image_url": "./assets/icons/go-practice-challenges.png"
+  },
+  "go-practice-labs": {
+    "bg_color": "e8d6c5",
+    "created_at": "2025-02-21T14:12:03.914549",
+    "image_url": "./assets/icons/go-practice-labs.png"
+  },
+  "go-practice-plus": {
+    "bg_color": "87d4e2",
+    "created_at": "2025-02-21T14:12:03.403155",
+    "image_url": "./assets/icons/go-practice-plus.png"
+  },
+  "hadoop-in-depth-mastery": {
+    "bg_color": "ffa8b9",
+    "created_at": "2025-02-21T14:12:09.920360",
+    "image_url": "./assets/icons/hadoop-in-depth-mastery.png"
+  },
+  "hadoop-practice-challenges": {
+    "bg_color": "cfc9e9",
+    "created_at": "2025-02-21T14:12:10.013380",
+    "image_url": "./assets/icons/hadoop-practice-challenges.png"
+  },
+  "hadoop-practice-labs": {
+    "bg_color": "d1cddb",
+    "created_at": "2025-02-21T14:12:09.387487",
+    "image_url": "./assets/icons/hadoop-practice-labs.png"
+  },
+  "html-for-beginners": {
+    "bg_color": "c2c2bb",
+    "created_at": "2025-02-21T14:12:01.461075",
+    "image_url": "./assets/icons/html-for-beginners.png"
+  },
+  "html-practice-challenges": {
+    "bg_color": "fdc3b9",
+    "created_at": "2025-02-21T14:12:14.896088",
+    "image_url": "./assets/icons/html-practice-challenges.png"
+  },
+  "html-practice-labs": {
+    "bg_color": "c9ccc3",
+    "created_at": "2025-02-21T14:12:12.045439",
+    "image_url": "./assets/icons/html-practice-labs.png"
+  },
+  "html-practice-plus": {
+    "bg_color": "d6e4cd",
+    "created_at": "2025-02-21T14:12:11.270302",
+    "image_url": "./assets/icons/html-practice-plus.png"
+  },
+  "image-viewer-using-python-and-tkinter": {
+    "bg_color": "dfdbd0",
+    "created_at": "2025-02-21T14:12:12.333650",
+    "image_url": "./assets/icons/image-viewer-using-python-and-tkinter.png"
+  },
+  "implement-automated-deployment-by-using-jenkins-and-oos": {
+    "bg_color": "dfc6fb",
+    "created_at": "2025-02-21T14:12:12.080757",
+    "image_url": "./assets/icons/implement-automated-deployment-by-using-jenkins-and-oos.png"
+  },
+  "implement-instant-messaging-application-with-cpp": {
+    "bg_color": "60c0fc",
+    "created_at": "2025-02-21T14:11:58.111308",
+    "image_url": "./assets/icons/implement-instant-messaging-application-with-cpp.png"
+  },
+  "implement-the-tetris-with-cpp": {
+    "bg_color": "b6eae8",
+    "created_at": "2025-02-21T14:12:15.709183",
+    "image_url": "./assets/icons/implement-the-tetris-with-cpp.png"
+  },
+  "implementing-memory-leak-detector-with-cpp": {
+    "bg_color": "ffd351",
+    "created_at": "2025-02-21T14:12:00.920376",
+    "image_url": "./assets/icons/implementing-memory-leak-detector-with-cpp.png"
+  },
+  "install-hadoop-on-a-single-ecs": {
+    "bg_color": "fdede2",
+    "created_at": "2025-02-21T14:12:00.716145",
+    "image_url": "./assets/icons/install-hadoop-on-a-single-ecs.png"
+  },
+  "integrate-ansible-with-jenkins-for-automated-deployment": {
+    "bg_color": "dab6fb",
+    "created_at": "2025-02-21T14:11:58.643317",
+    "image_url": "./assets/icons/integrate-ansible-with-jenkins-for-automated-deployment.png"
+  },
+  "java-exercises": {
+    "bg_color": "fdd1d5",
+    "created_at": "2025-02-21T14:12:08.925345",
+    "image_url": "./assets/icons/java-exercises.png"
+  },
+  "java-practice-challenges": {
+    "bg_color": "eee5c1",
+    "created_at": "2025-02-21T14:12:11.613706",
+    "image_url": "./assets/icons/java-practice-challenges.png"
+  },
+  "java-practice-labs": {
+    "bg_color": "c2e9fe",
+    "created_at": "2025-02-21T14:12:00.645316",
+    "image_url": "./assets/icons/java-practice-labs.png"
+  },
+  "java-practice-plus": {
+    "bg_color": "ccd474",
+    "created_at": "2025-02-21T14:11:59.975513",
+    "image_url": "./assets/icons/java-practice-plus.png"
+  },
+  "javascript-practice-challenges": {
+    "bg_color": "f5ecd6",
+    "created_at": "2025-02-21T14:12:04.165415",
+    "image_url": "./assets/icons/javascript-practice-challenges.png"
+  },
+  "javascript-practice-labs": {
+    "bg_color": "fad9fa",
+    "created_at": "2025-02-21T14:12:05.998633",
+    "image_url": "./assets/icons/javascript-practice-labs.png"
+  },
+  "javascript-practice-plus": {
+    "bg_color": "e4e2c1",
+    "created_at": "2025-02-21T14:12:05.497909",
+    "image_url": "./assets/icons/javascript-practice-plus.png"
+  },
+  "jenkins-practice-plus": {
+    "bg_color": "ffcc23",
+    "created_at": "2025-02-21T14:12:09.656044",
+    "image_url": "./assets/icons/jenkins-practice-plus.png"
+  },
+  "jquery-practice-challenges": {
+    "bg_color": "def0d2",
+    "created_at": "2025-02-21T14:12:05.480913",
+    "image_url": "./assets/icons/jquery-practice-challenges.png"
+  },
+  "jquery-practice-labs": {
+    "bg_color": "cff1ff",
+    "created_at": "2025-02-21T14:12:03.803972",
+    "image_url": "./assets/icons/jquery-practice-labs.png"
+  },
+  "kali-server-exploitation-in-action": {
+    "bg_color": "b5ffc7",
+    "created_at": "2025-02-21T14:12:03.600250",
+    "image_url": "./assets/icons/kali-server-exploitation-in-action.png"
+  },
+  "kali-web-application-attacks-in-action": {
+    "bg_color": "acdbdf",
+    "created_at": "2025-02-21T14:11:59.422367",
+    "image_url": "./assets/icons/kali-web-application-attacks-in-action.png"
+  },
+  "kubernetes-for-noobs": {
+    "bg_color": "f0b4b6",
+    "created_at": "2025-02-21T14:12:13.830804",
+    "image_url": "./assets/icons/kubernetes-for-noobs.png"
+  },
+  "kubernetes-practice-challenges": {
+    "bg_color": "f8c9d4",
+    "created_at": "2025-02-21T14:12:08.720009",
+    "image_url": "./assets/icons/kubernetes-practice-challenges.png"
+  },
+  "kubernetes-practice-labs": {
+    "bg_color": "c7f1b7",
+    "created_at": "2025-02-21T14:12:10.974369",
+    "image_url": "./assets/icons/kubernetes-practice-labs.png"
+  },
+  "kubernetes-practice-plus": {
+    "bg_color": "87d4e2",
+    "created_at": "2025-02-21T14:12:10.031273",
+    "image_url": "./assets/icons/kubernetes-practice-plus.png"
+  },
+  "lab-with-the-auto-scaling-feature-of-node-pools": {
+    "bg_color": "f1dbda",
+    "created_at": "2025-02-21T14:12:12.468893",
+    "image_url": "./assets/icons/lab-with-the-auto-scaling-feature-of-node-pools.png"
+  },
+  "labex-playground": {
+    "bg_color": "bab8f7",
+    "created_at": "2025-02-21T14:12:11.133760",
+    "image_url": "./assets/icons/labex-playground.png"
+  },
+  "labex-vm": {
+    "bg_color": "deb9ee",
+    "created_at": "2025-02-21T14:12:10.893740",
+    "image_url": "./assets/icons/labex-vm.png"
+  },
+  "linux-basic-commands-practice-online": {
+    "bg_color": "fdbfc4",
+    "created_at": "2025-02-21T14:12:05.057435",
+    "image_url": "./assets/icons/linux-basic-commands-practice-online.png"
+  },
+  "linux-commands-list": {
+    "bg_color": "dcdbdc",
+    "created_at": "2025-02-21T14:12:15.509698",
+    "image_url": "./assets/icons/linux-commands-list.png"
+  },
+  "linux-for-noobs": {
+    "bg_color": "f6bc64",
+    "created_at": "2025-02-21T14:12:07.021780",
+    "image_url": "./assets/icons/linux-for-noobs.png"
+  },
+  "linux-in-depth-mastery": {
+    "bg_color": "ddc1a7",
+    "created_at": "2025-02-21T14:12:11.441156",
+    "image_url": "./assets/icons/linux-in-depth-mastery.png"
+  },
+  "linux-practice-challenges": {
+    "bg_color": "c0d4bc",
+    "created_at": "2025-02-21T14:12:11.904759",
+    "image_url": "./assets/icons/linux-practice-challenges.png"
+  },
+  "linux-practice-labs": {
+    "bg_color": "f6dee6",
+    "created_at": "2025-02-21T14:12:16.049126",
+    "image_url": "./assets/icons/linux-practice-labs.png"
+  },
+  "linux-practice-plus": {
+    "bg_color": "c8dfc7",
+    "created_at": "2025-02-21T14:12:16.718508",
+    "image_url": "./assets/icons/linux-practice-plus.png"
+  },
+  "linux-software-playgrounds": {
+    "bg_color": "c2ebbd",
+    "created_at": "2025-02-21T14:11:59.863653",
+    "image_url": "./assets/icons/linux-software-playgrounds.png"
+  },
+  "linux-system-monitor-using-tkinter": {
+    "bg_color": "fbf3d9",
+    "created_at": "2025-02-21T14:12:02.690861",
+    "image_url": "./assets/icons/linux-system-monitor-using-tkinter.png"
+  },
+  "manage-application-configurations-on-a-kubernetes-cluster": {
+    "bg_color": "e4d2c8",
+    "created_at": "2025-02-21T14:12:13.072045",
+    "image_url": "./assets/icons/manage-application-configurations-on-a-kubernetes-cluster.png"
+  },
+  "matplotlib-practice-labs": {
+    "bg_color": "bdf1e1",
+    "created_at": "2025-02-21T14:12:01.319106",
+    "image_url": "./assets/icons/matplotlib-practice-labs.png"
+  },
+  "matplotlib-practice-plus": {
+    "bg_color": "d7d5b1",
+    "created_at": "2025-02-21T14:12:01.019411",
+    "image_url": "./assets/icons/matplotlib-practice-plus.png"
+  },
+  "ml-practice-challenges": {
+    "bg_color": "ebf9dd",
+    "created_at": "2025-02-21T14:12:06.233339",
+    "image_url": "./assets/icons/ml-practice-challenges.png"
+  },
+  "ml-practice-labs": {
+    "bg_color": "f4feb6",
+    "created_at": "2025-02-21T14:12:11.348968",
+    "image_url": "./assets/icons/ml-practice-labs.png"
+  },
+  "ml-practice-plus": {
+    "bg_color": "b4e8f7",
+    "created_at": "2025-02-21T14:12:11.952554",
+    "image_url": "./assets/icons/ml-practice-plus.png"
+  },
+  "multi-tenant-business-system-solution-with-list-default-hash-partitioning-of-polardb-mysql": {
+    "bg_color": "bacdc9",
+    "created_at": "2025-02-21T14:12:10.927630",
+    "image_url": "./assets/icons/multi-tenant-business-system-solution-with-list-default-hash-partitioning-of-polardb-mysql.png"
+  },
+  "mysql-practice-challenges": {
+    "bg_color": "e7efd0",
+    "created_at": "2025-02-21T14:12:08.683818",
+    "image_url": "./assets/icons/mysql-practice-challenges.png"
+  },
+  "mysql-practice-labs": {
+    "bg_color": "f9f0e6",
+    "created_at": "2025-02-21T14:12:04.745009",
+    "image_url": "./assets/icons/mysql-practice-labs.png"
+  },
+  "mysql-practice-plus": {
+    "bg_color": "f7e1ca",
+    "created_at": "2025-02-21T14:12:05.203916",
+    "image_url": "./assets/icons/mysql-practice-plus.png"
+  },
+  "numpy-practice-challenges": {
+    "bg_color": "bccfdb",
+    "created_at": "2025-02-21T14:12:05.124148",
+    "image_url": "./assets/icons/numpy-practice-challenges.png"
+  },
+  "numpy-practice-labs": {
+    "bg_color": "d1bac6",
+    "created_at": "2025-02-21T14:12:02.346271",
+    "image_url": "./assets/icons/numpy-practice-labs.png"
+  },
+  "numpy-practice-plus": {
+    "bg_color": "d2d9e3",
+    "created_at": "2025-02-21T14:12:01.601520",
+    "image_url": "./assets/icons/numpy-practice-plus.png"
+  },
+  "open-service-apis-for-alibaba-cloud-api-gateway": {
+    "bg_color": "b9c8d4",
+    "created_at": "2025-02-21T14:12:13.935911",
+    "image_url": "./assets/icons/open-service-apis-for-alibaba-cloud-api-gateway.png"
+  },
+  "opencv-practice-plus": {
+    "bg_color": "ffc6c8",
+    "created_at": "2025-02-21T14:12:03.960513",
+    "image_url": "./assets/icons/opencv-practice-plus.png"
+  },
+  "pandas-practice-challenges": {
+    "bg_color": "c8e2de",
+    "created_at": "2025-02-21T14:12:04.060973",
+    "image_url": "./assets/icons/pandas-practice-challenges.png"
+  },
+  "pandas-practice-labs": {
+    "bg_color": "f4f8ec",
+    "created_at": "2025-02-21T14:12:03.471064",
+    "image_url": "./assets/icons/pandas-practice-labs.png"
+  },
+  "pandas-practice-plus": {
+    "bg_color": "fcd45f",
+    "created_at": "2025-02-21T14:12:03.995276",
+    "image_url": "./assets/icons/pandas-practice-plus.png"
+  },
+  "practical-python-programming": {
+    "bg_color": "fbf3d8",
+    "created_at": "2025-02-21T14:12:07.122124",
+    "image_url": "./assets/icons/practical-python-programming.png"
+  },
+  "practice-linux-commands-exercises": {
+    "bg_color": "ddc1a7",
+    "created_at": "2025-02-21T14:12:00.793944",
+    "image_url": "./assets/icons/practice-linux-commands-exercises.png"
+  },
+  "privilege-escalation-techniques-on-linux": {
+    "bg_color": "b8b2a6",
+    "created_at": "2025-02-21T14:12:07.007131",
+    "image_url": "./assets/icons/privilege-escalation-techniques-on-linux.png"
+  },
+  "project-2048-web-game-using-jquery": {
+    "bg_color": "c9c0ec",
+    "created_at": "2025-02-21T14:12:15.326696",
+    "image_url": "./assets/icons/project-2048-web-game-using-jquery.png"
+  },
+  "project-a-good-review-for-the-takeout": {
+    "bg_color": "ccdfdb",
+    "created_at": "2025-02-21T14:12:16.751414",
+    "image_url": "./assets/icons/project-a-good-review-for-the-takeout.png"
+  },
+  "project-a-simple-course-database": {
+    "bg_color": "dde2d7",
+    "created_at": "2025-02-21T14:12:16.973045",
+    "image_url": "./assets/icons/project-a-simple-course-database.png"
+  },
+  "project-account-verification": {
+    "bg_color": "d9f9f0",
+    "created_at": "2025-02-21T14:12:16.449530",
+    "image_url": "./assets/icons/project-account-verification.png"
+  },
+  "project-add-course-index": {
+    "bg_color": "f9f8d5",
+    "created_at": "2025-02-21T14:12:10.291559",
+    "image_url": "./assets/icons/project-add-course-index.png"
+  },
+  "project-add-new-address": {
+    "bg_color": "f1ccd0",
+    "created_at": "2025-02-21T14:12:07.524407",
+    "image_url": "./assets/icons/project-add-new-address.png"
+  },
+  "project-add-student-information-to-table": {
+    "bg_color": "dff3cc",
+    "created_at": "2025-02-21T14:11:58.467545",
+    "image_url": "./assets/icons/project-add-student-information-to-table.png"
+  },
+  "project-add-student-personal-information": {
+    "bg_color": "eacbea",
+    "created_at": "2025-02-21T14:11:59.240385",
+    "image_url": "./assets/icons/project-add-student-personal-information.png"
+  },
+  "project-adding-constraints-to-the-course-schedule": {
+    "bg_color": "ebbfb9",
+    "created_at": "2025-02-21T14:12:06.427706",
+    "image_url": "./assets/icons/project-adding-constraints-to-the-course-schedule.png"
+  },
+  "project-adding-unique-constraint-to-city-names": {
+    "bg_color": "fbd6ce",
+    "created_at": "2025-02-21T14:12:02.165897",
+    "image_url": "./assets/icons/project-adding-unique-constraint-to-city-names.png"
+  },
+  "project-affine-encryption": {
+    "bg_color": "ccf4bd",
+    "created_at": "2025-02-21T14:12:06.150687",
+    "image_url": "./assets/icons/project-affine-encryption.png"
+  },
+  "project-area-of-a-circle": {
+    "bg_color": "e2cbe0",
+    "created_at": "2025-02-21T14:12:03.317010",
+    "image_url": "./assets/icons/project-area-of-a-circle.png"
+  },
+  "project-ascii-art-animation-with-opencv": {
+    "bg_color": "d7d8da",
+    "created_at": "2025-02-21T14:12:10.185970",
+    "image_url": "./assets/icons/project-ascii-art-animation-with-opencv.png"
+  },
+  "project-atomic-css": {
+    "bg_color": "d2d86e",
+    "created_at": "2025-02-21T14:12:09.032203",
+    "image_url": "./assets/icons/project-atomic-css.png"
+  },
+  "project-automatic-registration-of-subclasses": {
+    "bg_color": "bae9dc",
+    "created_at": "2025-02-21T14:12:13.474560",
+    "image_url": "./assets/icons/project-automatic-registration-of-subclasses.png"
+  },
+  "project-automatic-spaceship-detection-script": {
+    "bg_color": "dcd0c1",
+    "created_at": "2025-02-21T14:12:00.959760",
+    "image_url": "./assets/icons/project-automatic-spaceship-detection-script.png"
+  },
+  "project-average-salaries-per-department-descending": {
+    "bg_color": "fddfe2",
+    "created_at": "2025-02-21T14:11:58.916807",
+    "image_url": "./assets/icons/project-average-salaries-per-department-descending.png"
+  },
+  "project-avoid-accidental-deletion": {
+    "bg_color": "b6f4b4",
+    "created_at": "2025-02-21T14:12:06.033909",
+    "image_url": "./assets/icons/project-avoid-accidental-deletion.png"
+  },
+  "project-backup-data-table": {
+    "bg_color": "f7b5d1",
+    "created_at": "2025-02-21T14:12:16.247985",
+    "image_url": "./assets/icons/project-backup-data-table.png"
+  },
+  "project-balanced-batch-generation-for-imbalanced-datasets": {
+    "bg_color": "eacdbc",
+    "created_at": "2025-02-21T14:12:12.130116",
+    "image_url": "./assets/icons/project-balanced-batch-generation-for-imbalanced-datasets.png"
+  },
+  "project-beautiful-sentences": {
+    "bg_color": "cad4d9",
+    "created_at": "2025-02-21T14:12:04.785688",
+    "image_url": "./assets/icons/project-beautiful-sentences.png"
+  },
+  "project-bing-dwen-dwen-mood-scale": {
+    "bg_color": "ceb7dd",
+    "created_at": "2025-02-21T14:12:08.258744",
+    "image_url": "./assets/icons/project-bing-dwen-dwen-mood-scale.png"
+  },
+  "project-biology-course-alumni-search": {
+    "bg_color": "c1f3d2",
+    "created_at": "2025-02-21T14:12:02.963874",
+    "image_url": "./assets/icons/project-biology-course-alumni-search.png"
+  },
+  "project-broad-listening-leads-to-insight": {
+    "bg_color": "e6ccbb",
+    "created_at": "2025-02-21T14:12:16.333008",
+    "image_url": "./assets/icons/project-broad-listening-leads-to-insight.png"
+  },
+  "project-browser-window-size": {
+    "bg_color": "cbfdd7",
+    "created_at": "2025-02-21T14:12:00.778335",
+    "image_url": "./assets/icons/project-browser-window-size.png"
+  },
+  "project-build-a-digital-clock-with-python": {
+    "bg_color": "f8edce",
+    "created_at": "2025-02-21T14:12:12.802211",
+    "image_url": "./assets/icons/project-build-a-digital-clock-with-python.png"
+  },
+  "project-build-a-linux-system-monitor-using-bash": {
+    "bg_color": "bcb6d5",
+    "created_at": "2025-02-21T14:12:05.693786",
+    "image_url": "./assets/icons/project-build-a-linux-system-monitor-using-bash.png"
+  },
+  "project-build-a-simple-markdown-editor-with-live-preview": {
+    "bg_color": "ffe8d1",
+    "created_at": "2025-02-21T14:12:11.934787",
+    "image_url": "./assets/icons/project-build-a-simple-markdown-editor-with-live-preview.png"
+  },
+  "project-build-a-simple-translator-using-google-translate-api": {
+    "bg_color": "d9f0f4",
+    "created_at": "2025-02-21T14:12:01.792646",
+    "image_url": "./assets/icons/project-build-a-simple-translator-using-google-translate-api.png"
+  },
+  "project-build-a-simple-url-shortener-with-flask-and-mysql": {
+    "bg_color": "facf5a",
+    "created_at": "2025-02-21T14:12:10.205975",
+    "image_url": "./assets/icons/project-build-a-simple-url-shortener-with-flask-and-mysql.png"
+  },
+  "project-build-a-sliding-puzzle-game-with-javascript": {
+    "bg_color": "fff57c",
+    "created_at": "2025-02-21T14:12:14.369831",
+    "image_url": "./assets/icons/project-build-a-sliding-puzzle-game-with-javascript.png"
+  },
+  "project-build-a-task-scheduler-using-bash": {
+    "bg_color": "dbebeb",
+    "created_at": "2025-02-21T14:12:02.520954",
+    "image_url": "./assets/icons/project-build-a-task-scheduler-using-bash.png"
+  },
+  "project-build-a-tic-tac-toe-web-app": {
+    "bg_color": "c8ebe9",
+    "created_at": "2025-02-21T14:12:08.131978",
+    "image_url": "./assets/icons/project-build-a-tic-tac-toe-web-app.png"
+  },
+  "project-build-a-web-based-tcp-port-scanner": {
+    "bg_color": "c1ea9f",
+    "created_at": "2025-02-21T14:12:01.988430",
+    "image_url": "./assets/icons/project-build-a-web-based-tcp-port-scanner.png"
+  },
+  "project-build-aliens-game-using-pygame": {
+    "bg_color": "bbf8f7",
+    "created_at": "2025-02-21T14:12:02.225893",
+    "image_url": "./assets/icons/project-build-aliens-game-using-pygame.png"
+  },
+  "project-build-an-image-cropping-tool-using-html5": {
+    "bg_color": "e2c1f8",
+    "created_at": "2025-02-21T14:12:09.935605",
+    "image_url": "./assets/icons/project-build-an-image-cropping-tool-using-html5.png"
+  },
+  "project-build-an-vscode-extension-with-chatgpt": {
+    "bg_color": "bde4c6",
+    "created_at": "2025-02-21T14:12:09.182992",
+    "image_url": "./assets/icons/project-build-an-vscode-extension-with-chatgpt.png"
+  },
+  "project-build-flappy-bird-using-pygame": {
+    "bg_color": "afe7e9",
+    "created_at": "2025-02-21T14:12:10.938738",
+    "image_url": "./assets/icons/project-build-flappy-bird-using-pygame.png"
+  },
+  "project-build-maze-game-using-pygame": {
+    "bg_color": "edd0b6",
+    "created_at": "2025-02-21T14:12:16.497546",
+    "image_url": "./assets/icons/project-build-maze-game-using-pygame.png"
+  },
+  "project-building-a-christmas-wish-list-builder-in-react": {
+    "bg_color": "bfffd5",
+    "created_at": "2025-02-21T14:12:07.914137",
+    "image_url": "./assets/icons/project-building-a-christmas-wish-list-builder-in-react.png"
+  },
+  "project-building-a-expense-splitter-web-app": {
+    "bg_color": "f2f3ed",
+    "created_at": "2025-02-21T14:12:15.477486",
+    "image_url": "./assets/icons/project-building-a-expense-splitter-web-app.png"
+  },
+  "project-building-a-network-scanner-in-python": {
+    "bg_color": "feffe3",
+    "created_at": "2025-02-21T14:12:06.478866",
+    "image_url": "./assets/icons/project-building-a-network-scanner-in-python.png"
+  },
+  "project-building-a-port-scanner-with-python": {
+    "bg_color": "fce38a",
+    "created_at": "2025-02-21T14:12:05.389433",
+    "image_url": "./assets/icons/project-building-a-port-scanner-with-python.png"
+  },
+  "project-building-a-react-drag-and-drop-puzzle-game": {
+    "bg_color": "f1e7e7",
+    "created_at": "2025-02-21T14:12:07.492376",
+    "image_url": "./assets/icons/project-building-a-react-drag-and-drop-puzzle-game.png"
+  },
+  "project-building-a-react-github-heatmap-contributions": {
+    "bg_color": "a6e3b4",
+    "created_at": "2025-02-21T14:12:07.575270",
+    "image_url": "./assets/icons/project-building-a-react-github-heatmap-contributions.png"
+  },
+  "project-building-a-rest-api-in-flask-with-sqlite": {
+    "bg_color": "c7f7e9",
+    "created_at": "2025-02-21T14:12:09.315574",
+    "image_url": "./assets/icons/project-building-a-rest-api-in-flask-with-sqlite.png"
+  },
+  "project-building-a-web-avoiding-block-game": {
+    "bg_color": "d09195",
+    "created_at": "2025-02-21T14:12:03.682685",
+    "image_url": "./assets/icons/project-building-a-web-avoiding-block-game.png"
+  },
+  "project-building-flappy-bird-using-c": {
+    "bg_color": "8bd7ba",
+    "created_at": "2025-02-21T14:11:59.332157",
+    "image_url": "./assets/icons/project-building-flappy-bird-using-c.png"
+  },
+  "project-bulk-creation-and-deletion-of-users-and-groups": {
+    "bg_color": "f6e4d2",
+    "created_at": "2025-02-21T14:12:16.633913",
+    "image_url": "./assets/icons/project-bulk-creation-and-deletion-of-users-and-groups.png"
+  },
+  "project-bulk-insert-data-into-course-schedule": {
+    "bg_color": "fffdf6",
+    "created_at": "2025-02-21T14:12:05.962013",
+    "image_url": "./assets/icons/project-bulk-insert-data-into-course-schedule.png"
+  },
+  "project-cache-request-execution-results": {
+    "bg_color": "dfd6ea",
+    "created_at": "2025-02-21T14:12:10.066918",
+    "image_url": "./assets/icons/project-cache-request-execution-results.png"
+  },
+  "project-caesar-cipher": {
+    "bg_color": "b5e2ec",
+    "created_at": "2025-02-21T14:11:58.374778",
+    "image_url": "./assets/icons/project-caesar-cipher.png"
+  },
+  "project-calculate-defective-rate-for-clone-human": {
+    "bg_color": "d8cbfc",
+    "created_at": "2025-02-21T14:12:10.172369",
+    "image_url": "./assets/icons/project-calculate-defective-rate-for-clone-human.png"
+  },
+  "project-calculate-users-encrypted-password": {
+    "bg_color": "e3f5fb",
+    "created_at": "2025-02-21T14:12:14.421855",
+    "image_url": "./assets/icons/project-calculate-users-encrypted-password.png"
+  },
+  "project-calculating-laser-weapon-damage": {
+    "bg_color": "e8baf4",
+    "created_at": "2025-02-21T14:12:12.627506",
+    "image_url": "./assets/icons/project-calculating-laser-weapon-damage.png"
+  },
+  "project-calculation-of-factorial": {
+    "bg_color": "efdcc3",
+    "created_at": "2025-02-21T14:12:07.093245",
+    "image_url": "./assets/icons/project-calculation-of-factorial.png"
+  },
+  "project-callback-functions": {
+    "bg_color": "f0b6be",
+    "created_at": "2025-02-21T14:12:08.208919",
+    "image_url": "./assets/icons/project-callback-functions.png"
+  },
+  "project-certificate-configuration": {
+    "bg_color": "b8ccde",
+    "created_at": "2025-02-21T14:11:59.662871",
+    "image_url": "./assets/icons/project-certificate-configuration.png"
+  },
+  "project-change-default-value-for-countrylanguage-table": {
+    "bg_color": "d8d5d6",
+    "created_at": "2025-02-21T14:12:04.318701",
+    "image_url": "./assets/icons/project-change-default-value-for-countrylanguage-table.png"
+  },
+  "project-change-page-theme": {
+    "bg_color": "c6c4c1",
+    "created_at": "2025-02-21T14:12:14.097962",
+    "image_url": "./assets/icons/project-change-page-theme.png"
+  },
+  "project-changing-the-error-log-location": {
+    "bg_color": "d6d8ca",
+    "created_at": "2025-02-21T14:12:15.396938",
+    "image_url": "./assets/icons/project-changing-the-error-log-location.png"
+  },
+  "project-chaotic-typewriter": {
+    "bg_color": "e8b8d6",
+    "created_at": "2025-02-21T14:12:10.771885",
+    "image_url": "./assets/icons/project-chaotic-typewriter.png"
+  },
+  "project-chess-board-in-terminal": {
+    "bg_color": "c5d200",
+    "created_at": "2025-02-21T14:11:59.472451",
+    "image_url": "./assets/icons/project-chess-board-in-terminal.png"
+  },
+  "project-chessboard-encryption": {
+    "bg_color": "e4dcba",
+    "created_at": "2025-02-21T14:12:07.683972",
+    "image_url": "./assets/icons/project-chessboard-encryption.png"
+  },
+  "project-chinese-english-information-switching-via-ioc": {
+    "bg_color": "f9fbd0",
+    "created_at": "2025-02-21T14:12:08.996433",
+    "image_url": "./assets/icons/project-chinese-english-information-switching-via-ioc.png"
+  },
+  "project-cities-with-over-one-million-population": {
+    "bg_color": "d0e5bf",
+    "created_at": "2025-02-21T14:12:03.437652",
+    "image_url": "./assets/icons/project-cities-with-over-one-million-population.png"
+  },
+  "project-city-names-and-respective-countries": {
+    "bg_color": "dde9d6",
+    "created_at": "2025-02-21T14:12:03.509299",
+    "image_url": "./assets/icons/project-city-names-and-respective-countries.png"
+  },
+  "project-city-province-query": {
+    "bg_color": "e4f2c0",
+    "created_at": "2025-02-21T14:12:08.549365",
+    "image_url": "./assets/icons/project-city-province-query.png"
+  },
+  "project-classic-pong-game-using-python-and-pygame": {
+    "bg_color": "d0d1db",
+    "created_at": "2025-02-21T14:12:08.027483",
+    "image_url": "./assets/icons/project-classic-pong-game-using-python-and-pygame.png"
+  },
+  "project-classifying-iris-using-svm": {
+    "bg_color": "b9c0dd",
+    "created_at": "2025-02-21T14:12:14.860768",
+    "image_url": "./assets/icons/project-classifying-iris-using-svm.png"
+  },
+  "project-clear-code-encryption": {
+    "bg_color": "cbd6b5",
+    "created_at": "2025-02-21T14:12:11.803371",
+    "image_url": "./assets/icons/project-clear-code-encryption.png"
+  },
+  "project-collect-files-from-specified-time": {
+    "bg_color": "cdcfb8",
+    "created_at": "2025-02-21T14:12:09.114907",
+    "image_url": "./assets/icons/project-collect-files-from-specified-time.png"
+  },
+  "project-collection-of-films": {
+    "bg_color": "ecfdf8",
+    "created_at": "2025-02-21T14:12:07.958779",
+    "image_url": "./assets/icons/project-collection-of-films.png"
+  },
+  "project-colour-changeable-light": {
+    "bg_color": "f6c3e3",
+    "created_at": "2025-02-21T14:12:10.665802",
+    "image_url": "./assets/icons/project-colour-changeable-light.png"
+  },
+  "project-colour-filter": {
+    "bg_color": "f0e1f6",
+    "created_at": "2025-02-21T14:12:10.701257",
+    "image_url": "./assets/icons/project-colour-filter.png"
+  },
+  "project-columbus-discovery-of-the-new-world": {
+    "bg_color": "c8dcf2",
+    "created_at": "2025-02-21T14:12:01.287090",
+    "image_url": "./assets/icons/project-columbus-discovery-of-the-new-world.png"
+  },
+  "project-column-permutation-encryption": {
+    "bg_color": "c3efe1",
+    "created_at": "2025-02-21T14:12:01.827266",
+    "image_url": "./assets/icons/project-column-permutation-encryption.png"
+  },
+  "project-command-line-arguments": {
+    "bg_color": "e4d5d8",
+    "created_at": "2025-02-21T14:12:09.638511",
+    "image_url": "./assets/icons/project-command-line-arguments.png"
+  },
+  "project-comprehensive-challenge-of-basic-functions": {
+    "bg_color": "f0ddb6",
+    "created_at": "2025-02-21T14:12:05.308862",
+    "image_url": "./assets/icons/project-comprehensive-challenge-of-basic-functions.png"
+  },
+  "project-comprehensive-challenge-of-this-section": {
+    "bg_color": "bdccbb",
+    "created_at": "2025-02-21T14:12:02.557799",
+    "image_url": "./assets/icons/project-comprehensive-challenge-of-this-section.png"
+  },
+  "project-comprehensive-challenge-on-conversion-functions": {
+    "bg_color": "fff0cb",
+    "created_at": "2025-02-21T14:12:08.963288",
+    "image_url": "./assets/icons/project-comprehensive-challenge-on-conversion-functions.png"
+  },
+  "project-configuring-with-yaml-files": {
+    "bg_color": "d8eef5",
+    "created_at": "2025-02-21T14:12:04.095085",
+    "image_url": "./assets/icons/project-configuring-with-yaml-files.png"
+  },
+  "project-confusing-this": {
+    "bg_color": "f7b4df",
+    "created_at": "2025-02-21T14:12:05.240341",
+    "image_url": "./assets/icons/project-confusing-this.png"
+  },
+  "project-connect-four-game-human-vs-ai": {
+    "bg_color": "d0c3f7",
+    "created_at": "2025-02-21T14:12:12.852053",
+    "image_url": "./assets/icons/project-connect-four-game-human-vs-ai.png"
+  },
+  "project-constraints-comprehensive": {
+    "bg_color": "d1bad4",
+    "created_at": "2025-02-21T14:12:02.883073",
+    "image_url": "./assets/icons/project-constraints-comprehensive.png"
+  },
+  "project-convert-json-to-csv": {
+    "bg_color": "f0edf2",
+    "created_at": "2025-02-21T14:11:59.507181",
+    "image_url": "./assets/icons/project-convert-json-to-csv.png"
+  },
+  "project-copy-specified-files": {
+    "bg_color": "cce4cf",
+    "created_at": "2025-02-21T14:12:07.155202",
+    "image_url": "./assets/icons/project-copy-specified-files.png"
+  },
+  "project-correctly-warn-incorrect-v-slot-usage": {
+    "bg_color": "9dd3cc",
+    "created_at": "2025-02-21T14:12:11.314749",
+    "image_url": "./assets/icons/project-correctly-warn-incorrect-v-slot-usage.png"
+  },
+  "project-count-each-type-characters": {
+    "bg_color": "cbe9d8",
+    "created_at": "2025-02-21T14:12:11.687320",
+    "image_url": "./assets/icons/project-count-each-type-characters.png"
+  },
+  "project-counting-access-times-by-ip": {
+    "bg_color": "fcc7dc",
+    "created_at": "2025-02-21T14:12:06.358963",
+    "image_url": "./assets/icons/project-counting-access-times-by-ip.png"
+  },
+  "project-countries-and-codes-in-region": {
+    "bg_color": "f1ceb4",
+    "created_at": "2025-02-21T14:12:12.202779",
+    "image_url": "./assets/icons/project-countries-and-codes-in-region.png"
+  },
+  "project-countries-with-1-billion+-population": {
+    "bg_color": "bac3c3",
+    "created_at": "2025-02-21T14:12:09.974507",
+    "image_url": "./assets/icons/project-countries-with-1-billion+-population.png"
+  },
+  "project-countries-with-1-billion-population": {
+    "bg_color": "bac3c3",
+    "created_at": "2025-02-21T14:12:04.910597",
+    "image_url": "./assets/icons/project-countries-with-1-billion-population.png"
+  },
+  "project-country-gdp-query": {
+    "bg_color": "d5c6d9",
+    "created_at": "2025-02-21T14:12:11.304394",
+    "image_url": "./assets/icons/project-country-gdp-query.png"
+  },
+  "project-country-gnp-and-population-query": {
+    "bg_color": "bdf7b7",
+    "created_at": "2025-02-21T14:12:14.062847",
+    "image_url": "./assets/icons/project-country-gnp-and-population-query.png"
+  },
+  "project-course-list": {
+    "bg_color": "cdb8d8",
+    "created_at": "2025-02-21T14:12:06.919277",
+    "image_url": "./assets/icons/project-course-list.png"
+  },
+  "project-course-schedule-crud-with-mybatis": {
+    "bg_color": "ead0d2",
+    "created_at": "2025-02-21T14:12:02.025448",
+    "image_url": "./assets/icons/project-course-schedule-crud-with-mybatis.png"
+  },
+  "project-course-schedule-logging": {
+    "bg_color": "d9cde5",
+    "created_at": "2025-02-21T14:12:09.512953",
+    "image_url": "./assets/icons/project-course-schedule-logging.png"
+  },
+  "project-course-statistics": {
+    "bg_color": "f0e7db",
+    "created_at": "2025-02-21T14:12:07.722548",
+    "image_url": "./assets/icons/project-course-statistics.png"
+  },
+  "project-course-update-tracking": {
+    "bg_color": "c0fefc",
+    "created_at": "2025-02-21T14:12:06.633072",
+    "image_url": "./assets/icons/project-course-update-tracking.png"
+  },
+  "project-covid-19-data-statistics": {
+    "bg_color": "c1d8da",
+    "created_at": "2025-02-21T14:12:00.683321",
+    "image_url": "./assets/icons/project-covid-19-data-statistics.png"
+  },
+  "project-create-a-2048-game-in-python-with-tkinter": {
+    "bg_color": "fbefe4",
+    "created_at": "2025-02-21T14:12:05.397136",
+    "image_url": "./assets/icons/project-create-a-2048-game-in-python-with-tkinter.png"
+  },
+  "project-create-a-gui-calculator-with-python": {
+    "bg_color": "d5c2bc",
+    "created_at": "2025-02-21T14:12:05.602282",
+    "image_url": "./assets/icons/project-create-a-gui-calculator-with-python.png"
+  },
+  "project-create-a-notes-app-using-react": {
+    "bg_color": "f5e8c8",
+    "created_at": "2025-02-21T14:12:03.863203",
+    "image_url": "./assets/icons/project-create-a-notes-app-using-react.png"
+  },
+  "project-create-a-pixel-art-animator-with-react": {
+    "bg_color": "d5c1b1",
+    "created_at": "2025-02-21T14:12:02.750227",
+    "image_url": "./assets/icons/project-create-a-pixel-art-animator-with-react.png"
+  },
+  "project-create-a-simple-stopwatch-app-using-gtk": {
+    "bg_color": "e7e7e7",
+    "created_at": "2025-02-21T14:12:02.127466",
+    "image_url": "./assets/icons/project-create-a-simple-stopwatch-app-using-gtk.png"
+  },
+  "project-create-a-sudoku-game-using-python-and-pygame": {
+    "bg_color": "ede0d4",
+    "created_at": "2025-02-21T14:12:15.580256",
+    "image_url": "./assets/icons/project-create-a-sudoku-game-using-python-and-pygame.png"
+  },
+  "project-create-a-swiper-carousel-web-app": {
+    "bg_color": "c0e6cc",
+    "created_at": "2025-02-21T14:12:14.910219",
+    "image_url": "./assets/icons/project-create-a-swiper-carousel-web-app.png"
+  },
+  "project-create-confusion-matrix": {
+    "bg_color": "eec5e6",
+    "created_at": "2025-02-21T14:12:16.488795",
+    "image_url": "./assets/icons/project-create-confusion-matrix.png"
+  },
+  "project-create-user": {
+    "bg_color": "c2eef8",
+    "created_at": "2025-02-21T14:12:11.384406",
+    "image_url": "./assets/icons/project-create-user.png"
+  },
+  "project-creating-a-2048-game-in-c": {
+    "bg_color": "ff9bbf",
+    "created_at": "2025-02-21T14:11:58.482298",
+    "image_url": "./assets/icons/project-creating-a-2048-game-in-c.png"
+  },
+  "project-creating-a-code-rain-animation-using-pygame": {
+    "bg_color": "b89ac2",
+    "created_at": "2025-02-21T14:12:15.850624",
+    "image_url": "./assets/icons/project-creating-a-code-rain-animation-using-pygame.png"
+  },
+  "project-creating-a-code-rain-in-c-using-ncurses": {
+    "bg_color": "bcf8e9",
+    "created_at": "2025-02-21T14:12:03.973385",
+    "image_url": "./assets/icons/project-creating-a-code-rain-in-c-using-ncurses.png"
+  },
+  "project-creating-a-drawing-board-web-app": {
+    "bg_color": "d8d3b8",
+    "created_at": "2025-02-21T14:12:09.600713",
+    "image_url": "./assets/icons/project-creating-a-drawing-board-web-app.png"
+  },
+  "project-creating-a-dynamic-heart-animation-with-c": {
+    "bg_color": "c2a3d2",
+    "created_at": "2025-02-21T14:12:15.316324",
+    "image_url": "./assets/icons/project-creating-a-dynamic-heart-animation-with-c.png"
+  },
+  "project-creating-a-gomoku-game-in-c": {
+    "bg_color": "f2e7e7",
+    "created_at": "2025-02-21T14:12:09.300777",
+    "image_url": "./assets/icons/project-creating-a-gomoku-game-in-c.png"
+  },
+  "project-creating-a-minesweeper-game-with-javascript": {
+    "bg_color": "faf5e4",
+    "created_at": "2025-02-21T14:12:03.167413",
+    "image_url": "./assets/icons/project-creating-a-minesweeper-game-with-javascript.png"
+  },
+  "project-creating-a-simple-clock-animation-using-opengl-and-glut": {
+    "bg_color": "f6eff8",
+    "created_at": "2025-02-21T14:12:15.123876",
+    "image_url": "./assets/icons/project-creating-a-simple-clock-animation-using-opengl-and-glut.png"
+  },
+  "project-creating-a-simple-docker-container-in-cpp": {
+    "bg_color": "c0e9d7",
+    "created_at": "2025-02-21T14:12:03.632058",
+    "image_url": "./assets/icons/project-creating-a-simple-docker-container-in-cpp.png"
+  },
+  "project-creating-a-simple-tic-tac-toe-game-in-c": {
+    "bg_color": "25d3de",
+    "created_at": "2025-02-21T14:11:58.016845",
+    "image_url": "./assets/icons/project-creating-a-simple-tic-tac-toe-game-in-c.png"
+  },
+  "project-creating-a-snake-game-in-c": {
+    "bg_color": "ddc485",
+    "created_at": "2025-02-21T14:12:14.386500",
+    "image_url": "./assets/icons/project-creating-a-snake-game-in-c.png"
+  },
+  "project-creating-a-task-timer-web-app": {
+    "bg_color": "cdded7",
+    "created_at": "2025-02-21T14:12:00.184401",
+    "image_url": "./assets/icons/project-creating-a-task-timer-web-app.png"
+  },
+  "project-creating-a-typing-game-using-bash": {
+    "bg_color": "f6eb74",
+    "created_at": "2025-02-21T14:12:09.407241",
+    "image_url": "./assets/icons/project-creating-a-typing-game-using-bash.png"
+  },
+  "project-creating-a-url-shortener-with-python-and-flask": {
+    "bg_color": "c8d4dc",
+    "created_at": "2025-02-21T14:12:13.954601",
+    "image_url": "./assets/icons/project-creating-a-url-shortener-with-python-and-flask.png"
+  },
+  "project-creating-a-whack-a-mole-web-game": {
+    "bg_color": "fcbac5",
+    "created_at": "2025-02-21T14:12:12.432890",
+    "image_url": "./assets/icons/project-creating-a-whack-a-mole-web-game.png"
+  },
+  "project-creating-product-information-table": {
+    "bg_color": "def9cf",
+    "created_at": "2025-02-21T14:12:08.650143",
+    "image_url": "./assets/icons/project-creating-product-information-table.png"
+  },
+  "project-creating-the-solar-system-in-opengl": {
+    "bg_color": "f6facd",
+    "created_at": "2025-02-21T14:12:05.627229",
+    "image_url": "./assets/icons/project-creating-the-solar-system-in-opengl.png"
+  },
+  "project-creating-website-homepage": {
+    "bg_color": "f5eac7",
+    "created_at": "2025-02-21T14:12:03.384461",
+    "image_url": "./assets/icons/project-creating-website-homepage.png"
+  },
+  "project-creative-billboard": {
+    "bg_color": "b5cfd8",
+    "created_at": "2025-02-21T14:12:01.028383",
+    "image_url": "./assets/icons/project-creative-billboard.png"
+  },
+  "project-credit-card-holder-risk-prediction": {
+    "bg_color": "c5b5e6",
+    "created_at": "2025-02-21T14:12:04.955385",
+    "image_url": "./assets/icons/project-credit-card-holder-risk-prediction.png"
+  },
+  "project-csv-data-purification": {
+    "bg_color": "c3f1c4",
+    "created_at": "2025-02-21T14:12:09.065990",
+    "image_url": "./assets/icons/project-csv-data-purification.png"
+  },
+  "project-custom-form-validator": {
+    "bg_color": "cce2ce",
+    "created_at": "2025-02-21T14:12:09.588962",
+    "image_url": "./assets/icons/project-custom-form-validator.png"
+  },
+  "project-custom-type-handler": {
+    "bg_color": "f5f1dd",
+    "created_at": "2025-02-21T14:12:04.673566",
+    "image_url": "./assets/icons/project-custom-type-handler.png"
+  },
+  "project-database-enhancement": {
+    "bg_color": "d5b4e3",
+    "created_at": "2025-02-21T14:12:11.721312",
+    "image_url": "./assets/icons/project-database-enhancement.png"
+  },
+  "project-ddl-related-operations": {
+    "bg_color": "e9d4ca",
+    "created_at": "2025-02-21T14:12:13.548149",
+    "image_url": "./assets/icons/project-ddl-related-operations.png"
+  },
+  "project-decipher-acrostic-poetry": {
+    "bg_color": "c7ccb4",
+    "created_at": "2025-02-21T14:12:03.669878",
+    "image_url": "./assets/icons/project-decipher-acrostic-poetry.png"
+  },
+  "project-decrypting-the-triangle-cipher": {
+    "bg_color": "e1c9cf",
+    "created_at": "2025-02-21T14:12:15.227524",
+    "image_url": "./assets/icons/project-decrypting-the-triangle-cipher.png"
+  },
+  "project-delete-city-table": {
+    "bg_color": "c0d0be",
+    "created_at": "2025-02-21T14:12:08.788581",
+    "image_url": "./assets/icons/project-delete-city-table.png"
+  },
+  "project-delete-course-schedule-view-data": {
+    "bg_color": "fabfea",
+    "created_at": "2025-02-21T14:12:13.160247",
+    "image_url": "./assets/icons/project-delete-course-schedule-view-data.png"
+  },
+  "project-delete-expired-course-information": {
+    "bg_color": "baf8ef",
+    "created_at": "2025-02-21T14:12:02.847598",
+    "image_url": "./assets/icons/project-delete-expired-course-information.png"
+  },
+  "project-deploying-a-simple-tensorflow-model": {
+    "bg_color": "ffbdc0",
+    "created_at": "2025-02-21T14:12:05.024405",
+    "image_url": "./assets/icons/project-deploying-a-simple-tensorflow-model.png"
+  },
+  "project-deploying-mobilenet-with-tensorflowjs-and-flask": {
+    "bg_color": "e0ffcd",
+    "created_at": "2025-02-21T14:12:01.002460",
+    "image_url": "./assets/icons/project-deploying-mobilenet-with-tensorflowjs-and-flask.png"
+  },
+  "project-deprecated-addroutes": {
+    "bg_color": "efd5b7",
+    "created_at": "2025-02-21T14:12:16.212564",
+    "image_url": "./assets/icons/project-deprecated-addroutes.png"
+  },
+  "project-depth-of-field-in-images": {
+    "bg_color": "fee3ce",
+    "created_at": "2025-02-21T14:12:16.416436",
+    "image_url": "./assets/icons/project-depth-of-field-in-images.png"
+  },
+  "project-developing-a-simple-online-chat-room-using-flask": {
+    "bg_color": "ff8f73",
+    "created_at": "2025-02-21T14:12:03.877472",
+    "image_url": "./assets/icons/project-developing-a-simple-online-chat-room-using-flask.png"
+  },
+  "project-development-of-golang-caching-component": {
+    "bg_color": "ffdb1a",
+    "created_at": "2025-02-21T14:12:13.088894",
+    "image_url": "./assets/icons/project-development-of-golang-caching-component.png"
+  },
+  "project-directory-size": {
+    "bg_color": "f0bbbf",
+    "created_at": "2025-02-21T14:12:15.544248",
+    "image_url": "./assets/icons/project-directory-size.png"
+  },
+  "project-displaying-query-results-using-el-expressions": {
+    "bg_color": "c8f9d3",
+    "created_at": "2025-02-21T14:12:00.222935",
+    "image_url": "./assets/icons/project-displaying-query-results-using-el-expressions.png"
+  },
+  "project-divide-dataset-into-mini-batches": {
+    "bg_color": "d8f8be",
+    "created_at": "2025-02-21T14:12:10.489232",
+    "image_url": "./assets/icons/project-divide-dataset-into-mini-batches.png"
+  },
+  "project-dml-comprehensive-challenge": {
+    "bg_color": "c8bfe3",
+    "created_at": "2025-02-21T14:12:16.687309",
+    "image_url": "./assets/icons/project-dml-comprehensive-challenge.png"
+  },
+  "project-do-a-search": {
+    "bg_color": "8ea5eb",
+    "created_at": "2025-02-21T14:12:06.684829",
+    "image_url": "./assets/icons/project-do-a-search.png"
+  },
+  "project-dont-step-on-the-white-tile": {
+    "bg_color": "ffe8ed",
+    "created_at": "2025-02-21T14:12:01.425268",
+    "image_url": "./assets/icons/project-dont-step-on-the-white-tile.png"
+  },
+  "project-doubly-linked-list": {
+    "bg_color": "bdeaed",
+    "created_at": "2025-02-21T14:12:14.630999",
+    "image_url": "./assets/icons/project-doubly-linked-list.png"
+  },
+  "project-draw-a-koala": {
+    "bg_color": "eacdbd",
+    "created_at": "2025-02-21T14:12:01.861762",
+    "image_url": "./assets/icons/project-draw-a-koala.png"
+  },
+  "project-druid-database-connection-pool-access": {
+    "bg_color": "fdebe2",
+    "created_at": "2025-02-21T14:12:09.292301",
+    "image_url": "./assets/icons/project-druid-database-connection-pool-access.png"
+  },
+  "project-dynamic-tab-bar": {
+    "bg_color": "b793e6",
+    "created_at": "2025-02-21T14:12:16.598909",
+    "image_url": "./assets/icons/project-dynamic-tab-bar.png"
+  },
+  "project-dynamization-of-homepage-data": {
+    "bg_color": "b6f7f1",
+    "created_at": "2025-02-21T14:12:15.466513",
+    "image_url": "./assets/icons/project-dynamization-of-homepage-data.png"
+  },
+  "project-early-stopping": {
+    "bg_color": "e1b4fc",
+    "created_at": "2025-02-21T14:12:01.576998",
+    "image_url": "./assets/icons/project-early-stopping.png"
+  },
+  "project-employee-data-filtering": {
+    "bg_color": "bec2db",
+    "created_at": "2025-02-21T14:12:04.707806",
+    "image_url": "./assets/icons/project-employee-data-filtering.png"
+  },
+  "project-employee-management-file-integration": {
+    "bg_color": "fbb6ce",
+    "created_at": "2025-02-21T14:12:16.086763",
+    "image_url": "./assets/icons/project-employee-management-file-integration.png"
+  },
+  "project-empty-city-data": {
+    "bg_color": "dec1dc",
+    "created_at": "2025-02-21T14:12:00.155179",
+    "image_url": "./assets/icons/project-empty-city-data.png"
+  },
+  "project-empty-pathmatch-for-correct-path-calculation": {
+    "bg_color": "eecdd5",
+    "created_at": "2025-02-21T14:12:02.999245",
+    "image_url": "./assets/icons/project-empty-pathmatch-for-correct-path-calculation.png"
+  },
+  "project-encapsulate-promisify-function": {
+    "bg_color": "e9ccf3",
+    "created_at": "2025-02-21T14:12:07.445370",
+    "image_url": "./assets/icons/project-encapsulate-promisify-function.png"
+  },
+  "project-encoding-label-to-one-hot": {
+    "bg_color": "badbf2",
+    "created_at": "2025-02-21T14:12:04.531762",
+    "image_url": "./assets/icons/project-encoding-label-to-one-hot.png"
+  },
+  "project-escape-from-the-dual-vector-foil": {
+    "bg_color": "f8b6c9",
+    "created_at": "2025-02-21T14:12:05.091015",
+    "image_url": "./assets/icons/project-escape-from-the-dual-vector-foil.png"
+  },
+  "project-exploring-the-earth": {
+    "bg_color": "c4f0c5",
+    "created_at": "2025-02-21T14:12:10.521704",
+    "image_url": "./assets/icons/project-exploring-the-earth.png"
+  },
+  "project-extract-information-from-parameters": {
+    "bg_color": "e1e0d3",
+    "created_at": "2025-02-21T14:12:12.685104",
+    "image_url": "./assets/icons/project-extract-information-from-parameters.png"
+  },
+  "project-extract-movie-information": {
+    "bg_color": "f9f3e8",
+    "created_at": "2025-02-21T14:12:08.616567",
+    "image_url": "./assets/icons/project-extract-movie-information.png"
+  },
+  "project-extracting-information-from-text": {
+    "bg_color": "dbbbe7",
+    "created_at": "2025-02-21T14:12:01.930738",
+    "image_url": "./assets/icons/project-extracting-information-from-text.png"
+  },
+  "project-extracting-link-information-from-text": {
+    "bg_color": "c3fee0",
+    "created_at": "2025-02-21T14:12:11.984761",
+    "image_url": "./assets/icons/project-extracting-link-information-from-text.png"
+  },
+  "project-extracting-user-input-information": {
+    "bg_color": "dfe9c9",
+    "created_at": "2025-02-21T14:12:02.622754",
+    "image_url": "./assets/icons/project-extracting-user-input-information.png"
+  },
+  "project-file-type-statistics": {
+    "bg_color": "d1fedf",
+    "created_at": "2025-02-21T14:12:15.158682",
+    "image_url": "./assets/icons/project-file-type-statistics.png"
+  },
+  "project-file-type-statistics-using-c": {
+    "bg_color": "5de6b4",
+    "created_at": "2025-02-21T14:12:12.982375",
+    "image_url": "./assets/icons/project-file-type-statistics-using-c.png"
+  },
+  "project-first-program-with-quartz-framework": {
+    "bg_color": "c7ddb8",
+    "created_at": "2025-02-21T14:12:09.220870",
+    "image_url": "./assets/icons/project-first-program-with-quartz-framework.png"
+  },
+  "project-fix-the-incorrectly-implemented-lab-class": {
+    "bg_color": "d5f7c9",
+    "created_at": "2025-02-21T14:11:58.764304",
+    "image_url": "./assets/icons/project-fix-the-incorrectly-implemented-lab-class.png"
+  },
+  "project-fix-the-test-in-asyncspecjs": {
+    "bg_color": "f0c5da",
+    "created_at": "2025-02-21T14:12:14.352734",
+    "image_url": "./assets/icons/project-fix-the-test-in-asyncspecjs.png"
+  },
+  "project-fix-website-display": {
+    "bg_color": "e0c5cf",
+    "created_at": "2025-02-21T14:12:04.872036",
+    "image_url": "./assets/icons/project-fix-website-display.png"
+  },
+  "project-flappy-bird-detection-in-video-using-match-template": {
+    "bg_color": "f7d9d9",
+    "created_at": "2025-02-21T14:12:03.176387",
+    "image_url": "./assets/icons/project-flappy-bird-detection-in-video-using-match-template.png"
+  },
+  "project-flex-dice-layout": {
+    "bg_color": "d8c0cc",
+    "created_at": "2025-02-21T14:11:57.992979",
+    "image_url": "./assets/icons/project-flex-dice-layout.png"
+  },
+  "project-flexible-card": {
+    "bg_color": "e9e6b9",
+    "created_at": "2025-02-21T14:12:10.255304",
+    "image_url": "./assets/icons/project-flexible-card.png"
+  },
+  "project-folding-accordion": {
+    "bg_color": "ecebff",
+    "created_at": "2025-02-21T14:12:09.554810",
+    "image_url": "./assets/icons/project-folding-accordion.png"
+  },
+  "project-food-protein-revealed": {
+    "bg_color": "fec9f5",
+    "created_at": "2025-02-21T14:12:08.440286",
+    "image_url": "./assets/icons/project-food-protein-revealed.png"
+  },
+  "project-format-query-for-teacher-salary": {
+    "bg_color": "f5f7e1",
+    "created_at": "2025-02-21T14:12:06.595456",
+    "image_url": "./assets/icons/project-format-query-for-teacher-salary.png"
+  },
+  "project-fresh-vegetables": {
+    "bg_color": "d5dcbf",
+    "created_at": "2025-02-21T14:12:07.649281",
+    "image_url": "./assets/icons/project-fresh-vegetables.png"
+  },
+  "project-fruit-arrangement": {
+    "bg_color": "d2dec3",
+    "created_at": "2025-02-21T14:12:13.019334",
+    "image_url": "./assets/icons/project-fruit-arrangement.png"
+  },
+  "project-fruit-for-fun": {
+    "bg_color": "d0bac0",
+    "created_at": "2025-02-21T14:12:08.475442",
+    "image_url": "./assets/icons/project-fruit-for-fun.png"
+  },
+  "project-fruit-platter": {
+    "bg_color": "d7feda",
+    "created_at": "2025-02-21T14:12:06.394813",
+    "image_url": "./assets/icons/project-fruit-platter.png"
+  },
+  "project-fruit-stacker": {
+    "bg_color": "dcc3cc",
+    "created_at": "2025-02-21T14:12:05.812615",
+    "image_url": "./assets/icons/project-fruit-stacker.png"
+  },
+  "project-ftp-weak-password-scanner-using-python": {
+    "bg_color": "fdbf8a",
+    "created_at": "2025-02-21T14:11:58.930783",
+    "image_url": "./assets/icons/project-ftp-weak-password-scanner-using-python.png"
+  },
+  "project-fun-shopping": {
+    "bg_color": "c2c9d1",
+    "created_at": "2025-02-21T14:12:05.430605",
+    "image_url": "./assets/icons/project-fun-shopping.png"
+  },
+  "project-general-function-comprehensive-challenge": {
+    "bg_color": "c3fdc6",
+    "created_at": "2025-02-21T14:12:01.213348",
+    "image_url": "./assets/icons/project-general-function-comprehensive-challenge.png"
+  },
+  "project-generating-a-battle-report": {
+    "bg_color": "e7b9b4",
+    "created_at": "2025-02-21T14:12:03.849121",
+    "image_url": "./assets/icons/project-generating-a-battle-report.png"
+  },
+  "project-get-program-that-satisfies-the-condition": {
+    "bg_color": "e0d6b8",
+    "created_at": "2025-02-21T14:12:10.857574",
+    "image_url": "./assets/icons/project-get-program-that-satisfies-the-condition.png"
+  },
+  "project-get-system-information": {
+    "bg_color": "ead5f6",
+    "created_at": "2025-02-21T14:12:16.297717",
+    "image_url": "./assets/icons/project-get-system-information.png"
+  },
+  "project-give-your-page-a-makeover": {
+    "bg_color": "d2e2e7",
+    "created_at": "2025-02-21T14:12:15.916439",
+    "image_url": "./assets/icons/project-give-your-page-a-makeover.png"
+  },
+  "project-go-to-the-next-step": {
+    "bg_color": "e1c4f9",
+    "created_at": "2025-02-21T14:12:00.581279",
+    "image_url": "./assets/icons/project-go-to-the-next-step.png"
+  },
+  "project-gravitational-simulation-of-earth-and-super-jupiter": {
+    "bg_color": "81d4f2",
+    "created_at": "2025-02-21T14:12:07.982899",
+    "image_url": "./assets/icons/project-gravitational-simulation-of-earth-and-super-jupiter.png"
+  },
+  "project-group-comprehensive-challenge": {
+    "bg_color": "e9f5e1",
+    "created_at": "2025-02-21T14:12:01.707438",
+    "image_url": "./assets/icons/project-group-comprehensive-challenge.png"
+  },
+  "project-guess-the-coin": {
+    "bg_color": "d9dcfe",
+    "created_at": "2025-02-21T14:12:02.724532",
+    "image_url": "./assets/icons/project-guess-the-coin.png"
+  },
+  "project-handling-dates-in-any-year": {
+    "bg_color": "c7b8eb",
+    "created_at": "2025-02-21T14:12:06.954292",
+    "image_url": "./assets/icons/project-handling-dates-in-any-year.png"
+  },
+  "project-handling-null-values-correctly": {
+    "bg_color": "e5b9e2",
+    "created_at": "2025-02-21T14:12:08.753014",
+    "image_url": "./assets/icons/project-handling-null-values-correctly.png"
+  },
+  "project-hard-work-pays-off": {
+    "bg_color": "ffd6d6",
+    "created_at": "2025-02-21T14:12:14.171868",
+    "image_url": "./assets/icons/project-hard-work-pays-off.png"
+  },
+  "project-haste-makes-waste": {
+    "bg_color": "b5cfcd",
+    "created_at": "2025-02-21T14:12:05.895567",
+    "image_url": "./assets/icons/project-haste-makes-waste.png"
+  },
+  "project-holiday-greeting-card": {
+    "bg_color": "caf9c7",
+    "created_at": "2025-02-21T14:12:12.270708",
+    "image_url": "./assets/icons/project-holiday-greeting-card.png"
+  },
+  "project-identify-mvp-recipient-in-game": {
+    "bg_color": "b4c4f7",
+    "created_at": "2025-02-21T14:12:08.891496",
+    "image_url": "./assets/icons/project-identify-mvp-recipient-in-game.png"
+  },
+  "project-image-upload-based-on-tcp-protocol": {
+    "bg_color": "ffe8bb",
+    "created_at": "2025-02-21T14:11:59.750955",
+    "image_url": "./assets/icons/project-image-upload-based-on-tcp-protocol.png"
+  },
+  "project-image-viewer-using-python-and-tkinter": {
+    "bg_color": "fff3e0",
+    "created_at": "2025-02-21T14:12:09.907336",
+    "image_url": "./assets/icons/project-image-viewer-using-python-and-tkinter.png"
+  },
+  "project-implement-a-magnifying-glass-effect-using-canvas": {
+    "bg_color": "eeffc7",
+    "created_at": "2025-02-21T14:12:02.680389",
+    "image_url": "./assets/icons/project-implement-a-magnifying-glass-effect-using-canvas.png"
+  },
+  "project-implement-a-simple-named-tuple": {
+    "bg_color": "bcd2e8",
+    "created_at": "2025-02-21T14:12:09.771612",
+    "image_url": "./assets/icons/project-implement-a-simple-named-tuple.png"
+  },
+  "project-implement-card-binding-function": {
+    "bg_color": "dfcdf4",
+    "created_at": "2025-02-21T14:12:11.166582",
+    "image_url": "./assets/icons/project-implement-card-binding-function.png"
+  },
+  "project-implement-json-comment-interpreter": {
+    "bg_color": "eeb8e9",
+    "created_at": "2025-02-21T14:12:12.838725",
+    "image_url": "./assets/icons/project-implement-json-comment-interpreter.png"
+  },
+  "project-implement-thread-communication": {
+    "bg_color": "ccfdee",
+    "created_at": "2025-02-21T14:12:06.674211",
+    "image_url": "./assets/icons/project-implement-thread-communication.png"
+  },
+  "project-implement-user-login-function": {
+    "bg_color": "d4f2f0",
+    "created_at": "2025-02-21T14:12:15.074777",
+    "image_url": "./assets/icons/project-implement-user-login-function.png"
+  },
+  "project-implementation-of-ajax-requests-using-js": {
+    "bg_color": "eee7e9",
+    "created_at": "2025-02-21T14:12:11.490564",
+    "image_url": "./assets/icons/project-implementation-of-ajax-requests-using-js.png"
+  },
+  "project-implementing-a-queue": {
+    "bg_color": "f2e5c0",
+    "created_at": "2025-02-21T14:12:12.577371",
+    "image_url": "./assets/icons/project-implementing-a-queue.png"
+  },
+  "project-implementing-an-immutable-dictionary": {
+    "bg_color": "f1ebb9",
+    "created_at": "2025-02-21T14:12:04.458376",
+    "image_url": "./assets/icons/project-implementing-an-immutable-dictionary.png"
+  },
+  "project-implementing-minkowski-distance-metric": {
+    "bg_color": "eff9c6",
+    "created_at": "2025-02-21T14:12:03.589273",
+    "image_url": "./assets/icons/project-implementing-minkowski-distance-metric.png"
+  },
+  "project-input-parameter-practice": {
+    "bg_color": "eaf7e2",
+    "created_at": "2025-02-21T14:11:58.878529",
+    "image_url": "./assets/icons/project-input-parameter-practice.png"
+  },
+  "project-input-search-suggestions": {
+    "bg_color": "c6bfca",
+    "created_at": "2025-02-21T14:12:16.551623",
+    "image_url": "./assets/icons/project-input-search-suggestions.png"
+  },
+  "project-installing-a-git-server": {
+    "bg_color": "e3d9ca",
+    "created_at": "2025-02-21T14:12:16.169816",
+    "image_url": "./assets/icons/project-installing-a-git-server.png"
+  },
+  "project-installing-and-configuring-a-mail-server": {
+    "bg_color": "83c4de",
+    "created_at": "2025-02-21T14:12:05.824648",
+    "image_url": "./assets/icons/project-installing-and-configuring-a-mail-server.png"
+  },
+  "project-javabean-mutiple-parameters": {
+    "bg_color": "b8bfee",
+    "created_at": "2025-02-21T14:11:59.045889",
+    "image_url": "./assets/icons/project-javabean-mutiple-parameters.png"
+  },
+  "project-join-query-comprehensive-challenge": {
+    "bg_color": "b6dbdf",
+    "created_at": "2025-02-21T14:12:15.112008",
+    "image_url": "./assets/icons/project-join-query-comprehensive-challenge.png"
+  },
+  "project-jquery-flip-puzzle-game": {
+    "bg_color": "a2dcff",
+    "created_at": "2025-02-21T14:12:15.931119",
+    "image_url": "./assets/icons/project-jquery-flip-puzzle-game.png"
+  },
+  "project-json-data-transfer-with-ajax": {
+    "bg_color": "cbd0c3",
+    "created_at": "2025-02-21T14:12:08.855134",
+    "image_url": "./assets/icons/project-json-data-transfer-with-ajax.png"
+  },
+  "project-k-nearest-neighbors-regression-algorithm-implementation": {
+    "bg_color": "bbfece",
+    "created_at": "2025-02-21T14:12:02.417623",
+    "image_url": "./assets/icons/project-k-nearest-neighbors-regression-algorithm-implementation.png"
+  },
+  "project-k-th-rightmost-digit": {
+    "bg_color": "bbf5f9",
+    "created_at": "2025-02-21T14:12:09.439559",
+    "image_url": "./assets/icons/project-k-th-rightmost-digit.png"
+  },
+  "project-labex-knowledge-network": {
+    "bg_color": "ffd5d8",
+    "created_at": "2025-02-21T14:12:14.975949",
+    "image_url": "./assets/icons/project-labex-knowledge-network.png"
+  },
+  "project-largest-population-by-country": {
+    "bg_color": "dfe5f8",
+    "created_at": "2025-02-21T14:12:13.368745",
+    "image_url": "./assets/icons/project-largest-population-by-country.png"
+  },
+  "project-largest-population-in-five-countries": {
+    "bg_color": "c1f5bf",
+    "created_at": "2025-02-21T14:12:01.511078",
+    "image_url": "./assets/icons/project-largest-population-in-five-countries.png"
+  },
+  "project-layout-switch": {
+    "bg_color": "d4c07a",
+    "created_at": "2025-02-21T14:12:04.500062",
+    "image_url": "./assets/icons/project-layout-switch.png"
+  },
+  "project-leap-year-or-common-year": {
+    "bg_color": "c0e0d3",
+    "created_at": "2025-02-21T14:12:09.874509",
+    "image_url": "./assets/icons/project-leap-year-or-common-year.png"
+  },
+  "project-lets-have-a-meeting-together": {
+    "bg_color": "ddf6ed",
+    "created_at": "2025-02-21T14:12:06.305271",
+    "image_url": "./assets/icons/project-lets-have-a-meeting-together.png"
+  },
+  "project-linear-regression-fitting-and-plotting": {
+    "bg_color": "dff2bd",
+    "created_at": "2025-02-21T14:11:59.317315",
+    "image_url": "./assets/icons/project-linear-regression-fitting-and-plotting.png"
+  },
+  "project-linear-validation-method": {
+    "bg_color": "c0c2de",
+    "created_at": "2025-02-21T14:12:08.370858",
+    "image_url": "./assets/icons/project-linear-validation-method.png"
+  },
+  "project-linux-system-monitor-using-tkinter": {
+    "bg_color": "f7e1cd",
+    "created_at": "2025-02-21T14:12:02.782553",
+    "image_url": "./assets/icons/project-linux-system-monitor-using-tkinter.png"
+  },
+  "project-log-analysis": {
+    "bg_color": "deb7e0",
+    "created_at": "2025-02-21T14:12:11.010841",
+    "image_url": "./assets/icons/project-log-analysis.png"
+  },
+  "project-log-backup": {
+    "bg_color": "e0c0c6",
+    "created_at": "2025-02-21T14:12:06.517304",
+    "image_url": "./assets/icons/project-log-backup.png"
+  },
+  "project-logging-project-information-with-log4j2": {
+    "bg_color": "f0d8ee",
+    "created_at": "2025-02-21T14:11:59.204862",
+    "image_url": "./assets/icons/project-logging-project-information-with-log4j2.png"
+  },
+  "project-magic-failure": {
+    "bg_color": "f8e6cd",
+    "created_at": "2025-02-21T14:12:07.867431",
+    "image_url": "./assets/icons/project-magic-failure.png"
+  },
+  "project-making-a-simple-calculator-using-c": {
+    "bg_color": "f0cda9",
+    "created_at": "2025-02-21T14:12:11.921079",
+    "image_url": "./assets/icons/project-making-a-simple-calculator-using-c.png"
+  },
+  "project-managing-specific-dates-in-a-year": {
+    "bg_color": "fbcbb6",
+    "created_at": "2025-02-21T14:12:00.869222",
+    "image_url": "./assets/icons/project-managing-specific-dates-in-a-year.png"
+  },
+  "project-matrix-operations": {
+    "bg_color": "efd6ea",
+    "created_at": "2025-02-21T14:11:58.840331",
+    "image_url": "./assets/icons/project-matrix-operations.png"
+  },
+  "project-maximum-value-judgment": {
+    "bg_color": "dbe5d4",
+    "created_at": "2025-02-21T14:12:00.906251",
+    "image_url": "./assets/icons/project-maximum-value-judgment.png"
+  },
+  "project-menu-tree-search": {
+    "bg_color": "b8fdd3",
+    "created_at": "2025-02-21T14:12:13.864375",
+    "image_url": "./assets/icons/project-menu-tree-search.png"
+  },
+  "project-merge-multiple-files-alternately": {
+    "bg_color": "fbb5d8",
+    "created_at": "2025-02-21T14:12:03.756565",
+    "image_url": "./assets/icons/project-merge-multiple-files-alternately.png"
+  },
+  "project-minkowski-distances-calculating": {
+    "bg_color": "bebaf2",
+    "created_at": "2025-02-21T14:12:02.450591",
+    "image_url": "./assets/icons/project-minkowski-distances-calculating.png"
+  },
+  "project-missing-token": {
+    "bg_color": "c8e0dd",
+    "created_at": "2025-02-21T14:12:14.824776",
+    "image_url": "./assets/icons/project-missing-token.png"
+  },
+  "project-modify-countrylanguage-table": {
+    "bg_color": "c5fdf8",
+    "created_at": "2025-02-21T14:12:00.612507",
+    "image_url": "./assets/icons/project-modify-countrylanguage-table.png"
+  },
+  "project-modify-primary-key-of-countrylanguage-table": {
+    "bg_color": "f7edc1",
+    "created_at": "2025-02-21T14:12:10.807734",
+    "image_url": "./assets/icons/project-modify-primary-key-of-countrylanguage-table.png"
+  },
+  "project-modify-student-table-attributes": {
+    "bg_color": "ece3b8",
+    "created_at": "2025-02-21T14:12:07.354753",
+    "image_url": "./assets/icons/project-modify-student-table-attributes.png"
+  },
+  "project-modifying-the-teacher-table-using-preparedstatement": {
+    "bg_color": "d6eedb",
+    "created_at": "2025-02-21T14:12:00.068505",
+    "image_url": "./assets/icons/project-modifying-the-teacher-table-using-preparedstatement.png"
+  },
+  "project-monty-hall-problem-simulation-using-tkinter": {
+    "bg_color": "97d9d0",
+    "created_at": "2025-02-21T14:12:00.475169",
+    "image_url": "./assets/icons/project-monty-hall-problem-simulation-using-tkinter.png"
+  },
+  "project-monty-hall-problem-simulation-web-app": {
+    "bg_color": "f9ce67",
+    "created_at": "2025-02-21T14:12:09.080777",
+    "image_url": "./assets/icons/project-monty-hall-problem-simulation-web-app.png"
+  },
+  "project-movie-theater-seat-arrangement": {
+    "bg_color": "dabce9",
+    "created_at": "2025-02-21T14:11:59.902120",
+    "image_url": "./assets/icons/project-movie-theater-seat-arrangement.png"
+  },
+  "project-movie-ticket-reservation": {
+    "bg_color": "c4bbde",
+    "created_at": "2025-02-21T14:12:04.424402",
+    "image_url": "./assets/icons/project-movie-ticket-reservation.png"
+  },
+  "project-multiple-line-function-comprehensive-challenge": {
+    "bg_color": "f7e6bc",
+    "created_at": "2025-02-21T14:12:00.301849",
+    "image_url": "./assets/icons/project-multiple-line-function-comprehensive-challenge.png"
+  },
+  "project-multiple-slashes": {
+    "bg_color": "ddc5cd",
+    "created_at": "2025-02-21T14:12:00.262934",
+    "image_url": "./assets/icons/project-multiple-slashes.png"
+  },
+  "project-mysterious-incantation": {
+    "bg_color": "bcbfbb",
+    "created_at": "2025-02-21T14:12:14.591035",
+    "image_url": "./assets/icons/project-mysterious-incantation.png"
+  },
+  "project-naughty-modal-box": {
+    "bg_color": "f2f9e6",
+    "created_at": "2025-02-21T14:12:02.589896",
+    "image_url": "./assets/icons/project-naughty-modal-box.png"
+  },
+  "project-navigation-features": {
+    "bg_color": "d8faf5",
+    "created_at": "2025-02-21T14:12:13.194909",
+    "image_url": "./assets/icons/project-navigation-features.png"
+  },
+  "project-network-data-packet-statistics": {
+    "bg_color": "c9d2f7",
+    "created_at": "2025-02-21T14:11:59.551438",
+    "image_url": "./assets/icons/project-network-data-packet-statistics.png"
+  },
+  "project-new-colleague-system-account-setup": {
+    "bg_color": "bacee5",
+    "created_at": "2025-02-21T14:12:10.591781",
+    "image_url": "./assets/icons/project-new-colleague-system-account-setup.png"
+  },
+  "project-news-api": {
+    "bg_color": "c7cdce",
+    "created_at": "2025-02-21T14:12:12.405948",
+    "image_url": "./assets/icons/project-news-api.png"
+  },
+  "project-number-of-users-with-modify-permissions": {
+    "bg_color": "f1efd4",
+    "created_at": "2025-02-21T14:12:13.584516",
+    "image_url": "./assets/icons/project-number-of-users-with-modify-permissions.png"
+  },
+  "project-obtain-pi-with-two-decimals": {
+    "bg_color": "daccd4",
+    "created_at": "2025-02-21T14:12:16.589463",
+    "image_url": "./assets/icons/project-obtain-pi-with-two-decimals.png"
+  },
+  "project-official-languages-in-various-countries": {
+    "bg_color": "f8f5fb",
+    "created_at": "2025-02-21T14:12:07.057271",
+    "image_url": "./assets/icons/project-official-languages-in-various-countries.png"
+  },
+  "project-one-cut-into-two": {
+    "bg_color": "b5e8ef",
+    "created_at": "2025-02-21T14:12:05.344090",
+    "image_url": "./assets/icons/project-one-cut-into-two.png"
+  },
+  "project-operate-the-course-table": {
+    "bg_color": "fbd7fa",
+    "created_at": "2025-02-21T14:12:08.171326",
+    "image_url": "./assets/icons/project-operate-the-course-table.png"
+  },
+  "project-operations-with-the-os-module": {
+    "bg_color": "b4eece",
+    "created_at": "2025-02-21T14:12:12.238117",
+    "image_url": "./assets/icons/project-operations-with-the-os-module.png"
+  },
+  "project-order-of-performance": {
+    "bg_color": "faebf6",
+    "created_at": "2025-02-21T14:12:13.404681",
+    "image_url": "./assets/icons/project-order-of-performance.png"
+  },
+  "project-ordinary-least-squares-python-implementation": {
+    "bg_color": "d1d1d5",
+    "created_at": "2025-02-21T14:12:05.568579",
+    "image_url": "./assets/icons/project-ordinary-least-squares-python-implementation.png"
+  },
+  "project-organizing-course-list": {
+    "bg_color": "e2ddbf",
+    "created_at": "2025-02-21T14:12:04.390119",
+    "image_url": "./assets/icons/project-organizing-course-list.png"
+  },
+  "project-output-a-quote": {
+    "bg_color": "c0bfec",
+    "created_at": "2025-02-21T14:11:59.370253",
+    "image_url": "./assets/icons/project-output-a-quote.png"
+  },
+  "project-outputting-triangle-with-out-object": {
+    "bg_color": "b6d8d7",
+    "created_at": "2025-02-21T14:12:15.690025",
+    "image_url": "./assets/icons/project-outputting-triangle-with-out-object.png"
+  },
+  "project-pagination-component": {
+    "bg_color": "e1fae0",
+    "created_at": "2025-02-21T14:12:16.381462",
+    "image_url": "./assets/icons/project-pagination-component.png"
+  },
+  "project-parse-username-string": {
+    "bg_color": "e8d9c3",
+    "created_at": "2025-02-21T14:12:07.777878",
+    "image_url": "./assets/icons/project-parse-username-string.png"
+  },
+  "project-parsing-web-elements": {
+    "bg_color": "d2dae9",
+    "created_at": "2025-02-21T14:12:02.281702",
+    "image_url": "./assets/icons/project-parsing-web-elements.png"
+  },
+  "project-password-generator": {
+    "bg_color": "cce1c3",
+    "created_at": "2025-02-21T14:12:07.817943",
+    "image_url": "./assets/icons/project-password-generator.png"
+  },
+  "project-perfect-numbers": {
+    "bg_color": "ffbae9",
+    "created_at": "2025-02-21T14:12:03.111170",
+    "image_url": "./assets/icons/project-perfect-numbers.png"
+  },
+  "project-permission-management": {
+    "bg_color": "cac0dd",
+    "created_at": "2025-02-21T14:12:07.481316",
+    "image_url": "./assets/icons/project-permission-management.png"
+  },
+  "project-personal-card-generator": {
+    "bg_color": "b9f6c1",
+    "created_at": "2025-02-21T14:12:02.815482",
+    "image_url": "./assets/icons/project-personal-card-generator.png"
+  },
+  "project-personnel-grouping": {
+    "bg_color": "e1e2cf",
+    "created_at": "2025-02-21T14:11:59.005965",
+    "image_url": "./assets/icons/project-personnel-grouping.png"
+  },
+  "project-personnel-management-system-database-setup": {
+    "bg_color": "efe5e8",
+    "created_at": "2025-02-21T14:12:00.012465",
+    "image_url": "./assets/icons/project-personnel-management-system-database-setup.png"
+  },
+  "project-polynomial-regression-implementation-and-application": {
+    "bg_color": "f1f9bf",
+    "created_at": "2025-02-21T14:12:16.939455",
+    "image_url": "./assets/icons/project-polynomial-regression-implementation-and-application.png"
+  },
+  "project-portal": {
+    "bg_color": "b9e937",
+    "created_at": "2025-02-21T14:12:10.196294",
+    "image_url": "./assets/icons/project-portal.png"
+  },
+  "project-practical-use-of-resultmap": {
+    "bg_color": "ecb5ca",
+    "created_at": "2025-02-21T14:12:08.581049",
+    "image_url": "./assets/icons/project-practical-use-of-resultmap.png"
+  },
+  "project-print-current-login-user-information": {
+    "bg_color": "d4ebcc",
+    "created_at": "2025-02-21T14:12:03.211189",
+    "image_url": "./assets/icons/project-print-current-login-user-information.png"
+  },
+  "project-print-current-time": {
+    "bg_color": "dbfedc",
+    "created_at": "2025-02-21T14:12:15.361987",
+    "image_url": "./assets/icons/project-print-current-time.png"
+  },
+  "project-print-standard-body-temperature-in-fahrenheit": {
+    "bg_color": "fee9b6",
+    "created_at": "2025-02-21T14:11:58.334956",
+    "image_url": "./assets/icons/project-print-standard-body-temperature-in-fahrenheit.png"
+  },
+  "project-prize-draw": {
+    "bg_color": "bff1d5",
+    "created_at": "2025-02-21T14:11:59.941259",
+    "image_url": "./assets/icons/project-prize-draw.png"
+  },
+  "project-push-box-game-with-pygame": {
+    "bg_color": "fcd720",
+    "created_at": "2025-02-21T14:12:12.482285",
+    "image_url": "./assets/icons/project-push-box-game-with-pygame.png"
+  },
+  "project-qr-code-generator-using-python": {
+    "bg_color": "d9d3e0",
+    "created_at": "2025-02-21T14:12:16.843222",
+    "image_url": "./assets/icons/project-qr-code-generator-using-python.png"
+  },
+  "project-query-city-information-for-specified-ids": {
+    "bg_color": "b9f9d1",
+    "created_at": "2025-02-21T14:12:02.062344",
+    "image_url": "./assets/icons/project-query-city-information-for-specified-ids.png"
+  },
+  "project-query-city-names-with-country": {
+    "bg_color": "eccdc6",
+    "created_at": "2025-02-21T14:12:03.719579",
+    "image_url": "./assets/icons/project-query-city-names-with-country.png"
+  },
+  "project-query-employee-information": {
+    "bg_color": "babdc9",
+    "created_at": "2025-02-21T14:12:15.433009",
+    "image_url": "./assets/icons/project-query-employee-information.png"
+  },
+  "project-query-gdp-for-all-countries": {
+    "bg_color": "d6f9e6",
+    "created_at": "2025-02-21T14:12:16.123189",
+    "image_url": "./assets/icons/project-query-gdp-for-all-countries.png"
+  },
+  "project-query-is-so-slow": {
+    "bg_color": "f7b8cc",
+    "created_at": "2025-02-21T14:12:16.883275",
+    "image_url": "./assets/icons/project-query-is-so-slow.png"
+  },
+  "project-query-population-of-all-countries": {
+    "bg_color": "edc3b8",
+    "created_at": "2025-02-21T14:11:58.097033",
+    "image_url": "./assets/icons/project-query-population-of-all-countries.png"
+  },
+  "project-query-teacher-salary-using-preparedstatement": {
+    "bg_color": "c7efe6",
+    "created_at": "2025-02-21T14:12:10.139216",
+    "image_url": "./assets/icons/project-query-teacher-salary-using-preparedstatement.png"
+  },
+  "project-query-user-level": {
+    "bg_color": "b7e7d3",
+    "created_at": "2025-02-21T14:12:12.761196",
+    "image_url": "./assets/icons/project-query-user-level.png"
+  },
+  "project-query-user-levels-with-left-join": {
+    "bg_color": "daebe2",
+    "created_at": "2025-02-21T14:12:16.158962",
+    "image_url": "./assets/icons/project-query-user-levels-with-left-join.png"
+  },
+  "project-querying-country-codes-range": {
+    "bg_color": "ebcbc4",
+    "created_at": "2025-02-21T14:12:13.899761",
+    "image_url": "./assets/icons/project-querying-country-codes-range.png"
+  },
+  "project-querying-official-languages-and-sorting": {
+    "bg_color": "b4c3c4",
+    "created_at": "2025-02-21T14:12:10.420342",
+    "image_url": "./assets/icons/project-querying-official-languages-and-sorting.png"
+  },
+  "project-querying-official-languages-of-each-country": {
+    "bg_color": "bec0e1",
+    "created_at": "2025-02-21T14:12:13.702031",
+    "image_url": "./assets/icons/project-querying-official-languages-of-each-country.png"
+  },
+  "project-racing-game-using-pygame": {
+    "bg_color": "a7ccff",
+    "created_at": "2025-02-21T14:12:01.759217",
+    "image_url": "./assets/icons/project-racing-game-using-pygame.png"
+  },
+  "project-rail-fence-cipher": {
+    "bg_color": "dcd5cf",
+    "created_at": "2025-02-21T14:12:04.990580",
+    "image_url": "./assets/icons/project-rail-fence-cipher.png"
+  },
+  "project-read-it": {
+    "bg_color": "d59bf6",
+    "created_at": "2025-02-21T14:12:06.159919",
+    "image_url": "./assets/icons/project-read-it.png"
+  },
+  "project-recording-web-page-accesses-using-listeners": {
+    "bg_color": "eec0d3",
+    "created_at": "2025-02-21T14:12:12.966493",
+    "image_url": "./assets/icons/project-recording-web-page-accesses-using-listeners.png"
+  },
+  "project-remote-shell": {
+    "bg_color": "f1d9d9",
+    "created_at": "2025-02-21T14:12:14.283411",
+    "image_url": "./assets/icons/project-remote-shell.png"
+  },
+  "project-remove-duplicates": {
+    "bg_color": "d4d8b8",
+    "created_at": "2025-02-21T14:12:06.552806",
+    "image_url": "./assets/icons/project-remove-duplicates.png"
+  },
+  "project-remove-the-warning-generated-by-pathmatch": {
+    "bg_color": "d2ffcf",
+    "created_at": "2025-02-21T14:12:03.351854",
+    "image_url": "./assets/icons/project-remove-the-warning-generated-by-pathmatch.png"
+  },
+  "project-responsive-page-layout": {
+    "bg_color": "bbbccb",
+    "created_at": "2025-02-21T14:11:59.586156",
+    "image_url": "./assets/icons/project-responsive-page-layout.png"
+  },
+  "project-responsive-web-design": {
+    "bg_color": "e0c3da",
+    "created_at": "2025-02-21T14:12:02.314183",
+    "image_url": "./assets/icons/project-responsive-web-design.png"
+  },
+  "project-restful-api-development": {
+    "bg_color": "c6c1c1",
+    "created_at": "2025-02-21T14:12:10.736117",
+    "image_url": "./assets/icons/project-restful-api-development.png"
+  },
+  "project-restore-access-to-website": {
+    "bg_color": "defec6",
+    "created_at": "2025-02-21T14:12:10.368225",
+    "image_url": "./assets/icons/project-restore-access-to-website.png"
+  },
+  "project-retrieving-object-parameters-from-query": {
+    "bg_color": "cad2f0",
+    "created_at": "2025-02-21T14:12:10.335113",
+    "image_url": "./assets/icons/project-retrieving-object-parameters-from-query.png"
+  },
+  "project-reverse-print-file-content-command": {
+    "bg_color": "e6f7c9",
+    "created_at": "2025-02-21T14:12:14.319062",
+    "image_url": "./assets/icons/project-reverse-print-file-content-command.png"
+  },
+  "project-reverse-proxy": {
+    "bg_color": "cfe1ed",
+    "created_at": "2025-02-21T14:12:06.464549",
+    "image_url": "./assets/icons/project-reverse-proxy.png"
+  },
+  "project-reverse-shell-to-control-multiple-targets": {
+    "bg_color": "e4c144",
+    "created_at": "2025-02-21T14:12:00.548815",
+    "image_url": "./assets/icons/project-reverse-shell-to-control-multiple-targets.png"
+  },
+  "project-revisit-route-triggers-too-early": {
+    "bg_color": "d2c5d8",
+    "created_at": "2025-02-21T14:12:13.441272",
+    "image_url": "./assets/icons/project-revisit-route-triggers-too-early.png"
+  },
+  "project-right-outer-join-query-user-level": {
+    "bg_color": "c6bbe9",
+    "created_at": "2025-02-21T14:12:13.298149",
+    "image_url": "./assets/icons/project-right-outer-join-query-user-level.png"
+  },
+  "project-router-query-value-changed": {
+    "bg_color": "d8eaea",
+    "created_at": "2025-02-21T14:11:59.788179",
+    "image_url": "./assets/icons/project-router-query-value-changed.png"
+  },
+  "project-salary-range-for-teachers-by-department": {
+    "bg_color": "dff2f3",
+    "created_at": "2025-02-21T14:12:11.765252",
+    "image_url": "./assets/icons/project-salary-range-for-teachers-by-department.png"
+  },
+  "project-sales-dashboard": {
+    "bg_color": "c7c6c8",
+    "created_at": "2025-02-21T14:12:02.669681",
+    "image_url": "./assets/icons/project-sales-dashboard.png"
+  },
+  "project-samba-file-sharing-on-linux": {
+    "bg_color": "e5d5ea",
+    "created_at": "2025-02-21T14:12:06.998067",
+    "image_url": "./assets/icons/project-samba-file-sharing-on-linux.png"
+  },
+  "project-scratch-card-game": {
+    "bg_color": "d6edd2",
+    "created_at": "2025-02-21T14:11:59.437196",
+    "image_url": "./assets/icons/project-scratch-card-game.png"
+  },
+  "project-search-for-favorite-courses": {
+    "bg_color": "bbbce5",
+    "created_at": "2025-02-21T14:12:01.543456",
+    "image_url": "./assets/icons/project-search-for-favorite-courses.png"
+  },
+  "project-search-for-text-files-in-directory": {
+    "bg_color": "e2e0f2",
+    "created_at": "2025-02-21T14:12:11.541485",
+    "image_url": "./assets/icons/project-search-for-text-files-in-directory.png"
+  },
+  "project-searching-for-specific-files": {
+    "bg_color": "c7fefc",
+    "created_at": "2025-02-21T14:12:15.798679",
+    "image_url": "./assets/icons/project-searching-for-specific-files.png"
+  },
+  "project-service-management": {
+    "bg_color": "bdc0e5",
+    "created_at": "2025-02-21T14:11:58.968139",
+    "image_url": "./assets/icons/project-service-management.png"
+  },
+  "project-setting-up-spring-development-environment": {
+    "bg_color": "bddefc",
+    "created_at": "2025-02-21T14:12:00.463067",
+    "image_url": "./assets/icons/project-setting-up-spring-development-environment.png"
+  },
+  "project-shopping-cart": {
+    "bg_color": "f6f9d7",
+    "created_at": "2025-02-21T14:12:07.561336",
+    "image_url": "./assets/icons/project-shopping-cart.png"
+  },
+  "project-show-and-hide": {
+    "bg_color": "ffeee2",
+    "created_at": "2025-02-21T14:12:16.202641",
+    "image_url": "./assets/icons/project-show-and-hide.png"
+  },
+  "project-simple-handwritten-character-recognition-classifier": {
+    "bg_color": "e9f7f1",
+    "created_at": "2025-02-21T14:12:04.567649",
+    "image_url": "./assets/icons/project-simple-handwritten-character-recognition-classifier.png"
+  },
+  "project-skeleton-screen": {
+    "bg_color": "dedacd",
+    "created_at": "2025-02-21T14:12:16.014957",
+    "image_url": "./assets/icons/project-skeleton-screen.png"
+  },
+  "project-skip-when-a-multiple-of-x": {
+    "bg_color": "d2d3df",
+    "created_at": "2025-02-21T14:12:02.916481",
+    "image_url": "./assets/icons/project-skip-when-a-multiple-of-x.png"
+  },
+  "project-snake-game-using-python-and-pygame": {
+    "bg_color": "fdbdc1",
+    "created_at": "2025-02-21T14:12:03.244740",
+    "image_url": "./assets/icons/project-snake-game-using-python-and-pygame.png"
+  },
+  "project-soldier-serial-number-generator": {
+    "bg_color": "eee1f6",
+    "created_at": "2025-02-21T14:12:05.272986",
+    "image_url": "./assets/icons/project-soldier-serial-number-generator.png"
+  },
+  "project-spell-out-a-future": {
+    "bg_color": "d5ccde",
+    "created_at": "2025-02-21T14:12:05.660537",
+    "image_url": "./assets/icons/project-spell-out-a-future.png"
+  },
+  "project-spring-course-information": {
+    "bg_color": "d4d5e8",
+    "created_at": "2025-02-21T14:12:01.389339",
+    "image_url": "./assets/icons/project-spring-course-information.png"
+  },
+  "project-spring-ioc-employee-management-system": {
+    "bg_color": "bddabe",
+    "created_at": "2025-02-21T14:12:15.300984",
+    "image_url": "./assets/icons/project-spring-ioc-employee-management-system.png"
+  },
+  "project-square-root-and-cube-root": {
+    "bg_color": "d6d8cf",
+    "created_at": "2025-02-21T14:12:12.165519",
+    "image_url": "./assets/icons/project-square-root-and-cube-root.png"
+  },
+  "project-square-root-formatting": {
+    "bg_color": "eff9c9",
+    "created_at": "2025-02-21T14:12:01.670758",
+    "image_url": "./assets/icons/project-square-root-formatting.png"
+  },
+  "project-statement-for-querying-teacher-table": {
+    "bg_color": "eed5bc",
+    "created_at": "2025-02-21T14:12:12.544543",
+    "image_url": "./assets/icons/project-statement-for-querying-teacher-table.png"
+  },
+  "project-statistical-analysis-of-json-data": {
+    "bg_color": "c8dae3",
+    "created_at": "2025-02-21T14:12:06.821559",
+    "image_url": "./assets/icons/project-statistical-analysis-of-json-data.png"
+  },
+  "project-stopwatch-using-python-and-tkinter": {
+    "bg_color": "eebfea",
+    "created_at": "2025-02-21T14:11:58.592028",
+    "image_url": "./assets/icons/project-stopwatch-using-python-and-tkinter.png"
+  },
+  "project-string-manipulation": {
+    "bg_color": "bcd1c4",
+    "created_at": "2025-02-21T14:12:15.010351",
+    "image_url": "./assets/icons/project-string-manipulation.png"
+  },
+  "project-string-tokenization": {
+    "bg_color": "b8c3db",
+    "created_at": "2025-02-21T14:12:14.942449",
+    "image_url": "./assets/icons/project-string-tokenization.png"
+  },
+  "project-student-achievement-statistics": {
+    "bg_color": "c5f8cd",
+    "created_at": "2025-02-21T14:11:58.299061",
+    "image_url": "./assets/icons/project-student-achievement-statistics.png"
+  },
+  "project-student-class-test": {
+    "bg_color": "d6f2d8",
+    "created_at": "2025-02-21T14:12:01.896759",
+    "image_url": "./assets/icons/project-student-class-test.png"
+  },
+  "project-student-grade-management-system": {
+    "bg_color": "ece7e1",
+    "created_at": "2025-02-21T14:12:11.649146",
+    "image_url": "./assets/icons/project-student-grade-management-system.png"
+  },
+  "project-student-management-module-unit-testing": {
+    "bg_color": "c1cedd",
+    "created_at": "2025-02-21T14:12:10.103490",
+    "image_url": "./assets/icons/project-student-management-module-unit-testing.png"
+  },
+  "project-student-table-view": {
+    "bg_color": "f0ebd4",
+    "created_at": "2025-02-21T14:11:58.057007",
+    "image_url": "./assets/icons/project-student-table-view.png"
+  },
+  "project-subquery-comprehensive-challenge": {
+    "bg_color": "c5dcfe",
+    "created_at": "2025-02-21T14:12:05.859459",
+    "image_url": "./assets/icons/project-subquery-comprehensive-challenge.png"
+  },
+  "project-sum-of-a-special-number-series": {
+    "bg_color": "c2cbd3",
+    "created_at": "2025-02-21T14:12:05.186341",
+    "image_url": "./assets/icons/project-sum-of-a-special-number-series.png"
+  },
+  "project-sum-of-prime-numbers-under-100": {
+    "bg_color": "d1d7d0",
+    "created_at": "2025-02-21T14:11:59.825606",
+    "image_url": "./assets/icons/project-sum-of-prime-numbers-under-100.png"
+  },
+  "project-swap-values-of-3-variables": {
+    "bg_color": "decece",
+    "created_at": "2025-02-21T14:12:14.456328",
+    "image_url": "./assets/icons/project-swap-values-of-3-variables.png"
+  },
+  "project-switch-between-light-and-dark": {
+    "bg_color": "d5bcea",
+    "created_at": "2025-02-21T14:12:01.634473",
+    "image_url": "./assets/icons/project-switch-between-light-and-dark.png"
+  },
+  "project-switch-business-status": {
+    "bg_color": "cef4c5",
+    "created_at": "2025-02-21T14:12:07.225013",
+    "image_url": "./assets/icons/project-switch-business-status.png"
+  },
+  "project-table-data-conversion": {
+    "bg_color": "dcd8d5",
+    "created_at": "2025-02-21T14:12:09.841203",
+    "image_url": "./assets/icons/project-table-data-conversion.png"
+  },
+  "project-the-boundless-sea-of-learning": {
+    "bg_color": "c9efd9",
+    "created_at": "2025-02-21T14:12:09.477688",
+    "image_url": "./assets/icons/project-the-boundless-sea-of-learning.png"
+  },
+  "project-tic-tac-toe-using-pygame": {
+    "bg_color": "bddebc",
+    "created_at": "2025-02-21T14:12:04.640136",
+    "image_url": "./assets/icons/project-tic-tac-toe-using-pygame.png"
+  },
+  "project-time-conversion-tool": {
+    "bg_color": "ebcdf8",
+    "created_at": "2025-02-21T14:12:11.047779",
+    "image_url": "./assets/icons/project-time-conversion-tool.png"
+  },
+  "project-time-management-master": {
+    "bg_color": "dbe7c8",
+    "created_at": "2025-02-21T14:12:06.089351",
+    "image_url": "./assets/icons/project-time-management-master.png"
+  },
+  "project-time-travel-destination": {
+    "bg_color": "eeb7c9",
+    "created_at": "2025-02-21T14:12:01.356308",
+    "image_url": "./assets/icons/project-time-travel-destination.png"
+  },
+  "project-time-with-your-phone": {
+    "bg_color": "ceeacb",
+    "created_at": "2025-02-21T14:12:11.217025",
+    "image_url": "./assets/icons/project-time-with-your-phone.png"
+  },
+  "project-top-5-countries-by-land-area": {
+    "bg_color": "f1bbe9",
+    "created_at": "2025-02-21T14:12:00.420207",
+    "image_url": "./assets/icons/project-top-5-countries-by-land-area.png"
+  },
+  "project-transparent-modification-of-http-requests": {
+    "bg_color": "cadbc2",
+    "created_at": "2025-02-21T14:12:05.741716",
+    "image_url": "./assets/icons/project-transparent-modification-of-http-requests.png"
+  },
+  "project-typing-practice-program-using-c": {
+    "bg_color": "dcedbc",
+    "created_at": "2025-02-21T14:12:04.922088",
+    "image_url": "./assets/icons/project-typing-practice-program-using-c.png"
+  },
+  "project-unbalanced-data-pipeline": {
+    "bg_color": "ddfde6",
+    "created_at": "2025-02-21T14:12:03.147700",
+    "image_url": "./assets/icons/project-unbalanced-data-pipeline.png"
+  },
+  "project-unfold-your-fan": {
+    "bg_color": "82c7eb",
+    "created_at": "2025-02-21T14:12:10.301863",
+    "image_url": "./assets/icons/project-unfold-your-fan.png"
+  },
+  "project-university-information-query-system": {
+    "bg_color": "c5e3ff",
+    "created_at": "2025-02-21T14:12:02.487857",
+    "image_url": "./assets/icons/project-university-information-query-system.png"
+  },
+  "project-update-gpa": {
+    "bg_color": "e9e3dd",
+    "created_at": "2025-02-21T14:12:00.379163",
+    "image_url": "./assets/icons/project-update-gpa.png"
+  },
+  "project-update-student-view": {
+    "bg_color": "e9c3b6",
+    "created_at": "2025-02-21T14:11:58.725476",
+    "image_url": "./assets/icons/project-update-student-view.png"
+  },
+  "project-use-properties-to-modify-database-configuration": {
+    "bg_color": "b7febe",
+    "created_at": "2025-02-21T14:12:08.511739",
+    "image_url": "./assets/icons/project-use-properties-to-modify-database-configuration.png"
+  },
+  "project-user-binary-log": {
+    "bg_color": "bab4d6",
+    "created_at": "2025-02-21T14:12:02.212225",
+    "image_url": "./assets/icons/project-user-binary-log.png"
+  },
+  "project-user-business-cards": {
+    "bg_color": "cbc2f5",
+    "created_at": "2025-02-21T14:12:13.772635",
+    "image_url": "./assets/icons/project-user-business-cards.png"
+  },
+  "project-user-permission-management": {
+    "bg_color": "dbd5bf",
+    "created_at": "2025-02-21T14:12:12.369316",
+    "image_url": "./assets/icons/project-user-permission-management.png"
+  },
+  "project-valuable-vote": {
+    "bg_color": "ded4ee",
+    "created_at": "2025-02-21T14:12:08.334124",
+    "image_url": "./assets/icons/project-valuable-vote.png"
+  },
+  "project-vanished-into-thin-air": {
+    "bg_color": "ccd7fc",
+    "created_at": "2025-02-21T14:11:59.276490",
+    "image_url": "./assets/icons/project-vanished-into-thin-air.png"
+  },
+  "project-view-for-course-information": {
+    "bg_color": "bee5c6",
+    "created_at": "2025-02-21T14:12:13.332467",
+    "image_url": "./assets/icons/project-view-for-course-information.png"
+  },
+  "project-view-user-permissions": {
+    "bg_color": "fdddf8",
+    "created_at": "2025-02-21T14:12:10.555392",
+    "image_url": "./assets/icons/project-view-user-permissions.png"
+  },
+  "project-virtual-scroll-list": {
+    "bg_color": "d3e8d1",
+    "created_at": "2025-02-21T14:12:14.710039",
+    "image_url": "./assets/icons/project-virtual-scroll-list.png"
+  },
+  "project-weather-forecast-query": {
+    "bg_color": "cbf7bd",
+    "created_at": "2025-02-21T14:12:00.994482",
+    "image_url": "./assets/icons/project-weather-forecast-query.png"
+  },
+  "project-weather-trend": {
+    "bg_color": "f3d0ba",
+    "created_at": "2025-02-21T14:12:04.130838",
+    "image_url": "./assets/icons/project-weather-trend.png"
+  },
+  "project-web-ppt": {
+    "bg_color": "dbc5d7",
+    "created_at": "2025-02-21T14:12:05.378414",
+    "image_url": "./assets/icons/project-web-ppt.png"
+  },
+  "project-weekly-report-template-creation": {
+    "bg_color": "fafae5",
+    "created_at": "2025-02-21T14:12:05.776510",
+    "image_url": "./assets/icons/project-weekly-report-template-creation.png"
+  },
+  "project-westward-journey-to-heavenly-west": {
+    "bg_color": "b6e6f6",
+    "created_at": "2025-02-21T14:12:00.828818",
+    "image_url": "./assets/icons/project-westward-journey-to-heavenly-west.png"
+  },
+  "project-what-day-is-it-today": {
+    "bg_color": "fbf3cd",
+    "created_at": "2025-02-21T14:12:09.544568",
+    "image_url": "./assets/icons/project-what-day-is-it-today.png"
+  },
+  "project-wish-sticky-note": {
+    "bg_color": "f9d4d6",
+    "created_at": "2025-02-21T14:12:09.150539",
+    "image_url": "./assets/icons/project-wish-sticky-note.png"
+  },
+  "project-wuxu-reform-duration-calculation": {
+    "bg_color": "e5d7da",
+    "created_at": "2025-02-21T14:12:01.743496",
+    "image_url": "./assets/icons/project-wuxu-reform-duration-calculation.png"
+  },
+  "project-yin-book-encryption": {
+    "bg_color": "e7d7d0",
+    "created_at": "2025-02-21T14:12:15.761140",
+    "image_url": "./assets/icons/project-yin-book-encryption.png"
+  },
+  "python-in-depth-mastery": {
+    "bg_color": "fbe6dd",
+    "created_at": "2025-02-21T14:12:12.094952",
+    "image_url": "./assets/icons/python-in-depth-mastery.png"
+  },
+  "python-practice-challenges": {
+    "bg_color": "c0d3c8",
+    "created_at": "2025-02-21T14:12:01.964902",
+    "image_url": "./assets/icons/python-practice-challenges.png"
+  },
+  "python-practice-labs": {
+    "bg_color": "cedab6",
+    "created_at": "2025-02-21T14:12:08.065805",
+    "image_url": "./assets/icons/python-practice-labs.png"
+  },
+  "python-practice-plus": {
+    "bg_color": "f8bd86",
+    "created_at": "2025-02-21T14:12:07.408591",
+    "image_url": "./assets/icons/python-practice-plus.png"
+  },
+  "python-real-world-challenges": {
+    "bg_color": "bddafd",
+    "created_at": "2025-02-21T14:12:00.339206",
+    "image_url": "./assets/icons/python-real-world-challenges.png"
+  },
+  "python-remote-access-trojan": {
+    "bg_color": "e3e5ff",
+    "created_at": "2025-02-21T14:12:05.531443",
+    "image_url": "./assets/icons/python-remote-access-trojan.png"
+  },
+  "qr-code-generator-using-python": {
+    "bg_color": "fff1d5",
+    "created_at": "2025-02-21T14:12:02.177005",
+    "image_url": "./assets/icons/qr-code-generator-using-python.png"
+  },
+  "quick-start-with-algorithm": {
+    "bg_color": "a9dfdf",
+    "created_at": "2025-02-21T14:11:58.188546",
+    "image_url": "./assets/icons/quick-start-with-algorithm.png"
+  },
+  "quick-start-with-ansible": {
+    "bg_color": "f8f0c2",
+    "created_at": "2025-02-21T14:12:00.524440",
+    "image_url": "./assets/icons/quick-start-with-ansible.png"
+  },
+  "quick-start-with-c": {
+    "bg_color": "acb0e7",
+    "created_at": "2025-02-21T14:12:14.125251",
+    "image_url": "./assets/icons/quick-start-with-c.png"
+  },
+  "quick-start-with-cpp": {
+    "bg_color": "eef8cb",
+    "created_at": "2025-02-21T14:12:16.261115",
+    "image_url": "./assets/icons/quick-start-with-cpp.png"
+  },
+  "quick-start-with-css": {
+    "bg_color": "dcd0c2",
+    "created_at": "2025-02-21T14:12:00.167998",
+    "image_url": "./assets/icons/quick-start-with-css.png"
+  },
+  "quick-start-with-django": {
+    "bg_color": "fcff9b",
+    "created_at": "2025-02-21T14:12:03.944193",
+    "image_url": "./assets/icons/quick-start-with-django.png"
+  },
+  "quick-start-with-docker": {
+    "bg_color": "eaf8a4",
+    "created_at": "2025-02-21T14:12:15.822226",
+    "image_url": "./assets/icons/quick-start-with-docker.png"
+  },
+  "quick-start-with-flask": {
+    "bg_color": "ccd285",
+    "created_at": "2025-02-21T14:12:05.013361",
+    "image_url": "./assets/icons/quick-start-with-flask.png"
+  },
+  "quick-start-with-git": {
+    "bg_color": "c4dcf2",
+    "created_at": "2025-02-21T14:12:15.723575",
+    "image_url": "./assets/icons/quick-start-with-git.png"
+  },
+  "quick-start-with-go": {
+    "bg_color": "debe90",
+    "created_at": "2025-02-21T14:12:06.735183",
+    "image_url": "./assets/icons/quick-start-with-go.png"
+  },
+  "quick-start-with-hadoop": {
+    "bg_color": "ffdaa2",
+    "created_at": "2025-02-21T14:12:10.220823",
+    "image_url": "./assets/icons/quick-start-with-hadoop.png"
+  },
+  "quick-start-with-html": {
+    "bg_color": "f8f6ba",
+    "created_at": "2025-02-21T14:12:01.978318",
+    "image_url": "./assets/icons/quick-start-with-html.png"
+  },
+  "quick-start-with-java": {
+    "bg_color": "edeac4",
+    "created_at": "2025-02-21T14:12:13.255382",
+    "image_url": "./assets/icons/quick-start-with-java.png"
+  },
+  "quick-start-with-javascript": {
+    "bg_color": "e3e9eb",
+    "created_at": "2025-02-21T14:12:08.219724",
+    "image_url": "./assets/icons/quick-start-with-javascript.png"
+  },
+  "quick-start-with-jenkins": {
+    "bg_color": "fdb6dc",
+    "created_at": "2025-02-21T14:12:06.115956",
+    "image_url": "./assets/icons/quick-start-with-jenkins.png"
+  },
+  "quick-start-with-jquery": {
+    "bg_color": "ccf2e9",
+    "created_at": "2025-02-21T14:12:07.279027",
+    "image_url": "./assets/icons/quick-start-with-jquery.png"
+  },
+  "quick-start-with-kubernetes": {
+    "bg_color": "f2c8b7",
+    "created_at": "2025-02-21T14:12:12.418148",
+    "image_url": "./assets/icons/quick-start-with-kubernetes.png"
+  },
+  "quick-start-with-linux": {
+    "bg_color": "ffd48c",
+    "created_at": "2025-02-21T14:12:02.114579",
+    "image_url": "./assets/icons/quick-start-with-linux.png"
+  },
+  "quick-start-with-matplotlib": {
+    "bg_color": "d3b2ff",
+    "created_at": "2025-02-21T14:12:09.683377",
+    "image_url": "./assets/icons/quick-start-with-matplotlib.png"
+  },
+  "quick-start-with-mongodb": {
+    "bg_color": "c3bdba",
+    "created_at": "2025-02-21T14:12:04.605310",
+    "image_url": "./assets/icons/quick-start-with-mongodb.png"
+  },
+  "quick-start-with-mysql": {
+    "bg_color": "e8f083",
+    "created_at": "2025-02-21T14:12:13.037536",
+    "image_url": "./assets/icons/quick-start-with-mysql.png"
+  },
+  "quick-start-with-nmap": {
+    "bg_color": "a3c6c4",
+    "created_at": "2025-02-21T14:12:12.281914",
+    "image_url": "./assets/icons/quick-start-with-nmap.png"
+  },
+  "quick-start-with-numpy": {
+    "bg_color": "8fd3e3",
+    "created_at": "2025-02-21T14:12:14.112842",
+    "image_url": "./assets/icons/quick-start-with-numpy.png"
+  },
+  "quick-start-with-opencv": {
+    "bg_color": "f2f296",
+    "created_at": "2025-02-21T14:12:16.348364",
+    "image_url": "./assets/icons/quick-start-with-opencv.png"
+  },
+  "quick-start-with-pandas": {
+    "bg_color": "d3f1c0",
+    "created_at": "2025-02-21T14:12:15.618589",
+    "image_url": "./assets/icons/quick-start-with-pandas.png"
+  },
+  "quick-start-with-python": {
+    "bg_color": "c8dfc7",
+    "created_at": "2025-02-21T14:12:16.903483",
+    "image_url": "./assets/icons/quick-start-with-python.png"
+  },
+  "quick-start-with-react": {
+    "bg_color": "fbffac",
+    "created_at": "2025-02-21T14:12:16.996421",
+    "image_url": "./assets/icons/quick-start-with-react.png"
+  },
+  "quick-start-with-rust": {
+    "bg_color": "f9e9e9",
+    "created_at": "2025-02-21T14:12:13.123617",
+    "image_url": "./assets/icons/quick-start-with-rust.png"
+  },
+  "quick-start-with-scikit-learn": {
+    "bg_color": "f1c4c4",
+    "created_at": "2025-02-21T14:12:15.941054",
+    "image_url": "./assets/icons/quick-start-with-scikit-learn.png"
+  },
   "quick-start-with-shell": {
-    "bg_color": "cfdecb",
-    "created_at": "2025-02-21T05:55:48.723661",
-    "image_url": "./assets/icons/quick-start-with-shell.png",
-    "remote_url": "https://cdn-icons-png.freepik.com/512/8246/8246261.png"
+    "bg_color": "ecf1ce",
+    "created_at": "2025-02-21T14:12:06.051383",
+    "image_url": "./assets/icons/quick-start-with-shell.png"
+  },
+  "quick-start-with-tensorflow": {
+    "bg_color": "e8fcc8",
+    "created_at": "2025-02-21T14:12:15.866852",
+    "image_url": "./assets/icons/quick-start-with-tensorflow.png"
+  },
+  "quick-start-with-wireshark": {
+    "bg_color": "efd8f4",
+    "created_at": "2025-02-21T14:12:11.730217",
+    "image_url": "./assets/icons/quick-start-with-wireshark.png"
+  },
+  "react-practice-challenges": {
+    "bg_color": "dfd0e7",
+    "created_at": "2025-02-21T14:12:12.888263",
+    "image_url": "./assets/icons/react-practice-challenges.png"
+  },
+  "react-practice-labs": {
+    "bg_color": "e5b5f3",
+    "created_at": "2025-02-21T14:12:07.315823",
+    "image_url": "./assets/icons/react-practice-labs.png"
+  },
+  "react-practice-plus": {
+    "bg_color": "ffdd99",
+    "created_at": "2025-02-21T14:12:07.896747",
+    "image_url": "./assets/icons/react-practice-plus.png"
+  },
+  "rhcsa-certification-exam-practice-exercises": {
+    "bg_color": "ddcbf9",
+    "created_at": "2025-02-21T14:11:58.262418",
+    "image_url": "./assets/icons/rhcsa-certification-exam-practice-exercises.png"
+  },
+  "run-hadoop-jobs-on-e-mapreduce": {
+    "bg_color": "c8d7d4",
+    "created_at": "2025-02-21T14:11:59.714456",
+    "image_url": "./assets/icons/run-hadoop-jobs-on-e-mapreduce.png"
+  },
+  "rust-practice-labs": {
+    "bg_color": "ccd3f4",
+    "created_at": "2025-02-21T14:11:58.804090",
+    "image_url": "./assets/icons/rust-practice-labs.png"
+  },
+  "rust-practice-plus": {
+    "bg_color": "9de3b1",
+    "created_at": "2025-02-21T14:11:57.956820",
+    "image_url": "./assets/icons/rust-practice-plus.png"
+  },
+  "seaborn-data-visualization-basics": {
+    "bg_color": "ffc44d",
+    "created_at": "2025-02-21T14:12:11.182305",
+    "image_url": "./assets/icons/seaborn-data-visualization-basics.png"
+  },
+  "shell-practice-challenges": {
+    "bg_color": "f0c4c9",
+    "created_at": "2025-02-21T14:12:01.077368",
+    "image_url": "./assets/icons/shell-practice-challenges.png"
+  },
+  "shell-practice-labs": {
+    "bg_color": "e9cfca",
+    "created_at": "2025-02-21T14:12:01.145016",
+    "image_url": "./assets/icons/shell-practice-labs.png"
+  },
+  "shell-practice-plus": {
+    "bg_color": "c7dc9f",
+    "created_at": "2025-02-21T14:12:01.407609",
+    "image_url": "./assets/icons/shell-practice-plus.png"
+  },
+  "sklearn-practice-challenges": {
+    "bg_color": "c3bdbb",
+    "created_at": "2025-02-21T14:12:08.298420",
+    "image_url": "./assets/icons/sklearn-practice-challenges.png"
+  },
+  "sklearn-practice-labs": {
+    "bg_color": "c1f1d7",
+    "created_at": "2025-02-21T14:12:14.026887",
+    "image_url": "./assets/icons/sklearn-practice-labs.png"
+  },
+  "sklearn-practice-plus": {
+    "bg_color": "d3f09c",
+    "created_at": "2025-02-21T14:12:14.488901",
+    "image_url": "./assets/icons/sklearn-practice-plus.png"
+  },
+  "snake-game-using-python-and-pygame": {
+    "bg_color": "bed5dd",
+    "created_at": "2025-02-21T14:12:02.928678",
+    "image_url": "./assets/icons/snake-game-using-python-and-pygame.png"
+  },
+  "stopwatch-using-python-and-tkinter": {
+    "bg_color": "ffc48e",
+    "created_at": "2025-02-21T14:11:58.426829",
+    "image_url": "./assets/icons/stopwatch-using-python-and-tkinter.png"
+  },
+  "stress-test-mysql-8.0-with-the-tpc-c-benchmark": {
+    "bg_color": "beddda",
+    "created_at": "2025-02-21T14:12:04.356127",
+    "image_url": "./assets/icons/stress-test-mysql-8.0-with-the-tpc-c-benchmark.png"
+  },
+  "supervised-learning-classification": {
+    "bg_color": "d6e7d6",
+    "created_at": "2025-02-21T14:12:01.161206",
+    "image_url": "./assets/icons/supervised-learning-classification.png"
+  },
+  "supervised-learning-regression": {
+    "bg_color": "f4fbf2",
+    "created_at": "2025-02-21T14:12:16.513951",
+    "image_url": "./assets/icons/supervised-learning-regression.png"
+  },
+  "the-advanced-python-mastery": {
+    "bg_color": "c2e1da",
+    "created_at": "2025-02-21T14:12:12.008350",
+    "image_url": "./assets/icons/the-advanced-python-mastery.png"
+  },
+  "thousands-python-challenges": {
+    "bg_color": "dfc6d9",
+    "created_at": "2025-02-21T14:12:13.509440",
+    "image_url": "./assets/icons/thousands-python-challenges.png"
+  },
+  "thousands-python-interactive-challenges": {
+    "bg_color": "b8eed3",
+    "created_at": "2025-02-21T14:12:11.578822",
+    "image_url": "./assets/icons/thousands-python-interactive-challenges.png"
+  },
+  "tic-tac-toe-using-pygame": {
+    "bg_color": "a9e7f2",
+    "created_at": "2025-02-21T14:12:03.618729",
+    "image_url": "./assets/icons/tic-tac-toe-using-pygame.png"
+  },
+  "unsupervised-learning-clustering": {
+    "bg_color": "c0d3c9",
+    "created_at": "2025-02-21T14:12:02.247964",
+    "image_url": "./assets/icons/unsupervised-learning-clustering.png"
+  },
+  "upgrade-apsaradb-rds-for-mysql-to-apsara-polardb-for-mysql": {
+    "bg_color": "ebd4db",
+    "created_at": "2025-02-21T14:12:07.610760",
+    "image_url": "./assets/icons/upgrade-apsaradb-rds-for-mysql-to-apsara-polardb-for-mysql.png"
+  },
+  "usage-of-pod-controllers-frequently-used-in-kubernetes": {
+    "bg_color": "dacefd",
+    "created_at": "2025-02-21T14:12:14.766769",
+    "image_url": "./assets/icons/usage-of-pod-controllers-frequently-used-in-kubernetes.png"
+  },
+  "use-alibaba-cloud-asm-for-phased-release-in-container-service": {
+    "bg_color": "eeb6fa",
+    "created_at": "2025-02-21T14:12:07.260700",
+    "image_url": "./assets/icons/use-alibaba-cloud-asm-for-phased-release-in-container-service.png"
+  },
+  "use-alibaba-cloud-pai-to-build-a-heart-disease-prediction-model": {
+    "bg_color": "d8cfb9",
+    "created_at": "2025-02-21T14:12:06.197322",
+    "image_url": "./assets/icons/use-alibaba-cloud-pai-to-build-a-heart-disease-prediction-model.png"
+  },
+  "use-alibaba-cloud-prometheus-to-monitor-mysql-databases": {
+    "bg_color": "d2b5fc",
+    "created_at": "2025-02-21T14:12:03.280733",
+    "image_url": "./assets/icons/use-alibaba-cloud-prometheus-to-monitor-mysql-databases.png"
+  },
+  "use-canal-to-synchronize-mysql-data-to-redis": {
+    "bg_color": "c8c9c9",
+    "created_at": "2025-02-21T14:12:11.421129",
+    "image_url": "./assets/icons/use-canal-to-synchronize-mysql-data-to-redis.png"
+  },
+  "use-dts-to-migrate-a-self-built-mysql-database-to-a-polardb": {
+    "bg_color": "c0d5be",
+    "created_at": "2025-02-21T14:12:13.991633",
+    "image_url": "./assets/icons/use-dts-to-migrate-a-self-built-mysql-database-to-a-polardb.png"
+  },
+  "use-ecs-to-deploy-a-web-based-ide": {
+    "bg_color": "e6f0e5",
+    "created_at": "2025-02-21T14:12:06.721221",
+    "image_url": "./assets/icons/use-ecs-to-deploy-a-web-based-ide.png"
+  },
+  "use-helm-to-deploy-applications-in-kubernetes": {
+    "bg_color": "fae7fe",
+    "created_at": "2025-02-21T14:12:08.821049",
+    "image_url": "./assets/icons/use-helm-to-deploy-applications-in-kubernetes.png"
+  },
+  "use-istio-to-manage-application-services-across-kubernetes-and-ecs-instances": {
+    "bg_color": "c5dfbe",
+    "created_at": "2025-02-21T14:12:09.734806",
+    "image_url": "./assets/icons/use-istio-to-manage-application-services-across-kubernetes-and-ecs-instances.png"
+  },
+  "use-jenkins-for-continuous-integration": {
+    "bg_color": "ead7b4",
+    "created_at": "2025-02-21T14:11:59.413071",
+    "image_url": "./assets/icons/use-jenkins-for-continuous-integration.png"
+  },
+  "use-jenkins-pipelines-to-build-a-project": {
+    "bg_color": "f7d9f2",
+    "created_at": "2025-02-21T14:12:00.510292",
+    "image_url": "./assets/icons/use-jenkins-pipelines-to-build-a-project.png"
+  },
+  "use-log-service-to-collect-kubernetes-container-logs": {
+    "bg_color": "e4cdff",
+    "created_at": "2025-02-21T14:12:15.979457",
+    "image_url": "./assets/icons/use-log-service-to-collect-kubernetes-container-logs.png"
+  },
+  "use-npd-to-detect-node-problems-in-kubernetes-clusters": {
+    "bg_color": "e6bce3",
+    "created_at": "2025-02-21T14:12:01.250691",
+    "image_url": "./assets/icons/use-npd-to-detect-node-problems-in-kubernetes-clusters.png"
+  },
+  "use-serverless-to-create-a-todolist-application": {
+    "bg_color": "d4b4c2",
+    "created_at": "2025-02-21T14:12:03.550625",
+    "image_url": "./assets/icons/use-serverless-to-create-a-todolist-application.png"
+  },
+  "use-serverless-to-deploy-hexo": {
+    "bg_color": "c7bbba",
+    "created_at": "2025-02-21T14:12:15.654711",
+    "image_url": "./assets/icons/use-serverless-to-deploy-hexo.png"
+  },
+  "use-the-backup-center-feature-of-ack-to-back-up-a-kubernetes-cluster": {
+    "bg_color": "bbcff3",
+    "created_at": "2025-02-21T14:12:12.931261",
+    "image_url": "./assets/icons/use-the-backup-center-feature-of-ack-to-back-up-a-kubernetes-cluster.png"
+  },
+  "video-object-tracking-with-cpp": {
+    "bg_color": "97d4d1",
+    "created_at": "2025-02-21T14:12:09.023931",
+    "image_url": "./assets/icons/video-object-tracking-with-cpp.png"
+  },
+  "web-development-interactive-challenges": {
+    "bg_color": "f2ddd3",
+    "created_at": "2025-02-21T14:11:58.685823",
+    "image_url": "./assets/icons/web-development-interactive-challenges.png"
+  },
+  "web-vulnerability-mastery": {
+    "bg_color": "f3f2b4",
+    "created_at": "2025-02-21T14:12:14.719212",
+    "image_url": "./assets/icons/web-vulnerability-mastery.png"
+  },
+  "work-with-service-objects-and-pod-probes-in-kubernetes": {
+    "bg_color": "f2bbc0",
+    "created_at": "2025-02-21T14:12:06.884847",
+    "image_url": "./assets/icons/work-with-service-objects-and-pod-probes-in-kubernetes.png"
   }
 }
