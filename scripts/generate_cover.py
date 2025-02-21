@@ -4,8 +4,10 @@ import random
 import requests
 import logging
 import time
+import json
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+from datetime import datetime
 
 # Configure logging
 logging.basicConfig(
@@ -116,6 +118,69 @@ def generate_random_color() -> str:
     return f"{rand():02x}{rand():02x}{rand():02x}"
 
 
+def download_image(url: str, course_alias: str) -> str:
+    """Download image from URL and save to assets directory"""
+    assets_dir = Path(__file__).parent.parent / "assets" / "icons"
+    assets_dir.mkdir(parents=True, exist_ok=True)
+
+    # Generate filename from course alias and original extension
+    ext = url.split(".")[-1].lower()
+    if ext not in ["png", "jpg", "jpeg"]:
+        ext = "png"
+    filename = f"{course_alias}.{ext}"
+    image_path = assets_dir / filename
+
+    # Download if not exists
+    if not image_path.exists():
+        try:
+            logger.info(f"Downloading image from {url}")
+            response = requests.get(url, stream=True)
+            response.raise_for_status()
+
+            with image_path.open("wb") as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+
+            logger.info(f"Image saved to {image_path}")
+        except Exception as e:
+            logger.error(f"Error downloading image: {e}")
+            return url  # Fallback to original URL if download fails
+
+    # Return relative path for use in HTML
+    return f"./assets/icons/{filename}"
+
+
+def load_course_config(course_alias: str) -> dict:
+    """Load course configuration from JSON file"""
+    config_path = Path(__file__).parent.parent / "config" / "course-covers.json"
+    if not config_path.exists():
+        config_path.parent.mkdir(parents=True, exist_ok=True)
+        config_path.write_text("{}")
+        return None
+
+    try:
+        config = json.loads(config_path.read_text())
+        return config.get(course_alias)
+    except Exception as e:
+        logger.error(f"Error loading course config: {e}")
+        return None
+
+
+def save_course_config(course_alias: str, config: dict):
+    """Save course configuration to JSON file"""
+    config_path = Path(__file__).parent.parent / "config" / "course-covers.json"
+    try:
+        if config_path.exists():
+            existing_config = json.loads(config_path.read_text())
+        else:
+            existing_config = {}
+
+        existing_config[course_alias] = config
+        config_path.write_text(json.dumps(existing_config, indent=2, sort_keys=True))
+    except Exception as e:
+        logger.error(f"Error saving course config: {e}")
+
+
 def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
     """Generate course cover image
 
@@ -147,12 +212,36 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         )
         return
 
+    # Load or generate course configuration
+    course_config = load_course_config(course_alias)
+    if course_config is None:
+        # Get new image from Freepik
+        freepik_url = get_freepik_image(course_alias.replace("-", " "))
+        # Download image and get local path
+        local_image_path = download_image(freepik_url, course_alias)
+
+        # Generate new configuration
+        course_config = {
+            "image_url": local_image_path,
+            "bg_color": generate_random_color(),
+            "created_at": datetime.now().isoformat(),
+        }
+        # 只有从 Freepik 获取的图片才添加 remote_url
+        if not freepik_url.startswith("./"):
+            course_config["remote_url"] = freepik_url
+
+        # Save configuration for future use
+        save_course_config(course_alias, course_config)
+        logger.info(f"Generated new course config for {course_alias}")
+    else:
+        logger.info(f"Using existing course config for {course_alias}")
+
     # Prepare parameters
     params = {
         "course_type": get_course_type(course_info.get("type", 0)),
         "course_name": course_info["name"],
-        "image_url": get_freepik_image(course_alias.replace("-", " ")),
-        "bg_color": generate_random_color(),
+        "image_url": course_config["image_url"],
+        "bg_color": course_config["bg_color"],
         "lang": lang,
     }
     logger.debug(f"Generated parameters: {params}")

@@ -103,8 +103,9 @@ async function checkCourseExists(courseAlias: string, lang: string): Promise<{ e
 	try {
 		const response = await fetch(`https://labex.io/api/v2/courses/${courseAlias}?lang=${lang}`, {
 			headers: {
-				'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-			}
+				'User-Agent':
+					'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+			},
 		});
 
 		if (response.status === 404) {
@@ -130,13 +131,7 @@ export default {
 			console.log(`Processing request for URL: ${url.toString()}`);
 
 			// Skip browser special requests
-			const skipPaths = [
-				'/favicon.png',
-				'/favicon.ico',
-				'/apple-touch-icon.png',
-				'/apple-touch-icon-precomposed.png',
-				'/robots.txt'
-			];
+			const skipPaths = ['/favicon.png', '/favicon.ico', '/apple-touch-icon.png', '/apple-touch-icon-precomposed.png', '/robots.txt'];
 
 			if (skipPaths.includes(url.pathname)) {
 				return new Response('Not Found', { status: 404 });
@@ -148,13 +143,29 @@ export default {
 				return new Response('Invalid URL format', { status: 400 });
 			}
 
-			// Validate query parameters
+			// Define supported languages
+			const supportedLangs = new Set(['en', 'zh', 'es', 'fr', 'de', 'ja', 'ru']);
+
+			// Validate query parameters strictly
 			const allowedParams = new Set(['lang', 'overwrite']);
-			for (const param of url.searchParams.keys()) {
+			const receivedParams = new Set(url.searchParams.keys());
+
+			// Check for any unsupported parameters
+			for (const param of receivedParams) {
 				if (!allowedParams.has(param)) {
-					return new Response(`Invalid query parameter: ${param}`, { status: 400 });
+					return new Response(`Unsupported parameter: ${param}`, { status: 400 });
 				}
 			}
+
+			// Validate language parameter
+			const lang = url.searchParams.get('lang') || 'en';
+			if (!supportedLangs.has(lang)) {
+				return new Response(`Unsupported language: ${lang}. Supported languages are: ${Array.from(supportedLangs).join(', ')}`, {
+					status: 400,
+				});
+			}
+
+			const overwrite = url.searchParams.get('overwrite') === 'true';
 
 			// Extract course alias from path
 			const match = url.pathname.match(/\/([a-z0-9-]+)\.png$/);
@@ -165,8 +176,6 @@ export default {
 			}
 
 			const courseAlias = match[1];
-			const lang = url.searchParams.get('lang') || 'en';
-			const overwrite = url.searchParams.get('overwrite') === 'true';
 			console.log(`Request parameters - Course: ${courseAlias}, Lang: ${lang}, Overwrite: ${overwrite}`);
 
 			// Construct cover URL

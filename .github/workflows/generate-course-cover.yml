@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add public
+          git add .
           if [ -n "$(git status --porcelain)" ]; then
             echo "Changes detected, committing..."
             git commit -m "chore: update course cover for ${{ github.event.inputs.course_alias }}"
