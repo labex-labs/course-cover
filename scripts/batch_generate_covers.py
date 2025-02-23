@@ -9,17 +9,8 @@ from rich.progress import (
     BarColumn,
     TaskProgressColumn,
 )
-from rich.logging import RichHandler
-import logging
 from generate_cover import generate_cover
 
-# Configure logging with rich
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(message)s",
-    handlers=[RichHandler(rich_tracebacks=True)],
-)
-logger = logging.getLogger(__name__)
 console = Console()
 
 
@@ -27,13 +18,13 @@ def load_course_config() -> dict:
     """Load the course covers configuration file"""
     config_path = Path(__file__).parent.parent / "config" / "course-covers.json"
     if not config_path.exists():
-        logger.error("Course configuration file not found")
+        console.print("[red]❌ Course configuration file not found[/red]")
         return {}
 
     try:
         return json.loads(config_path.read_text())
     except Exception as e:
-        logger.error(f"Error loading course config: {e}")
+        console.print(f"[red]❌ Error loading course config: {e}[/red]")
         return {}
 
 
@@ -56,15 +47,15 @@ def main(lang: str, overwrite: bool):
     """
     if lang == "en":
         console.print(
-            "[yellow]Skipping 'en' language as it's the source language[/yellow]"
+            "\n[yellow]⚠ Skipping 'en' language as it's the source language[/yellow]"
         )
         return
 
     # Load configuration
-    with console.status("[bold blue]Loading configuration...") as status:
+    with console.status("[bold blue]Loading configuration...[/bold blue]") as status:
         config = load_course_config()
         if not config:
-            console.print("[red]No course configuration found[/red]")
+            console.print("\n[red]❌ No course configuration found[/red]")
             return
 
     # Get existing covers
@@ -79,35 +70,46 @@ def main(lang: str, overwrite: bool):
 
     with Progress(
         SpinnerColumn(),
-        TextColumn("[progress.description]{task.description}"),
-        BarColumn(),
+        TextColumn("[bold blue]{task.description}[/bold blue]"),
+        BarColumn(complete_style="green"),
         TaskProgressColumn(),
-        console=console,
+        console=Console(stderr=True),  # 将进度条输出重定向到 stderr
+        expand=True,
     ) as progress:
-        task = progress.add_task(f"Generating covers for {lang}", total=total_courses)
+        task = progress.add_task(
+            f"[bold]Generating covers for {lang}[/bold]", total=total_courses
+        )
 
         for course_alias, course_config in config.items():
             try:
-                progress.update(task, description=f"Processing {course_alias}")
+                progress.update(
+                    task, description=f"[bold]Processing {course_alias}[/bold]"
+                )
 
                 # Skip if cover already exists and not in overwrite mode
                 if course_alias in existing_covers and not overwrite:
-                    logger.info(f"Cover already exists for {course_alias}, skipping...")
+                    console.print(
+                        f"[dim]Cover already exists for [bold]{course_alias}[/bold], skipping...[/dim]"
+                    )
                     progress.advance(task)
                     continue
 
                 # Generate cover with overwrite parameter
                 generate_cover(course_alias, lang, overwrite=overwrite)
-                logger.info(f"Successfully generated cover for {course_alias}")
+                console.print(
+                    f"[green]✓[/green] Successfully generated cover for [bold]{course_alias}[/bold]"
+                )
                 progress.advance(task)
 
             except Exception as e:
-                logger.error(f"Error generating cover for {course_alias}: {e}")
+                console.print(
+                    f"[red]❌ Error generating cover for [bold]{course_alias}[/bold]: {str(e)}[/red]"
+                )
                 progress.advance(task)
                 continue
 
     console.print(
-        f"\n[green]✓[/green] Completed generating covers for [bold]{lang}[/bold]"
+        f"\n[bold green]✓ Successfully completed generating covers for {lang}![/bold green]"
     )
 
 

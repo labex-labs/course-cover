@@ -19,7 +19,14 @@ console = Console()
 logging.basicConfig(
     level=logging.INFO,
     format="%(message)s",
-    handlers=[RichHandler(console=console, rich_tracebacks=True)],
+    handlers=[
+        RichHandler(
+            console=Console(stderr=True),  # 将日志输出重定向到 stderr
+            show_time=False,  # 不显示时间
+            show_path=False,  # 不显示文件路径
+            rich_tracebacks=True,
+        )
+    ],
 )
 logger = logging.getLogger("rich")
 
