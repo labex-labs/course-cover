@@ -54,18 +54,23 @@ def get_existing_covers(lang: str) -> set:
 @click.command()
 @click.argument("lang")
 @click.option("--overwrite", is_flag=True, help="Overwrite existing covers")
-def main(lang: str, overwrite: bool):
+@click.option(
+    "--clean-invalid", is_flag=True, help="Remove invalid course configurations"
+)
+def main(lang: str, overwrite: bool, clean_invalid: bool):
     """Generate course covers for the specified language.
 
     LANG is the target language code (e.g. zh, es, fr)
     """
-
     # Load configuration
     logger.info("Loading configuration...")
     config = load_course_config()
     if not config:
         logger.error("No course configuration found")
         return
+
+    # Track invalid courses for removal
+    invalid_courses = set()
 
     # Get existing covers
     existing_covers = get_existing_covers(lang)
@@ -103,14 +108,48 @@ def main(lang: str, overwrite: bool):
                     continue
 
                 # Generate cover with overwrite parameter
-                generate_cover(course_alias, lang, overwrite=overwrite)
-                logger.info(f"Successfully generated cover for {course_alias}")
+                result = generate_cover(course_alias, lang, overwrite=overwrite)
+
+                # Track invalid courses if clean-invalid is enabled
+                if clean_invalid and result is False:
+                    invalid_courses.add(course_alias)
+                    logger.warning(
+                        f"Marked {course_alias} for removal - course not found"
+                    )
+                else:
+                    logger.info(f"Successfully generated cover for {course_alias}")
+
                 progress.advance(task)
 
             except Exception as e:
                 logger.error(f"Error generating cover for {course_alias}: {str(e)}")
                 progress.advance(task)
                 continue
+
+    # Clean up invalid courses if requested
+    if clean_invalid and invalid_courses:
+        logger.info(
+            f"Cleaning up {len(invalid_courses)} invalid course configurations..."
+        )
+        config_path = Path(__file__).parent.parent / "config" / "course-covers.json"
+        try:
+            # Load current config
+            with open(config_path) as f:
+                current_config = json.load(f)
+
+            # Remove invalid courses
+            for course in invalid_courses:
+                if course in current_config:
+                    del current_config[course]
+                    logger.info(f"Removed invalid course: {course}")
+
+            # Save updated config
+            with open(config_path, "w") as f:
+                json.dump(current_config, indent=2, sort_keys=True, fp=f)
+
+            logger.info("Successfully cleaned up invalid course configurations")
+        except Exception as e:
+            logger.error(f"Error cleaning up invalid courses: {str(e)}")
 
     logger.info(f"Successfully completed generating covers for {lang}!")
 

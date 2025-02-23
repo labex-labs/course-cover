@@ -39,50 +39,10 @@
     "created_at": "2025-02-23T13:31:29.966646",
     "image_url": "./assets/icons/build-a-kubernetes-cluster-on-alibaba-cloud-ecs.png"
   },
-  "build-a-linux-system-monitor-using-bash": {
-    "bg_color": "c2c2c2",
-    "created_at": "2025-02-23T13:31:32.146387",
-    "image_url": "./assets/icons/build-a-linux-system-monitor-using-bash.png"
-  },
   "build-a-project-with-jenkins": {
     "bg_color": "f0cc23",
     "created_at": "2025-02-23T13:31:36.440603",
     "image_url": "./assets/icons/build-a-project-with-jenkins.png"
-  },
-  "build-a-simple-translator-using-google-translate-api": {
-    "bg_color": "f2f196",
-    "created_at": "2025-02-23T13:31:37.527935",
-    "image_url": "./assets/icons/build-a-simple-translator-using-google-translate-api.png"
-  },
-  "build-a-task-scheduler-using-bash": {
-    "bg_color": "c2e37b",
-    "created_at": "2025-02-23T13:31:40.422197",
-    "image_url": "./assets/icons/build-a-task-scheduler-using-bash.png"
-  },
-  "build-a-tic-tac-toe-web-app": {
-    "bg_color": "eafcf7",
-    "created_at": "2025-02-23T13:31:40.076628",
-    "image_url": "./assets/icons/build-a-tic-tac-toe-web-app.png"
-  },
-  "build-an-vscode-extension-with-chatgpt": {
-    "bg_color": "acccca",
-    "created_at": "2025-02-23T13:31:30.002602",
-    "image_url": "./assets/icons/build-an-vscode-extension-with-chatgpt.png"
-  },
-  "building-markdown-parser-with-cpp": {
-    "bg_color": "fadf52",
-    "created_at": "2025-02-23T13:31:40.338588",
-    "image_url": "./assets/icons/building-markdown-parser-with-cpp.png"
-  },
-  "building-solar-system-with-cpp": {
-    "bg_color": "7ed8bb",
-    "created_at": "2025-02-23T13:31:39.354243",
-    "image_url": "./assets/icons/building-solar-system-with-cpp.png"
-  },
-  "building-web-service-framework-with-cpp": {
-    "bg_color": "cfc2eb",
-    "created_at": "2025-02-23T13:31:29.232273",
-    "image_url": "./assets/icons/building-web-service-framework-with-cpp.png"
   },
   "c-practice-challenges": {
     "bg_color": "bef0c2",
@@ -103,11 +63,6 @@
     "bg_color": "b6d3dd",
     "created_at": "2025-02-23T13:31:33.156559",
     "image_url": "./assets/icons/c-programming-for-beginners.png"
-  },
-  "classic-pong-game-using-python-and-pygame": {
-    "bg_color": "c4f3d9",
-    "created_at": "2025-02-23T13:31:40.328939",
-    "image_url": "./assets/icons/classic-pong-game-using-python-and-pygame.png"
   },
   "computing-resource-management-of-kubernetes-clusters": {
     "bg_color": "d4ddc1",
@@ -148,16 +103,6 @@
     "bg_color": "f2d7c3",
     "created_at": "2025-02-23T13:31:33.346975",
     "image_url": "./assets/icons/cpp-programming-for-beginners.png"
-  },
-  "create-a-gui-calculator-with-python": {
-    "bg_color": "b4dcfa",
-    "created_at": "2025-02-23T13:31:30.995023",
-    "image_url": "./assets/icons/create-a-gui-calculator-with-python.png"
-  },
-  "create-a-sudoku-game-using-python-and-pygame": {
-    "bg_color": "edd0b6",
-    "created_at": "2025-02-23T13:31:40.457138",
-    "image_url": "./assets/icons/create-a-sudoku-game-using-python-and-pygame.png"
   },
   "css-practice-challenges": {
     "bg_color": "fbd8b5",
@@ -324,11 +269,6 @@
     "created_at": "2025-02-23T13:31:36.909855",
     "image_url": "./assets/icons/getting-started-with-jquery.png"
   },
-  "getting-started-with-kubernetes": {
-    "bg_color": "f2c8b7",
-    "created_at": "2025-02-23T13:31:30.897098",
-    "image_url": "./assets/icons/getting-started-with-kubernetes.png"
-  },
   "getting-started-with-linux": {
     "bg_color": "ffd48c",
     "created_at": "2025-02-23T13:31:37.760415",
@@ -459,30 +399,10 @@
     "created_at": "2025-02-23T13:31:38.035338",
     "image_url": "./assets/icons/html-practice-plus.png"
   },
-  "image-viewer-using-python-and-tkinter": {
-    "bg_color": "dfdbd0",
-    "created_at": "2025-02-23T13:31:38.772266",
-    "image_url": "./assets/icons/image-viewer-using-python-and-tkinter.png"
-  },
   "implement-automated-deployment-by-using-jenkins-and-oos": {
     "bg_color": "dfc6fb",
     "created_at": "2025-02-23T13:31:38.596328",
     "image_url": "./assets/icons/implement-automated-deployment-by-using-jenkins-and-oos.png"
-  },
-  "implement-instant-messaging-application-with-cpp": {
-    "bg_color": "60c0fc",
-    "created_at": "2025-02-23T13:31:29.072190",
-    "image_url": "./assets/icons/implement-instant-messaging-application-with-cpp.png"
-  },
-  "implement-the-tetris-with-cpp": {
-    "bg_color": "b6eae8",
-    "created_at": "2025-02-23T13:31:41.157825",
-    "image_url": "./assets/icons/implement-the-tetris-with-cpp.png"
-  },
-  "implementing-memory-leak-detector-with-cpp": {
-    "bg_color": "ffd351",
-    "created_at": "2025-02-23T13:31:30.811363",
-    "image_url": "./assets/icons/implementing-memory-leak-detector-with-cpp.png"
   },
   "install-hadoop-on-a-single-ecs": {
     "bg_color": "fdede2",
@@ -528,11 +448,6 @@
     "bg_color": "e4e2c1",
     "created_at": "2025-02-23T13:31:34.048448",
     "image_url": "./assets/icons/javascript-practice-plus.png"
-  },
-  "jenkins-practice-plus": {
-    "bg_color": "ffcc23",
-    "created_at": "2025-02-23T13:31:36.895128",
-    "image_url": "./assets/icons/jenkins-practice-plus.png"
   },
   "jquery-practice-challenges": {
     "bg_color": "def0d2",
@@ -629,11 +544,6 @@
     "created_at": "2025-02-23T13:31:30.126041",
     "image_url": "./assets/icons/linux-software-playgrounds.png"
   },
-  "linux-system-monitor-using-tkinter": {
-    "bg_color": "fbf3d9",
-    "created_at": "2025-02-23T13:31:32.109764",
-    "image_url": "./assets/icons/linux-system-monitor-using-tkinter.png"
-  },
   "manage-application-configurations-on-a-kubernetes-cluster": {
     "bg_color": "e4d2c8",
     "created_at": "2025-02-23T13:31:39.325061",
@@ -703,11 +613,6 @@
     "bg_color": "b9c8d4",
     "created_at": "2025-02-23T13:31:39.926072",
     "image_url": "./assets/icons/open-service-apis-for-alibaba-cloud-api-gateway.png"
-  },
-  "opencv-practice-plus": {
-    "bg_color": "ffc6c8",
-    "created_at": "2025-02-23T13:31:32.943758",
-    "image_url": "./assets/icons/opencv-practice-plus.png"
   },
   "pandas-practice-challenges": {
     "bg_color": "c8e2de",
@@ -1193,11 +1098,6 @@
     "bg_color": "f1ceb4",
     "created_at": "2025-02-23T13:31:38.682060",
     "image_url": "./assets/icons/project-countries-and-codes-in-region.png"
-  },
-  "project-countries-with-1-billion+-population": {
-    "bg_color": "bac3c3",
-    "created_at": "2025-02-23T13:31:37.119802",
-    "image_url": "./assets/icons/project-countries-with-1-billion+-population.png"
   },
   "project-countries-with-1-billion-population": {
     "bg_color": "bac3c3",
@@ -1969,11 +1869,6 @@
     "created_at": "2025-02-23T13:31:32.830777",
     "image_url": "./assets/icons/project-merge-multiple-files-alternately.png"
   },
-  "project-minkowski-distances-calculating": {
-    "bg_color": "bebaf2",
-    "created_at": "2025-02-23T13:31:31.937282",
-    "image_url": "./assets/icons/project-minkowski-distances-calculating.png"
-  },
   "project-missing-token": {
     "bg_color": "c8e0dd",
     "created_at": "2025-02-23T13:31:40.519145",
@@ -2389,11 +2284,6 @@
     "created_at": "2025-02-23T13:31:41.222421",
     "image_url": "./assets/icons/project-searching-for-specific-files.png"
   },
-  "project-service-management": {
-    "bg_color": "bdc0e5",
-    "created_at": "2025-02-23T13:31:29.556470",
-    "image_url": "./assets/icons/project-service-management.png"
-  },
   "project-setting-up-spring-development-environment": {
     "bg_color": "bddefc",
     "created_at": "2025-02-23T13:31:30.480052",
@@ -2589,11 +2479,6 @@
     "created_at": "2025-02-23T13:31:33.630801",
     "image_url": "./assets/icons/project-typing-practice-program-using-c.png"
   },
-  "project-unbalanced-data-pipeline": {
-    "bg_color": "ddfde6",
-    "created_at": "2025-02-23T13:31:32.413760",
-    "image_url": "./assets/icons/project-unbalanced-data-pipeline.png"
-  },
   "project-unfold-your-fan": {
     "bg_color": "82c7eb",
     "created_at": "2025-02-23T13:31:37.358124",
@@ -2724,20 +2609,10 @@
     "created_at": "2025-02-23T13:31:35.395993",
     "image_url": "./assets/icons/python-practice-plus.png"
   },
-  "python-real-world-challenges": {
-    "bg_color": "bddafd",
-    "created_at": "2025-02-23T13:31:30.397395",
-    "image_url": "./assets/icons/python-real-world-challenges.png"
-  },
   "python-remote-access-trojan": {
     "bg_color": "e3e5ff",
     "created_at": "2025-02-23T13:31:34.078732",
     "image_url": "./assets/icons/python-remote-access-trojan.png"
-  },
-  "qr-code-generator-using-python": {
-    "bg_color": "fff1d5",
-    "created_at": "2025-02-23T13:31:31.742399",
-    "image_url": "./assets/icons/qr-code-generator-using-python.png"
   },
   "quick-start-with-algorithm": {
     "bg_color": "a9dfdf",
@@ -2969,16 +2844,6 @@
     "created_at": "2025-02-23T13:31:40.314484",
     "image_url": "./assets/icons/sklearn-practice-plus.png"
   },
-  "snake-game-using-python-and-pygame": {
-    "bg_color": "bed5dd",
-    "created_at": "2025-02-23T13:31:32.293542",
-    "image_url": "./assets/icons/snake-game-using-python-and-pygame.png"
-  },
-  "stopwatch-using-python-and-tkinter": {
-    "bg_color": "ffc48e",
-    "created_at": "2025-02-23T13:31:29.253917",
-    "image_url": "./assets/icons/stopwatch-using-python-and-tkinter.png"
-  },
   "stress-test-mysql-8.0-with-the-tpc-c-benchmark": {
     "bg_color": "beddda",
     "created_at": "2025-02-23T13:31:33.236089",
@@ -3008,11 +2873,6 @@
     "bg_color": "b8eed3",
     "created_at": "2025-02-23T13:31:38.228426",
     "image_url": "./assets/icons/thousands-python-interactive-challenges.png"
-  },
-  "tic-tac-toe-using-pygame": {
-    "bg_color": "a9e7f2",
-    "created_at": "2025-02-23T13:31:32.736116",
-    "image_url": "./assets/icons/tic-tac-toe-using-pygame.png"
   },
   "unsupervised-learning-clustering": {
     "bg_color": "c0d3c9",
@@ -3103,11 +2963,6 @@
     "bg_color": "bbcff3",
     "created_at": "2025-02-23T13:31:39.202881",
     "image_url": "./assets/icons/use-the-backup-center-feature-of-ack-to-back-up-a-kubernetes-cluster.png"
-  },
-  "video-object-tracking-with-cpp": {
-    "bg_color": "97d4d1",
-    "created_at": "2025-02-23T13:31:36.449707",
-    "image_url": "./assets/icons/video-object-tracking-with-cpp.png"
   },
   "web-development-interactive-challenges": {
     "bg_color": "f2ddd3",

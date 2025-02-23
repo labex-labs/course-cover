@@ -211,6 +211,9 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         course_alias (str): Course alias
         lang (str): Language code
         overwrite (bool, optional): Whether to overwrite existing cover. Defaults to False.
+
+    Returns:
+        bool: True if generation was successful or skipped, False if course does not exist
     """
     logger.info(
         f"Starting cover generation for course: {course_alias}, language: {lang}"
@@ -222,8 +225,7 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         logger.info(
             f"Skipping cover generation as course {course_alias} does not exist or not available in {lang}"
         )
-        # Return successfully - this is an expected condition, not an error
-        return
+        return False  # Return False to indicate course does not exist
 
     # Create output directory and check if file exists
     output_dir = Path(__file__).parent.parent / "public" / lang
@@ -234,7 +236,7 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         logger.info(
             f"Cover already exists at {output_path} and overwrite=False, skipping generation"
         )
-        return
+        return True  # Return True for successful generation
 
     # Load or generate course configuration
     course_config = load_course_config(course_alias)
@@ -298,6 +300,8 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
 
         browser.close()
         logger.info("Browser closed")
+
+    return True  # Return True for successful generation
 
 
 @click.command()
