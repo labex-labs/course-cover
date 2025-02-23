@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="zh">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/cn-fontsource-smiley-sans-oblique-regular@1.0.1/font.min.css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      * {
-        font-family: "Nunito", sans-serif;
-      }
 
-      html[lang="zh"] * {
-        font-family: "Smiley Sans Oblique", sans-serif !important;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/cn-fontsource-smiley-sans-oblique-regular@1.0.1/font.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * {
+      font-family: "Nunito", sans-serif;
+    }
 
-      body {
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-  </head>
+    html[lang="zh"] * {
+      font-family: "Smiley Sans Oblique", sans-serif !important;
+    }
 
-  <body>
-    <div class="w-[1400px] h-[720px]" id="background">
-      <div class="w-[1400px] h-[720px] flex justify-between items-center px-20">
-        <div class="w-[600px] h-[512px] flex flex-col justify-start gap-4 overflow-hidden">
-          <div id="course-type-icon" class="w-[270px] flex-shrink-0"></div>
-          <div
-            id="course-title"
-            class="text-black font-extrabold w-[600px] flex-1 flex items-center text-balance"
-            style="font-size: clamp(24px, 5vw, 75px); line-height: 1.2; word-break: break-word"
-          ></div>
-        </div>
-        <div class="w-[512px] h-[512px] justify-center items-center flex">
-          <img id="course-image" class="w-[512px] h-[512px]" src="" />
-        </div>
+    html[lang="ja"] * {
+      font-family: "Zen Maru Gothic", sans-serif !important;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="w-[1400px] h-[720px]" id="background">
+    <div class="w-[1400px] h-[720px] flex justify-between items-center px-20">
+      <div class="w-[600px] h-[512px] flex flex-col justify-start gap-4 overflow-hidden">
+        <div id="course-type-icon" class="w-[270px] flex-shrink-0"></div>
+        <div id="course-title" class="text-black font-extrabold w-[600px] flex-1 flex items-center text-balance"
+          style="font-size: clamp(24px, 5vw, 75px); line-height: 1.2; word-break: break-word"></div>
+      </div>
+      <div class="w-[512px] h-[512px] justify-center items-center flex">
+        <img id="course-image" class="w-[512px] h-[512px]" src="" />
       </div>
     </div>
+  </div>
 
-    <script>
-      // 课程类型配置
-      const courseTypes = {
-        normal: {
-          icon: `<svg width="270" height="84" viewBox="0 0 270 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <script>
+    // 课程类型配置
+    const courseTypes = {
+      normal: {
+        icon: `<svg width="270" height="84" viewBox="0 0 270 84" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_i_104_113)">
             <rect width="270" height="84" rx="15" fill="white" fill-opacity="0.6"/>
             <rect x="2.5" y="2.5" width="265" height="79" rx="12.5" stroke="black" stroke-width="5" stroke-linejoin="round"/>
@@ -67,9 +68,9 @@
             </filter>
             </defs>
             </svg>`,
-        },
-        project: {
-          icon: `<svg width="270" height="84" viewBox="0 0 270 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+      },
+      project: {
+        icon: `<svg width="270" height="84" viewBox="0 0 270 84" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_i_360_2524)">
             <rect width="270" height="84" rx="15" fill="black"/>
             <path d="M30.7917 35.8333H26.1667C24.4708 35.8333 23.0833 34.4458 23.0833 32.7499V29.6666C23.0833 27.9708 24.4708 26.5833 26.1667 26.5833H30.7917C32.4875 26.5833 33.875 27.9708 33.875 29.6666V32.7499C33.875 34.4458 32.4875 35.8333 30.7917 35.8333Z" fill="white"/>
@@ -92,15 +93,13 @@
             </filter>
             </defs>
             </svg>`,
-        },
-        alibaba: {
-          icon: `<svg width="270" height="84" viewBox="0 0 270 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+      },
+      alibaba: {
+        icon: `<svg width="270" height="84" viewBox="0 0 270 84" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="2.5" y="2.5" width="265" height="79" rx="12.5" fill="white" fill-opacity="0.6"/>
             <rect x="2.5" y="2.5" width="265" height="79" rx="12.5" stroke="#FF6A00" stroke-width="5" stroke-linejoin="round"/>
             <g clip-path="url(#clip0_349_3438)">
             <path d="M22.5308 30.6399C20.8445 30.9868 19.0332 32.3338 18.2805 33.8103C17.5278 35.2869 17.5 35.6499 17.5 41.8653C17.5 45.182 17.5555 47.9137 17.6387 48.3403C18.1336 50.8702 20.112 52.8486 22.6418 53.3434C23.4084 53.4822 33.3863 53.5527 33.3863 53.3989C33.3863 53.2874 32.5365 49.9429 32.4942 49.9013C32.4804 49.8735 30.7102 49.4833 28.5642 49.0225C23.5611 47.9357 23.7079 47.9773 23.2963 47.4755L22.9338 47.0436V36.9264L23.2963 36.487C23.7143 35.9852 23.5611 36.0274 28.5642 34.94L32.4942 34.0612C32.537 34.0323 33.3869 30.6873 33.3869 30.5821C33.3869 30.4491 23.2003 30.5127 22.5308 30.6515V30.6399ZM38.6825 30.6607C38.6964 30.9116 39.4768 33.9774 39.5613 34.0612C39.589 34.1029 41.498 34.5353 43.7839 35.0227C46.0698 35.51 48.1042 36.0055 48.2852 36.1095C48.5303 36.2517 48.7361 36.4529 48.8847 36.6946C49.1078 37.0848 49.1356 37.5028 49.1356 41.9902C49.1356 46.4776 49.1078 46.8956 48.8847 47.2858C48.7327 47.5245 48.5275 47.7248 48.2852 47.8709C48.1042 47.9692 46.0883 48.456 43.7839 48.9578L39.5613 49.9261C39.4774 50.01 38.697 53.0758 38.6825 53.3267C38.6825 53.4799 39.6861 53.5076 44.0897 53.4654C50.16 53.4099 50.2352 53.396 51.7822 52.3508C52.8934 51.5859 53.7328 50.4881 54.1791 49.215C54.4994 48.2814 54.4994 48.1975 54.4994 41.996C54.4994 35.7945 54.4994 35.7106 54.1791 34.777C53.7326 33.5041 52.8933 32.4061 51.7822 31.6412C50.2352 30.5971 50.1658 30.5821 44.0897 30.5272C39.6861 30.4855 38.6825 30.5063 38.6825 30.6659V30.6607ZM32.4619 41.704C32.4172 41.853 32.4077 42.0104 32.4341 42.1637C32.4757 42.3949 32.7267 42.4146 36.0012 42.4562L39.5133 42.4839V41.5086H36.0347C33.1221 41.5086 32.5226 41.5364 32.4677 41.7035L32.4619 41.704Z" fill="#FF6A00"/>
-            </g>
-            <path d="M67.86 55.32C67.22 55.32 66.7 55.1733 66.3 54.88C65.9267 54.5867 65.7 54.2 65.62 53.72C65.54 53.2133 65.6333 52.6533 65.9 52.04L76.46 28.64C76.8067 27.8667 77.22 27.32 77.7 27C78.2067 26.6533 78.78 26.48 79.42 26.48C80.0333 26.48 80.58 26.6533 81.06 27C81.5667 27.32 81.9933 27.8667 82.34 28.64L92.94 52.04C93.2333 52.6533 93.34 53.2133 93.26 53.72C93.18 54.2267 92.9533 54.6267 92.58 54.92C92.2067 55.1867 91.7133 55.32 91.1 55.32C90.3533 55.32 89.7667 55.1467 89.34 54.8C88.94 54.4267 88.58 53.8667 88.26 53.12L85.66 47.08L87.82 48.48H70.94L73.1 47.08L70.54 53.12C70.1933 53.8933 69.8333 54.4533 69.46 54.8C69.0867 55.1467 68.5533 55.32 67.86 55.32ZM79.34 32.36L73.74 45.68L72.7 44.4H86.06L85.06 45.68L79.42 32.36H79.34ZM101.546 55C100.719 55 100.079 54.7733 99.6256 54.32C99.1723 53.84 98.9456 53.16 98.9456 52.28V29.28C98.9456 28.4267 99.159 27.7867 99.5856 27.36C100.039 26.9067 100.679 26.68 101.506 26.68C102.332 26.68 102.959 26.9067 103.386 27.36C103.839 27.7867 104.066 28.4267 104.066 29.28V50.64H115.666C116.386 50.64 116.932 50.8267 117.306 51.2C117.706 51.5733 117.906 52.1067 117.906 52.8C117.906 53.4933 117.706 54.04 117.306 54.44C116.932 54.8133 116.386 55 115.666 55H101.546ZM125.567 55.32C124.74 55.32 124.1 55.0933 123.647 54.64C123.22 54.16 123.007 53.5067 123.007 52.68V29.12C123.007 28.2667 123.22 27.6133 123.647 27.16C124.1 26.7067 124.74 26.48 125.567 26.48C126.393 26.48 127.02 26.7067 127.447 27.16C127.9 27.6133 128.127 28.2667 128.127 29.12V52.68C128.127 53.5067 127.913 54.16 127.487 54.64C127.06 55.0933 126.42 55.32 125.567 55.32ZM138.616 55C137.736 55 137.056 54.7733 136.576 54.32C136.122 53.84 135.896 53.16 135.896 52.28V29.52C135.896 28.64 136.122 27.9733 136.576 27.52C137.056 27.04 137.736 26.8 138.616 26.8H148.216C150.189 26.8 151.869 27.0933 153.256 27.68C154.642 28.2667 155.696 29.1067 156.416 30.2C157.162 31.2933 157.536 32.6 157.536 34.12C157.536 35.8267 157.042 37.2667 156.056 38.44C155.069 39.6133 153.722 40.4 152.016 40.8V40.2C153.989 40.4933 155.522 41.24 156.616 42.44C157.709 43.64 158.256 45.2 158.256 47.12C158.256 49.6267 157.402 51.5733 155.696 52.96C154.016 54.32 151.669 55 148.656 55H138.616ZM140.816 51.12H148.016C149.829 51.12 151.162 50.7733 152.016 50.08C152.869 49.36 153.296 48.2933 153.296 46.88C153.296 45.44 152.869 44.3733 152.016 43.68C151.162 42.9867 149.829 42.64 148.016 42.64H140.816V51.12ZM140.816 38.76H147.336C149.096 38.76 150.402 38.4267 151.256 37.76C152.136 37.0667 152.576 36.0533 152.576 34.72C152.576 33.3867 152.136 32.3867 151.256 31.72C150.402 31.0267 149.096 30.68 147.336 30.68H140.816V38.76ZM165.119 55.32C164.479 55.32 163.959 55.1733 163.559 54.88C163.186 54.5867 162.959 54.2 162.879 53.72C162.799 53.2133 162.893 52.6533 163.159 52.04L173.719 28.64C174.066 27.8667 174.479 27.32 174.959 27C175.466 26.6533 176.039 26.48 176.679 26.48C177.293 26.48 177.839 26.6533 178.319 27C178.826 27.32 179.253 27.8667 179.599 28.64L190.199 52.04C190.493 52.6533 190.599 53.2133 190.519 53.72C190.439 54.2267 190.213 54.6267 189.839 54.92C189.466 55.1867 188.973 55.32 188.359 55.32C187.613 55.32 187.026 55.1733 186.599 54.88C186.145 54.56 185.745 54.08 185.425 53.44L180.727 46C180.247 45.0933 179.673 44.4933 179.007 44.2C178.367 43.88 177.54 43.72 176.527 43.72H172.727V52.68C172.727 53.5067 172.513 54.16 172.087 54.64C171.66 55.0933 171.02 55.32 170.167 55.32ZM172.727 39.92H178.967C180.807 39.92 182.193 39.5467 183.127 38.8C184.087 38.0267 184.567 36.88 184.567 35.36C184.567 33.8667 184.087 32.7467 183.127 32C182.193 31.2267 180.807 30.84 178.967 30.84H172.727V39.92ZM206.27 55.4C205.097 55.4 203.924 55.3067 202.75 55.12C201.577 54.96 200.47 54.7067 199.43 54.36C198.39 53.9867 197.457 53.5333 196.63 53C196.15 52.68 195.817 52.2933 195.63 51.84C195.444 51.3867 195.377 50.9467 195.43 50.52C195.51 50.0667 195.684 49.68 195.95 49.36C196.244 49.0133 196.604 48.8 197.03 48.72C197.457 48.64 197.924 48.76 198.43 49.08C199.604 49.7733 200.844 50.28 202.15 50.6C203.457 50.92 204.83 51.08 206.27 51.08C208.377 51.08 209.91 50.7333 210.87 50.04C211.83 49.32 212.31 48.4 212.31 47.28C212.31 46.3467 211.964 45.6133 211.27 45.08C210.604 44.5467 209.444 44.1067 207.79 43.76L203.39 42.84C200.857 42.3067 198.964 41.4133 197.71 40.16C196.484 38.88 195.87 37.2 195.87 35.12C195.87 33.8133 196.137 32.6267 196.67 31.56C197.204 30.4933 197.95 29.5733 198.91 28.8C199.897 28.0267 201.057 27.44 202.39 27.04C203.75 26.6133 205.244 26.4 206.87 26.4C208.47 26.4 209.99 26.6 211.43 27C212.87 27.4 214.164 27.9867 215.31 28.76C215.737 29.0533 216.017 29.4133 216.15 29.84C216.31 30.2667 216.35 30.6933 216.27 31.12C216.19 31.52 216.004 31.8667 215.71 32.16C215.417 32.4533 215.044 32.6267 214.59 32.68C214.164 32.7333 213.67 32.6 213.11 32.28C212.124 31.72 211.124 31.32 210.11 31.08C209.097 30.84 208.004 30.72 206.83 30.72C205.604 30.72 204.55 30.8933 203.67 31.24C202.79 31.5867 202.11 32.08 201.63 32.72C201.177 33.3333 200.95 34.0667 200.95 34.92C200.95 35.88 201.27 36.6533 201.91 37.24C202.55 37.8 203.644 38.24 205.19 38.56L209.55 39.48C212.19 40.04 214.15 40.92 215.43 42.12C216.737 43.32 217.39 44.92 217.39 46.92C217.39 48.2 217.124 49.36 216.59 50.4C216.084 51.44 215.337 52.3333 214.35 53.08C213.39 53.8267 212.23 54.4 210.87 54.8C209.51 55.2 207.977 55.4 206.27 55.4ZM226.105 55C225.225 55 224.545 54.7733 224.065 54.32C223.611 53.84 223.385 53.16 223.385 52.28V29.52C223.385 28.64 223.611 27.9733 224.065 27.52C224.545 27.04 225.225 26.8 226.105 26.8H240.385C241.051 26.8 241.558 26.9733 241.905 27.32C242.278 27.6667 242.465 28.16 242.465 28.8C242.465 29.4667 242.278 29.9867 241.905 30.36C241.558 30.7067 241.051 30.88 240.385 30.88H228.305V38.64H239.505C240.198 38.64 240.718 38.8133 241.065 39.16C241.411 39.5067 241.585 40.0133 241.585 40.68C241.585 41.3467 241.411 41.8533 241.065 42.2C240.718 42.5467 240.198 42.72 239.505 42.72H228.305V50.92H240.385C241.051 50.92 241.558 51.0933 241.905 51.44C242.278 51.7867 242.465 52.2933 242.465 52.96C242.465 53.6267 242.278 54.1333 241.905 54.48C241.558 54.8267 241.051 55 240.385 55H226.105Z" fill="#FF6A00"/>
             </g>
             <defs>
             <clipPath id="clip0_349_3438">
@@ -108,49 +107,50 @@
             </clipPath>
             </defs>
             </svg>`,
-        },
-      };
+      },
+    };
 
-      // 获取 URL 参数
-      const urlParams = new URLSearchParams(window.location.search);
-      const courseType = urlParams.get("course_type") || "normal";
-      const courseName = urlParams.get("course_name") || "Linux for Noobs";
-      const lang = urlParams.get("lang") || "en";
+    // 获取 URL 参数
+    const urlParams = new URLSearchParams(window.location.search);
+    const courseType = urlParams.get("course_type") || "normal";
+    const courseName = urlParams.get("course_name") || "Linux for Noobs";
+    const lang = urlParams.get("lang") || "en";
 
-      // 处理图片 URL
-      const imageUrl = urlParams.get("image_url") || "https://placehold.co/512x512";
-      const imgElement = document.getElementById("course-image");
+    // 处理图片 URL
+    const imageUrl = urlParams.get("image_url") || "https://placehold.co/512x512";
+    const imgElement = document.getElementById("course-image");
 
-      // 如果是相对路径（以 ./ 或 ../ 开头），转换为相对于当前页面的绝对路径
-      if (imageUrl.startsWith("./") || imageUrl.startsWith("../")) {
-        const basePath = window.location.href.substring(0, window.location.href.lastIndexOf("/"));
-        imgElement.src = new URL(imageUrl, basePath).href;
-      } else {
-        imgElement.src = imageUrl;
-      }
+    // 如果是相对路径（以 ./ 或 ../ 开头），转换为相对于当前页面的绝对路径
+    if (imageUrl.startsWith("./") || imageUrl.startsWith("../")) {
+      const basePath = window.location.href.substring(0, window.location.href.lastIndexOf("/"));
+      imgElement.src = new URL(imageUrl, basePath).href;
+    } else {
+      imgElement.src = imageUrl;
+    }
 
-      // 设置语言
-      document.documentElement.lang = lang;
+    // 设置语言
+    document.documentElement.lang = lang;
 
-      // 处理背景颜色参数
-      let backgroundColor = urlParams.get("bg_color") || "#f5b553";
-      // 如果颜色值不包含 #，则添加
-      if (backgroundColor && !backgroundColor.startsWith("#")) {
-        backgroundColor = "#" + backgroundColor;
-      }
-      // 验证颜色值是否有效
-      const isValidColor = /^#([0-9A-F]{3}){1,2}$/i.test(backgroundColor);
-      // 如果无效则使用默认颜色
-      if (!isValidColor) {
-        backgroundColor = "#f5b553";
-      }
+    // 处理背景颜色参数
+    let backgroundColor = urlParams.get("bg_color") || "#f5b553";
+    // 如果颜色值不包含 #，则添加
+    if (backgroundColor && !backgroundColor.startsWith("#")) {
+      backgroundColor = "#" + backgroundColor;
+    }
+    // 验证颜色值是否有效
+    const isValidColor = /^#([0-9A-F]{3}){1,2}$/i.test(backgroundColor);
+    // 如果无效则使用默认颜色
+    if (!isValidColor) {
+      backgroundColor = "#f5b553";
+    }
 
-      // 更新页面内容
-      document.getElementById("course-title").textContent = courseName;
-      document.getElementById("background").style.backgroundColor = backgroundColor;
+    // 更新页面内容
+    document.getElementById("course-title").textContent = courseName;
+    document.getElementById("background").style.backgroundColor = backgroundColor;
 
-      const typeConfig = courseTypes[courseType] || courseTypes.normal;
-      document.getElementById("course-type-icon").innerHTML = typeConfig.icon;
-    </script>
-  </body>
+    const typeConfig = courseTypes[courseType] || courseTypes.normal;
+    document.getElementById("course-type-icon").innerHTML = typeConfig.icon;
+  </script>
+</body>
+
 </html>
