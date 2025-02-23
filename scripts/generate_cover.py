@@ -2,20 +2,26 @@ import os
 import sys
 import random
 import requests
-import logging
 import time
 import json
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 from datetime import datetime
+import click
+from rich.console import Console
+from rich.logging import RichHandler
+import logging
 
-# Configure logging
+# Configure rich console
+console = Console()
+
+# Configure logging with rich
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
+    format="%(message)s",
+    handlers=[RichHandler(console=console, rich_tracebacks=True)],
 )
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("rich")
 
 
 def get_course_info(course_alias: str, lang: str) -> dict:
@@ -287,13 +293,33 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         logger.info("Browser closed")
 
 
-if __name__ == "__main__":
-    if len(sys.argv) not in [3, 4]:
-        print("Usage: python generate_cover.py <course_alias> <lang> [overwrite]")
+@click.command()
+@click.argument("course_alias")
+@click.argument("lang")
+@click.option(
+    "--overwrite/--no-overwrite",
+    default=False,
+    help="Overwrite existing cover if it exists",
+)
+def main(course_alias: str, lang: str, overwrite: bool = False):
+    """
+    Generate course cover image.
+
+    COURSE_ALIAS: Course alias (e.g. html-for-beginners)
+    LANG: Course language code (e.g. en, zh)
+    """
+    try:
+        with console.status(
+            f"[bold green]Generating cover for {course_alias} ({lang})..."
+        ):
+            generate_cover(course_alias, lang, overwrite)
+        console.print(
+            f"[bold green]✓[/] Successfully generated cover for {course_alias}"
+        )
+    except Exception as e:
+        console.print(f"[bold red]Error:[/] {str(e)}", style="red")
         sys.exit(1)
 
-    course_alias = sys.argv[1]
-    lang = sys.argv[2]
-    overwrite = sys.argv[3].lower() == "true" if len(sys.argv) > 3 else False
 
-    generate_cover(course_alias, lang, overwrite)
+if __name__ == "__main__":
+    main()
