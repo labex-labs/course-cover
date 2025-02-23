@@ -12,10 +12,23 @@ from rich.progress import (
     BarColumn,
     TaskProgressColumn,
 )
-from rich import print as rprint
+from rich.logging import RichHandler
+import logging
 
-# 初始化 rich console
-console = Console()
+# Configure logging with rich (与其他脚本保持一致)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(message)s",
+    handlers=[
+        RichHandler(
+            console=Console(stderr=True),
+            show_time=False,
+            show_path=False,
+            rich_tracebacks=True,
+        )
+    ],
+)
+logger = logging.getLogger("rich")
 
 
 def extract_dominant_color(image_path: Path) -> str:
@@ -41,8 +54,8 @@ def extract_icon(image_path: Path, output_path: Path) -> bool:
     try:
         with Image.open(image_path) as img:
             if img.size != (1400, 720):
-                console.print(
-                    f"[yellow]Warning:[/] Unexpected image dimensions for {image_path}: {img.size}"
+                logger.warning(
+                    f"Unexpected image dimensions for {image_path}: {img.size}"
                 )
                 return False
 
@@ -54,7 +67,7 @@ def extract_icon(image_path: Path, output_path: Path) -> bool:
             icon.save(output_path, "PNG")
             return True
     except Exception as e:
-        console.print(f"[red]Error:[/] extracting icon from {image_path}: {e}")
+        logger.error(f"Error extracting icon from {image_path}: {e}")
         return False
 
 
@@ -93,7 +106,7 @@ def update_config(course_alias: str, icon_path: str, bg_color: str):
 @click.option("--verbose", "-v", is_flag=True, help="Enable verbose output")
 def main(covers_dir: Path, icons_dir: Path, verbose: bool):
     """Extract course icons from cover images and update configuration."""
-    console.print("[bold blue]Starting icon extraction process...[/]")
+    logger.info("Starting icon extraction process...")
 
     # Create icons directory if it doesn't exist
     icons_dir.mkdir(parents=True, exist_ok=True)
@@ -106,16 +119,17 @@ def main(covers_dir: Path, icons_dir: Path, verbose: bool):
         TextColumn("[progress.description]{task.description}"),
         BarColumn(),
         TaskProgressColumn(),
-        console=console,
+        console=Console(stderr=True),
     ) as progress:
         task = progress.add_task("Processing covers...", total=len(png_files))
 
         for cover_path in png_files:
             course_alias = cover_path.stem
-            icon_path = icons_dir / f"{course_alias}.png"
 
             if verbose:
-                console.print(f"\nProcessing: [cyan]{course_alias}[/]")
+                logger.info(f"Processing: {course_alias}")
+
+            icon_path = icons_dir / f"{course_alias}.png"
 
             # Extract icon
             if extract_icon(cover_path, icon_path):
@@ -127,13 +141,13 @@ def main(covers_dir: Path, icons_dir: Path, verbose: bool):
                 update_config(course_alias, relative_icon_path, bg_color)
 
                 if verbose:
-                    console.print(f"✓ Successfully processed [green]{course_alias}[/]")
+                    logger.info(f"Successfully processed {course_alias}")
             else:
-                console.print(f"[red]✗[/] Failed to process {course_alias}")
+                logger.error(f"Failed to process {course_alias}")
 
             progress.advance(task)
 
-    console.print("\n[bold green]Icon extraction completed![/]")
+    logger.info("Icon extraction completed!")
 
 
 if __name__ == "__main__":

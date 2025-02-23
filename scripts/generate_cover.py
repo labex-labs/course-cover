@@ -316,15 +316,11 @@ def main(course_alias: str, lang: str, overwrite: bool = False):
     LANG: Course language code (e.g. en, zh)
     """
     try:
-        with console.status(
-            f"[bold green]Generating cover for {course_alias} ({lang})..."
-        ):
-            generate_cover(course_alias, lang, overwrite)
-        console.print(
-            f"[bold green]✓[/] Successfully generated cover for {course_alias}"
-        )
+        logger.info(f"Generating cover for {course_alias} ({lang})...")
+        generate_cover(course_alias, lang, overwrite)
+        logger.info(f"Successfully generated cover for {course_alias}")
     except Exception as e:
-        console.print(f"[bold red]Error:[/] {str(e)}", style="red")
+        logger.error(f"Error: {str(e)}")
         sys.exit(1)
 
 

@@ -1,7 +1,6 @@
 import json
 from pathlib import Path
 import click
-from rich.console import Console
 from rich.progress import (
     Progress,
     SpinnerColumn,
@@ -9,22 +8,37 @@ from rich.progress import (
     BarColumn,
     TaskProgressColumn,
 )
-from generate_cover import generate_cover
+from generate_cover import generate_cover, logger
+from rich.console import Console
+from rich.logging import RichHandler
+import logging
 
-console = Console()
+# Configure logging with rich (与 generate_cover.py 保持一致)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(message)s",
+    handlers=[
+        RichHandler(
+            console=Console(stderr=True),
+            show_time=False,
+            show_path=False,
+            rich_tracebacks=True,
+        )
+    ],
+)
 
 
 def load_course_config() -> dict:
     """Load the course covers configuration file"""
     config_path = Path(__file__).parent.parent / "config" / "course-covers.json"
     if not config_path.exists():
-        console.print("[red]❌ Course configuration file not found[/red]")
+        logger.error("Course configuration file not found")
         return {}
 
     try:
         return json.loads(config_path.read_text())
     except Exception as e:
-        console.print(f"[red]❌ Error loading course config: {e}[/red]")
+        logger.error(f"Error loading course config: {e}")
         return {}
 
 
@@ -46,17 +60,15 @@ def main(lang: str, overwrite: bool):
     LANG is the target language code (e.g. zh, es, fr)
     """
     if lang == "en":
-        console.print(
-            "\n[yellow]⚠ Skipping 'en' language as it's the source language[/yellow]"
-        )
+        logger.warning("Skipping 'en' language as it's the source language")
         return
 
     # Load configuration
-    with console.status("[bold blue]Loading configuration...[/bold blue]") as status:
-        config = load_course_config()
-        if not config:
-            console.print("\n[red]❌ No course configuration found[/red]")
-            return
+    logger.info("Loading configuration...")
+    config = load_course_config()
+    if not config:
+        logger.error("No course configuration found")
+        return
 
     # Get existing covers
     existing_covers = get_existing_covers(lang)
@@ -67,13 +79,14 @@ def main(lang: str, overwrite: bool):
 
     # Generate covers for each course in config
     total_courses = len(config)
+    logger.info(f"Starting to generate {total_courses} covers for {lang}")
 
     with Progress(
         SpinnerColumn(),
         TextColumn("[bold blue]{task.description}[/bold blue]"),
         BarColumn(complete_style="green"),
         TaskProgressColumn(),
-        console=Console(stderr=True),  # 将进度条输出重定向到 stderr
+        console=Console(stderr=True),
         expand=True,
     ) as progress:
         task = progress.add_task(
@@ -88,29 +101,21 @@ def main(lang: str, overwrite: bool):
 
                 # Skip if cover already exists and not in overwrite mode
                 if course_alias in existing_covers and not overwrite:
-                    console.print(
-                        f"[dim]Cover already exists for [bold]{course_alias}[/bold], skipping...[/dim]"
-                    )
+                    logger.info(f"Cover already exists for {course_alias}, skipping...")
                     progress.advance(task)
                     continue
 
                 # Generate cover with overwrite parameter
                 generate_cover(course_alias, lang, overwrite=overwrite)
-                console.print(
-                    f"[green]✓[/green] Successfully generated cover for [bold]{course_alias}[/bold]"
-                )
+                logger.info(f"Successfully generated cover for {course_alias}")
                 progress.advance(task)
 
             except Exception as e:
-                console.print(
-                    f"[red]❌ Error generating cover for [bold]{course_alias}[/bold]: {str(e)}[/red]"
-                )
+                logger.error(f"Error generating cover for {course_alias}: {str(e)}")
                 progress.advance(task)
                 continue
 
-    console.print(
-        f"\n[bold green]✓ Successfully completed generating covers for {lang}![/bold green]"
-    )
+    logger.info(f"Successfully completed generating covers for {lang}!")
 
 
 if __name__ == "__main__":
