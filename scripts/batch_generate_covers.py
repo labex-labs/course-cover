@@ -59,9 +59,6 @@ def main(lang: str, overwrite: bool):
 
     LANG is the target language code (e.g. zh, es, fr)
     """
-    if lang == "en":
-        logger.warning("Skipping 'en' language as it's the source language")
-        return
 
     # Load configuration
     logger.info("Loading configuration...")
