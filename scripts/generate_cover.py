@@ -263,7 +263,10 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
     # Prepare parameters
     params = {
         "course_type": get_course_type(course_info.get("type", 0)),
-        "course_name": course_info["name"],
+        "course_name": course_info["name"]
+        .replace(" ", "")
+        .replace("-", "")
+        .replace("`", ""),
         "image_url": course_config["image_url"],
         "bg_color": course_config["bg_color"],
         "lang": lang,
