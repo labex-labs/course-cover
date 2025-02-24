@@ -33,7 +33,7 @@ async function triggerGithubAction(courseAlias: string, lang: string, overwrite:
 				inputs: {
 					course_alias: courseAlias,
 					course_lang: lang,
-					overwrite: overwrite.toString(),
+					overwrite: overwrite,
 				},
 			}),
 		});
