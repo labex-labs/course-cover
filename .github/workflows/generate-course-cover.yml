@@ -40,7 +40,7 @@ jobs:
       - name: Generate course cover
         env:
           FREEPIK_API_KEY: ${{ secrets.FREEPIK_API_KEY }}
-        run: python scripts/generate_cover.py "${{ github.event.inputs.course_alias }}" "${{ github.event.inputs.course_lang }}" ${{ github.event.inputs.overwrite && '--overwrite' || '--no-overwrite' }}
+        run: python scripts/generate_cover.py "${{ github.event.inputs.course_alias }}" "${{ github.event.inputs.course_lang }}" ${{ (github.event.inputs.overwrite == 'true') && '--overwrite' || '--no-overwrite' }}
 
       - name: Commit and push changes
         run: |
