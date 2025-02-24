@@ -98,8 +98,8 @@ async function checkCourseExists(courseAlias: string, lang: string): Promise<{ e
 			return { exists: false, error: `Failed to check course: ${response.statusText}` };
 		}
 
-		const data = await response.json();
-		return { exists: !!data.course };
+		const data = (await response.json()) as { course: { id: number } };
+		return { exists: !!data.course.id };
 	} catch (error) {
 		console.error('Error checking course existence:', error);
 		return { exists: false, error: 'Failed to check course existence' };
