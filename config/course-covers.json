@@ -2889,6 +2889,12 @@
     "created_at": "2025-02-23T13:31:40.482338",
     "image_url": "./assets/icons/usage-of-pod-controllers-frequently-used-in-kubernetes.png"
   },
+  "use-ai-container-image-to-deploy-the-qwen-large-language-model": {
+    "bg_color": "c3b8df",
+    "created_at": "2025-03-14T02:19:02.947757",
+    "image_url": "./assets/icons/use-ai-container-image-to-deploy-the-qwen-large-language-model.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2421/2421015.png"
+  },
   "use-alibaba-cloud-asm-for-phased-release-in-container-service": {
     "bg_color": "eeb6fa",
     "created_at": "2025-02-23T13:31:35.298560",
