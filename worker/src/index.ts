@@ -1,7 +1,7 @@
 import { KVNamespace } from '@cloudflare/workers-types';
 
-const DEFAULT_COVER = 'https://cdn.jsdelivr.net/gh/labex-labs/course-cover/default.png';
-const JSDELIVR_BASE = 'https://cdn.jsdelivr.net/gh/labex-labs/course-cover/public';
+const DEFAULT_COVER = 'https://cdn.jsdelivr.net/gh/labex-labs/course-cover@master/default.png';
+const JSDELIVR_BASE = 'https://cdn.jsdelivr.net/gh/labex-labs/course-cover@master/public';
 const GITHUB_API = 'https://api.github.com/repos/labex-labs/course-cover/actions/workflows/generate-course-cover.yml/dispatches';
 
 interface Env {
