@@ -167,7 +167,7 @@ export default {
 			const coverExists = await checkImageExists(coverUrl);
 
 			if (coverExists && !overwrite) {
-				console.log('Using existing cover image');
+				console.log(`Using existing cover image: ${coverUrl}`);
 				const image = await fetchImage(coverUrl);
 				if (image) return image;
 			}
