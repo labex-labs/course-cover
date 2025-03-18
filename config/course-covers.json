@@ -29,6 +29,12 @@
     "created_at": "2025-02-23T13:31:39.047664",
     "image_url": "./assets/icons/automatic-partition-management-solution-with-interval-partitioning-of-polardb-mysql.png"
   },
+  "basic-django": {
+    "bg_color": "d3bcc2",
+    "created_at": "2025-03-18T10:20:04.900236",
+    "image_url": "./assets/icons/basic-django.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/10809/10809325.png"
+  },
   "basic-usage-of-ansible": {
     "bg_color": "ccf3fb",
     "created_at": "2025-02-23T13:31:40.771479",
