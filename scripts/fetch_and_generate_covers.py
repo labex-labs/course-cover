@@ -31,7 +31,7 @@ logging.basicConfig(
 logger = logging.getLogger("rich")
 
 
-def fetch_courses(lang: str) -> list:
+def fetch_courses(lang: str) -> tuple[list, dict]:
     """Fetch all courses from LabEx API"""
     url = f"https://labex.io/api/v2/courses?lang={lang}"
     try:
@@ -40,20 +40,35 @@ def fetch_courses(lang: str) -> list:
         response.raise_for_status()
         data = response.json()
 
-        # Extract course aliases
+        # Extract course information
         courses = data.get("courses", [])
-        course_aliases = [course["alias"] for course in courses]
+        course_aliases = []
+        course_info_map = {}
+
+        for course in courses:
+            alias = course["alias"]
+            course_aliases.append(alias)
+            # Store relevant course information
+            course_info_map[alias] = {
+                "name": course["name"],
+                "type": course.get("type", 0),
+                "langs": [lang],  # We know it's available in current language
+            }
 
         logger.info(f"Found {len(course_aliases)} courses")
-        return course_aliases
+        return course_aliases, course_info_map
     except Exception as e:
         logger.error(f"Error fetching courses: {e}")
-        return []
+        return [], {}
 
 
-def process_course(course_alias: str, lang: str, overwrite: bool) -> tuple:
+def process_course(course_data: tuple) -> tuple:
     """Process a single course cover generation"""
+    course_alias, course_info, lang, overwrite = course_data
     try:
+        # Override the course info in generate_cover's global space
+        # This avoids the need to fetch course info again
+        generate_cover.course_info = course_info
         result = generate_cover(course_alias, lang, overwrite)
         return course_alias, result, None
     except Exception as e:
@@ -62,6 +77,7 @@ def process_course(course_alias: str, lang: str, overwrite: bool) -> tuple:
 
 def process_batch(
     course_aliases: list,
+    course_info_map: dict,
     lang: str,
     overwrite: bool,
     workers: int,
@@ -69,7 +85,9 @@ def process_batch(
     max_retries: int = 3,
 ) -> tuple:
     """Process a batch of courses with retries"""
-    remaining_courses = course_aliases
+    remaining_courses = [
+        (alias, course_info_map[alias], lang, overwrite) for alias in course_aliases
+    ]
     retry_count = 0
     all_successful = []
     all_failed = []
@@ -84,9 +102,6 @@ def process_batch(
 
         # Create a process pool
         pool = multiprocessing.Pool(processes=workers)
-
-        # Prepare the worker function with fixed parameters
-        worker_func = partial(process_course, lang=lang, overwrite=overwrite)
 
         current_failed = []
         successful = 0
@@ -106,7 +121,7 @@ def process_batch(
             )
 
             for course_alias, result, error in pool.imap_unordered(
-                worker_func, remaining_courses
+                process_course, remaining_courses
             ):
                 if result:
                     successful += 1
@@ -128,7 +143,10 @@ def process_batch(
         pool.join()
 
         # Update remaining courses for next retry
-        remaining_courses = [course for course, _ in current_failed]
+        remaining_courses = [
+            (alias, course_info_map[alias], lang, overwrite)
+            for alias, _ in current_failed
+        ]
         all_failed = current_failed
         retry_count += 1
 
@@ -167,8 +185,8 @@ def main(lang: str, overwrite: bool, workers: int, max_retries: int):
     LANG: Language code (e.g. zh, en)
     """
     try:
-        # Fetch course aliases
-        course_aliases = fetch_courses(lang)
+        # Fetch course aliases and info
+        course_aliases, course_info_map = fetch_courses(lang)
         if not course_aliases:
             logger.error("No courses found")
             return
@@ -181,6 +199,7 @@ def main(lang: str, overwrite: bool, workers: int, max_retries: int):
         # Process all courses with retry mechanism
         successful, failed_courses = process_batch(
             course_aliases=course_aliases,
+            course_info_map=course_info_map,
             lang=lang,
             overwrite=overwrite,
             workers=workers,
