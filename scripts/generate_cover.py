@@ -30,6 +30,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger("rich")
 
+# Define supported languages
+SUPPORTED_LANGUAGES = ["en", "ja", "zh", "fr", "es", "de", "ru"]
+
 
 def get_course_info(course_alias: str, lang: str) -> dict:
     """Get course information from LabEx API"""
@@ -326,12 +329,37 @@ def main(course_alias: str, lang: str, overwrite: bool = False):
     Generate course cover image.
 
     COURSE_ALIAS: Course alias (e.g. html-for-beginners)
-    LANG: Course language code (e.g. en, zh)
+    LANG: Course language code (e.g. en, zh) or 'all' to generate for all supported languages
     """
     try:
-        logger.info(f"Generating cover for {course_alias} ({lang})...")
-        generate_cover(course_alias, lang, overwrite)
-        logger.info(f"Successfully generated cover for {course_alias}")
+        if lang == "all":
+            logger.info(f"Generating covers for {course_alias} in all supported languages...")
+            success = True
+            # Get course info once and store it as an attribute to avoid multiple API calls
+            generate_cover.course_info = get_course_info(course_alias, "en")
+            if generate_cover.course_info is None:
+                logger.error(f"Course {course_alias} not found")
+                sys.exit(1)
+                
+            for supported_lang in SUPPORTED_LANGUAGES:
+                try:
+                    if not generate_cover(course_alias, supported_lang, overwrite):
+                        success = False
+                        logger.warning(f"Failed to generate cover for language: {supported_lang}")
+                except Exception as e:
+                    success = False
+                    logger.error(f"Error generating cover for {supported_lang}: {str(e)}")
+            
+            if not success:
+                sys.exit(1)
+        else:
+            if lang not in SUPPORTED_LANGUAGES:
+                logger.error(f"Unsupported language: {lang}. Supported languages are: {', '.join(SUPPORTED_LANGUAGES)}")
+                sys.exit(1)
+            if not generate_cover(course_alias, lang, overwrite):
+                sys.exit(1)
+            
+        logger.info(f"Successfully generated cover(s) for {course_alias}")
     except Exception as e:
         logger.error(f"Error: {str(e)}")
         sys.exit(1)
