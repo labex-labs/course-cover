@@ -219,13 +219,22 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         f"Starting cover generation for course: {course_alias}, language: {lang}"
     )
 
-    # Get course info
-    course_info = get_course_info(course_alias, lang)
-    if course_info is None:
-        logger.info(
-            f"Skipping cover generation as course {course_alias} does not exist or not available in {lang}"
-        )
-        return False  # Return False to indicate course does not exist
+    # Try to get course info from the attribute first (batch mode)
+    if (
+        hasattr(generate_cover, "course_info")
+        and generate_cover.course_info is not None
+    ):
+        course_info = generate_cover.course_info
+        # Clear the course_info after using it to avoid affecting next call
+        generate_cover.course_info = None
+    else:
+        # Fallback to fetching course info individually (single mode)
+        course_info = get_course_info(course_alias, lang)
+        if course_info is None:
+            logger.info(
+                f"Skipping cover generation as course {course_alias} does not exist or not available in {lang}"
+            )
+            return False
 
     # Create output directory and check if file exists
     output_dir = Path(__file__).parent.parent / "public" / lang
