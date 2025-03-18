@@ -13,6 +13,7 @@ from rich.progress import (
     TaskProgressColumn,
 )
 from functools import partial
+import time
 
 # Configure logging with rich
 logging.basicConfig(
@@ -59,6 +60,91 @@ def process_course(course_alias: str, lang: str, overwrite: bool) -> tuple:
         return course_alias, False, str(e)
 
 
+def process_batch(
+    course_aliases: list,
+    lang: str,
+    overwrite: bool,
+    workers: int,
+    description: str,
+    max_retries: int = 3,
+) -> tuple:
+    """Process a batch of courses with retries"""
+    remaining_courses = course_aliases
+    retry_count = 0
+    all_successful = []
+    all_failed = []
+
+    while remaining_courses and retry_count < max_retries:
+        if retry_count > 0:
+            logger.info(
+                f"\nRetry attempt {retry_count} for {len(remaining_courses)} failed courses..."
+            )
+            # Add a small delay between retries
+            time.sleep(2)
+
+        # Create a process pool
+        pool = multiprocessing.Pool(processes=workers)
+
+        # Prepare the worker function with fixed parameters
+        worker_func = partial(process_course, lang=lang, overwrite=overwrite)
+
+        current_failed = []
+        successful = 0
+        failed = 0
+
+        # Setup progress bar
+        with Progress(
+            SpinnerColumn(),
+            TextColumn("[bold blue]{task.description}[/bold blue]"),
+            BarColumn(complete_style="green"),
+            TaskProgressColumn(),
+            console=Console(stderr=True),
+            expand=True,
+        ) as progress:
+            task = progress.add_task(
+                f"[bold]{description}[/bold]", total=len(remaining_courses)
+            )
+
+            for course_alias, result, error in pool.imap_unordered(
+                worker_func, remaining_courses
+            ):
+                if result:
+                    successful += 1
+                    all_successful.append(course_alias)
+                    progress.update(
+                        task,
+                        description=f"[green]Successfully processed {course_alias}[/green]",
+                    )
+                else:
+                    failed += 1
+                    current_failed.append((course_alias, error))
+                    progress.update(
+                        task, description=f"[red]Failed processing {course_alias}[/red]"
+                    )
+                progress.advance(task)
+
+        # Close and join the pool
+        pool.close()
+        pool.join()
+
+        # Update remaining courses for next retry
+        remaining_courses = [course for course, _ in current_failed]
+        all_failed = current_failed
+        retry_count += 1
+
+        # Log results for this attempt
+        if retry_count > 0:
+            logger.info(f"\nRetry {retry_count} results:")
+        logger.info(f"Successfully generated: {successful}")
+        logger.info(f"Failed: {failed}")
+
+        # If all courses were successful, break the loop
+        if not remaining_courses:
+            break
+
+    return all_successful, all_failed
+
+
 @click.command()
 @click.argument("lang")
 @click.option("--overwrite", is_flag=True, help="Overwrite existing covers")
@@ -68,7 +154,13 @@ def process_course(course_alias: str, lang: str, overwrite: bool) -> tuple:
     help="Number of worker processes",
     type=int,
 )
-def main(lang: str, overwrite: bool, workers: int):
+@click.option(
+    "--max-retries",
+    default=3,
+    help="Maximum number of retry attempts for failed courses",
+    type=int,
+)
+def main(lang: str, overwrite: bool, workers: int, max_retries: int):
     """
     Fetch course information and generate covers in batch.
 
@@ -86,58 +178,24 @@ def main(lang: str, overwrite: bool, workers: int):
             f"Starting to generate {total_courses} covers using {workers} workers"
         )
 
-        # Create a process pool
-        pool = multiprocessing.Pool(processes=workers)
+        # Process all courses with retry mechanism
+        successful, failed_courses = process_batch(
+            course_aliases=course_aliases,
+            lang=lang,
+            overwrite=overwrite,
+            workers=workers,
+            description=f"Generating covers for {lang}",
+            max_retries=max_retries,
+        )
 
-        # Prepare the worker function with fixed parameters
-        worker_func = partial(process_course, lang=lang, overwrite=overwrite)
-
-        # Setup progress bar
-        with Progress(
-            SpinnerColumn(),
-            TextColumn("[bold blue]{task.description}[/bold blue]"),
-            BarColumn(complete_style="green"),
-            TaskProgressColumn(),
-            console=Console(stderr=True),
-            expand=True,
-        ) as progress:
-            task = progress.add_task(
-                f"[bold]Generating covers for {lang}[/bold]", total=total_courses
-            )
-
-            # Process courses in parallel and track results
-            successful = 0
-            failed = 0
-            failed_courses = []
-
-            for course_alias, result, error in pool.imap_unordered(
-                worker_func, course_aliases
-            ):
-                if result:
-                    successful += 1
-                    progress.update(
-                        task,
-                        description=f"[green]Successfully processed {course_alias}[/green]",
-                    )
-                else:
-                    failed += 1
-                    failed_courses.append((course_alias, error))
-                    progress.update(
-                        task, description=f"[red]Failed processing {course_alias}[/red]"
-                    )
-                progress.advance(task)
-
-        # Close and join the pool
-        pool.close()
-        pool.join()
-
-        # Report results
-        logger.info(f"Cover generation completed!")
-        logger.info(f"Successfully generated: {successful}")
-        logger.info(f"Failed: {failed}")
+        # Final report
+        logger.info("\nFinal Results:")
+        logger.info(f"Total courses processed: {total_courses}")
+        logger.info(f"Successfully generated: {len(successful)}")
+        logger.info(f"Failed: {len(failed_courses)}")
 
         if failed_courses:
-            logger.info("\nFailed courses:")
+            logger.info("\nFailed courses after all retries:")
             for course, error in failed_courses:
                 logger.error(f"{course}: {error}")
 
