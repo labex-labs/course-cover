@@ -168,7 +168,7 @@ def process_batch(
 @click.option("--overwrite", is_flag=True, help="Overwrite existing covers")
 @click.option(
     "--workers",
-    default=multiprocessing.cpu_count(),
+    default=20,
     help="Number of worker processes",
     type=int,
 )
