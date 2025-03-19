@@ -5,11 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel='stylesheet'
-    href='https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css' />
+    href='https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Bold/result.css' />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     * {
-      font-family: "Maple Mono NF CN", sans-serif;
+      font-family: "Maple Mono CN", sans-serif;
     }
 
     body {
@@ -40,7 +40,7 @@
     // 获取 URL 参数
     const urlParams = new URLSearchParams(window.location.search);
     const courseType = urlParams.get("course_type") || "normal";
-    const courseName = urlParams.get("course_name") || "Linux for Noobs";
+    const courseName = urlParams.get("course_name") || "Linux for Noobs 基础入门";
     const lang = urlParams.get("lang") || "en";
 
     // 处理图片 URL
