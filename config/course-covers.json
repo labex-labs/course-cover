@@ -140,6 +140,12 @@
     "created_at": "2025-02-23T13:31:33.795585",
     "image_url": "./assets/icons/deploy-a-multi-region-hybrid-cloud-architecture.png"
   },
+  "deploy-a-production-ready-deepseek-inference-service-on-anolis-os-8": {
+    "bg_color": "d1cdc2",
+    "created_at": "2025-03-20T02:45:26.098890",
+    "image_url": "./assets/icons/deploy-a-production-ready-deepseek-inference-service-on-anolis-os-8.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2637/2637271.png"
+  },
   "deploy-a-security-group-with-cadt": {
     "bg_color": "dad7b4",
     "created_at": "2025-02-23T13:31:31.889158",
