@@ -130,6 +130,12 @@
     "created_at": "2025-02-23T13:31:29.644284",
     "image_url": "./assets/icons/cyber-security-with-hands-on-labs.png"
   },
+  "cybersecurity-analysis-with-wireshark-and-tshark": {
+    "bg_color": "c0fbdc",
+    "created_at": "2025-03-27T00:35:06.796435",
+    "image_url": "./assets/icons/cybersecurity-analysis-with-wireshark-and-tshark.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/964/964850.png"
+  },
   "cysec-practice-labs": {
     "bg_color": "e9bcd9",
     "created_at": "2025-02-23T13:31:35.248084",
