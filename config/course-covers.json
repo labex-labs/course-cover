@@ -423,6 +423,12 @@
     "created_at": "2025-02-23T13:31:38.035338",
     "image_url": "./assets/icons/html-practice-plus.png"
   },
+  "hydra-cybersecurity-attack-labs": {
+    "bg_color": "c2e4c9",
+    "created_at": "2025-04-02T10:38:51.910398",
+    "image_url": "./assets/icons/hydra-cybersecurity-attack-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/17535/17535595.png"
+  },
   "hydra-for-beginners": {
     "bg_color": "ffdfe7",
     "created_at": "2025-03-28T03:10:24.080303",
