@@ -14,6 +14,12 @@
     "created_at": "2025-02-23T13:31:41.812704",
     "image_url": "./assets/icons/a-beginner-guide-to-labex.png"
   },
+  "advanced-mysql-practical-labs": {
+    "bg_color": "e0ded0",
+    "created_at": "2025-04-03T10:13:12.363470",
+    "image_url": "./assets/icons/advanced-mysql-practical-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/11784/11784446.png"
+  },
   "algorithm-practice-challenges": {
     "bg_color": "fdd8b8",
     "created_at": "2025-02-23T13:31:30.949611",
@@ -664,6 +670,12 @@
     "bg_color": "fcd45f",
     "created_at": "2025-02-23T13:31:32.972214",
     "image_url": "./assets/icons/pandas-practice-plus.png"
+  },
+  "postgresql-for-beginners": {
+    "bg_color": "c1cee1",
+    "created_at": "2025-04-03T10:13:30.325133",
+    "image_url": "./assets/icons/postgresql-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3499/3499623.png"
   },
   "practical-python-programming": {
     "bg_color": "fbf3d8",
