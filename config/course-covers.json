@@ -2855,6 +2855,12 @@
     "image_url": "./assets/icons/redis-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/737/737261.png"
   },
+  "redis-intermediate-to-advanced": {
+    "bg_color": "e7d1cf",
+    "created_at": "2025-04-09T08:13:51.816028",
+    "image_url": "./assets/icons/redis-intermediate-to-advanced.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/5740/5740831.png"
+  },
   "rhcsa-certification-exam-practice-exercises": {
     "bg_color": "ddcbf9",
     "created_at": "2025-02-23T13:31:29.131637",
