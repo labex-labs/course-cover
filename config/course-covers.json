@@ -513,6 +513,12 @@
     "created_at": "2025-02-23T13:31:32.853924",
     "image_url": "./assets/icons/jquery-practice-labs.png"
   },
+  "kali-linux-for-beginners": {
+    "bg_color": "cdc7fe",
+    "created_at": "2025-04-10T16:34:17.785649",
+    "image_url": "./assets/icons/kali-linux-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/692/692388.png"
+  },
   "kali-server-exploitation-in-action": {
     "bg_color": "b5ffc7",
     "created_at": "2025-02-23T13:31:32.725643",
