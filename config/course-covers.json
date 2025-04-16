@@ -2934,6 +2934,12 @@
     "image_url": "./assets/icons/sqlite-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/5360/5360422.png"
   },
+  "sqlite-intermediate-to-advanced": {
+    "bg_color": "cbe5f2",
+    "created_at": "2025-04-16T15:45:48.238981",
+    "image_url": "./assets/icons/sqlite-intermediate-to-advanced.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2689/2689779.png"
+  },
   "stress-test-mysql-8.0-with-the-tpc-c-benchmark": {
     "bg_color": "beddda",
     "created_at": "2025-02-23T13:31:33.236089",
