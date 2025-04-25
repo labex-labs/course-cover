@@ -200,6 +200,12 @@
     "created_at": "2025-02-23T13:31:29.106423",
     "image_url": "./assets/icons/design-a-highly-available-architecture-with-cadt.png"
   },
+  "docker-command-labs": {
+    "bg_color": "f8dce2",
+    "created_at": "2025-04-25T14:16:13.239753",
+    "image_url": "./assets/icons/docker-command-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/9876/9876772.png"
+  },
   "docker-in-depth-mastery": {
     "bg_color": "8adc8a",
     "created_at": "2025-02-23T13:31:29.241375",
