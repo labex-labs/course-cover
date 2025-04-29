@@ -616,6 +616,12 @@
     "created_at": "2025-02-23T13:31:30.126041",
     "image_url": "./assets/icons/linux-software-playgrounds.png"
   },
+  "linux-status-and-configuration": {
+    "bg_color": "c1d6dd",
+    "created_at": "2025-04-29T08:29:25.409056",
+    "image_url": "./assets/icons/linux-status-and-configuration.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/7862/7862916.png"
+  },
   "manage-application-configurations-on-a-kubernetes-cluster": {
     "bg_color": "e4d2c8",
     "created_at": "2025-02-23T13:31:39.325061",
