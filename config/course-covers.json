@@ -2698,6 +2698,12 @@
     "created_at": "2025-02-23T13:31:34.078732",
     "image_url": "./assets/icons/python-remote-access-trojan.png"
   },
+  "quick-start-ecs-deployment-sets": {
+    "bg_color": "b8b5e3",
+    "created_at": "2025-05-09T02:52:28.683167",
+    "image_url": "./assets/icons/quick-start-ecs-deployment-sets.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/851/851973.png"
+  },
   "quick-start-with-algorithm": {
     "bg_color": "a9dfdf",
     "created_at": "2025-02-23T13:31:29.088224",
