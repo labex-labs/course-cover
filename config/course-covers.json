@@ -692,6 +692,12 @@
     "created_at": "2025-02-23T13:31:39.926072",
     "image_url": "./assets/icons/open-service-apis-for-alibaba-cloud-api-gateway.png"
   },
+  "oss-cross-region-replication-data": {
+    "bg_color": "cfc2f5",
+    "created_at": "2025-05-15T07:45:26.894049",
+    "image_url": "./assets/icons/oss-cross-region-replication-data.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2032/2032371.png"
+  },
   "pandas-practice-challenges": {
     "bg_color": "c8e2de",
     "created_at": "2025-02-23T13:31:33.011372",
