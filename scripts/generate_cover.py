@@ -31,7 +31,7 @@ logging.basicConfig(
 logger = logging.getLogger("rich")
 
 # Define supported languages
-SUPPORTED_LANGUAGES = ["en", "ja", "zh", "fr", "es", "de", "ru"]
+SUPPORTED_LANGUAGES = ["en", "ja", "zh", "fr", "es", "de", "ru", "ko", "pt"]
 
 
 def get_course_info(course_alias: str, lang: str) -> dict:
