@@ -126,7 +126,7 @@ export default {
 			}
 
 			// Define supported languages
-			const supportedLangs = new Set(['en', 'zh', 'es', 'fr', 'de', 'ja', 'ru']);
+			const supportedLangs = new Set(['en', 'zh', 'es', 'fr', 'de', 'ja', 'ru', 'ko', 'pt']);
 
 			// Validate query parameters strictly
 			const allowedParams = new Set(['lang', 'overwrite']);
@@ -140,11 +140,10 @@ export default {
 			}
 
 			// Validate language parameter
-			const lang = url.searchParams.get('lang') || 'en';
+			let lang = url.searchParams.get('lang') || 'en';
 			if (!supportedLangs.has(lang)) {
-				return new Response(`Unsupported language: ${lang}. Supported languages are: ${Array.from(supportedLangs).join(', ')}`, {
-					status: 400,
-				});
+				console.log(`Unsupported language: ${lang}, falling back to 'en'`);
+				lang = 'en';
 			}
 
 			const overwrite = url.searchParams.get('overwrite') === 'true';
