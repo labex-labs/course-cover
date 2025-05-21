@@ -222,6 +222,16 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         f"Starting cover generation for course: {course_alias}, language: {lang}"
     )
 
+    # Check if file exists before fetching course info
+    output_dir = Path(__file__).parent.parent / "public" / lang
+    output_path = output_dir / f"{course_alias}.png"
+
+    if output_path.exists() and not overwrite:
+        logger.info(
+            f"Cover already exists at {output_path} and overwrite=False, skipping generation"
+        )
+        return True  # Return True for successful generation
+
     # Try to get course info from the attribute first (batch mode)
     if (
         hasattr(generate_cover, "course_info")
@@ -239,16 +249,8 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
             )
             return False
 
-    # Create output directory and check if file exists
-    output_dir = Path(__file__).parent.parent / "public" / lang
+    # Create output directory
     output_dir.mkdir(parents=True, exist_ok=True)
-    output_path = output_dir / f"{course_alias}.png"
-
-    if output_path.exists() and not overwrite:
-        logger.info(
-            f"Cover already exists at {output_path} and overwrite=False, skipping generation"
-        )
-        return True  # Return True for successful generation
 
     # Load or generate course configuration
     course_config = load_course_config(course_alias)
@@ -333,32 +335,40 @@ def main(course_alias: str, lang: str, overwrite: bool = False):
     """
     try:
         if lang == "all":
-            logger.info(f"Generating covers for {course_alias} in all supported languages...")
+            logger.info(
+                f"Generating covers for {course_alias} in all supported languages..."
+            )
             success = True
             # Get course info once and store it as an attribute to avoid multiple API calls
             generate_cover.course_info = get_course_info(course_alias, "en")
             if generate_cover.course_info is None:
                 logger.error(f"Course {course_alias} not found")
                 sys.exit(1)
-                
+
             for supported_lang in SUPPORTED_LANGUAGES:
                 try:
                     if not generate_cover(course_alias, supported_lang, overwrite):
                         success = False
-                        logger.warning(f"Failed to generate cover for language: {supported_lang}")
+                        logger.warning(
+                            f"Failed to generate cover for language: {supported_lang}"
+                        )
                 except Exception as e:
                     success = False
-                    logger.error(f"Error generating cover for {supported_lang}: {str(e)}")
-            
+                    logger.error(
+                        f"Error generating cover for {supported_lang}: {str(e)}"
+                    )
+
             if not success:
                 sys.exit(1)
         else:
             if lang not in SUPPORTED_LANGUAGES:
-                logger.error(f"Unsupported language: {lang}. Supported languages are: {', '.join(SUPPORTED_LANGUAGES)}")
+                logger.error(
+                    f"Unsupported language: {lang}. Supported languages are: {', '.join(SUPPORTED_LANGUAGES)}"
+                )
                 sys.exit(1)
             if not generate_cover(course_alias, lang, overwrite):
                 sys.exit(1)
-            
+
         logger.info(f"Successfully generated cover(s) for {course_alias}")
     except Exception as e:
         logger.error(f"Error: {str(e)}")
