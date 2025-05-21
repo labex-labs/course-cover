@@ -57,7 +57,10 @@ def get_existing_covers(lang: str) -> set:
 @click.option(
     "--clean-invalid", is_flag=True, help="Remove invalid course configurations"
 )
-def main(lang: str, overwrite: bool, clean_invalid: bool):
+@click.option(
+    "--skip-projects", is_flag=True, help="Skip courses with aliases starting with 'project-'"
+)
+def main(lang: str, overwrite: bool, clean_invalid: bool, skip_projects: bool):
     """Generate course covers for the specified language.
 
     LANG is the target language code (e.g. zh, es, fr)
@@ -100,6 +103,12 @@ def main(lang: str, overwrite: bool, clean_invalid: bool):
                 progress.update(
                     task, description=f"[bold]Processing {course_alias}[/bold]"
                 )
+
+                # Skip courses that start with "project-" if skip_projects is enabled
+                if skip_projects and course_alias.startswith("project-"):
+                    logger.info(f"Skipping project course: {course_alias}")
+                    progress.advance(task)
+                    continue
 
                 # Skip if cover already exists and not in overwrite mode
                 if course_alias in existing_covers and not overwrite:
