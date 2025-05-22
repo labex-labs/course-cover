@@ -51,18 +51,20 @@ def get_course_info(course_alias: str, lang: str) -> dict:
                 f"Course {course_alias} is not available in {lang}. "
                 f"Available languages: {', '.join(available_langs)}"
             )
-            return None
+            # Return the course info anyway, don't mark as invalid just because language is not available
+            return course_info
 
         logger.info(f"Course name: {course_info['name']}")
         return course_info
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 404:
             logger.warning(f"Course {course_alias} not found")
-            return None
-        raise
+            return None  # Only return None for 404 (course doesn't exist)
+        logger.error(f"HTTP error occurred: {e}")
+        raise  # Re-raise other HTTP errors
     except Exception as e:
         logger.error(f"Error fetching course info: {e}")
-        return None
+        raise  # Re-raise other errors instead of returning None
 
 
 def get_course_type(type_id: int) -> str:

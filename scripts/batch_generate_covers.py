@@ -119,26 +119,27 @@ def main(lang: str, overwrite: bool, clean_invalid: bool, skip_projects: bool):
                     continue
 
                 # Generate cover with overwrite parameter
-                result = generate_cover(course_alias, lang, overwrite=overwrite)
-
-                # Track invalid courses if clean-invalid is enabled and course not found
-                if clean_invalid and result is False:
-                    invalid_courses.add(course_alias)
-                    logger.warning(
-                        f"Marked {course_alias} for removal - course not found"
-                    )
-                elif result is True:
-                    logger.info(f"Successfully generated cover for {course_alias}")
+                try:
+                    result = generate_cover(course_alias, lang, overwrite=overwrite)
+                    
+                    # Track invalid courses if clean-invalid is enabled and course not found
+                    if clean_invalid and result is False:
+                        # Only add to invalid_courses if the course truly doesn't exist
+                        invalid_courses.add(course_alias)
+                        logger.warning(
+                            f"Marked {course_alias} for removal - course not found"
+                        )
+                    elif result is True:
+                        logger.info(f"Successfully generated cover for {course_alias}")
+                except Exception as e:
+                    logger.error(f"Error generating cover for {course_alias}: {str(e)}")
+                    # Don't mark as invalid for temporary errors
+                    continue
 
                 progress.advance(task)
 
             except Exception as e:
-                logger.error(f"Error generating cover for {course_alias}: {str(e)}")
-                if clean_invalid:
-                    invalid_courses.add(course_alias)
-                    logger.warning(
-                        f"Marked {course_alias} for removal due to error: {str(e)}"
-                    )
+                logger.error(f"Error in main loop for {course_alias}: {str(e)}")
                 progress.advance(task)
                 continue
 
