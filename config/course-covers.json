@@ -724,11 +724,6 @@
     "created_at": "2025-02-23T13:31:35.197922",
     "image_url": "./assets/icons/practical-python-programming.png"
   },
-  "practice-linux-commands-exercises": {
-    "bg_color": "ddc1a7",
-    "created_at": "2025-02-23T13:31:30.721844",
-    "image_url": "./assets/icons/practice-linux-commands-exercises.png"
-  },
   "privilege-escalation-techniques-on-linux": {
     "bg_color": "b8b2a6",
     "created_at": "2025-02-23T13:31:35.090620",
