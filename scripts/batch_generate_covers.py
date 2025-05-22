@@ -130,7 +130,8 @@ def main(lang: str, overwrite: bool, clean_invalid: bool, skip_projects: bool):
                             f"Marked {course_alias} for removal - course not found"
                         )
                     elif result is True:
-                        logger.info(f"Successfully generated cover for {course_alias}")
+                        logger.info(f"Successfully processed {course_alias}")
+
                 except Exception as e:
                     logger.error(f"Error generating cover for {course_alias}: {str(e)}")
                     # Don't mark as invalid for temporary errors

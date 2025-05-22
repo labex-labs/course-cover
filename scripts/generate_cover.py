@@ -34,8 +34,14 @@ logger = logging.getLogger("rich")
 SUPPORTED_LANGUAGES = ["en", "ja", "zh", "fr", "es", "de", "ru", "ko", "pt"]
 
 
-def get_course_info(course_alias: str, lang: str) -> dict:
-    """Get course information from LabEx API"""
+def get_course_info(course_alias: str, lang: str) -> tuple[dict | None, bool]:
+    """Get course information from LabEx API
+
+    Returns:
+        tuple: (course_info, is_language_supported)
+        - course_info: None if course doesn't exist, dict otherwise
+        - is_language_supported: False if language not supported, True otherwise
+    """
     logger.info(f"Fetching course info for {course_alias} in {lang}")
     url = f"https://labex.io/api/v2/courses/{course_alias}?lang={lang}"
     try:
@@ -51,20 +57,20 @@ def get_course_info(course_alias: str, lang: str) -> dict:
                 f"Course {course_alias} is not available in {lang}. "
                 f"Available languages: {', '.join(available_langs)}"
             )
-            # Return the course info anyway, don't mark as invalid just because language is not available
-            return course_info
+            # Return course info but indicate language is not supported
+            return course_info, False
 
         logger.info(f"Course name: {course_info['name']}")
-        return course_info
+        return course_info, True
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 404:
             logger.warning(f"Course {course_alias} not found")
-            return None  # Only return None for 404 (course doesn't exist)
+            return None, False  # Course doesn't exist
         logger.error(f"HTTP error occurred: {e}")
         raise  # Re-raise other HTTP errors
     except Exception as e:
         logger.error(f"Error fetching course info: {e}")
-        raise  # Re-raise other errors instead of returning None
+        raise  # Re-raise other errors
 
 
 def get_course_type(type_id: int) -> str:
@@ -240,16 +246,26 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         and generate_cover.course_info is not None
     ):
         course_info = generate_cover.course_info
+        # Check if language is supported in batch mode
+        available_langs = course_info.get("langs", [])
+        is_language_supported = lang in available_langs
         # Clear the course_info after using it to avoid affecting next call
         generate_cover.course_info = None
     else:
         # Fallback to fetching course info individually (single mode)
-        course_info = get_course_info(course_alias, lang)
+        course_info, is_language_supported = get_course_info(course_alias, lang)
         if course_info is None:
             logger.info(
-                f"Skipping cover generation as course {course_alias} does not exist or not available in {lang}"
+                f"Skipping cover generation as course {course_alias} does not exist"
             )
             return False
+
+    # Skip generation if language is not supported
+    if not is_language_supported:
+        logger.info(
+            f"Skipping cover generation as course {course_alias} is not available in {lang}"
+        )
+        return True  # Return True to indicate course exists but language not supported
 
     # Create output directory
     output_dir.mkdir(parents=True, exist_ok=True)
