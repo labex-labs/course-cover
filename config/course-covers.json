@@ -3030,6 +3030,12 @@
     "created_at": "2025-02-23T13:31:38.137056",
     "image_url": "./assets/icons/use-canal-to-synchronize-mysql-data-to-redis.png"
   },
+  "use-compute-nest-to-deploy-nextcloud": {
+    "bg_color": "c1b7dd",
+    "created_at": "2025-05-23T08:36:05.143447",
+    "image_url": "./assets/icons/use-compute-nest-to-deploy-nextcloud.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2535/2535404.png"
+  },
   "use-dts-to-migrate-a-self-built-mysql-database-to-a-polardb": {
     "bg_color": "c0d5be",
     "created_at": "2025-02-23T13:31:39.966432",
