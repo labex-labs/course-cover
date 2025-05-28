@@ -2835,6 +2835,11 @@
     "created_at": "2025-02-23T13:31:41.952279",
     "image_url": "./assets/icons/quick-start-with-python.png"
   },
+  "python-for-beginners": {
+    "bg_color": "dcd3b2",
+    "created_at": "2025-05-28T08:36:05.143447",
+    "image_url": "./assets/icons/quick-start-with-python.png"
+  },
   "quick-start-with-react": {
     "bg_color": "fbffac",
     "created_at": "2025-02-23T13:31:42.032555",

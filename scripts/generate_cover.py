@@ -347,10 +347,12 @@ def main(course_alias: str, lang: str, overwrite: bool = False):
             logger.info(f"正在为 {course_alias} 生成所有支持语言的封面...")
             success = True
             # 只获取一次课程信息，避免多次 API 调用
-            generate_cover.course_info = get_course_info(course_alias, "en")
-            if generate_cover.course_info is None:
+            course_info, _ = get_course_info(course_alias, "en")
+            if course_info is None:
                 logger.error(f"未找到课程 {course_alias}")
                 sys.exit(1)
+            
+            generate_cover.course_info = course_info
 
             for supported_lang in SUPPORTED_LANGUAGES:
                 try:
