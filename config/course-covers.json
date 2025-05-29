@@ -687,6 +687,12 @@
     "created_at": "2025-02-23T13:31:31.309007",
     "image_url": "./assets/icons/numpy-practice-plus.png"
   },
+  "one-click-deployment-of-qwen3-series-models-based-on-compute-nest": {
+    "bg_color": "c1b6c0",
+    "created_at": "2025-05-29T09:05:47.361463",
+    "image_url": "./assets/icons/one-click-deployment-of-qwen3-series-models-based-on-compute-nest.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/769/769241.png"
+  },
   "open-service-apis-for-alibaba-cloud-api-gateway": {
     "bg_color": "b9c8d4",
     "created_at": "2025-02-23T13:31:39.926072",
@@ -2674,6 +2680,11 @@
     "created_at": "2025-02-23T13:31:41.193231",
     "image_url": "./assets/icons/project-yin-book-encryption.png"
   },
+  "python-for-beginners": {
+    "bg_color": "dcd3b2",
+    "created_at": "2025-05-28T08:36:05.143447",
+    "image_url": "./assets/icons/quick-start-with-python.png"
+  },
   "python-in-depth-mastery": {
     "bg_color": "fbe6dd",
     "created_at": "2025-02-23T13:31:38.607476",
@@ -2833,11 +2844,6 @@
   "quick-start-with-python": {
     "bg_color": "c8dfc7",
     "created_at": "2025-02-23T13:31:41.952279",
-    "image_url": "./assets/icons/quick-start-with-python.png"
-  },
-  "python-for-beginners": {
-    "bg_color": "dcd3b2",
-    "created_at": "2025-05-28T08:36:05.143447",
     "image_url": "./assets/icons/quick-start-with-python.png"
   },
   "quick-start-with-react": {
