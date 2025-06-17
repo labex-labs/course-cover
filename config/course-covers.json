@@ -2876,6 +2876,12 @@
     "created_at": "2025-02-23T13:31:38.351151",
     "image_url": "./assets/icons/quick-start-with-wireshark.png"
   },
+  "quickly-deploy-nginx-workload-using-ack-auto-mode-cluster": {
+    "bg_color": "ddf5fa",
+    "created_at": "2025-06-17T13:56:45.109273",
+    "image_url": "./assets/icons/quickly-deploy-nginx-workload-using-ack-auto-mode-cluster.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/377/377080.png"
+  },
   "react-practice-challenges": {
     "bg_color": "dfd0e7",
     "created_at": "2025-02-23T13:31:39.170554",
