@@ -214,13 +214,16 @@ def save_course_config(course_alias: str, config: dict):
         logger.error(f"保存课程配置出错：{e}")
 
 
-def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
+def generate_cover(
+    course_alias: str, lang: str, overwrite: bool = False, status: str = None
+):
     """生成课程封面图片
 
     参数：
         course_alias (str): 课程别名
         lang (str): 语言代码
         overwrite (bool, optional): 是否覆盖已存在的封面，默认为 False。
+        status (str, optional): 课程状态，如 'updating'，默认为 None。
 
     返回：
         bool: 成功或跳过返回 True，课程不存在返回 False
@@ -293,6 +296,12 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
         "bg_color": course_config["bg_color"],
         "lang": lang,
     }
+
+    # 添加状态参数
+    if status:
+        params["status"] = status
+        logger.info(f"课程状态：{status}")
+
     logger.debug(f"生成参数：{params}")
 
     # 读取模板 HTML
@@ -327,15 +336,27 @@ def generate_cover(course_alias: str, lang: str, overwrite: bool = False):
     return True  # 成功返回 True
 
 
-@click.command()
-@click.argument("course_alias")
-@click.argument("lang")
+@click.command(no_args_is_help=True)
+@click.option(
+    "--alias", default="html-for-beginners", help="课程别名（如 html-for-beginners）"
+)
+@click.option(
+    "--lang",
+    type=click.Choice(SUPPORTED_LANGUAGES + ["all"]),
+    default="en",
+    help="课程语言代码（如 en, zh），或 'all' 表示全部支持语言",
+)
 @click.option(
     "--overwrite/--no-overwrite",
     default=False,
     help="如已存在则覆盖封面",
 )
-def main(course_alias: str, lang: str, overwrite: bool = False):
+@click.option(
+    "--status",
+    default=None,
+    help="课程状态（如 updating）",
+)
+def main(course_alias: str, lang: str, overwrite: bool = False, status: str = None):
     """
     生成课程封面图片。
 
@@ -351,12 +372,14 @@ def main(course_alias: str, lang: str, overwrite: bool = False):
             if course_info is None:
                 logger.error(f"未找到课程 {course_alias}")
                 sys.exit(1)
-            
+
             generate_cover.course_info = course_info
 
             for supported_lang in SUPPORTED_LANGUAGES:
                 try:
-                    if not generate_cover(course_alias, supported_lang, overwrite):
+                    if not generate_cover(
+                        course_alias, supported_lang, overwrite, status
+                    ):
                         success = False
                         logger.warning(f"为 {supported_lang} 生成封面失败")
                 except Exception as e:
@@ -371,7 +394,7 @@ def main(course_alias: str, lang: str, overwrite: bool = False):
                     f"不支持的语言：{lang}。支持的语言有：{', '.join(SUPPORTED_LANGUAGES)}"
                 )
                 sys.exit(1)
-            if not generate_cover(course_alias, lang, overwrite):
+            if not generate_cover(course_alias, lang, overwrite, status):
                 sys.exit(1)
 
         logger.info(f"{course_alias} 的封面生成成功")
