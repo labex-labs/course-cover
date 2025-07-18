@@ -347,8 +347,8 @@ def generate_cover(
     help="课程语言代码（如 en, zh），或 'all' 表示全部支持语言",
 )
 @click.option(
-    "--overwrite/--no-overwrite",
-    default=False,
+    "--overwrite",
+    is_flag=True,
     help="如已存在则覆盖封面",
 )
 @click.option(
@@ -377,9 +377,7 @@ def main(alias: str, lang: str, overwrite: bool = False, status: str = None):
 
             for supported_lang in SUPPORTED_LANGUAGES:
                 try:
-                    if not generate_cover(
-                        alias, supported_lang, overwrite, status
-                    ):
+                    if not generate_cover(alias, supported_lang, overwrite, status):
                         success = False
                         logger.warning(f"为 {supported_lang} 生成封面失败")
                 except Exception as e:
