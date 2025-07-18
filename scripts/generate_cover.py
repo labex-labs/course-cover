@@ -356,7 +356,7 @@ def generate_cover(
     default=None,
     help="课程状态（如 updating）",
 )
-def main(course_alias: str, lang: str, overwrite: bool = False, status: str = None):
+def main(alias: str, lang: str, overwrite: bool = False, status: str = None):
     """
     生成课程封面图片。
 
@@ -365,12 +365,12 @@ def main(course_alias: str, lang: str, overwrite: bool = False, status: str = No
     """
     try:
         if lang == "all":
-            logger.info(f"正在为 {course_alias} 生成所有支持语言的封面...")
+            logger.info(f"正在为 {alias} 生成所有支持语言的封面...")
             success = True
             # 只获取一次课程信息，避免多次 API 调用
-            course_info, _ = get_course_info(course_alias, "en")
+            course_info, _ = get_course_info(alias, "en")
             if course_info is None:
-                logger.error(f"未找到课程 {course_alias}")
+                logger.error(f"未找到课程 {alias}")
                 sys.exit(1)
 
             generate_cover.course_info = course_info
@@ -378,7 +378,7 @@ def main(course_alias: str, lang: str, overwrite: bool = False, status: str = No
             for supported_lang in SUPPORTED_LANGUAGES:
                 try:
                     if not generate_cover(
-                        course_alias, supported_lang, overwrite, status
+                        alias, supported_lang, overwrite, status
                     ):
                         success = False
                         logger.warning(f"为 {supported_lang} 生成封面失败")
@@ -394,10 +394,10 @@ def main(course_alias: str, lang: str, overwrite: bool = False, status: str = No
                     f"不支持的语言：{lang}。支持的语言有：{', '.join(SUPPORTED_LANGUAGES)}"
                 )
                 sys.exit(1)
-            if not generate_cover(course_alias, lang, overwrite, status):
+            if not generate_cover(alias, lang, overwrite, status):
                 sys.exit(1)
 
-        logger.info(f"{course_alias} 的封面生成成功")
+        logger.info(f"{alias} 的封面生成成功")
     except Exception as e:
         logger.error(f"出错：{str(e)}")
         sys.exit(1)
