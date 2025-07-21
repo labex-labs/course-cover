@@ -33,6 +33,18 @@ logger = logging.getLogger("rich")
 # 支持的语言列表
 SUPPORTED_LANGUAGES = ["en", "ja", "zh", "fr", "es", "de", "ru", "ko", "pt"]
 
+UPDATING_TEXT = {
+    "en": "UPDATING",
+    "ja": "更新中",
+    "zh": "更新中",
+    "fr": "MISE À JOUR",
+    "es": "ACTUALIZANDO",
+    "de": "WIRD AKTUALISIERT",
+    "ru": "ОБНОВЛЕНИЕ",
+    "ko": "업데이트 중",
+    "pt": "ATUALIZANDO",
+}
+
 
 def get_course_info(course_alias: str, lang: str) -> tuple[dict | None, bool]:
     """从 LabEx API 获取课程信息
@@ -298,9 +310,10 @@ def generate_cover(
     }
 
     # 添加状态参数
-    if status:
-        params["status"] = status
-        logger.info(f"课程状态：{status}")
+    if status == "updating":
+        status_text = UPDATING_TEXT.get(lang, UPDATING_TEXT["en"])
+        params["status_text"] = status_text
+        logger.info(f"课程状态：updating, 本地化文案：{status_text}")
 
     logger.debug(f"生成参数：{params}")
 

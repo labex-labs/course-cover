@@ -29,9 +29,8 @@
       <div class="w-[600px] h-[512px] flex flex-col justify-start gap-4 overflow-hidden">
         <!-- Updating 标识矩形块 - 放在课程标题上方 -->
         <div id="updating-badge" class="hidden mb-4">
-          <div class="inline-block px-4 py-2 rounded-lg text-gray-800 font-black text-lg border-2 border-gray-800"
+          <div class="inline-block px-4 py-2 rounded-lg text-gray-800 font-black text-4xl border-2 border-gray-800"
             style="background-color: rgba(255, 255, 255, 0.8); font-family: 'Maple Mono NF CN', monospace;">
-            UPDATING
           </div>
         </div>
 
@@ -53,11 +52,12 @@
     const courseType = urlParams.get("course_type") || "normal";
     const courseName = urlParams.get("course_name") || "Linux for Noobs 基础入门";
     const lang = urlParams.get("lang") || "en";
-    const status = urlParams.get("status");
+    const status_text = urlParams.get("status_text");
 
     // 处理状态显示
-    if (status === "updating") {
+    if (status_text) {
       const updatingBadge = document.getElementById("updating-badge");
+      updatingBadge.children[0].textContent = status_text;
       updatingBadge.classList.remove("hidden");
     }
 
@@ -100,19 +100,19 @@
       // 定义字体大小阶梯
       if (charCount <= 45) {
         // 默认大小
-        element.style.fontSize = "clamp(24px, 5vw, 75px)";
+        element.style.fontSize = "clamp(24px, 5vw, 65px)";
       } else if (charCount <= 70) {
         // 稍小一点
-        element.style.fontSize = "clamp(22px, 4.5vw, 65px)";
+        element.style.fontSize = "clamp(22px, 4.5vw, 55px)";
       } else if (charCount <= 100) {
         // 中等
-        element.style.fontSize = "clamp(20px, 4vw, 55px)";
+        element.style.fontSize = "clamp(20px, 4vw, 45px)";
       } else if (charCount <= 150) {
         // 较小
-        element.style.fontSize = "clamp(18px, 3.5vw, 45px)";
+        element.style.fontSize = "clamp(18px, 3.5vw, 35px)";
       } else {
         // 最小
-        element.style.fontSize = "clamp(16px, 3vw, 35px)";
+        element.style.fontSize = "clamp(16px, 3vw, 25px)";
       }
     }
 
