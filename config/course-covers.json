@@ -3286,6 +3286,12 @@
     "created_at": "2025-02-23T13:31:34.940270",
     "image_url": "./assets/icons/use-ecs-to-deploy-a-web-based-ide.png"
   },
+  "use-function-compute-to-develop-an-ip-lookup-tool": {
+    "bg_color": "efd8c6",
+    "created_at": "2025-08-13T07:29:01.994835",
+    "image_url": "./assets/icons/use-function-compute-to-develop-an-ip-lookup-tool.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/6383/6383225.png"
+  },
   "use-helm-to-deploy-applications-in-kubernetes": {
     "bg_color": "fae7fe",
     "created_at": "2025-02-23T13:31:36.301036",
