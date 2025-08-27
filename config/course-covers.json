@@ -2980,7 +2980,7 @@
     "created_at": "2025-02-23T13:31:36.918213",
     "image_url": "./assets/icons/quick-start-with-matplotlib.png"
   },
-  "quick-start-with-mongodb": {
+  "mongodb-for-beginners": {
     "bg_color": "c3bdba",
     "created_at": "2025-02-23T13:31:33.429713",
     "image_url": "./assets/icons/quick-start-with-mongodb.png"
