@@ -97,6 +97,12 @@
     "created_at": "2025-02-23T13:31:33.156559",
     "image_url": "./assets/icons/c-programming-for-beginners.png"
   },
+  "centos-7-migration-to-anolis-os-7": {
+    "bg_color": "bff0c2",
+    "created_at": "2025-09-03T08:04:21.351007",
+    "image_url": "./assets/icons/centos-7-migration-to-anolis-os-7.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/10444/10444060.png"
+  },
   "comptia-interview-questions": {
     "bg_color": "efceef",
     "created_at": "2025-07-31T09:24:39.951087",
@@ -380,11 +386,6 @@
     "created_at": "2025-02-23T13:31:34.388829",
     "image_url": "./assets/icons/getting-started-with-javascript.png"
   },
-  "jenkins-for-beginners": {
-    "bg_color": "fdb6dc",
-    "created_at": "2025-02-23T13:31:30.541286",
-    "image_url": "./assets/icons/getting-started-with-jenkins.png"
-  },
   "getting-started-with-jquery": {
     "bg_color": "ccf2e9",
     "created_at": "2025-02-23T13:31:36.909855",
@@ -618,6 +619,11 @@
     "created_at": "2025-02-23T13:31:34.048448",
     "image_url": "./assets/icons/javascript-practice-plus.png"
   },
+  "jenkins-for-beginners": {
+    "bg_color": "fdb6dc",
+    "created_at": "2025-02-23T13:31:30.541286",
+    "image_url": "./assets/icons/getting-started-with-jenkins.png"
+  },
   "jquery-practice-challenges": {
     "bg_color": "def0d2",
     "created_at": "2025-02-23T13:31:34.033981",
@@ -785,6 +791,11 @@
     "bg_color": "b4e8f7",
     "created_at": "2025-02-23T13:31:38.496569",
     "image_url": "./assets/icons/ml-practice-plus.png"
+  },
+  "mongodb-for-beginners": {
+    "bg_color": "c3bdba",
+    "created_at": "2025-02-23T13:31:33.429713",
+    "image_url": "./assets/icons/quick-start-with-mongodb.png"
   },
   "mongodb-interview-questions": {
     "bg_color": "d6e8d4",
@@ -2979,11 +2990,6 @@
     "bg_color": "d3b2ff",
     "created_at": "2025-02-23T13:31:36.918213",
     "image_url": "./assets/icons/quick-start-with-matplotlib.png"
-  },
-  "mongodb-for-beginners": {
-    "bg_color": "c3bdba",
-    "created_at": "2025-02-23T13:31:33.429713",
-    "image_url": "./assets/icons/quick-start-with-mongodb.png"
   },
   "quick-start-with-mysql": {
     "bg_color": "e8f083",
