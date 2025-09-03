@@ -62,6 +62,12 @@
     "created_at": "2025-02-23T13:31:40.771479",
     "image_url": "./assets/icons/basic-usage-of-ansible.png"
   },
+  "become-a-junior-system-administrator": {
+    "bg_color": "daf8ee",
+    "created_at": "2025-09-03T16:53:15.098925",
+    "image_url": "./assets/icons/become-a-junior-system-administrator.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4727/4727079.png"
+  },
   "build-a-kubernetes-cluster-on-alibaba-cloud-ecs": {
     "bg_color": "c4e3b8",
     "created_at": "2025-02-23T13:31:29.966646",
