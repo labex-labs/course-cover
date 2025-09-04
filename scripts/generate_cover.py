@@ -57,6 +57,18 @@ PROJECT_TEXT = {
     "pt": "PROJETO",
 }
 
+CHALLENGE_TEXT = {
+    "en": "CHALLENGE",
+    "ja": "チャレンジ",
+    "zh": "挑战",
+    "fr": "DÉFI",
+    "es": "DESAFÍO",
+    "de": "HERAUSFORDERUNG",
+    "ru": "ВЫЗОВ",
+    "ko": "챌린지",
+    "pt": "DESAFIO",
+}
+
 
 def get_course_info(course_alias: str, lang: str) -> tuple[dict | None, bool]:
     """从 LabEx API 获取课程信息
@@ -247,7 +259,7 @@ def generate_cover(
         course_alias (str): 课程别名
         lang (str): 语言代码
         overwrite (bool, optional): 是否覆盖已存在的封面，默认为 False。
-        status (str, optional): 课程状态，如 'updating' 或 'project'，默认为 None。
+        status (str, optional): 课程状态，如 'updating'、'project' 或 'challenge'，默认为 None。
 
     返回：
         bool: 成功或跳过返回 True，课程不存在返回 False
@@ -330,6 +342,10 @@ def generate_cover(
         status_text = PROJECT_TEXT.get(lang, PROJECT_TEXT["en"])
         params["status_text"] = status_text
         logger.info(f"课程状态：project, 本地化文案：{status_text}")
+    elif status == "challenge":
+        status_text = CHALLENGE_TEXT.get(lang, CHALLENGE_TEXT["en"])
+        params["status_text"] = status_text
+        logger.info(f"课程状态：challenge, 本地化文案：{status_text}")
 
     logger.debug(f"生成参数：{params}")
 
@@ -383,7 +399,7 @@ def generate_cover(
 @click.option(
     "--status",
     default=None,
-    help="课程状态（如 updating, project）",
+    help="课程状态（如 updating, project, challenge）",
 )
 def main(alias: str, lang: str, overwrite: bool = False, status: str = None):
     """
