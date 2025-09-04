@@ -197,6 +197,12 @@
     "created_at": "2025-02-23T13:31:39.739955",
     "image_url": "./assets/icons/css-practice-plus.png"
   },
+  "ctf-for-beginners": {
+    "bg_color": "c2ccd6",
+    "created_at": "2025-09-04T10:57:52.960056",
+    "image_url": "./assets/icons/ctf-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4413/4413690.png"
+  },
   "cyber-security-with-hands-on-labs": {
     "bg_color": "bdc0db",
     "created_at": "2025-02-23T13:31:29.644284",
