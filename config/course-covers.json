@@ -886,6 +886,12 @@
     "image_url": "./assets/icons/oss-cross-region-replication-data.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/2032/2032371.png"
   },
+  "pandas-for-beginners": {
+    "bg_color": "d3f1c0",
+    "created_at": "2025-02-23T13:31:41.256583",
+    "image_url": "./assets/icons/getting-started-with-pandas.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4681/4681111.png"
+  },
   "pandas-interview-questions": {
     "bg_color": "f9f4f2",
     "created_at": "2025-07-31T09:24:42.861486",
