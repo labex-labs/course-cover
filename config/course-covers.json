@@ -3160,6 +3160,12 @@
     "created_at": "2025-02-23T13:31:28.885723",
     "image_url": "./assets/icons/rust-practice-plus.png"
   },
+  "scikit-learn-for-beginners": {
+    "bg_color": "f1c4c4",
+    "created_at": "2025-02-23T13:31:39.178137",
+    "image_url": "./assets/icons/getting-started-with-scikit-learn.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2132/2132578.png"
+  },
   "seaborn-data-visualization-basics": {
     "bg_color": "ffc44d",
     "created_at": "2025-02-23T13:31:37.973235",
