@@ -769,6 +769,12 @@
     "created_at": "2025-02-23T13:31:39.325061",
     "image_url": "./assets/icons/manage-application-configurations-on-a-kubernetes-cluster.png"
   },
+  "matplotlib-for-beginners": {
+    "bg_color": "d3b2ff",
+    "created_at": "2025-02-23T13:31:35.060392",
+    "image_url": "./assets/icons/getting-started-with-matplotlib.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1181/1181358.png"
+  },
   "matplotlib-interview-questions": {
     "bg_color": "e3b8fe",
     "created_at": "2025-07-31T09:24:43.392258",
