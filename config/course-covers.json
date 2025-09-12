@@ -2249,6 +2249,12 @@
     "created_at": "2025-02-23T13:31:38.827585",
     "image_url": "./assets/icons/project-news-api.png"
   },
+  "project-nmap-port-scanning-and-telnet-access": {
+    "bg_color": "cbd5d9",
+    "created_at": "2025-09-12T12:16:30.078329",
+    "image_url": "./assets/icons/project-nmap-port-scanning-and-telnet-access.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1666/1666371.png"
+  },
   "project-number-of-users-with-modify-permissions": {
     "bg_color": "f1efd4",
     "created_at": "2025-02-23T13:31:39.683085",
