@@ -33,16 +33,16 @@ logger = logging.getLogger("rich")
 # 支持的语言列表
 SUPPORTED_LANGUAGES = ["en", "ja", "zh", "fr", "es", "de", "ru", "ko", "pt"]
 
-UPDATING_TEXT = {
-    "en": "UPDATING",
-    "ja": "更新中",
-    "zh": "更新中",
-    "fr": "MISE À JOUR",
-    "es": "ACTUALIZANDO",
-    "de": "WIRD AKTUALISIERT",
-    "ru": "ОБНОВЛЕНИЕ",
-    "ko": "업데이트 중",
-    "pt": "ATUALIZANDO",
+COURSE_TEXT = {
+    "en": "COURSE",
+    "ja": "コース",
+    "zh": "课程",
+    "fr": "COURS",
+    "es": "CURSO",
+    "de": "KURS",
+    "ru": "КУРС",
+    "ko": "코스",
+    "pt": "CURSO",
 }
 
 PROJECT_TEXT = {
@@ -271,7 +271,7 @@ def generate_cover(
         course_alias (str): 课程别名
         lang (str): 语言代码
         overwrite (bool, optional): 是否覆盖已存在的封面，默认为 False。
-        status (str, optional): 课程状态，如 'updating'、'project'、'challenge' 或 'ctf'，默认为 None。
+        status (str, optional): 课程状态，如 'course'、'project'、'challenge' 或 'ctf'，默认为 None。
 
     返回：
         bool: 成功或跳过返回 True，课程不存在返回 False
@@ -346,10 +346,10 @@ def generate_cover(
     }
 
     # 添加状态参数
-    if status == "updating":
-        status_text = UPDATING_TEXT.get(lang, UPDATING_TEXT["en"])
+    if status == "course":
+        status_text = COURSE_TEXT.get(lang, COURSE_TEXT["en"])
         params["status_text"] = status_text
-        logger.info(f"课程状态：updating, 本地化文案：{status_text}")
+        logger.info(f"课程状态：course, 本地化文案：{status_text}")
     elif status == "project":
         status_text = PROJECT_TEXT.get(lang, PROJECT_TEXT["en"])
         params["status_text"] = status_text
@@ -415,7 +415,7 @@ def generate_cover(
 @click.option(
     "--status",
     default=None,
-    help="课程状态（如 updating, project, challenge, ctf）",
+    help="课程状态（如 course, project, challenge, ctf）",
 )
 def main(alias: str, lang: str, overwrite: bool = False, status: str = None):
     """
