@@ -1874,6 +1874,12 @@
     "created_at": "2025-02-23T13:31:34.307209",
     "image_url": "./assets/icons/project-fruit-stacker.png"
   },
+  "project-ftp-enumeration-and-anonymous-access": {
+    "bg_color": "c0e2cb",
+    "created_at": "2025-09-15T09:55:59.148421",
+    "image_url": "./assets/icons/project-ftp-enumeration-and-anonymous-access.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3619/3619171.png"
+  },
   "project-ftp-weak-password-scanner-using-python": {
     "bg_color": "fdbf8a",
     "created_at": "2025-02-23T13:31:29.533040",
