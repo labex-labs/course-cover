@@ -3073,7 +3073,7 @@
     "created_at": "2025-02-23T13:31:39.301655",
     "image_url": "./assets/icons/quick-start-with-mysql.png"
   },
-  "quick-start-with-nmap": {
+  "nmap-for-beginners": {
     "bg_color": "a3c6c4",
     "created_at": "2025-02-23T13:31:38.736085",
     "image_url": "./assets/icons/quick-start-with-nmap.png"
@@ -3123,7 +3123,7 @@
     "created_at": "2025-02-23T13:31:41.279483",
     "image_url": "./assets/icons/quick-start-with-tensorflow.png"
   },
-  "quick-start-with-wireshark": {
+  "wireshark-for-beginners": {
     "bg_color": "efd8f4",
     "created_at": "2025-02-23T13:31:38.351151",
     "image_url": "./assets/icons/quick-start-with-wireshark.png"
