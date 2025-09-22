@@ -177,6 +177,12 @@
     "created_at": "2025-02-23T13:31:33.346975",
     "image_url": "./assets/icons/cpp-programming-for-beginners.png"
   },
+  "css-for-beginners": {
+    "bg_color": "dcd0c2",
+    "created_at": "2025-02-23T13:31:34.227411",
+    "image_url": "./assets/icons/getting-started-with-css.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/12054/12054610.png"
+  },
   "css-interview-questions": {
     "bg_color": "d6c7dd",
     "created_at": "2025-07-31T09:24:44.077485",
