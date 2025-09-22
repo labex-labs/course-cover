@@ -845,6 +845,11 @@
     "created_at": "2025-02-23T13:31:33.830699",
     "image_url": "./assets/icons/mysql-practice-plus.png"
   },
+  "nmap-for-beginners": {
+    "bg_color": "a3c6c4",
+    "created_at": "2025-02-23T13:31:38.736085",
+    "image_url": "./assets/icons/quick-start-with-nmap.png"
+  },
   "nmap-interview-questions": {
     "bg_color": "c2f4e6",
     "created_at": "2025-07-31T09:24:40.299554",
@@ -917,6 +922,12 @@
     "bg_color": "fcd45f",
     "created_at": "2025-02-23T13:31:32.972214",
     "image_url": "./assets/icons/pandas-practice-plus.png"
+  },
+  "penetration-testing-for-beginners": {
+    "bg_color": "e3c5fc",
+    "created_at": "2025-09-22T08:37:43.688863",
+    "image_url": "./assets/icons/penetration-testing-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2377/2377475.png"
   },
   "postgresql-for-beginners": {
     "bg_color": "c1cee1",
@@ -3073,11 +3084,6 @@
     "created_at": "2025-02-23T13:31:39.301655",
     "image_url": "./assets/icons/quick-start-with-mysql.png"
   },
-  "nmap-for-beginners": {
-    "bg_color": "a3c6c4",
-    "created_at": "2025-02-23T13:31:38.736085",
-    "image_url": "./assets/icons/quick-start-with-nmap.png"
-  },
   "quick-start-with-numpy": {
     "bg_color": "8fd3e3",
     "created_at": "2025-02-23T13:31:40.059424",
@@ -3122,11 +3128,6 @@
     "bg_color": "e8fcc8",
     "created_at": "2025-02-23T13:31:41.279483",
     "image_url": "./assets/icons/quick-start-with-tensorflow.png"
-  },
-  "wireshark-for-beginners": {
-    "bg_color": "efd8f4",
-    "created_at": "2025-02-23T13:31:38.351151",
-    "image_url": "./assets/icons/quick-start-with-wireshark.png"
   },
   "quickly-deploy-nginx-workload-using-ack-auto-mode-cluster": {
     "bg_color": "ddf5fa",
@@ -3440,6 +3441,11 @@
     "bg_color": "bcbfdb",
     "created_at": "2025-07-31T09:24:43.561738",
     "image_url": "./assets/icons/webdev.png"
+  },
+  "wireshark-for-beginners": {
+    "bg_color": "efd8f4",
+    "created_at": "2025-02-23T13:31:38.351151",
+    "image_url": "./assets/icons/quick-start-with-wireshark.png"
   },
   "wireshark-interview-questions": {
     "bg_color": "caebc0",
