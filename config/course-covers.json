@@ -3084,6 +3084,11 @@
     "created_at": "2025-02-23T13:31:39.459572",
     "image_url": "./assets/icons/quick-start-with-java.png"
   },
+  "java-for-beginners": {
+    "bg_color": "edeac4",
+    "created_at": "2025-02-23T13:31:39.459572",
+    "image_url": "./assets/icons/quick-start-with-java.png"
+  },
   "quick-start-with-javascript": {
     "bg_color": "e3e9eb",
     "created_at": "2025-02-23T13:31:35.886672",
