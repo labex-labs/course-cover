@@ -469,6 +469,12 @@
     "created_at": "2025-02-23T13:31:30.184355",
     "image_url": "./assets/icons/getting-started-with-tensorflow.png"
   },
+  "git-for-beginners": {
+    "bg_color": "bbdac6",
+    "created_at": "2025-02-23T13:31:41.167418",
+    "image_url": "./assets/icons/quick-start-with-git.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3739/3739294.png"
+  },
   "git-in-depth-mastery": {
     "bg_color": "fee7af",
     "created_at": "2025-02-23T13:31:34.005679",
