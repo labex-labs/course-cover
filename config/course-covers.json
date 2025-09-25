@@ -3044,6 +3044,11 @@
     "created_at": "2025-02-23T13:31:41.239974",
     "image_url": "./assets/icons/quick-start-with-docker.png"
   },
+  "docker-for-beginners": {
+    "bg_color": "eaf8a4",
+    "created_at": "2025-02-23T13:31:41.239974",
+    "image_url": "./assets/icons/quick-start-with-docker.png"
+  },
   "quick-start-with-flask": {
     "bg_color": "ccd285",
     "created_at": "2025-02-23T13:31:33.699921",
