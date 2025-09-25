@@ -697,11 +697,6 @@
     "image_url": "./assets/icons/quick-start-with-kubernetes.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/4107/4107772.png"
   },
-  "kubernetes-for-noobs": {
-    "bg_color": "f0b4b6",
-    "created_at": "2025-02-23T13:31:39.850477",
-    "image_url": "./assets/icons/kubernetes-for-noobs.png"
-  },
   "kubernetes-interview-questions": {
     "bg_color": "dae9bc",
     "created_at": "2025-07-31T09:24:39.489652",
