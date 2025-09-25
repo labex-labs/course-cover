@@ -464,6 +464,11 @@
     "created_at": "2025-02-23T13:31:41.292471",
     "image_url": "./assets/icons/getting-started-with-shell.png"
   },
+  "shell-for-beginners": {
+    "bg_color": "ecf1ce",
+    "created_at": "2025-02-23T13:31:41.292471",
+    "image_url": "./assets/icons/getting-started-with-shell.png"
+  },
   "getting-started-with-tensorflow": {
     "bg_color": "e8fcc8",
     "created_at": "2025-02-23T13:31:30.184355",
