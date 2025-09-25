@@ -298,6 +298,11 @@
     "image_url": "./assets/icons/docker-command-labs.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/9876/9876772.png"
   },
+  "docker-for-beginners": {
+    "bg_color": "eaf8a4",
+    "created_at": "2025-02-23T13:31:41.239974",
+    "image_url": "./assets/icons/quick-start-with-docker.png"
+  },
   "docker-in-depth-mastery": {
     "bg_color": "8adc8a",
     "created_at": "2025-02-23T13:31:29.241375",
@@ -464,11 +469,6 @@
     "created_at": "2025-02-23T13:31:41.292471",
     "image_url": "./assets/icons/getting-started-with-shell.png"
   },
-  "shell-for-beginners": {
-    "bg_color": "ecf1ce",
-    "created_at": "2025-02-23T13:31:41.292471",
-    "image_url": "./assets/icons/getting-started-with-shell.png"
-  },
   "getting-started-with-tensorflow": {
     "bg_color": "e8fcc8",
     "created_at": "2025-02-23T13:31:30.184355",
@@ -607,6 +607,11 @@
     "bg_color": "fdd1d5",
     "created_at": "2025-02-23T13:31:36.372484",
     "image_url": "./assets/icons/java-exercises.png"
+  },
+  "java-for-beginners": {
+    "bg_color": "edeac4",
+    "created_at": "2025-02-23T13:31:39.459572",
+    "image_url": "./assets/icons/quick-start-with-java.png"
   },
   "java-interview-questions": {
     "bg_color": "e3b5c4",
@@ -849,6 +854,12 @@
     "bg_color": "d6e8d4",
     "created_at": "2025-07-31T09:24:41.634500",
     "image_url": "./assets/icons/mongodb.png"
+  },
+  "monitoring-and-logging-for-devops": {
+    "bg_color": "e2c1f2",
+    "created_at": "2025-09-25T14:14:17.507699",
+    "image_url": "./assets/icons/monitoring-and-logging-for-devops.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1356/1356133.png"
   },
   "multi-tenant-business-system-solution-with-list-default-hash-partitioning-of-polardb-mysql": {
     "bg_color": "bacdc9",
@@ -3049,11 +3060,6 @@
     "created_at": "2025-02-23T13:31:41.239974",
     "image_url": "./assets/icons/quick-start-with-docker.png"
   },
-  "docker-for-beginners": {
-    "bg_color": "eaf8a4",
-    "created_at": "2025-02-23T13:31:41.239974",
-    "image_url": "./assets/icons/quick-start-with-docker.png"
-  },
   "quick-start-with-flask": {
     "bg_color": "ccd285",
     "created_at": "2025-02-23T13:31:33.699921",
@@ -3080,11 +3086,6 @@
     "image_url": "./assets/icons/quick-start-with-html.png"
   },
   "quick-start-with-java": {
-    "bg_color": "edeac4",
-    "created_at": "2025-02-23T13:31:39.459572",
-    "image_url": "./assets/icons/quick-start-with-java.png"
-  },
-  "java-for-beginners": {
     "bg_color": "edeac4",
     "created_at": "2025-02-23T13:31:39.459572",
     "image_url": "./assets/icons/quick-start-with-java.png"
@@ -3271,6 +3272,11 @@
     "bg_color": "ffc44d",
     "created_at": "2025-02-23T13:31:37.973235",
     "image_url": "./assets/icons/seaborn-data-visualization-basics.png"
+  },
+  "shell-for-beginners": {
+    "bg_color": "ecf1ce",
+    "created_at": "2025-02-23T13:31:41.292471",
+    "image_url": "./assets/icons/getting-started-with-shell.png"
   },
   "shell-interview-questions": {
     "bg_color": "d0e2dd",
