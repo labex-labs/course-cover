@@ -836,6 +836,12 @@
     "created_at": "2025-02-23T13:31:30.882723",
     "image_url": "./assets/icons/matplotlib-practice-plus.png"
   },
+  "metasploit-for-beginners": {
+    "bg_color": "babfe4",
+    "created_at": "2025-10-13T10:46:33.524454",
+    "image_url": "./assets/icons/metasploit-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/6214/6214140.png"
+  },
   "ml-interview-questions": {
     "bg_color": "f7fbce",
     "created_at": "2025-07-31T09:24:42.661776",
