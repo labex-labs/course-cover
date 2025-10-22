@@ -114,6 +114,12 @@
     "image_url": "./assets/icons/centos-7-migration-to-anolis-os-7.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/10444/10444060.png"
   },
+  "comptia-a-plus-training-labs": {
+    "bg_color": "c0c7e9",
+    "created_at": "2025-10-22T09:42:04.757792",
+    "image_url": "./assets/icons/comptia-a-plus-training-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3113/3113854.png"
+  },
   "comptia-interview-questions": {
     "bg_color": "efceef",
     "created_at": "2025-07-31T09:24:39.951087",
