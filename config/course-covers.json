@@ -3018,6 +3018,12 @@
     "created_at": "2025-02-23T13:31:41.193231",
     "image_url": "./assets/icons/project-yin-book-encryption.png"
   },
+  "python-cheatsheet": {
+    "bg_color": "bec2ce",
+    "created_at": "2025-11-17T09:31:36.363490",
+    "image_url": "./assets/icons/python-cheatsheet.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/6614/6614671.png"
+  },
   "python-for-beginners": {
     "bg_color": "dcd3b2",
     "created_at": "2025-05-28T08:36:05.143447",
