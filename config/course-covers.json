@@ -517,6 +517,12 @@
     "created_at": "2025-02-23T13:31:37.425357",
     "image_url": "./assets/icons/git-practice-plus.png"
   },
+  "github-actions-for-beginners": {
+    "bg_color": "d9b4b4",
+    "created_at": "2025-11-27T13:42:44.597024",
+    "image_url": "./assets/icons/github-actions-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/5664/5664562.png"
+  },
   "go-interview-questions": {
     "bg_color": "f0f3ed",
     "created_at": "2025-07-31T09:24:41.807528",
