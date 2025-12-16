@@ -828,6 +828,12 @@
     "image_url": "./assets/icons/linux-status-and-configuration.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/7862/7862916.png"
   },
+  "linux-terminal-basics": {
+    "bg_color": "e6ebd6",
+    "created_at": "2025-12-16T19:05:08.170715",
+    "image_url": "./assets/icons/linux-terminal-basics.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1199/1199101.png"
+  },
   "manage-application-configurations-on-a-kubernetes-cluster": {
     "bg_color": "e4d2c8",
     "created_at": "2025-02-23T13:31:39.325061",
