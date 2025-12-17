@@ -351,6 +351,12 @@
     "image_url": "./assets/icons/fault-injection-verification-of-system-fault-tolerance.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/2927/2927617.png"
   },
+  "file-system-navigation-and-file-operations": {
+    "bg_color": "c6e7f0",
+    "created_at": "2025-12-17T14:22:17.500071",
+    "image_url": "./assets/icons/file-system-navigation-and-file-operations.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4595/4595149.png"
+  },
   "foundations-of-deep-learning": {
     "bg_color": "acd2a8",
     "created_at": "2025-02-23T13:31:31.208907",
