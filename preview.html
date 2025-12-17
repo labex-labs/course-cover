@@ -25,7 +25,9 @@
 
 <body>
   <div class="w-[1400px] h-[720px] relative" id="background">
-    <div class="w-[1400px] h-[720px] flex justify-between items-center px-20">
+    <div id="grid-background" class="absolute inset-0 z-0 pointer-events-none"></div>
+
+    <div class="w-[1400px] h-[720px] flex justify-between items-center px-20 relative z-10">
       <div class="w-[600px] h-[512px] flex flex-col justify-start gap-4 overflow-hidden">
         <!-- Updating 标识矩形块 - 放在课程标题上方 -->
         <div id="updating-badge" class="hidden mb-4">
@@ -120,6 +122,84 @@
     adjustFontSize(titleElement, courseName);
 
     document.getElementById("background").style.backgroundColor = backgroundColor;
+
+    // 生成背景和纹理的统一控制器
+    function setupBackground() {
+      const gridBg = document.getElementById("grid-background");
+      
+      // 1. 定义背景网格样式 (Grid Styles)
+      const gridStyles = {
+        // --- 正交网格类 (Orthogonal) ---
+        solid: (opacity = 0.1) => {
+          gridBg.style.opacity = opacity;
+          gridBg.style.backgroundSize = "40px 40px";
+          gridBg.style.backgroundImage = "linear-gradient(to right, black 1px, transparent 1px), linear-gradient(to bottom, black 1px, transparent 1px)";
+        },
+        dashed: (opacity = 0.12) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="black" stroke-width="1" stroke-dasharray="4 2"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        },
+        dotted_line: (opacity = 0.15) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1 4" stroke-linecap="round"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        },
+        points: (opacity = 0.15) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><circle cx="1" cy="1" r="1.5" fill="black"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        },
+
+        // --- 圆形/有机类 (Round/Organic) ---
+        polka: (opacity = 0.1) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="2" fill="black"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        },
+        waves: (opacity = 0.1) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="40" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 10 Q 10 0 20 10 T 40 10" fill="none" stroke="black" stroke-width="1.5"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        },
+
+        // --- 斜向/几何类 (Angled/Geometric) ---
+        diagonal: (opacity = 0.08) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M-5 25 L25 -5 M0 20 L20 0 M-5 5 L5 -5 M15 25 L25 15" stroke="black" stroke-width="1.5"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        },
+        diamond: (opacity = 0.08) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="0" width="28" height="28" transform="rotate(45 20 0)" fill="none" stroke="black" stroke-width="1"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        }
+      };
+
+      // 2. 选择逻辑
+      const urlParams = new URLSearchParams(window.location.search);
+      let selectedGrid = urlParams.get("grid");
+
+      // 随机选择背景网格 (Grid)
+      const gridKeys = Object.keys(gridStyles);
+      if (!selectedGrid || !gridStyles[selectedGrid]) {
+        selectedGrid = gridKeys[Math.floor(Math.random() * gridKeys.length)];
+      }
+
+      console.log(`Rendering - Grid: ${selectedGrid}`);
+
+      // 3. 渲染
+      gridStyles[selectedGrid]();     // 渲染背景
+    }
+
+    setupBackground();
   </script>
 </body>
 
