@@ -126,7 +126,7 @@
     // 生成背景和纹理的统一控制器
     function setupBackground() {
       const gridBg = document.getElementById("grid-background");
-      
+
       // 1. 定义背景网格样式 (Grid Styles)
       const gridStyles = {
         // --- 正交网格类 (Orthogonal) ---
@@ -150,6 +150,17 @@
         points: (opacity = 0.15) => {
           gridBg.style.opacity = opacity;
           const svg = `<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><circle cx="1" cy="1" r="1.5" fill="black"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        },
+        grid_sm: (opacity = 0.08) => {
+          gridBg.style.opacity = opacity;
+          gridBg.style.backgroundSize = "20px 20px";
+          gridBg.style.backgroundImage = "linear-gradient(to right, black 1px, transparent 1px), linear-gradient(to bottom, black 1px, transparent 1px)";
+        },
+        plus: (opacity = 0.1) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg"><path d="M30 10 V50 M10 30 H50" fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/></svg>`;
           gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
           gridBg.style.backgroundSize = "auto";
         },
@@ -178,6 +189,24 @@
         diamond: (opacity = 0.08) => {
           gridBg.style.opacity = opacity;
           const svg = `<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="0" width="28" height="28" transform="rotate(45 20 0)" fill="none" stroke="black" stroke-width="1"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        },
+        triangle: (opacity = 0.08) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><path d="M20 5 L35 35 L5 35 Z" fill="none" stroke="black" stroke-width="1"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        },
+        hexagon: (opacity = 0.08) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="56" height="96" xmlns="http://www.w3.org/2000/svg"><path d="M28 66 L0 50 L0 16 L28 0 L56 16 L56 50 Z" fill="none" stroke="black" stroke-width="1"/></svg>`;
+          gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+          gridBg.style.backgroundSize = "auto";
+        },
+        zigzag: (opacity = 0.1) => {
+          gridBg.style.opacity = opacity;
+          const svg = `<svg width="40" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 20 L10 0 L20 20 L30 0 L40 20" fill="none" stroke="black" stroke-width="1.5"/></svg>`;
           gridBg.style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
           gridBg.style.backgroundSize = "auto";
         }
