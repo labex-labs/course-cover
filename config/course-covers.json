@@ -68,10 +68,10 @@
     "image_url": "./assets/icons/basic-usage-of-ansible.png"
   },
   "become-a-junior-system-administrator": {
-    "bg_color": "b4bec9",
-    "created_at": "2025-09-03T16:53:15.098925",
-    "image_url": "./assets/icons/become-a-junior-system-administrator.png",
-    "remote_url": "https://cdn-icons-png.freepik.com/512/4727/4727079.png"
+    "ai_description": "A cheerful, round robot panda wearing a bright blue headset and holding a tiny golden wrench.",
+    "bg_color": "eeb4be",
+    "created_at": "2025-12-18T14:19:42.218411",
+    "image_url": "./assets/icons/become-a-junior-system-administrator.png"
   },
   "build-a-kubernetes-cluster-on-alibaba-cloud-ecs": {
     "bg_color": "c4e3b8",
@@ -126,10 +126,10 @@
     "image_url": "./assets/icons/comptia.png"
   },
   "comptia-linux-plus-training-labs": {
-    "bg_color": "b4f4ef",
-    "created_at": "2025-06-25T10:15:57.012783",
-    "image_url": "./assets/icons/comptia-linux-plus-training-labs.png",
-    "remote_url": "https://cdn-icons-png.freepik.com/512/4393/4393903.png"
+    "ai_description": "A sleek, dark gray server rack cabinet featuring a glowing cyan terminal screen on the front and three vibrant orange status lights aligned vertically on the side.",
+    "bg_color": "d9cbcc",
+    "created_at": "2025-12-18T13:53:45.633384",
+    "image_url": "./assets/icons/comptia-linux-plus-training-labs.png"
   },
   "comptia-network-plus-training-labs": {
     "bg_color": "ece9d7",
@@ -784,8 +784,9 @@
     "image_url": "./assets/icons/labex-vm.png"
   },
   "linux-basic-commands-practice-online": {
-    "bg_color": "fdbfc4",
-    "created_at": "2025-02-23T13:31:33.730148",
+    "ai_description": "A sleek black terminal console window featuring a prominent emerald green command prompt symbol and a glowing white cursor.",
+    "bg_color": "b6dfdc",
+    "created_at": "2025-12-18T13:46:26.107363",
     "image_url": "./assets/icons/linux-basic-commands-practice-online.png"
   },
   "linux-commands-list": {
@@ -794,8 +795,9 @@
     "image_url": "./assets/icons/linux-commands-list.png"
   },
   "linux-for-noobs": {
-    "bg_color": "f6bc64",
-    "created_at": "2025-02-23T13:31:35.101408",
+    "ai_description": "A sleek, stylized penguin wearing a vibrant yellow construction hard hat and holding a bright orange wrench, featuring a polished charcoal-black body and crisp white belly.",
+    "bg_color": "d0b6b7",
+    "created_at": "2025-12-18T13:34:44.908585",
     "image_url": "./assets/icons/linux-for-noobs.png"
   },
   "linux-in-depth-mastery": {
@@ -809,8 +811,9 @@
     "image_url": "./assets/icons/linux.png"
   },
   "linux-practice-challenges": {
-    "bg_color": "c0d4bc",
-    "created_at": "2025-02-23T13:31:38.457016",
+    "ai_description": "A cheerful, chubby orange penguin wearing a bright teal construction helmet and holding a small lime green wrench.",
+    "bg_color": "ede4fd",
+    "created_at": "2025-12-18T14:24:14.519296",
     "image_url": "./assets/icons/linux-practice-challenges.png"
   },
   "linux-practice-labs": {
@@ -3159,8 +3162,9 @@
     "image_url": "./assets/icons/quick-start-with-kubernetes.png"
   },
   "quick-start-with-linux": {
-    "bg_color": "ffd48c",
-    "created_at": "2025-02-23T13:31:31.696168",
+    "ai_description": "A cute, chubby penguin wearing a bright orange backpack and yellow sneakers, ready for a quick adventure.",
+    "bg_color": "d6d2ea",
+    "created_at": "2025-12-18T14:17:59.246580",
     "image_url": "./assets/icons/quick-start-with-linux.png"
   },
   "quick-start-with-matplotlib": {
@@ -3322,9 +3326,10 @@
     "image_url": "./assets/icons/seaborn-data-visualization-basics.png"
   },
   "shell-for-beginners": {
-    "bg_color": "ecf1ce",
-    "created_at": "2025-02-23T13:31:41.292471",
-    "image_url": "./assets/icons/getting-started-with-shell.png"
+    "ai_description": "A cheerful green hermit crab with a shiny black shell and big, friendly eyes.",
+    "bg_color": "bbc4f7",
+    "created_at": "2025-12-18T14:20:46.009031",
+    "image_url": "./assets/icons/shell-for-beginners.png"
   },
   "shell-interview-questions": {
     "bg_color": "d0e2dd",
