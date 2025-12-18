@@ -3538,6 +3538,12 @@
     "created_at": "2025-02-23T13:31:39.202881",
     "image_url": "./assets/icons/use-the-backup-center-feature-of-ack-to-back-up-a-kubernetes-cluster.png"
   },
+  "viewing-searching-and-editing-files": {
+    "ai_description": "A cheerful orange squirrel wearing oversized green glasses, holding a small silver magnifying glass in its paws.",
+    "bg_color": "e8d0c3",
+    "created_at": "2025-12-18T15:18:34.635200",
+    "image_url": "./assets/icons/viewing-searching-and-editing-files.png"
+  },
   "web-development-interactive-challenges": {
     "bg_color": "f2ddd3",
     "created_at": "2025-02-23T13:31:29.365201",
