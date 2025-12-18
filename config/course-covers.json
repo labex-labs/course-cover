@@ -795,9 +795,9 @@
     "image_url": "./assets/icons/linux-commands-list.png"
   },
   "linux-for-noobs": {
-    "ai_description": "A sleek, stylized penguin wearing a vibrant yellow construction hard hat and holding a bright orange wrench, featuring a polished charcoal-black body and crisp white belly.",
-    "bg_color": "d0b6b7",
-    "created_at": "2025-12-18T13:34:44.908585",
+    "ai_description": "A cute, round penguin chick wearing a bright orange construction helmet and holding a tiny green wrench.",
+    "bg_color": "c0d7cd",
+    "created_at": "2025-12-18T14:29:14.528258",
     "image_url": "./assets/icons/linux-for-noobs.png"
   },
   "linux-in-depth-mastery": {
