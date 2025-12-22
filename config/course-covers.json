@@ -3349,6 +3349,12 @@
     "created_at": "2025-02-23T13:31:37.973235",
     "image_url": "./assets/icons/seaborn-data-visualization-basics.png"
   },
+  "shell-environment-and-variables": {
+    "ai_description": "A cute 3D toy rabbit organizing glowing carrot-shaped variables into persistent storage bins on a digital workbench.",
+    "bg_color": "b9c4f6",
+    "created_at": "2025-12-22T17:07:21.915337",
+    "image_url": "./assets/icons/shell-environment-and-variables.png"
+  },
   "shell-for-beginners": {
     "ai_description": "A cheerful green hermit crab with a shiny black shell and big, friendly eyes.",
     "bg_color": "bbc4f7",
