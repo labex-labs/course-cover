@@ -810,6 +810,12 @@
     "created_at": "2025-07-31T09:24:38.325564",
     "image_url": "./assets/icons/linux.png"
   },
+  "linux-networking-fundamentals": {
+    "ai_description": "A cute 3D toy hedgehog carefully plugging colorful ethernet cables into a glowing router to test connectivity.",
+    "bg_color": "efb4fa",
+    "created_at": "2025-12-22T18:29:00.391125",
+    "image_url": "./assets/icons/linux-networking-fundamentals.png"
+  },
   "linux-practice-challenges": {
     "ai_description": "A cheerful, chubby orange penguin wearing a bright teal construction helmet and holding a small lime green wrench.",
     "bg_color": "ede4fd",
@@ -3438,6 +3444,12 @@
     "bg_color": "f4fbf2",
     "created_at": "2025-02-23T13:31:41.720101",
     "image_url": "./assets/icons/supervised-learning-regression.png"
+  },
+  "system-information-and-resource-monitoring": {
+    "ai_description": "A cute 3D toy squirrel at a dashboard, monitoring nut stockpiles and tree health on glowing holographic screens.",
+    "bg_color": "ebeee7",
+    "created_at": "2025-12-22T18:28:43.045441",
+    "image_url": "./assets/icons/system-information-and-resource-monitoring.png"
   },
   "terraform-for-beginners": {
     "bg_color": "ded6fa",
