@@ -3574,6 +3574,12 @@
     "created_at": "2025-02-23T13:31:39.202881",
     "image_url": "./assets/icons/use-the-backup-center-feature-of-ack-to-back-up-a-kubernetes-cluster.png"
   },
+  "users-groups-and-permissions": {
+    "ai_description": "A cute 3D toy cat wearing a headset, organizing colorful labeled folders and locking a tiny golden padlock.",
+    "bg_color": "b5e0b7",
+    "created_at": "2025-12-22T17:37:24.354991",
+    "image_url": "./assets/icons/users-groups-and-permissions.png"
+  },
   "viewing-searching-and-editing-files": {
     "ai_description": "A cheerful orange squirrel wearing oversized green glasses, holding a small silver magnifying glass in its paws.",
     "bg_color": "e8d0c3",
