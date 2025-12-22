@@ -1132,8 +1132,9 @@
     "image_url": "./assets/icons/project-average-salaries-per-department-descending.png"
   },
   "project-avoid-accidental-deletion": {
+    "ai_description": "A cute 3D toy owl carefully placing a file into a tiny safety bin instead of a shredder.",
     "bg_color": "b6f4b4",
-    "created_at": "2025-02-23T13:31:34.459831",
+    "created_at": "2025-12-22T11:21:30.476601",
     "image_url": "./assets/icons/project-avoid-accidental-deletion.png"
   },
   "project-backup-data-table": {
@@ -1177,8 +1178,9 @@
     "image_url": "./assets/icons/project-build-a-digital-clock-with-python.png"
   },
   "project-build-a-linux-system-monitor-using-bash": {
+    "ai_description": "A 3D matte toy otter wearing a headset, monitoring glowing holographic bars of system data on a floating screen.",
     "bg_color": "bcb6d5",
-    "created_at": "2025-02-23T13:31:34.217640",
+    "created_at": "2025-12-22T11:10:42.624310",
     "image_url": "./assets/icons/project-build-a-linux-system-monitor-using-bash.png"
   },
   "project-build-a-simple-markdown-editor-with-live-preview": {
@@ -1202,8 +1204,9 @@
     "image_url": "./assets/icons/project-build-a-sliding-puzzle-game-with-javascript.png"
   },
   "project-build-a-task-scheduler-using-bash": {
+    "ai_description": "A cute 3D toy duck wearing a headset, organizing tiny clockwork gears to automate its daily pond schedule.",
     "bg_color": "dbebeb",
-    "created_at": "2025-02-23T13:31:31.984254",
+    "created_at": "2025-12-22T11:11:16.986145",
     "image_url": "./assets/icons/project-build-a-task-scheduler-using-bash.png"
   },
   "project-build-a-tic-tac-toe-web-app": {
@@ -1287,8 +1290,9 @@
     "image_url": "./assets/icons/project-building-flappy-bird-using-c.png"
   },
   "project-bulk-creation-and-deletion-of-users-and-groups": {
+    "ai_description": "A 3D toy panda happily sorting student and teacher ID badges into organized digital folders on a glowing screen.",
     "bg_color": "f6e4d2",
-    "created_at": "2025-02-23T13:31:41.799012",
+    "created_at": "2025-12-22T11:18:42.519461",
     "image_url": "./assets/icons/project-bulk-creation-and-deletion-of-users-and-groups.png"
   },
   "project-bulk-insert-data-into-course-schedule": {
@@ -1332,8 +1336,9 @@
     "image_url": "./assets/icons/project-callback-functions.png"
   },
   "project-certificate-configuration": {
+    "ai_description": "A 3D toy-style cat joyfully stamping a golden certificate to unlock a miniature glowing server door.",
     "bg_color": "b8ccde",
-    "created_at": "2025-02-23T13:31:29.993250",
+    "created_at": "2025-12-22T11:12:25.626241",
     "image_url": "./assets/icons/project-certificate-configuration.png"
   },
   "project-change-default-value-for-countrylanguage-table": {
@@ -1357,8 +1362,9 @@
     "image_url": "./assets/icons/project-chaotic-typewriter.png"
   },
   "project-chess-board-in-terminal": {
+    "ai_description": "A 3D toy-style cat sitting at a tiny terminal, coding a checkered board with glowing green loops.",
     "bg_color": "c5d200",
-    "created_at": "2025-02-23T13:31:29.849495",
+    "created_at": "2025-12-22T11:15:53.830644",
     "image_url": "./assets/icons/project-chess-board-in-terminal.png"
   },
   "project-chessboard-encryption": {
@@ -1402,8 +1408,9 @@
     "image_url": "./assets/icons/project-clear-code-encryption.png"
   },
   "project-collect-files-from-specified-time": {
+    "ai_description": "A 3D toy owl sorting 2022-dated scrolls into tiny wooden crates, preserving their perfect library order.",
     "bg_color": "cdcfb8",
-    "created_at": "2025-02-23T13:31:36.520077",
+    "created_at": "2025-12-22T11:19:15.950898",
     "image_url": "./assets/icons/project-collect-files-from-specified-time.png"
   },
   "project-collection-of-films": {
@@ -1477,8 +1484,9 @@
     "image_url": "./assets/icons/project-convert-json-to-csv.png"
   },
   "project-copy-specified-files": {
+    "ai_description": "A 3D matte toy otter carefully organizing large pebbles into identical smaller patterns across two riverbanks.",
     "bg_color": "cce4cf",
-    "created_at": "2025-02-23T13:31:35.221689",
+    "created_at": "2025-12-22T11:16:27.509220",
     "image_url": "./assets/icons/project-copy-specified-files.png"
   },
   "project-correctly-warn-incorrect-v-slot-usage": {
@@ -1652,8 +1660,9 @@
     "image_url": "./assets/icons/project-creating-a-task-timer-web-app.png"
   },
   "project-creating-a-typing-game-using-bash": {
+    "ai_description": "A cute 3D matte owl frantically tapping a tiny mechanical keyboard to catch falling holographic letters.",
     "bg_color": "f6eb74",
-    "created_at": "2025-02-23T13:31:36.722127",
+    "created_at": "2025-12-22T11:12:58.739890",
     "image_url": "./assets/icons/project-creating-a-typing-game-using-bash.png"
   },
   "project-creating-a-url-shortener-with-python-and-flask": {
@@ -1772,8 +1781,9 @@
     "image_url": "./assets/icons/project-development-of-golang-caching-component.png"
   },
   "project-directory-size": {
+    "ai_description": "A cute 3D seal organizing colorful toy crates by size, neatly labeling them with a tiny digital stylus.",
     "bg_color": "f0bbbf",
-    "created_at": "2025-02-23T13:31:41.041972",
+    "created_at": "2025-12-22T11:16:59.486151",
     "image_url": "./assets/icons/project-directory-size.png"
   },
   "project-displaying-query-results-using-el-expressions": {
@@ -1882,13 +1892,15 @@
     "image_url": "./assets/icons/project-extract-movie-information.png"
   },
   "project-extracting-information-from-text": {
+    "ai_description": "A 3D toy fox wearing goggles, meticulously picking glowing image icons out of a giant paper scroll.",
     "bg_color": "dbbbe7",
-    "created_at": "2025-02-23T13:31:31.568359",
+    "created_at": "2025-12-22T11:19:50.161895",
     "image_url": "./assets/icons/project-extracting-information-from-text.png"
   },
   "project-extracting-link-information-from-text": {
+    "ai_description": "A cute 3D toy duck using a magnifying glass to find hidden web links in a giant book.",
     "bg_color": "c3fee0",
-    "created_at": "2025-02-23T13:31:38.523272",
+    "created_at": "2025-12-22T11:20:26.784387",
     "image_url": "./assets/icons/project-extracting-link-information-from-text.png"
   },
   "project-extracting-user-input-information": {
@@ -1982,8 +1994,9 @@
     "image_url": "./assets/icons/project-fruit-stacker.png"
   },
   "project-ftp-enumeration-and-anonymous-access": {
+    "ai_description": "A cute 3D toy owl wearing a headset, scanning a glowing map to find hidden digital treasure chests.",
     "bg_color": "c0e2cb",
-    "created_at": "2025-09-15T09:55:59.148421",
+    "created_at": "2025-12-22T11:24:01.612418",
     "image_url": "./assets/icons/project-ftp-enumeration-and-anonymous-access.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/3619/3619171.png"
   },
@@ -2008,13 +2021,15 @@
     "image_url": "./assets/icons/project-generating-a-battle-report.png"
   },
   "project-get-program-that-satisfies-the-condition": {
+    "ai_description": "A cute 3D toy koala wearing a headset, scanning a glowing network port to find a hidden program.",
     "bg_color": "e0d6b8",
-    "created_at": "2025-02-23T13:31:37.784117",
+    "created_at": "2025-12-22T11:20:58.802918",
     "image_url": "./assets/icons/project-get-program-that-satisfies-the-condition.png"
   },
   "project-get-system-information": {
+    "ai_description": "A cute 3D koala using a digital magnifying glass to inspect glowing server data on a tiny terminal.",
     "bg_color": "ead5f6",
-    "created_at": "2025-02-23T13:31:41.573290",
+    "created_at": "2025-12-22T11:13:43.583393",
     "image_url": "./assets/icons/project-get-system-information.png"
   },
   "project-give-your-page-a-makeover": {
@@ -2154,8 +2169,9 @@
     "image_url": "./assets/icons/project-installing-a-git-server.png"
   },
   "project-installing-and-configuring-a-mail-server": {
+    "ai_description": "A cute 3D toy seal wearing a headset, balancing digital mail envelopes while configuring a glowing server rack.",
     "bg_color": "83c4de",
-    "created_at": "2025-02-23T13:31:34.319231",
+    "created_at": "2025-12-22T11:11:50.158013",
     "image_url": "./assets/icons/project-installing-and-configuring-a-mail-server.png"
   },
   "project-javabean-mutiple-parameters": {
@@ -2234,13 +2250,15 @@
     "image_url": "./assets/icons/project-linux-system-monitor-using-tkinter.png"
   },
   "project-log-analysis": {
+    "ai_description": "A cute 3D toy cat sorting colorful \"404\" and \"IP\" blocks into organized digital piles.",
     "bg_color": "deb7e0",
-    "created_at": "2025-02-23T13:31:37.889702",
+    "created_at": "2025-12-22T11:18:08.875396",
     "image_url": "./assets/icons/project-log-analysis.png"
   },
   "project-log-backup": {
+    "ai_description": "A round, 3D toy cat wearing a headset, diligently filing tiny glowing scrolls into a mechanical calendar clock.",
     "bg_color": "e0c0c6",
-    "created_at": "2025-02-23T13:31:34.796166",
+    "created_at": "2025-12-22T11:15:20.473947",
     "image_url": "./assets/icons/project-log-backup.png"
   },
   "project-logging-project-information-with-log4j2": {
@@ -2354,13 +2372,15 @@
     "image_url": "./assets/icons/project-navigation-features.png"
   },
   "project-network-data-packet-statistics": {
+    "ai_description": "A cute 3D toy hedgehog wearing headphones, counting glowing digital cubes flying through a tiny network tunnel.",
     "bg_color": "c9d2f7",
-    "created_at": "2025-02-23T13:31:29.913011",
+    "created_at": "2025-12-22T11:22:03.006839",
     "image_url": "./assets/icons/project-network-data-packet-statistics.png"
   },
   "project-new-colleague-system-account-setup": {
+    "ai_description": "A cute 3D toy penguin wearing a headset, diligently setting up a tiny server for a new colleague.",
     "bg_color": "bacee5",
-    "created_at": "2025-02-23T13:31:37.592782",
+    "created_at": "2025-12-22T11:17:35.014073",
     "image_url": "./assets/icons/project-new-colleague-system-account-setup.png"
   },
   "project-news-api": {
@@ -2369,8 +2389,9 @@
     "image_url": "./assets/icons/project-news-api.png"
   },
   "project-nmap-port-scanning-and-telnet-access": {
+    "ai_description": "A round, 3D matte owl wearing goggles, scanning glowing digital ports on a floating holographic network map.",
     "bg_color": "cbd5d9",
-    "created_at": "2025-09-12T12:16:30.078329",
+    "created_at": "2025-12-22T11:23:28.978240",
     "image_url": "./assets/icons/project-nmap-port-scanning-and-telnet-access.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/1666/1666371.png"
   },
@@ -2445,8 +2466,9 @@
     "image_url": "./assets/icons/project-parsing-web-elements.png"
   },
   "project-password-generator": {
+    "ai_description": "A cute 3D matte seal balancing a glowing digit, letter, and symbol on its nose to build a password.",
     "bg_color": "cce1c3",
-    "created_at": "2025-02-23T13:31:35.662574",
+    "created_at": "2025-12-22T11:22:54.271514",
     "image_url": "./assets/icons/project-password-generator.png"
   },
   "project-perfect-numbers": {
@@ -2636,8 +2658,9 @@
     "image_url": "./assets/icons/project-restful-api-development.png"
   },
   "project-restore-access-to-website": {
+    "ai_description": "A cute 3D toy koala wearing a hard hat, focused on fixing a glowing server with a wrench.",
     "bg_color": "defec6",
-    "created_at": "2025-02-23T13:31:37.408292",
+    "created_at": "2025-12-22T11:14:15.066830",
     "image_url": "./assets/icons/project-restore-access-to-website.png"
   },
   "project-retrieving-object-parameters-from-query": {
@@ -2712,8 +2735,9 @@
     "image_url": "./assets/icons/project-search-for-text-files-in-directory.png"
   },
   "project-searching-for-specific-files": {
+    "ai_description": "A cute 3D panda wearing glasses, sorting through glowing digital bamboo folders to find a hidden \"labex\" file.",
     "bg_color": "c7fefc",
-    "created_at": "2025-02-23T13:31:41.222421",
+    "created_at": "2025-12-22T11:14:48.789038",
     "image_url": "./assets/icons/project-searching-for-specific-files.png"
   },
   "project-setting-up-spring-development-environment": {
