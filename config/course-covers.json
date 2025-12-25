@@ -2114,8 +2114,9 @@
     "image_url": "./assets/icons/project-holiday-greeting-card.png"
   },
   "project-http-enumeration-and-directory-traversal": {
+    "ai_description": "A 3D toy-style koala wearing a headset, using a magnifying glass to find hidden doors in a digital tree.",
     "bg_color": "f8e6ef",
-    "created_at": "2025-09-17T10:11:07.118203",
+    "created_at": "2025-12-25T19:13:32.495878",
     "image_url": "./assets/icons/project-http-enumeration-and-directory-traversal.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/1045/1045513.png"
   },
@@ -2643,8 +2644,9 @@
     "image_url": "./assets/icons/project-rail-fence-cipher.png"
   },
   "project-rdp-enumeration-and-weak-password-access": {
+    "ai_description": "A 3D toy-style parrot wearing a tiny headset, pecking at a glowing keyboard to crack a digital padlock.",
     "bg_color": "e8b8dc",
-    "created_at": "2025-09-17T10:11:39.358845",
+    "created_at": "2025-12-25T19:12:53.751996",
     "image_url": "./assets/icons/project-rdp-enumeration-and-weak-password-access.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/1233/1233674.png"
   },
@@ -2802,8 +2804,9 @@
     "image_url": "./assets/icons/project-skip-when-a-multiple-of-x.png"
   },
   "project-smb-enumeration-and-guest-access": {
+    "ai_description": "A 3D matte toy raccoon wearing a headset, playfully prying open a glowing digital crate to find hidden files.",
     "bg_color": "bed2be",
-    "created_at": "2025-09-17T10:13:20.890546",
+    "created_at": "2025-12-25T19:13:13.366277",
     "image_url": "./assets/icons/project-smb-enumeration-and-guest-access.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/6401/6401644.png"
   },
