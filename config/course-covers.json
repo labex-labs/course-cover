@@ -309,6 +309,12 @@
     "created_at": "2025-07-31T09:24:38.653615",
     "image_url": "./assets/icons/devops.png"
   },
+  "disk-filesystems-and-storage-management": {
+    "ai_description": "A cute 3D toy penguin neatly stacking glowing blocks to organize a digital storage vault.",
+    "bg_color": "c8e2f7",
+    "created_at": "2025-12-25T14:10:40.829087",
+    "image_url": "./assets/icons/disk-filesystems-and-storage-management.png"
+  },
   "docker-command-labs": {
     "bg_color": "f8dce2",
     "created_at": "2025-04-25T14:16:13.239753",
@@ -1051,6 +1057,12 @@
     "bg_color": "b8b2a6",
     "created_at": "2025-02-23T13:31:35.090620",
     "image_url": "./assets/icons/privilege-escalation-techniques-on-linux.png"
+  },
+  "processes-and-job-control": {
+    "ai_description": "A cute 3D toy seal balancing floating task windows, prioritising colorful bubbles with \"nice\" and \"renice\" labels.",
+    "bg_color": "d8cacf",
+    "created_at": "2025-12-25T14:09:41.561429",
+    "image_url": "./assets/icons/processes-and-job-control.png"
   },
   "project-2048-web-game-using-jquery": {
     "bg_color": "c9c0ec",
