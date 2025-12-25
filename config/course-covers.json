@@ -222,8 +222,9 @@
     "image_url": "./assets/icons/css-practice-plus.png"
   },
   "ctf-for-beginners": {
+    "ai_description": "A cute 3D toy koala wearing a headset, excitedly hacking a glowing digital flag on a miniature server.",
     "bg_color": "c2ccd6",
-    "created_at": "2025-09-04T10:57:52.960056",
+    "created_at": "2025-12-25T15:54:28.532807",
     "image_url": "./assets/icons/ctf-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/4413/4413690.png"
   },
@@ -960,9 +961,10 @@
     "image_url": "./assets/icons/mysql-practice-plus.png"
   },
   "nmap-for-beginners": {
+    "ai_description": "The official Nmap eye icon in a 3D matte toy style, centered on a deep blue circular shield, featuring stylized curved radar waves.",
     "bg_color": "a3c6c4",
-    "created_at": "2025-02-23T13:31:38.736085",
-    "image_url": "./assets/icons/quick-start-with-nmap.png"
+    "created_at": "2025-12-25T15:54:58.775232",
+    "image_url": "./assets/icons/nmap-for-beginners.png"
   },
   "nmap-interview-questions": {
     "bg_color": "c2f4e6",
@@ -1780,8 +1782,9 @@
     "image_url": "./assets/icons/project-deploying-a-simple-tensorflow-model.png"
   },
   "project-deploying-mobilenet-with-tensorflowjs-and-flask": {
+    "ai_description": "A 3D toy sheep in a lab coat using a tablet to scan and classify colorful digital clovers.",
     "bg_color": "e0ffcd",
-    "created_at": "2025-02-23T13:31:30.869360",
+    "created_at": "2025-12-25T15:54:03.349194",
     "image_url": "./assets/icons/project-deploying-mobilenet-with-tensorflowjs-and-flask.png"
   },
   "project-deprecated-addroutes": {
