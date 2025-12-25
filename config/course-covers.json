@@ -322,9 +322,10 @@
     "remote_url": "https://cdn-icons-png.freepik.com/512/9876/9876772.png"
   },
   "docker-for-beginners": {
+    "ai_description": "A 3D matte toy-style blue whale carrying stacked shipping containers, representing the iconic Docker brand logo.",
     "bg_color": "eaf8a4",
-    "created_at": "2025-02-23T13:31:41.239974",
-    "image_url": "./assets/icons/quick-start-with-docker.png"
+    "created_at": "2025-12-25T15:34:17.441340",
+    "image_url": "./assets/icons/docker-for-beginners.png"
   },
   "docker-in-depth-mastery": {
     "bg_color": "8adc8a",
