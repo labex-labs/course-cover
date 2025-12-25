@@ -190,8 +190,9 @@
     "image_url": "./assets/icons/cpp-programming-for-beginners.png"
   },
   "cryptography-for-beginners": {
+    "ai_description": "A 3D toy panda playfully locking a bamboo treasure chest with a glowing digital key.",
     "bg_color": "e6ddd1",
-    "created_at": "2025-10-20T08:45:58.193514",
+    "created_at": "2025-12-25T19:06:28.732443",
     "image_url": "./assets/icons/cryptography-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/1465/1465652.png"
   },
@@ -586,8 +587,9 @@
     "remote_url": "https://cdn-icons-png.freepik.com/512/3924/3924570.png"
   },
   "hashcat-for-beginners": {
+    "ai_description": "A 3D matte toy-style cat head silhouette with a distinct lightning bolt ear, centered on a solid orange circular disc.",
     "bg_color": "d5d8bc",
-    "created_at": "2025-10-11T14:35:35.921031",
+    "created_at": "2025-12-25T19:11:46.430916",
     "image_url": "./assets/icons/hashcat-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/530/530680.png"
   },
@@ -623,8 +625,9 @@
     "remote_url": "https://cdn-icons-png.freepik.com/512/17535/17535595.png"
   },
   "hydra-for-beginners": {
+    "ai_description": "A cute 3D toy panda wearing a headset, playfully cracking digital locks on colorful floating server blocks.",
     "bg_color": "ffdfe7",
-    "created_at": "2025-03-28T03:10:24.080303",
+    "created_at": "2025-12-25T19:06:06.529145",
     "image_url": "./assets/icons/hydra-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/6109/6109048.png"
   },
@@ -888,8 +891,9 @@
     "image_url": "./assets/icons/matplotlib-practice-plus.png"
   },
   "metasploit-for-beginners": {
+    "ai_description": "3D matte toy style Metasploit stylized \"M\" shield icon, centered on a deep blue circular disc, clean professional finish with soft rounded edges.",
     "bg_color": "babfe4",
-    "created_at": "2025-10-13T10:46:33.524454",
+    "created_at": "2025-12-25T19:08:38.614830",
     "image_url": "./assets/icons/metasploit-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/6214/6214140.png"
   },
@@ -3627,8 +3631,9 @@
     "image_url": "./assets/icons/web-development-interactive-challenges.png"
   },
   "web-vulnerability-mastery": {
+    "ai_description": "A 3D toy hamster wearing a tiny hoodie, playfully hacking into a giant cheese-shaped server with a glowing laptop.",
     "bg_color": "f3f2b4",
-    "created_at": "2025-02-23T13:31:40.450123",
+    "created_at": "2025-12-25T19:06:49.095502",
     "image_url": "./assets/icons/web-vulnerability-mastery.png"
   },
   "webdev-interview-questions": {
