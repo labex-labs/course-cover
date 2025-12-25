@@ -1222,9 +1222,9 @@
     "image_url": "./assets/icons/project-build-a-sliding-puzzle-game-with-javascript.png"
   },
   "project-build-a-task-scheduler-using-bash": {
-    "ai_description": "A cute 3D toy duck wearing a headset, organizing tiny clockwork gears to automate its daily pond schedule.",
+    "ai_description": "A tiny 3D hamster in a hardhat organizing tiny clockwork gears and scheduling scrolls on a wooden desk.",
     "bg_color": "dbebeb",
-    "created_at": "2025-12-22T11:11:16.986145",
+    "created_at": "2025-12-25T15:25:59.996697",
     "image_url": "./assets/icons/project-build-a-task-scheduler-using-bash.png"
   },
   "project-build-a-tic-tac-toe-web-app": {
