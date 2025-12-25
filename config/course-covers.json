@@ -745,9 +745,10 @@
     "image_url": "./assets/icons/kali-web-application-attacks-in-action.png"
   },
   "kubernetes-for-beginners": {
+    "ai_description": "A 3D matte toy-style seven-sided blue nautical steering wheel with a thick white border, clean and professional.",
     "bg_color": "feeae1",
-    "created_at": "2025-02-23T13:31:38.835521",
-    "image_url": "./assets/icons/quick-start-with-kubernetes.png",
+    "created_at": "2025-12-25T15:38:08.829141",
+    "image_url": "./assets/icons/kubernetes-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/4107/4107772.png"
   },
   "kubernetes-for-noobs": {
