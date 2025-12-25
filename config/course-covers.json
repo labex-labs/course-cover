@@ -37,9 +37,10 @@
     "image_url": "./assets/icons/alibaba.png"
   },
   "ansible-for-beginners": {
+    "ai_description": "A 3D matte toy style Red Hat \"A\" symbol, rendered as a clean icon on a solid dark circular disc background.",
     "bg_color": "f8f0c2",
-    "created_at": "2025-02-23T13:31:30.525359",
-    "image_url": "./assets/icons/quick-start-with-ansible.png"
+    "created_at": "2025-12-25T15:52:03.422950",
+    "image_url": "./assets/icons/ansible-for-beginners.png"
   },
   "ansible-interview-questions": {
     "bg_color": "ccf9f2",
@@ -703,9 +704,10 @@
     "image_url": "./assets/icons/javascript-practice-plus.png"
   },
   "jenkins-for-beginners": {
+    "ai_description": "The official Jenkins butler logo in a 3D matte toy style, centered on a solid circular background disc for a clean, professional look.",
     "bg_color": "fdb6dc",
-    "created_at": "2025-02-23T13:31:30.541286",
-    "image_url": "./assets/icons/getting-started-with-jenkins.png"
+    "created_at": "2025-12-25T15:49:28.956944",
+    "image_url": "./assets/icons/jenkins-for-beginners.png"
   },
   "jquery-practice-challenges": {
     "bg_color": "def0d2",
@@ -3239,8 +3241,9 @@
     "image_url": "./assets/icons/quick-start-with-pandas.png"
   },
   "quick-start-with-python": {
+    "ai_description": "3D matte toy-style Python snakes, in blue and yellow, intertwined on a solid navy blue circular disc, clean and iconic with no text.",
     "bg_color": "c8dfc7",
-    "created_at": "2025-02-23T13:31:41.952279",
+    "created_at": "2025-12-25T15:51:33.985936",
     "image_url": "./assets/icons/quick-start-with-python.png"
   },
   "quick-start-with-react": {
@@ -3378,9 +3381,9 @@
     "image_url": "./assets/icons/shell-environment-and-variables.png"
   },
   "shell-for-beginners": {
-    "ai_description": "A cheerful green hermit crab with a shiny black shell and big, friendly eyes.",
+    "ai_description": "The official BASH logo featuring the text prompt inside a terminal window, set on a circular disc in a 3D matte toy style.",
     "bg_color": "bbc4f7",
-    "created_at": "2025-12-18T14:20:46.009031",
+    "created_at": "2025-12-25T15:47:59.268956",
     "image_url": "./assets/icons/shell-for-beginners.png"
   },
   "shell-interview-questions": {
@@ -3468,8 +3471,9 @@
     "image_url": "./assets/icons/system-information-and-resource-monitoring.png"
   },
   "terraform-for-beginners": {
+    "ai_description": "The official Terraform logo featuring interlocking purple geometric shapes, centered on a solid circular disc in a professional 3D matte toy style.",
     "bg_color": "ded6fa",
-    "created_at": "2025-10-15T08:40:06.659909",
+    "created_at": "2025-12-25T15:49:03.554582",
     "image_url": "./assets/icons/terraform-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/4293/4293933.png"
   },
