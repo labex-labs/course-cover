@@ -3394,9 +3394,9 @@
     "image_url": "./assets/icons/shell-environment-and-variables.png"
   },
   "shell-for-beginners": {
-    "ai_description": "The official BASH logo featuring the text prompt inside a terminal window, set on a circular disc in a 3D matte toy style.",
+    "ai_description": "A 3D matte toy-style iconic command prompt symbol on a sleek circular background, representing the official BASH brand without any text or letters.",
     "bg_color": "bbc4f7",
-    "created_at": "2025-12-25T15:47:59.268956",
+    "created_at": "2025-12-26T10:29:01.991961",
     "image_url": "./assets/icons/shell-for-beginners.png"
   },
   "shell-interview-questions": {
