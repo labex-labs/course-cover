@@ -587,9 +587,9 @@
     "remote_url": "https://cdn-icons-png.freepik.com/512/3924/3924570.png"
   },
   "hashcat-for-beginners": {
-    "ai_description": "A 3D matte toy-style cat head silhouette with a distinct lightning bolt ear, centered on a solid orange circular disc.",
+    "ai_description": "3D matte toy style icon featuring the official Hashcat cat-head silhouette in vibrant orange, centered on a clean, dark circular background.",
     "bg_color": "d5d8bc",
-    "created_at": "2025-12-25T19:11:46.430916",
+    "created_at": "2025-12-26T10:21:14.147415",
     "image_url": "./assets/icons/hashcat-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/530/530680.png"
   },
@@ -729,8 +729,9 @@
     "image_url": "./assets/icons/kali.png"
   },
   "kali-linux-for-beginners": {
+    "ai_description": "The official Linux penguin, Tux, rendered in a 3D matte toy style, sitting centered on a clean circular background with soft studio lighting.",
     "bg_color": "cdc7fe",
-    "created_at": "2025-04-10T16:34:17.785649",
+    "created_at": "2025-12-26T10:24:33.369687",
     "image_url": "./assets/icons/kali-linux-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/692/692388.png"
   },
@@ -891,9 +892,9 @@
     "image_url": "./assets/icons/matplotlib-practice-plus.png"
   },
   "metasploit-for-beginners": {
-    "ai_description": "3D matte toy style Metasploit stylized \"M\" shield icon, centered on a deep blue circular disc, clean professional finish with soft rounded edges.",
+    "ai_description": "A 3D matte toy-style stylized blue \"M\" shield icon centered on a clean circular background, representing the official Metasploit symbol without any text.",
     "bg_color": "babfe4",
-    "created_at": "2025-12-25T19:08:38.614830",
+    "created_at": "2025-12-26T10:21:57.158884",
     "image_url": "./assets/icons/metasploit-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/6214/6214140.png"
   },
@@ -965,9 +966,9 @@
     "image_url": "./assets/icons/mysql-practice-plus.png"
   },
   "nmap-for-beginners": {
-    "ai_description": "The official Nmap eye icon in a 3D matte toy style, centered on a deep blue circular shield, featuring stylized curved radar waves.",
+    "ai_description": "A 3D matte toy representation of the Nmap eye within a blue globe, centered on a clean circular background with no text.",
     "bg_color": "a3c6c4",
-    "created_at": "2025-12-25T15:54:58.775232",
+    "created_at": "2025-12-26T10:23:30.443136",
     "image_url": "./assets/icons/nmap-for-beginners.png"
   },
   "nmap-interview-questions": {
@@ -1066,8 +1067,9 @@
     "image_url": "./assets/icons/practical-python-programming.png"
   },
   "privilege-escalation-techniques-on-linux": {
+    "ai_description": "The official Linux penguin, Tux, in a 3D matte toy style, seated centered on a clean circular background, featuring iconic black and white features.",
     "bg_color": "b8b2a6",
-    "created_at": "2025-02-23T13:31:35.090620",
+    "created_at": "2025-12-26T10:22:56.634797",
     "image_url": "./assets/icons/privilege-escalation-techniques-on-linux.png"
   },
   "processes-and-job-control": {
