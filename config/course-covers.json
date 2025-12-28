@@ -370,9 +370,10 @@
     "image_url": "./assets/icons/dhcp-service-administration.png"
   },
   "disk-filesystems-and-storage-management": {
-    "ai_description": "A cute 3D toy penguin neatly stacking glowing blocks to organize a digital storage vault.",
+    "ai_description": "",
+    "ai_subject": "Safe Deposit Box Key",
     "bg_color": "c8e2f7",
-    "created_at": "2025-12-25T14:10:40.829087",
+    "created_at": "2025-12-28T20:55:37.452954",
     "image_url": "./assets/icons/disk-filesystems-and-storage-management.png"
   },
   "dns-service-administration": {
@@ -950,9 +951,10 @@
     "image_url": "./assets/icons/linux.png"
   },
   "linux-networking-fundamentals": {
-    "ai_description": "A cute 3D toy hedgehog carefully plugging colorful ethernet cables into a glowing router to test connectivity.",
+    "ai_description": "",
+    "ai_subject": "Lighthouse",
     "bg_color": "a6eaff",
-    "created_at": "2025-12-22T18:29:00.391125",
+    "created_at": "2025-12-28T20:56:16.356948",
     "image_url": "./assets/icons/linux-networking-fundamentals.png"
   },
   "linux-practice-challenges": {
@@ -1225,9 +1227,10 @@
     "image_url": "./assets/icons/privilege-escalation-techniques-on-linux.png"
   },
   "processes-and-job-control": {
-    "ai_description": "A cute 3D toy seal balancing floating task windows, prioritising colorful bubbles with \"nice\" and \"renice\" labels.",
+    "ai_description": "",
+    "ai_subject": "Master Electrical Panel",
     "bg_color": "d8cacf",
-    "created_at": "2025-12-25T14:09:41.561429",
+    "created_at": "2025-12-28T20:54:26.569757",
     "image_url": "./assets/icons/processes-and-job-control.png"
   },
   "project-2048-web-game-using-jquery": {
@@ -3597,9 +3600,10 @@
     "image_url": "./assets/icons/service-management-with-systemd.png"
   },
   "shell-environment-and-variables": {
-    "ai_description": "A cute 3D toy rabbit organizing glowing carrot-shaped variables into persistent storage bins on a digital workbench.",
+    "ai_description": "",
+    "ai_subject": "Old Leather-bound Journal",
     "bg_color": "b9c4f6",
-    "created_at": "2025-12-22T17:07:21.915337",
+    "created_at": "2025-12-28T20:53:14.975878",
     "image_url": "./assets/icons/shell-environment-and-variables.png"
   },
   "shell-for-beginners": {
@@ -3629,9 +3633,10 @@
     "image_url": "./assets/icons/shell-practice-plus.png"
   },
   "shell-redirection-and-pipelines": {
-    "ai_description": "A 3D toy-style koala connecting colorful pipes to channel glowing data streams into a digital bucket.",
+    "ai_description": "",
+    "ai_subject": "Assembly Line Robot Arm",
     "bg_color": "e1f8ee",
-    "created_at": "2025-12-22T13:55:26.974625",
+    "created_at": "2025-12-28T20:52:40.544535",
     "image_url": "./assets/icons/shell-redirection-and-pipelines.png"
   },
   "shell-scripting-fundamentals": {
@@ -3701,9 +3706,10 @@
     "image_url": "./assets/icons/supervised-learning-regression.png"
   },
   "system-information-and-resource-monitoring": {
-    "ai_description": "A cute 3D toy squirrel at a dashboard, monitoring nut stockpiles and tree health on glowing holographic screens.",
+    "ai_description": "",
+    "ai_subject": "Blueprint",
     "bg_color": "ebeee7",
-    "created_at": "2025-12-22T18:28:43.045441",
+    "created_at": "2025-12-28T20:55:02.273428",
     "image_url": "./assets/icons/system-information-and-resource-monitoring.png"
   },
   "terraform-for-beginners": {
@@ -3857,9 +3863,10 @@
     "image_url": "./assets/icons/use-the-backup-center-feature-of-ack-to-back-up-a-kubernetes-cluster.png"
   },
   "users-groups-and-permissions": {
-    "ai_description": "A cute 3D toy cat wearing a headset, organizing colorful labeled folders and locking a tiny golden padlock.",
+    "ai_description": "",
+    "ai_subject": "Security Badge Reader",
     "bg_color": "b5e0b7",
-    "created_at": "2025-12-22T17:37:24.354991",
+    "created_at": "2025-12-28T20:53:50.742842",
     "image_url": "./assets/icons/users-groups-and-permissions.png"
   },
   "version-control-with-git": {
@@ -3870,9 +3877,10 @@
     "image_url": "./assets/icons/version-control-with-git.png"
   },
   "viewing-searching-and-editing-files": {
-    "ai_description": "A cheerful orange squirrel wearing oversized green glasses, holding a small silver magnifying glass in its paws.",
+    "ai_description": "",
+    "ai_subject": "Locksmith's Pick Set",
     "bg_color": "e8d0c3",
-    "created_at": "2025-12-18T15:18:34.635200",
+    "created_at": "2025-12-28T20:52:00.510975",
     "image_url": "./assets/icons/viewing-searching-and-editing-files.png"
   },
   "web-development-interactive-challenges": {
