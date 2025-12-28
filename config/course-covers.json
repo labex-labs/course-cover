@@ -614,6 +614,13 @@
     "created_at": "2025-02-23T13:31:37.425357",
     "image_url": "./assets/icons/git-practice-plus.png"
   },
+  "github-actions-cicd": {
+    "ai_description": "",
+    "ai_subject": "Conveyor Belt",
+    "bg_color": "bdc7d9",
+    "created_at": "2025-12-28T20:39:06.219743",
+    "image_url": "./assets/icons/github-actions-cicd.png"
+  },
   "github-actions-for-beginners": {
     "ai_description": "The official GitHub Actions rocket icon in 3D matte toy style, centered on a smooth circular background with soft, professional lighting and depth.",
     "bg_color": "d9b4b4",
@@ -853,6 +860,13 @@
     "created_at": "2025-12-28T20:36:51.331549",
     "image_url": "./assets/icons/keepalived-high-availability.png"
   },
+  "kubernetes-cluster-administration": {
+    "ai_description": "",
+    "ai_subject": "Master Key Set",
+    "bg_color": "c7b6da",
+    "created_at": "2025-12-28T20:40:47.540783",
+    "image_url": "./assets/icons/kubernetes-cluster-administration.png"
+  },
   "kubernetes-for-beginners": {
     "ai_description": "A 3D matte toy-style seven-sided blue nautical steering wheel with a thick white border, clean and professional.",
     "bg_color": "feeae1",
@@ -865,6 +879,13 @@
     "created_at": "2025-09-25T09:00:31.250585",
     "image_url": "./assets/icons/kubernetes-for-noobs.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/5740/5740261.png"
+  },
+  "kubernetes-fundamentals": {
+    "ai_description": "",
+    "ai_subject": "Modular Lego Set",
+    "bg_color": "d0fce2",
+    "created_at": "2025-12-28T20:40:14.043122",
+    "image_url": "./assets/icons/kubernetes-fundamentals.png"
   },
   "kubernetes-interview-questions": {
     "bg_color": "dae9bc",
@@ -3684,6 +3705,13 @@
     "created_at": "2025-12-25T15:49:03.554582",
     "image_url": "./assets/icons/terraform-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/4293/4293933.png"
+  },
+  "terraform-infrastructure-as-code": {
+    "ai_description": "",
+    "ai_subject": "Compass",
+    "bg_color": "e5d3b4",
+    "created_at": "2025-12-28T20:39:38.866771",
+    "image_url": "./assets/icons/terraform-infrastructure-as-code.png"
   },
   "text-processing-with-awk-and-sed": {
     "ai_description": "",
