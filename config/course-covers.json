@@ -43,6 +43,13 @@
     "created_at": "2025-07-31T09:24:43.711496",
     "image_url": "./assets/icons/alibaba.png"
   },
+  "ansible-automation": {
+    "ai_description": "",
+    "ai_subject": "Modular Building Blocks (e.g., high-end LEGO Technic)",
+    "bg_color": "c3b5ba",
+    "created_at": "2025-12-28T20:35:45.382128",
+    "image_url": "./assets/icons/ansible-automation.png"
+  },
   "ansible-for-beginners": {
     "ai_description": "A 3D matte toy-style stylized capital \"A\" chevron, centered on a smooth circular background, featuring clean lines and a professional, iconic finish.",
     "bg_color": "f8f0c2",
@@ -423,6 +430,13 @@
     "created_at": "2025-12-17T14:22:17.500071",
     "image_url": "./assets/icons/file-system-navigation-and-file-operations.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/4595/4595149.png"
+  },
+  "firewalld-configuration": {
+    "ai_description": "",
+    "ai_subject": "Periscope",
+    "bg_color": "c1fbff",
+    "created_at": "2025-12-28T20:34:34.386080",
+    "image_url": "./assets/icons/firewalld-configuration.png"
   },
   "foundations-of-deep-learning": {
     "bg_color": "acd2a8",
@@ -1038,6 +1052,13 @@
     "bg_color": "f7e1ca",
     "created_at": "2025-02-23T13:31:33.830699",
     "image_url": "./assets/icons/mysql-practice-plus.png"
+  },
+  "nfs-and-samba-file-sharing": {
+    "ai_description": "",
+    "ai_subject": "Vault Door",
+    "bg_color": "c4f4bd",
+    "created_at": "2025-12-28T20:33:24.458226",
+    "image_url": "./assets/icons/nfs-and-samba-file-sharing.png"
   },
   "nginx-web-server": {
     "ai_description": "",
@@ -3458,6 +3479,13 @@
     "created_at": "2025-07-31T09:24:39.633184",
     "image_url": "./assets/icons/rhel.png"
   },
+  "rpm-and-dnf-package-management": {
+    "ai_description": "",
+    "ai_subject": "Toolbox",
+    "bg_color": "d6c3f2",
+    "created_at": "2025-12-28T20:34:00.399502",
+    "image_url": "./assets/icons/rpm-and-dnf-package-management.png"
+  },
   "run-hadoop-jobs-on-e-mapreduce": {
     "bg_color": "c8d7d4",
     "created_at": "2025-02-23T13:31:30.029574",
@@ -3490,6 +3518,13 @@
     "bg_color": "ffc44d",
     "created_at": "2025-02-23T13:31:37.973235",
     "image_url": "./assets/icons/seaborn-data-visualization-basics.png"
+  },
+  "selinux-administration": {
+    "ai_description": "",
+    "ai_subject": "Traffic Control Tower Console",
+    "bg_color": "e5dac7",
+    "created_at": "2025-12-28T20:35:06.748363",
+    "image_url": "./assets/icons/selinux-administration.png"
   },
   "service-management-with-systemd": {
     "ai_description": "",
