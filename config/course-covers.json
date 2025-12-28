@@ -2208,9 +2208,10 @@
     "image_url": "./assets/icons/project-installing-a-git-server.png"
   },
   "project-installing-and-configuring-a-mail-server": {
-    "ai_description": "A cute 3D toy seal wearing a headset, balancing digital mail envelopes while configuring a glowing server rack.",
+    "ai_description": "",
+    "ai_subject": "Weather Vane",
     "bg_color": "83c4de",
-    "created_at": "2025-12-22T11:11:50.158013",
+    "created_at": "2025-12-28T16:44:42.170520",
     "image_url": "./assets/icons/project-installing-and-configuring-a-mail-server.png"
   },
   "project-javabean-mutiple-parameters": {
