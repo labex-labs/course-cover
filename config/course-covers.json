@@ -437,7 +437,8 @@
     "bg_color": "c6e7f0",
     "created_at": "2025-12-17T14:22:17.500071",
     "image_url": "./assets/icons/file-system-navigation-and-file-operations.png",
-    "remote_url": "https://cdn-icons-png.freepik.com/512/4595/4595149.png"
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4595/4595149.png",
+    "tag": "module 02"
   },
   "firewalld-configuration": {
     "ai_description": "",
@@ -988,7 +989,8 @@
     "bg_color": "e6ebd6",
     "created_at": "2025-12-16T19:05:08.170715",
     "image_url": "./assets/icons/linux-terminal-basics.png",
-    "remote_url": "https://cdn-icons-png.freepik.com/512/1199/1199101.png"
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1199/1199101.png",
+    "tag": "module 01"
   },
   "log-management-and-text-processing": {
     "ai_description": "",
@@ -1231,7 +1233,8 @@
     "ai_subject": "Master Electrical Panel",
     "bg_color": "d8cacf",
     "created_at": "2025-12-28T20:54:26.569757",
-    "image_url": "./assets/icons/processes-and-job-control.png"
+    "image_url": "./assets/icons/processes-and-job-control.png",
+    "tag": "module 07"
   },
   "project-2048-web-game-using-jquery": {
     "bg_color": "c9c0ec",
@@ -3604,7 +3607,8 @@
     "ai_subject": "Old Leather-bound Journal",
     "bg_color": "b9c4f6",
     "created_at": "2025-12-28T20:53:14.975878",
-    "image_url": "./assets/icons/shell-environment-and-variables.png"
+    "image_url": "./assets/icons/shell-environment-and-variables.png",
+    "tag": "module 05"
   },
   "shell-for-beginners": {
     "ai_description": "A 3D matte toy-style iconic command prompt symbol on a sleek circular background, representing the official BASH brand without any text or letters.",
@@ -3637,7 +3641,8 @@
     "ai_subject": "Assembly Line Robot Arm",
     "bg_color": "e1f8ee",
     "created_at": "2025-12-28T20:52:40.544535",
-    "image_url": "./assets/icons/shell-redirection-and-pipelines.png"
+    "image_url": "./assets/icons/shell-redirection-and-pipelines.png",
+    "tag": "module 04"
   },
   "shell-scripting-fundamentals": {
     "ai_description": "",
@@ -3867,7 +3872,8 @@
     "ai_subject": "Security Badge Reader",
     "bg_color": "b5e0b7",
     "created_at": "2025-12-28T20:53:50.742842",
-    "image_url": "./assets/icons/users-groups-and-permissions.png"
+    "image_url": "./assets/icons/users-groups-and-permissions.png",
+    "tag": "module 06"
   },
   "version-control-with-git": {
     "ai_description": "",
@@ -3881,7 +3887,8 @@
     "ai_subject": "Locksmith's Pick Set",
     "bg_color": "e8d0c3",
     "created_at": "2025-12-28T20:52:00.510975",
-    "image_url": "./assets/icons/viewing-searching-and-editing-files.png"
+    "image_url": "./assets/icons/viewing-searching-and-editing-files.png",
+    "tag": "module 03"
   },
   "web-development-interactive-challenges": {
     "bg_color": "f2ddd3",
