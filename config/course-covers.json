@@ -1242,9 +1242,10 @@
     "image_url": "./assets/icons/project-build-a-sliding-puzzle-game-with-javascript.png"
   },
   "project-build-a-task-scheduler-using-bash": {
-    "ai_description": "A tiny 3D hamster in a hardhat organizing tiny clockwork gears and scheduling scrolls on a wooden desk.",
+    "ai_description": "",
+    "ai_subject": "Clockwork Music Box",
     "bg_color": "dbebeb",
-    "created_at": "2025-12-25T15:25:59.996697",
+    "created_at": "2025-12-28T16:50:34.380858",
     "image_url": "./assets/icons/project-build-a-task-scheduler-using-bash.png"
   },
   "project-build-a-tic-tac-toe-web-app": {
