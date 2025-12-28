@@ -223,9 +223,10 @@
     "image_url": "./assets/icons/css-practice-plus.png"
   },
   "ctf-for-beginners": {
-    "ai_description": "A cute 3D toy koala wearing a headset, excitedly hacking a glowing digital flag on a miniature server.",
+    "ai_description": "",
+    "ai_subject": "Magnifying Glass",
     "bg_color": "c2ccd6",
-    "created_at": "2025-12-25T15:54:28.532807",
+    "created_at": "2025-12-28T16:47:52.131978",
     "image_url": "./assets/icons/ctf-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/4413/4413690.png"
   },
