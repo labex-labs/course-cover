@@ -157,6 +157,13 @@
     "image_url": "./assets/icons/centos-7-migration-to-anolis-os-7.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/10444/10444060.png"
   },
+  "centralized-log-management": {
+    "ai_description": "",
+    "ai_subject": "Decibel Meter",
+    "bg_color": "fff9cf",
+    "created_at": "2025-12-28T20:38:33.009513",
+    "image_url": "./assets/icons/centralized-log-management.png"
+  },
   "comptia-a-plus-training-labs": {
     "bg_color": "c0c7e9",
     "created_at": "2025-10-22T09:42:04.757792",
@@ -638,6 +645,13 @@
     "bg_color": "debe90",
     "created_at": "2025-02-23T13:31:34.951145",
     "image_url": "./assets/icons/quick-start-with-go.png"
+  },
+  "grafana-data-visualization": {
+    "ai_description": "",
+    "ai_subject": "Kaleidoscope",
+    "bg_color": "c5dfeb",
+    "created_at": "2025-12-28T20:37:57.321360",
+    "image_url": "./assets/icons/grafana-data-visualization.png"
   },
   "hadoop-in-depth-mastery": {
     "bg_color": "ffa8b9",
@@ -3220,6 +3234,13 @@
     "bg_color": "e7d7d0",
     "created_at": "2025-02-23T13:31:41.193231",
     "image_url": "./assets/icons/project-yin-book-encryption.png"
+  },
+  "prometheus-monitoring": {
+    "ai_description": "",
+    "ai_subject": "Security Camera",
+    "bg_color": "e1ebdc",
+    "created_at": "2025-12-28T20:37:23.150645",
+    "image_url": "./assets/icons/prometheus-monitoring.png"
   },
   "python-cheatsheet": {
     "ai_description": "Multi-tool with red casing and various foldable metal blades.",
