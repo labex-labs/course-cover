@@ -1213,9 +1213,10 @@
     "image_url": "./assets/icons/project-build-a-digital-clock-with-python.png"
   },
   "project-build-a-linux-system-monitor-using-bash": {
-    "ai_description": "A 3D matte toy otter wearing a headset, monitoring glowing holographic bars of system data on a floating screen.",
+    "ai_description": "",
+    "ai_subject": "Maintenance Checklist Clipboard",
     "bg_color": "bcb6d5",
-    "created_at": "2025-12-22T11:10:42.624310",
+    "created_at": "2025-12-28T16:43:27.283108",
     "image_url": "./assets/icons/project-build-a-linux-system-monitor-using-bash.png"
   },
   "project-build-a-simple-markdown-editor-with-live-preview": {
