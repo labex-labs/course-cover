@@ -3276,6 +3276,13 @@
     "created_at": "2025-05-28T08:36:05.143447",
     "image_url": "./assets/icons/quick-start-with-python.png"
   },
+  "python-for-operations": {
+    "ai_description": "",
+    "ai_subject": "Blueprint",
+    "bg_color": "d0efe6",
+    "created_at": "2025-12-28T20:41:21.643410",
+    "image_url": "./assets/icons/python-for-operations.png"
+  },
   "python-in-depth-mastery": {
     "bg_color": "fbe6dd",
     "created_at": "2025-02-23T13:31:38.607476",
