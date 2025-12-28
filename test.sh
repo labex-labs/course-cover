@@ -1,8 +1,33 @@
-python scripts/generate_cover.py --alias cybersecurity-analysis-with-wireshark-and-tshark --lang all --overwrite --status updating
-python scripts/generate_cover.py --alias kali-linux-security-labs --lang all --overwrite --status updating
-python scripts/generate_cover.py --alias java-practice-labs --lang all --overwrite --status updating
-python scripts/generate_cover.py --alias quick-start-with-jenkins --lang all --overwrite --status updating
-python scripts/generate_cover.py --alias quick-start-with-mongodb --lang all --overwrite --status updating
-python scripts/generate_cover.py --alias advanced-mysql-practical-labs --lang all --overwrite --status updating
-python scripts/generate_cover.py --alias python-for-beginners --lang all --overwrite --status updating
-python scripts/generate_cover.py --alias rhcsa-certification-exam-practice-exercises --lang all --overwrite --status updating
+labex course create-cover -a remote-access-and-secure-file-transfer
+labex course create-cover -a software-package-management
+labex course create-cover -a service-management-with-systemd
+labex course create-cover -a log-management-and-text-processing
+labex course create-cover -a archiving-and-backup
+labex course create-cover -a shell-scripting-fundamentals
+labex course create-cover -a advanced-shell-scripting-techniques
+labex course create-cover -a text-processing-with-awk-and-sed
+labex course create-cover -a scheduled-tasks-and-routine-maintenance
+labex course create-cover -a boot-process-and-recovery
+labex course create-cover -a basic-system-security
+labex course create-cover -a version-control-with-git
+labex course create-cover -a docker-container-basics
+labex course create-cover -a mysql-database-basics
+labex course create-cover -a nginx-web-server
+labex course create-cover -a apache-web-server
+labex course create-cover -a dns-service-administration
+labex course create-cover -a dhcp-service-administration
+labex course create-cover -a nfs-and-samba-file-sharing
+labex course create-cover -a rpm-and-dnf-package-management
+labex course create-cover -a firewalld-configuration
+labex course create-cover -a selinux-administration
+labex course create-cover -a ansible-automation
+labex course create-cover -a haproxy-load-balancing
+labex course create-cover -a keepalived-high-availability
+labex course create-cover -a prometheus-monitoring
+labex course create-cover -a grafana-data-visualization
+labex course create-cover -a centralized-log-management
+labex course create-cover -a github-actions-cicd
+labex course create-cover -a terraform-infrastructure-as-code
+labex course create-cover -a kubernetes-fundamentals
+labex course create-cover -a kubernetes-cluster-administration
+labex course create-cover -a python-for-operations

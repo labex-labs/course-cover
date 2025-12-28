@@ -26,6 +26,13 @@
     "image_url": "./assets/icons/advanced-postgresql-practical-labs.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/18685/18685854.png"
   },
+  "advanced-shell-scripting-techniques": {
+    "ai_description": "",
+    "ai_subject": "Map Compass",
+    "bg_color": "c5e4bd",
+    "created_at": "2025-12-28T20:26:40.254855",
+    "image_url": "./assets/icons/advanced-shell-scripting-techniques.png"
+  },
   "algorithm-practice-challenges": {
     "bg_color": "fdd8b8",
     "created_at": "2025-02-23T13:31:30.949611",
@@ -52,6 +59,20 @@
     "created_at": "2025-02-23T13:31:34.660806",
     "image_url": "./assets/icons/ansible-practice-plus.png"
   },
+  "apache-web-server": {
+    "ai_description": "",
+    "ai_subject": "Compass",
+    "bg_color": "f9eabb",
+    "created_at": "2025-12-28T20:31:44.127454",
+    "image_url": "./assets/icons/apache-web-server.png"
+  },
+  "archiving-and-backup": {
+    "ai_description": "",
+    "ai_subject": "Anchor",
+    "bg_color": "e2c1bf",
+    "created_at": "2025-12-28T20:25:35.212108",
+    "image_url": "./assets/icons/archiving-and-backup.png"
+  },
   "automatic-partition-management-solution-with-interval-partitioning-of-polardb-mysql": {
     "bg_color": "e9d1ee",
     "created_at": "2025-02-23T13:31:39.047664",
@@ -63,6 +84,13 @@
     "image_url": "./assets/icons/basic-django.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/10809/10809325.png"
   },
+  "basic-system-security": {
+    "ai_description": "",
+    "ai_subject": "Iron Gauntlet",
+    "bg_color": "ecbbd8",
+    "created_at": "2025-12-28T20:29:02.850381",
+    "image_url": "./assets/icons/basic-system-security.png"
+  },
   "basic-usage-of-ansible": {
     "bg_color": "ccf3fb",
     "created_at": "2025-02-23T13:31:40.771479",
@@ -73,6 +101,13 @@
     "bg_color": "eeb4be",
     "created_at": "2025-12-18T14:19:42.218411",
     "image_url": "./assets/icons/become-a-junior-system-administrator.png"
+  },
+  "boot-process-and-recovery": {
+    "ai_description": "",
+    "ai_subject": "Bypass Switch",
+    "bg_color": "d2bdff",
+    "created_at": "2025-12-28T20:28:28.173395",
+    "image_url": "./assets/icons/boot-process-and-recovery.png"
   },
   "build-a-kubernetes-cluster-on-alibaba-cloud-ecs": {
     "bg_color": "c4e3b8",
@@ -313,17 +348,38 @@
     "created_at": "2025-07-31T09:24:38.653615",
     "image_url": "./assets/icons/devops.png"
   },
+  "dhcp-service-administration": {
+    "ai_description": "",
+    "ai_subject": "Logbook",
+    "bg_color": "d0bbc4",
+    "created_at": "2025-12-28T20:32:50.882051",
+    "image_url": "./assets/icons/dhcp-service-administration.png"
+  },
   "disk-filesystems-and-storage-management": {
     "ai_description": "A cute 3D toy penguin neatly stacking glowing blocks to organize a digital storage vault.",
     "bg_color": "c8e2f7",
     "created_at": "2025-12-25T14:10:40.829087",
     "image_url": "./assets/icons/disk-filesystems-and-storage-management.png"
   },
+  "dns-service-administration": {
+    "ai_description": "",
+    "ai_subject": "Transceiver",
+    "bg_color": "e3c2d1",
+    "created_at": "2025-12-28T20:32:15.952572",
+    "image_url": "./assets/icons/dns-service-administration.png"
+  },
   "docker-command-labs": {
     "bg_color": "f8dce2",
     "created_at": "2025-04-25T14:16:13.239753",
     "image_url": "./assets/icons/docker-command-labs.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/9876/9876772.png"
+  },
+  "docker-container-basics": {
+    "ai_description": "",
+    "ai_subject": "Toolbox",
+    "bg_color": "fef6d1",
+    "created_at": "2025-12-28T20:30:07.338149",
+    "image_url": "./assets/icons/docker-container-basics.png"
   },
   "docker-for-beginners": {
     "ai_description": "A 3D matte toy-style blue whale carrying stacked shipping containers, representing the iconic Docker brand logo.",
@@ -869,6 +925,13 @@
     "image_url": "./assets/icons/linux-terminal-basics.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/1199/1199101.png"
   },
+  "log-management-and-text-processing": {
+    "ai_description": "",
+    "ai_subject": "Map",
+    "bg_color": "cff9c6",
+    "created_at": "2025-12-28T20:24:58.293397",
+    "image_url": "./assets/icons/log-management-and-text-processing.png"
+  },
   "manage-application-configurations-on-a-kubernetes-cluster": {
     "bg_color": "e4d2c8",
     "created_at": "2025-02-23T13:31:39.325061",
@@ -944,6 +1007,13 @@
     "created_at": "2025-02-23T13:31:37.832492",
     "image_url": "./assets/icons/multi-tenant-business-system-solution-with-list-default-hash-partitioning-of-polardb-mysql.png"
   },
+  "mysql-database-basics": {
+    "ai_description": "",
+    "ai_subject": "Vault Door",
+    "bg_color": "bccfd4",
+    "created_at": "2025-12-28T20:30:38.977150",
+    "image_url": "./assets/icons/mysql-database-basics.png"
+  },
   "mysql-for-beginners": {
     "bg_color": "e8f083",
     "created_at": "2025-02-23T13:31:33.131830",
@@ -968,6 +1038,13 @@
     "bg_color": "f7e1ca",
     "created_at": "2025-02-23T13:31:33.830699",
     "image_url": "./assets/icons/mysql-practice-plus.png"
+  },
+  "nginx-web-server": {
+    "ai_description": "",
+    "ai_subject": "Lodestone",
+    "bg_color": "f2d1cf",
+    "created_at": "2025-12-28T20:31:12.674476",
+    "image_url": "./assets/icons/nginx-web-server.png"
   },
   "nmap-for-beginners": {
     "ai_description": "A 3D matte toy representation of the Nmap eye within a blue globe, centered on a clean circular background with no text.",
@@ -3364,6 +3441,13 @@
     "created_at": "2025-07-31T09:24:41.451603",
     "image_url": "./assets/icons/redis.png"
   },
+  "remote-access-and-secure-file-transfer": {
+    "ai_description": "",
+    "ai_subject": "Telescope",
+    "bg_color": "edbdc7",
+    "created_at": "2025-12-28T20:23:15.149321",
+    "image_url": "./assets/icons/remote-access-and-secure-file-transfer.png"
+  },
   "rhcsa-certification-exam-practice-exercises": {
     "bg_color": "ddcbf9",
     "created_at": "2025-02-23T13:31:29.131637",
@@ -3389,6 +3473,13 @@
     "created_at": "2025-02-23T13:31:28.885723",
     "image_url": "./assets/icons/rust-practice-plus.png"
   },
+  "scheduled-tasks-and-routine-maintenance": {
+    "ai_description": "",
+    "ai_subject": "Metronome",
+    "bg_color": "fac1e1",
+    "created_at": "2025-12-28T20:27:51.963338",
+    "image_url": "./assets/icons/scheduled-tasks-and-routine-maintenance.png"
+  },
   "scikit-learn-for-beginners": {
     "bg_color": "f1c4c4",
     "created_at": "2025-02-23T13:31:39.178137",
@@ -3399,6 +3490,13 @@
     "bg_color": "ffc44d",
     "created_at": "2025-02-23T13:31:37.973235",
     "image_url": "./assets/icons/seaborn-data-visualization-basics.png"
+  },
+  "service-management-with-systemd": {
+    "ai_description": "",
+    "ai_subject": "Watchmaker's Lathe",
+    "bg_color": "dbb7fa",
+    "created_at": "2025-12-28T20:24:25.287174",
+    "image_url": "./assets/icons/service-management-with-systemd.png"
   },
   "shell-environment-and-variables": {
     "ai_description": "A cute 3D toy rabbit organizing glowing carrot-shaped variables into persistent storage bins on a digital workbench.",
@@ -3438,6 +3536,13 @@
     "created_at": "2025-12-22T13:55:26.974625",
     "image_url": "./assets/icons/shell-redirection-and-pipelines.png"
   },
+  "shell-scripting-fundamentals": {
+    "ai_description": "",
+    "ai_subject": "Swiss Army Knife",
+    "bg_color": "c2cbf1",
+    "created_at": "2025-12-28T20:26:09.193378",
+    "image_url": "./assets/icons/shell-scripting-fundamentals.png"
+  },
   "sklearn-interview-questions": {
     "bg_color": "d7c0fb",
     "created_at": "2025-07-31T09:24:43.209321",
@@ -3457,6 +3562,13 @@
     "bg_color": "d3f09c",
     "created_at": "2025-02-23T13:31:40.314484",
     "image_url": "./assets/icons/sklearn-practice-plus.png"
+  },
+  "software-package-management": {
+    "ai_description": "",
+    "ai_subject": "Ship's Manifest",
+    "bg_color": "b6f7fc",
+    "created_at": "2025-12-28T20:23:51.630120",
+    "image_url": "./assets/icons/software-package-management.png"
   },
   "sqlite-for-beginners": {
     "bg_color": "e0c2ef",
@@ -3502,6 +3614,13 @@
     "created_at": "2025-12-25T15:49:03.554582",
     "image_url": "./assets/icons/terraform-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/4293/4293933.png"
+  },
+  "text-processing-with-awk-and-sed": {
+    "ai_description": "",
+    "ai_subject": "Stenographer's Notebook",
+    "bg_color": "e7c0d9",
+    "created_at": "2025-12-28T20:27:13.738859",
+    "image_url": "./assets/icons/text-processing-with-awk-and-sed.png"
   },
   "the-advanced-python-mastery": {
     "bg_color": "c2e1da",
@@ -3637,6 +3756,13 @@
     "bg_color": "b5e0b7",
     "created_at": "2025-12-22T17:37:24.354991",
     "image_url": "./assets/icons/users-groups-and-permissions.png"
+  },
+  "version-control-with-git": {
+    "ai_description": "",
+    "ai_subject": "Time Capsule",
+    "bg_color": "c1e7fd",
+    "created_at": "2025-12-28T20:29:35.627638",
+    "image_url": "./assets/icons/version-control-with-git.png"
   },
   "viewing-searching-and-editing-files": {
     "ai_description": "A cheerful orange squirrel wearing oversized green glasses, holding a small silver magnifying glass in its paws.",
