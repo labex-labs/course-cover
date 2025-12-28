@@ -1070,9 +1070,10 @@
     "image_url": "./assets/icons/practical-python-programming.png"
   },
   "privilege-escalation-techniques-on-linux": {
-    "ai_description": "The official Linux penguin, Tux, in a 3D matte toy style, seated centered on a clean circular background, featuring iconic black and white features.",
+    "ai_description": "",
+    "ai_subject": "Trojan Horse Statue",
     "bg_color": "b8b2a6",
-    "created_at": "2025-12-26T10:22:56.634797",
+    "created_at": "2025-12-28T16:46:48.118190",
     "image_url": "./assets/icons/privilege-escalation-techniques-on-linux.png"
   },
   "processes-and-job-control": {
