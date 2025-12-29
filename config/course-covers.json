@@ -112,7 +112,7 @@
   "boot-process-and-recovery": {
     "ai_description": "",
     "ai_subject": "Bypass Switch",
-    "bg_color": "d2bdff",
+    "bg_color": "#ffffff",
     "created_at": "2025-12-28T20:28:28.173395",
     "image_url": "./assets/icons/boot-process-and-recovery.png"
   },
@@ -3573,7 +3573,7 @@
   "scheduled-tasks-and-routine-maintenance": {
     "ai_description": "",
     "ai_subject": "Metronome",
-    "bg_color": "fac1e1",
+    "bg_color": "#ffffff",
     "created_at": "2025-12-28T20:27:51.963338",
     "image_url": "./assets/icons/scheduled-tasks-and-routine-maintenance.png"
   },
@@ -3713,7 +3713,7 @@
   "system-information-and-resource-monitoring": {
     "ai_description": "",
     "ai_subject": "Blueprint",
-    "bg_color": "ebeee7",
+    "bg_color": "#ffffff",
     "created_at": "2025-12-28T20:55:02.273428",
     "image_url": "./assets/icons/system-information-and-resource-monitoring.png"
   },
