@@ -28,9 +28,9 @@
   },
   "advanced-shell-scripting-techniques": {
     "ai_description": "",
-    "ai_subject": "Map Compass",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:26:40.254855",
+    "ai_subject": "Clamshell (due to the term 'Shell')",
+    "bg_color": "e4e6d1",
+    "created_at": "2026-01-03T10:36:17.136520",
     "image_url": "./assets/icons/advanced-shell-scripting-techniques.png"
   },
   "algorithm-practice-challenges": {
@@ -45,9 +45,9 @@
   },
   "ansible-automation": {
     "ai_description": "",
-    "ai_subject": "Modular Building Blocks (e.g., high-end LEGO Technic)",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:35:45.382128",
+    "ai_subject": "Chain Links",
+    "bg_color": "cad3de",
+    "created_at": "2026-01-03T10:17:22.965621",
     "image_url": "./assets/icons/ansible-automation.png"
   },
   "ansible-for-beginners": {
@@ -68,16 +68,16 @@
   },
   "apache-web-server": {
     "ai_description": "",
-    "ai_subject": "Compass",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:31:44.127454",
+    "ai_subject": "Horse-drawn Carriage",
+    "bg_color": "e6fdd3",
+    "created_at": "2026-01-03T10:11:01.453524",
     "image_url": "./assets/icons/apache-web-server.png"
   },
   "archiving-and-backup": {
     "ai_description": "",
-    "ai_subject": "Anchor",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:25:35.212108",
+    "ai_subject": "Safe Deposit Box",
+    "bg_color": "e7e6dd",
+    "created_at": "2026-01-03T10:01:26.632006",
     "image_url": "./assets/icons/archiving-and-backup.png"
   },
   "automatic-partition-management-solution-with-interval-partitioning-of-polardb-mysql": {
@@ -93,9 +93,9 @@
   },
   "basic-system-security": {
     "ai_description": "",
-    "ai_subject": "Iron Gauntlet",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:29:02.850381",
+    "ai_subject": "Padlock",
+    "bg_color": "ddc5da",
+    "created_at": "2026-01-03T10:06:37.824723",
     "image_url": "./assets/icons/basic-system-security.png"
   },
   "basic-usage-of-ansible": {
@@ -111,9 +111,9 @@
   },
   "boot-process-and-recovery": {
     "ai_description": "",
-    "ai_subject": "Bypass Switch",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:28:28.173395",
+    "ai_subject": "Key",
+    "bg_color": "d7f7de",
+    "created_at": "2026-01-03T10:05:45.165571",
     "image_url": "./assets/icons/boot-process-and-recovery.png"
   },
   "build-a-kubernetes-cluster-on-alibaba-cloud-ecs": {
@@ -159,9 +159,9 @@
   },
   "centralized-log-management": {
     "ai_description": "",
-    "ai_subject": "Decibel Meter",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:38:33.009513",
+    "ai_subject": "Library Card Catalog",
+    "bg_color": "b7e7d6",
+    "created_at": "2026-01-03T10:21:49.789762",
     "image_url": "./assets/icons/centralized-log-management.png"
   },
   "comptia-a-plus-training-labs": {
@@ -364,23 +364,23 @@
   },
   "dhcp-service-administration": {
     "ai_description": "",
-    "ai_subject": "Logbook",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:32:50.882051",
+    "ai_subject": "Network Router",
+    "bg_color": "c9eade",
+    "created_at": "2026-01-03T10:12:46.738036",
     "image_url": "./assets/icons/dhcp-service-administration.png"
   },
   "disk-filesystems-and-storage-management": {
     "ai_description": "",
-    "ai_subject": "Safe Deposit Box Key",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:55:37.452954",
+    "ai_subject": "Hard Disk Drive",
+    "bg_color": "d0c5cd",
+    "created_at": "2026-01-03T09:56:10.244558",
     "image_url": "./assets/icons/disk-filesystems-and-storage-management.png"
   },
   "dns-service-administration": {
     "ai_description": "",
-    "ai_subject": "Transceiver",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:32:15.952572",
+    "ai_subject": "Telephone Directory",
+    "bg_color": "dcddea",
+    "created_at": "2026-01-03T11:02:36.260875",
     "image_url": "./assets/icons/dns-service-administration.png"
   },
   "docker-command-labs": {
@@ -391,9 +391,9 @@
   },
   "docker-container-basics": {
     "ai_description": "",
-    "ai_subject": "Toolbox",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:30:07.338149",
+    "ai_subject": "Blue Whale",
+    "bg_color": "e1d0e4",
+    "created_at": "2026-01-03T10:08:23.489202",
     "image_url": "./assets/icons/docker-container-basics.png"
   },
   "docker-for-beginners": {
@@ -434,17 +434,19 @@
     "remote_url": "https://cdn-icons-png.freepik.com/512/2927/2927617.png"
   },
   "file-system-navigation-and-file-operations": {
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-17T14:22:17.500071",
+    "ai_description": "",
+    "ai_subject": "Filing Cabinet",
+    "bg_color": "e6caeb",
+    "created_at": "2026-01-03T09:50:00.265770",
     "image_url": "./assets/icons/file-system-navigation-and-file-operations.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/4595/4595149.png",
     "tag": "module 02"
   },
   "firewalld-configuration": {
     "ai_description": "",
-    "ai_subject": "Periscope",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:34:34.386080",
+    "ai_subject": "Gateway",
+    "bg_color": "c2eaf5",
+    "created_at": "2026-01-03T10:15:35.227266",
     "image_url": "./assets/icons/firewalld-configuration.png"
   },
   "foundations-of-deep-learning": {
@@ -618,9 +620,9 @@
   },
   "github-actions-cicd": {
     "ai_description": "",
-    "ai_subject": "Conveyor Belt",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:39:06.219743",
+    "ai_subject": "Lighthouse Beacon",
+    "bg_color": "e0b4bc",
+    "created_at": "2026-01-03T11:03:30.411829",
     "image_url": "./assets/icons/github-actions-cicd.png"
   },
   "github-actions-for-beginners": {
@@ -657,9 +659,9 @@
   },
   "grafana-data-visualization": {
     "ai_description": "",
-    "ai_subject": "Kaleidoscope",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:37:57.321360",
+    "ai_subject": "Dashboard Display Panel",
+    "bg_color": "b8babe",
+    "created_at": "2026-01-03T10:20:57.844577",
     "image_url": "./assets/icons/grafana-data-visualization.png"
   },
   "hadoop-in-depth-mastery": {
@@ -685,9 +687,9 @@
   },
   "haproxy-load-balancing": {
     "ai_description": "",
-    "ai_subject": "Fork in the Road Sign",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:36:16.299320",
+    "ai_subject": "Traffic Signal Light",
+    "bg_color": "ece0b8",
+    "created_at": "2026-01-03T10:18:16.992938",
     "image_url": "./assets/icons/haproxy-load-balancing.png"
   },
   "hashcat-for-beginners": {
@@ -857,16 +859,16 @@
   },
   "keepalived-high-availability": {
     "ai_description": "",
-    "ai_subject": "Watchmaker's Balance Wheel",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:36:51.331549",
+    "ai_subject": "Two Interconnected Routers",
+    "bg_color": "ccd9cf",
+    "created_at": "2026-01-03T10:19:11.061248",
     "image_url": "./assets/icons/keepalived-high-availability.png"
   },
   "kubernetes-cluster-administration": {
     "ai_description": "",
-    "ai_subject": "Master Key Set",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:40:47.540783",
+    "ai_subject": "Walkie-Talkie",
+    "bg_color": "f0d6e6",
+    "created_at": "2026-01-03T10:25:23.286407",
     "image_url": "./assets/icons/kubernetes-cluster-administration.png"
   },
   "kubernetes-for-beginners": {
@@ -884,9 +886,9 @@
   },
   "kubernetes-fundamentals": {
     "ai_description": "",
-    "ai_subject": "Modular Lego Set",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:40:14.043122",
+    "ai_subject": "Container Ship",
+    "bg_color": "e6e6c9",
+    "created_at": "2026-01-03T10:35:50.487751",
     "image_url": "./assets/icons/kubernetes-fundamentals.png"
   },
   "kubernetes-interview-questions": {
@@ -953,9 +955,9 @@
   },
   "linux-networking-fundamentals": {
     "ai_description": "",
-    "ai_subject": "Lighthouse",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:56:16.356948",
+    "ai_subject": "Network Hub",
+    "bg_color": "ddefd9",
+    "created_at": "2026-01-03T11:04:11.331731",
     "image_url": "./assets/icons/linux-networking-fundamentals.png"
   },
   "linux-practice-challenges": {
@@ -986,17 +988,19 @@
     "remote_url": "https://cdn-icons-png.freepik.com/512/7862/7862916.png"
   },
   "linux-terminal-basics": {
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-16T19:05:08.170715",
+    "ai_description": "",
+    "ai_subject": "Computer Terminal Screen",
+    "bg_color": "c0e4f4",
+    "created_at": "2026-01-03T09:49:09.171526",
     "image_url": "./assets/icons/linux-terminal-basics.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/1199/1199101.png",
     "tag": "module 01"
   },
   "log-management-and-text-processing": {
     "ai_description": "",
-    "ai_subject": "Map",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:24:58.293397",
+    "ai_subject": "Magnifying Glass with Light",
+    "bg_color": "e1dac7",
+    "created_at": "2026-01-03T10:00:33.478182",
     "image_url": "./assets/icons/log-management-and-text-processing.png"
   },
   "manage-application-configurations-on-a-kubernetes-cluster": {
@@ -1076,9 +1080,9 @@
   },
   "mysql-database-basics": {
     "ai_description": "",
-    "ai_subject": "Compass",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-29T08:53:29.186689",
+    "ai_subject": "Database Server Rack",
+    "bg_color": "f9e5cf",
+    "created_at": "2026-01-03T10:09:15.241796",
     "image_url": "./assets/icons/mysql-database-basics.png"
   },
   "mysql-for-beginners": {
@@ -1108,16 +1112,16 @@
   },
   "nfs-and-samba-file-sharing": {
     "ai_description": "",
-    "ai_subject": "Vault Door",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:33:24.458226",
+    "ai_subject": "Mail Sorter (for directing packages)",
+    "bg_color": "effef6",
+    "created_at": "2026-01-03T10:13:46.851784",
     "image_url": "./assets/icons/nfs-and-samba-file-sharing.png"
   },
   "nginx-web-server": {
     "ai_description": "",
-    "ai_subject": "Lodestone",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:31:12.674476",
+    "ai_subject": "Traffic Cop Signal Light",
+    "bg_color": "bcc0d0",
+    "created_at": "2026-01-03T10:34:46.849432",
     "image_url": "./assets/icons/nginx-web-server.png"
   },
   "nmap-for-beginners": {
@@ -1230,9 +1234,9 @@
   },
   "processes-and-job-control": {
     "ai_description": "",
-    "ai_subject": "Master Electrical Panel",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:54:26.569757",
+    "ai_subject": "Traffic Light",
+    "bg_color": "ebcbba",
+    "created_at": "2026-01-03T09:54:25.008265",
     "image_url": "./assets/icons/processes-and-job-control.png",
     "tag": "module 07"
   },
@@ -3264,9 +3268,9 @@
   },
   "prometheus-monitoring": {
     "ai_description": "",
-    "ai_subject": "Security Camera",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:37:23.150645",
+    "ai_subject": "Lighthouse",
+    "bg_color": "eec2cc",
+    "created_at": "2026-01-03T10:20:04.614553",
     "image_url": "./assets/icons/prometheus-monitoring.png"
   },
   "python-cheatsheet": {
@@ -3284,9 +3288,9 @@
   },
   "python-for-operations": {
     "ai_description": "",
-    "ai_subject": "Blueprint",
+    "ai_subject": "Python Snake",
     "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:41:21.643410",
+    "created_at": "2026-01-03T10:26:15.359045",
     "image_url": "./assets/icons/python-for-operations.png"
   },
   "python-in-depth-mastery": {
@@ -3533,9 +3537,9 @@
   },
   "remote-access-and-secure-file-transfer": {
     "ai_description": "",
-    "ai_subject": "Telescope",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:23:15.149321",
+    "ai_subject": "Padlock",
+    "bg_color": "c4dab9",
+    "created_at": "2026-01-03T09:57:54.249560",
     "image_url": "./assets/icons/remote-access-and-secure-file-transfer.png"
   },
   "rhcsa-certification-exam-practice-exercises": {
@@ -3550,9 +3554,9 @@
   },
   "rpm-and-dnf-package-management": {
     "ai_description": "",
-    "ai_subject": "Toolbox",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:34:00.399502",
+    "ai_subject": "Shipping Container",
+    "bg_color": "dec3d5",
+    "created_at": "2026-01-03T10:14:43.094630",
     "image_url": "./assets/icons/rpm-and-dnf-package-management.png"
   },
   "run-hadoop-jobs-on-e-mapreduce": {
@@ -3572,9 +3576,9 @@
   },
   "scheduled-tasks-and-routine-maintenance": {
     "ai_description": "",
-    "ai_subject": "Metronome",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:27:51.963338",
+    "ai_subject": "Clockwork Mechanism",
+    "bg_color": "b6dec8",
+    "created_at": "2026-01-03T10:04:52.063507",
     "image_url": "./assets/icons/scheduled-tasks-and-routine-maintenance.png"
   },
   "scikit-learn-for-beginners": {
@@ -3590,23 +3594,23 @@
   },
   "selinux-administration": {
     "ai_description": "",
-    "ai_subject": "Traffic Control Tower Console",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:35:06.748363",
+    "ai_subject": "Padlock",
+    "bg_color": "bee1ca",
+    "created_at": "2026-01-03T10:16:29.141151",
     "image_url": "./assets/icons/selinux-administration.png"
   },
   "service-management-with-systemd": {
     "ai_description": "",
-    "ai_subject": "Watchmaker's Lathe",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:24:25.287174",
+    "ai_subject": "Service Manual",
+    "bg_color": "f4ccf7",
+    "created_at": "2026-01-03T10:32:55.715408",
     "image_url": "./assets/icons/service-management-with-systemd.png"
   },
   "shell-environment-and-variables": {
     "ai_description": "",
-    "ai_subject": "Old Leather-bound Journal",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:53:14.975878",
+    "ai_subject": "Seashell",
+    "bg_color": "bdd7ea",
+    "created_at": "2026-01-03T09:52:37.837825",
     "image_url": "./assets/icons/shell-environment-and-variables.png",
     "tag": "module 05"
   },
@@ -3638,17 +3642,17 @@
   },
   "shell-redirection-and-pipelines": {
     "ai_description": "",
-    "ai_subject": "Assembly Line Robot Arm",
-    "bg_color": "e1f8ee",
-    "created_at": "2025-12-28T20:52:40.544535",
+    "ai_subject": "Water Hose",
+    "bg_color": "d9e5e7",
+    "created_at": "2026-01-03T09:51:43.010902",
     "image_url": "./assets/icons/shell-redirection-and-pipelines.png",
     "tag": "module 04"
   },
   "shell-scripting-fundamentals": {
     "ai_description": "",
-    "ai_subject": "Swiss Army Knife",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:26:09.193378",
+    "ai_subject": "Seashell",
+    "bg_color": "efc6f9",
+    "created_at": "2026-01-03T10:02:19.466306",
     "image_url": "./assets/icons/shell-scripting-fundamentals.png"
   },
   "sklearn-interview-questions": {
@@ -3673,9 +3677,9 @@
   },
   "software-package-management": {
     "ai_description": "",
-    "ai_subject": "Ship's Manifest",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:23:51.630120",
+    "ai_subject": "Toolbox",
+    "bg_color": "d9cbea",
+    "created_at": "2026-01-03T09:58:48.595369",
     "image_url": "./assets/icons/software-package-management.png"
   },
   "sqlite-for-beginners": {
@@ -3712,9 +3716,9 @@
   },
   "system-information-and-resource-monitoring": {
     "ai_description": "",
-    "ai_subject": "Blueprint",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:55:02.273428",
+    "ai_subject": "Dashboard Gauge Cluster",
+    "bg_color": "e4c6ea",
+    "created_at": "2026-01-03T09:55:19.366537",
     "image_url": "./assets/icons/system-information-and-resource-monitoring.png"
   },
   "terraform-for-beginners": {
@@ -3726,16 +3730,16 @@
   },
   "terraform-infrastructure-as-code": {
     "ai_description": "",
-    "ai_subject": "Compass",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:39:38.866771",
+    "ai_subject": "Blueprint",
+    "bg_color": "fbf1e6",
+    "created_at": "2026-01-03T10:23:36.836041",
     "image_url": "./assets/icons/terraform-infrastructure-as-code.png"
   },
   "text-processing-with-awk-and-sed": {
     "ai_description": "",
-    "ai_subject": "Stenographer's Notebook",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:27:13.738859",
+    "ai_subject": "Text Editor Scroll",
+    "bg_color": "e1dbb9",
+    "created_at": "2026-01-03T10:04:00.214322",
     "image_url": "./assets/icons/text-processing-with-awk-and-sed.png"
   },
   "the-advanced-python-mastery": {
@@ -3869,24 +3873,24 @@
   },
   "users-groups-and-permissions": {
     "ai_description": "",
-    "ai_subject": "Security Badge Reader",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:53:50.742842",
+    "ai_subject": "Lock and Key",
+    "bg_color": "f7b9ce",
+    "created_at": "2026-01-03T09:53:30.853732",
     "image_url": "./assets/icons/users-groups-and-permissions.png",
     "tag": "module 06"
   },
   "version-control-with-git": {
     "ai_description": "",
-    "ai_subject": "Time Capsule",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:29:35.627638",
+    "ai_subject": "History Book",
+    "bg_color": "dfe2ed",
+    "created_at": "2026-01-03T10:07:30.714665",
     "image_url": "./assets/icons/version-control-with-git.png"
   },
   "viewing-searching-and-editing-files": {
     "ai_description": "",
-    "ai_subject": "Locksmith's Pick Set",
-    "bg_color": "#ffffff",
-    "created_at": "2025-12-28T20:52:00.510975",
+    "ai_subject": "Magnifying Glass",
+    "bg_color": "c7d7d9",
+    "created_at": "2026-01-03T09:50:51.739120",
     "image_url": "./assets/icons/viewing-searching-and-editing-files.png",
     "tag": "module 03"
   },
