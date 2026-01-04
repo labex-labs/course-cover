@@ -3289,7 +3289,7 @@
   "python-for-operations": {
     "ai_description": "",
     "ai_subject": "Python Snake",
-    "bg_color": "#ffffff",
+    "bg_color": "e3fdbc",
     "created_at": "2026-01-03T10:26:15.359045",
     "image_url": "./assets/icons/python-for-operations.png"
   },
