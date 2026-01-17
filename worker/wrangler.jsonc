@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "course-cover-service",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-04",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "course-cover.labex.io",
+      "custom_domain": true
+    }
+  ],
+  "observability": {
+    "enabled": false,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 0.01,
+      "invocation_logs": true
+    }
+  }
+}

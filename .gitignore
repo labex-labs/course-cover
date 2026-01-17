@@ -1,0 +1,4 @@
+.DS_Store
+__pycache__
+*_temp_raw.png
+*_temp_raw_rembg.png

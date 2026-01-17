@@ -1,0 +1,3928 @@
+{
+  "100-numpy-exercises": {
+    "bg_color": "cef7ef",
+    "created_at": "2025-02-23T13:31:39.825566",
+    "image_url": "./assets/icons/100-numpy-exercises.png"
+  },
+  "100-pandas-exercises": {
+    "bg_color": "f8f3c7",
+    "created_at": "2025-02-23T13:31:29.843165",
+    "image_url": "./assets/icons/100-pandas-exercises.png"
+  },
+  "a-beginner-guide-to-labex": {
+    "bg_color": "e1e4ee",
+    "created_at": "2025-02-23T13:31:41.812704",
+    "image_url": "./assets/icons/a-beginner-guide-to-labex.png"
+  },
+  "advanced-mysql-practical-labs": {
+    "bg_color": "e0ded0",
+    "created_at": "2025-04-03T10:13:12.363470",
+    "image_url": "./assets/icons/advanced-mysql-practical-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/11784/11784446.png"
+  },
+  "advanced-postgresql-practical-labs": {
+    "bg_color": "c6beb8",
+    "created_at": "2025-04-03T12:20:34.019581",
+    "image_url": "./assets/icons/advanced-postgresql-practical-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/18685/18685854.png"
+  },
+  "advanced-shell-scripting-techniques": {
+    "ai_description": "",
+    "ai_subject": "Clamshell (due to the term 'Shell')",
+    "bg_color": "e4e6d1",
+    "created_at": "2026-01-03T10:36:17.136520",
+    "image_url": "./assets/icons/advanced-shell-scripting-techniques.png"
+  },
+  "algorithm-practice-challenges": {
+    "bg_color": "fdd8b8",
+    "created_at": "2025-02-23T13:31:30.949611",
+    "image_url": "./assets/icons/algorithm-practice-challenges.png"
+  },
+  "alibaba-interview-questions": {
+    "bg_color": "f0c2b9",
+    "created_at": "2025-07-31T09:24:43.711496",
+    "image_url": "./assets/icons/alibaba.png"
+  },
+  "ansible-automation": {
+    "ai_description": "",
+    "ai_subject": "Chain Links",
+    "bg_color": "cad3de",
+    "created_at": "2026-01-03T10:17:22.965621",
+    "image_url": "./assets/icons/ansible-automation.png"
+  },
+  "ansible-for-beginners": {
+    "ai_description": "A 3D matte toy-style stylized capital \"A\" chevron, centered on a smooth circular background, featuring clean lines and a professional, iconic finish.",
+    "bg_color": "f8f0c2",
+    "created_at": "2025-12-26T10:19:59.904797",
+    "image_url": "./assets/icons/ansible-for-beginners.png"
+  },
+  "ansible-interview-questions": {
+    "bg_color": "ccf9f2",
+    "created_at": "2025-07-31T09:24:42.326568",
+    "image_url": "./assets/icons/ansible.png"
+  },
+  "ansible-practice-plus": {
+    "bg_color": "fee7af",
+    "created_at": "2025-02-23T13:31:34.660806",
+    "image_url": "./assets/icons/ansible-practice-plus.png"
+  },
+  "apache-web-server": {
+    "ai_description": "",
+    "ai_subject": "Horse-drawn Carriage",
+    "bg_color": "e6fdd3",
+    "created_at": "2026-01-03T10:11:01.453524",
+    "image_url": "./assets/icons/apache-web-server.png"
+  },
+  "archiving-and-backup": {
+    "ai_description": "",
+    "ai_subject": "Safe Deposit Box",
+    "bg_color": "e7e6dd",
+    "created_at": "2026-01-03T10:01:26.632006",
+    "image_url": "./assets/icons/archiving-and-backup.png"
+  },
+  "automatic-partition-management-solution-with-interval-partitioning-of-polardb-mysql": {
+    "bg_color": "e9d1ee",
+    "created_at": "2025-02-23T13:31:39.047664",
+    "image_url": "./assets/icons/automatic-partition-management-solution-with-interval-partitioning-of-polardb-mysql.png"
+  },
+  "basic-django": {
+    "bg_color": "d3bcc2",
+    "created_at": "2025-03-18T10:20:04.900236",
+    "image_url": "./assets/icons/basic-django.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/10809/10809325.png"
+  },
+  "basic-system-security": {
+    "ai_description": "",
+    "ai_subject": "Padlock",
+    "bg_color": "ddc5da",
+    "created_at": "2026-01-03T10:06:37.824723",
+    "image_url": "./assets/icons/basic-system-security.png"
+  },
+  "basic-usage-of-ansible": {
+    "bg_color": "ccf3fb",
+    "created_at": "2025-02-23T13:31:40.771479",
+    "image_url": "./assets/icons/basic-usage-of-ansible.png"
+  },
+  "become-a-junior-system-administrator": {
+    "ai_description": "A cheerful, round robot panda wearing a bright blue headset and holding a tiny golden wrench.",
+    "bg_color": "eeb4be",
+    "created_at": "2025-12-18T14:19:42.218411",
+    "image_url": "./assets/icons/become-a-junior-system-administrator.png"
+  },
+  "boot-process-and-recovery": {
+    "ai_description": "",
+    "ai_subject": "Key",
+    "bg_color": "d7f7de",
+    "created_at": "2026-01-03T10:05:45.165571",
+    "image_url": "./assets/icons/boot-process-and-recovery.png"
+  },
+  "build-a-kubernetes-cluster-on-alibaba-cloud-ecs": {
+    "bg_color": "c4e3b8",
+    "created_at": "2025-02-23T13:31:29.966646",
+    "image_url": "./assets/icons/build-a-kubernetes-cluster-on-alibaba-cloud-ecs.png"
+  },
+  "build-a-project-with-jenkins": {
+    "bg_color": "f0cc23",
+    "created_at": "2025-02-23T13:31:36.440603",
+    "image_url": "./assets/icons/build-a-project-with-jenkins.png"
+  },
+  "c-interview-questions": {
+    "bg_color": "bceeea",
+    "created_at": "2025-07-31T09:24:42.169910",
+    "image_url": "./assets/icons/c.png"
+  },
+  "c-practice-challenges": {
+    "bg_color": "bef0c2",
+    "created_at": "2025-02-23T13:31:40.818077",
+    "image_url": "./assets/icons/c-practice-challenges.png"
+  },
+  "c-practice-labs": {
+    "bg_color": "bdcae8",
+    "created_at": "2025-02-23T13:31:38.019722",
+    "image_url": "./assets/icons/c-practice-labs.png"
+  },
+  "c-practice-plus": {
+    "bg_color": "d6dc77",
+    "created_at": "2025-02-23T13:31:38.429361",
+    "image_url": "./assets/icons/c-practice-plus.png"
+  },
+  "c-programming-for-beginners": {
+    "bg_color": "b6d3dd",
+    "created_at": "2025-02-23T13:31:33.156559",
+    "image_url": "./assets/icons/c-programming-for-beginners.png"
+  },
+  "centos-7-migration-to-anolis-os-7": {
+    "bg_color": "bff0c2",
+    "created_at": "2025-09-03T08:04:21.351007",
+    "image_url": "./assets/icons/centos-7-migration-to-anolis-os-7.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/10444/10444060.png"
+  },
+  "centralized-log-management": {
+    "ai_description": "",
+    "ai_subject": "Library Card Catalog",
+    "bg_color": "b7e7d6",
+    "created_at": "2026-01-03T10:21:49.789762",
+    "image_url": "./assets/icons/centralized-log-management.png"
+  },
+  "comptia-a-plus-training-labs": {
+    "bg_color": "c0c7e9",
+    "created_at": "2025-10-22T09:42:04.757792",
+    "image_url": "./assets/icons/comptia-a-plus-training-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3113/3113854.png"
+  },
+  "comptia-interview-questions": {
+    "bg_color": "efceef",
+    "created_at": "2025-07-31T09:24:39.951087",
+    "image_url": "./assets/icons/comptia.png"
+  },
+  "comptia-linux-plus-training-labs": {
+    "ai_description": "A sleek, dark gray server rack cabinet featuring a glowing cyan terminal screen on the front and three vibrant orange status lights aligned vertically on the side.",
+    "bg_color": "d9cbcc",
+    "created_at": "2025-12-18T13:53:45.633384",
+    "image_url": "./assets/icons/comptia-linux-plus-training-labs.png"
+  },
+  "comptia-network-plus-training-labs": {
+    "bg_color": "ece9d7",
+    "created_at": "2025-07-10T14:19:21.139243",
+    "image_url": "./assets/icons/comptia-network-plus-training-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/5087/5087539.png"
+  },
+  "comptia-security-plus-training-labs": {
+    "bg_color": "fad1ee",
+    "created_at": "2025-07-18T15:07:17.156329",
+    "image_url": "./assets/icons/comptia-security-plus-training-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3402/3402255.png"
+  },
+  "computing-resource-management-of-kubernetes-clusters": {
+    "bg_color": "d4ddc1",
+    "created_at": "2025-02-23T13:31:31.684627",
+    "image_url": "./assets/icons/computing-resource-management-of-kubernetes-clusters.png"
+  },
+  "conduct-an-access-control-lab-on-kubernetes-clusters": {
+    "bg_color": "d4c0cb",
+    "created_at": "2025-02-23T13:31:33.186665",
+    "image_url": "./assets/icons/conduct-an-access-control-lab-on-kubernetes-clusters.png"
+  },
+  "container-image-management-commands": {
+    "bg_color": "eab6b8",
+    "created_at": "2025-02-23T13:31:39.705733",
+    "image_url": "./assets/icons/container-image-management-commands.png"
+  },
+  "continuous-integration-in-alibaba-cloud-kubernetes-with-bamboo": {
+    "bg_color": "c6f3ee",
+    "created_at": "2025-02-23T13:31:38.760670",
+    "image_url": "./assets/icons/continuous-integration-in-alibaba-cloud-kubernetes-with-bamboo.png"
+  },
+  "cpp-interview-questions": {
+    "bg_color": "d6b7cb",
+    "created_at": "2025-07-31T09:24:41.975024",
+    "image_url": "./assets/icons/cpp.png"
+  },
+  "cpp-practice-challenges": {
+    "bg_color": "beb9bb",
+    "created_at": "2025-02-23T13:31:36.641249",
+    "image_url": "./assets/icons/cpp-practice-challenges.png"
+  },
+  "cpp-practice-labs": {
+    "bg_color": "c3b6c8",
+    "created_at": "2025-02-23T13:31:35.383356",
+    "image_url": "./assets/icons/cpp-practice-labs.png"
+  },
+  "cpp-practice-plus": {
+    "bg_color": "e3bc97",
+    "created_at": "2025-02-23T13:31:35.801083",
+    "image_url": "./assets/icons/cpp-practice-plus.png"
+  },
+  "cpp-programming-for-beginners": {
+    "bg_color": "f2d7c3",
+    "created_at": "2025-02-23T13:31:33.346975",
+    "image_url": "./assets/icons/cpp-programming-for-beginners.png"
+  },
+  "cryptography-for-beginners": {
+    "ai_description": "A 3D toy panda playfully locking a bamboo treasure chest with a glowing digital key.",
+    "bg_color": "e6ddd1",
+    "created_at": "2025-12-25T19:06:28.732443",
+    "image_url": "./assets/icons/cryptography-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1465/1465652.png"
+  },
+  "css-for-beginners": {
+    "bg_color": "dcd0c2",
+    "created_at": "2025-02-23T13:31:34.227411",
+    "image_url": "./assets/icons/getting-started-with-css.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/12054/12054610.png"
+  },
+  "css-interview-questions": {
+    "bg_color": "d6c7dd",
+    "created_at": "2025-07-31T09:24:44.077485",
+    "image_url": "./assets/icons/css.png"
+  },
+  "css-practice-challenges": {
+    "bg_color": "fbd8b5",
+    "created_at": "2025-02-23T13:31:33.573816",
+    "image_url": "./assets/icons/css-practice-challenges.png"
+  },
+  "css-practice-labs": {
+    "bg_color": "bfb4b7",
+    "created_at": "2025-02-23T13:31:40.125739",
+    "image_url": "./assets/icons/css-practice-labs.png"
+  },
+  "css-practice-plus": {
+    "bg_color": "d5c1b1",
+    "created_at": "2025-02-23T13:31:39.739955",
+    "image_url": "./assets/icons/css-practice-plus.png"
+  },
+  "ctf-for-beginners": {
+    "ai_description": "",
+    "ai_subject": "Magnifying Glass",
+    "bg_color": "c2ccd6",
+    "created_at": "2025-12-28T16:47:52.131978",
+    "image_url": "./assets/icons/ctf-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4413/4413690.png"
+  },
+  "cyber-security-with-hands-on-labs": {
+    "bg_color": "bdc0db",
+    "created_at": "2025-02-23T13:31:29.644284",
+    "image_url": "./assets/icons/cyber-security-with-hands-on-labs.png"
+  },
+  "cybersecurity-analysis-with-wireshark-and-tshark": {
+    "bg_color": "c0fbdc",
+    "created_at": "2025-03-27T00:35:06.796435",
+    "image_url": "./assets/icons/cybersecurity-analysis-with-wireshark-and-tshark.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/964/964850.png"
+  },
+  "cybersecurity-interview-questions": {
+    "bg_color": "ceeadb",
+    "created_at": "2025-07-31T09:24:38.825437",
+    "image_url": "./assets/icons/cybersecurity.png"
+  },
+  "cybersecurity-labs-for-beginners": {
+    "ai_description": "A cute fox wearing a headset and using a magnifying glass to inspect glowing green network data on a laptop.",
+    "bg_color": "ebd3cb",
+    "created_at": "2025-12-22T09:02:32.371609",
+    "image_url": "./assets/icons/cybersecurity-labs-for-beginners.png"
+  },
+  "cysec-practice-labs": {
+    "bg_color": "e9bcd9",
+    "created_at": "2025-02-23T13:31:35.248084",
+    "image_url": "./assets/icons/cysec-practice-labs.png"
+  },
+  "database-interview-questions": {
+    "bg_color": "fcceeb",
+    "created_at": "2025-07-31T09:24:39.024861",
+    "image_url": "./assets/icons/database.png"
+  },
+  "datascience-interview-questions": {
+    "bg_color": "c3d2b5",
+    "created_at": "2025-07-31T09:24:42.515274",
+    "image_url": "./assets/icons/datascience.png"
+  },
+  "deploy-a-multi-region-hybrid-cloud-architecture": {
+    "bg_color": "e5b7cf",
+    "created_at": "2025-02-23T13:31:33.795585",
+    "image_url": "./assets/icons/deploy-a-multi-region-hybrid-cloud-architecture.png"
+  },
+  "deploy-a-production-ready-deepseek-inference-service-on-anolis-os-8": {
+    "bg_color": "d1cdc2",
+    "created_at": "2025-03-20T02:45:26.098890",
+    "image_url": "./assets/icons/deploy-a-production-ready-deepseek-inference-service-on-anolis-os-8.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2637/2637271.png"
+  },
+  "deploy-a-security-group-with-cadt": {
+    "bg_color": "dad7b4",
+    "created_at": "2025-02-23T13:31:31.889158",
+    "image_url": "./assets/icons/deploy-a-security-group-with-cadt.png"
+  },
+  "deploy-an-elastic-architecture-with-cadt": {
+    "bg_color": "bcd6b5",
+    "created_at": "2025-02-23T13:31:40.412974",
+    "image_url": "./assets/icons/deploy-an-elastic-architecture-with-cadt.png"
+  },
+  "deploy-jenkins-service-on-ecs": {
+    "bg_color": "dacbf2",
+    "created_at": "2025-02-23T13:31:40.655786",
+    "image_url": "./assets/icons/deploy-jenkins-service-on-ecs.png"
+  },
+  "deploy-the-django-service-on-ecs": {
+    "bg_color": "ffe176",
+    "created_at": "2025-02-23T13:31:41.845422",
+    "image_url": "./assets/icons/deploy-the-django-service-on-ecs.png"
+  },
+  "design-a-high-performance-architecture-with-cadt": {
+    "bg_color": "b5c0eb",
+    "created_at": "2025-02-23T13:31:32.988837",
+    "image_url": "./assets/icons/design-a-high-performance-architecture-with-cadt.png"
+  },
+  "design-a-highly-available-architecture-with-cadt": {
+    "bg_color": "bcdecc",
+    "created_at": "2025-02-23T13:31:29.106423",
+    "image_url": "./assets/icons/design-a-highly-available-architecture-with-cadt.png"
+  },
+  "devops-interview-questions": {
+    "bg_color": "e1fdd5",
+    "created_at": "2025-07-31T09:24:38.653615",
+    "image_url": "./assets/icons/devops.png"
+  },
+  "dhcp-service-administration": {
+    "ai_description": "",
+    "ai_subject": "Network Router",
+    "bg_color": "c9eade",
+    "created_at": "2026-01-03T10:12:46.738036",
+    "image_url": "./assets/icons/dhcp-service-administration.png"
+  },
+  "disk-filesystems-and-storage-management": {
+    "ai_description": "",
+    "ai_subject": "Hard Disk Drive",
+    "bg_color": "d0c5cd",
+    "created_at": "2026-01-03T09:56:10.244558",
+    "image_url": "./assets/icons/disk-filesystems-and-storage-management.png"
+  },
+  "dns-service-administration": {
+    "ai_description": "",
+    "ai_subject": "Telephone Directory",
+    "bg_color": "dcddea",
+    "created_at": "2026-01-03T11:02:36.260875",
+    "image_url": "./assets/icons/dns-service-administration.png"
+  },
+  "docker-command-labs": {
+    "bg_color": "f8dce2",
+    "created_at": "2025-04-25T14:16:13.239753",
+    "image_url": "./assets/icons/docker-command-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/9876/9876772.png"
+  },
+  "docker-container-basics": {
+    "ai_description": "",
+    "ai_subject": "Blue Whale",
+    "bg_color": "e1d0e4",
+    "created_at": "2026-01-03T10:08:23.489202",
+    "image_url": "./assets/icons/docker-container-basics.png"
+  },
+  "docker-for-beginners": {
+    "ai_description": "A 3D matte toy-style blue whale carrying stacked shipping containers, representing the iconic Docker brand logo.",
+    "bg_color": "eaf8a4",
+    "created_at": "2025-12-25T15:34:17.441340",
+    "image_url": "./assets/icons/docker-for-beginners.png"
+  },
+  "docker-in-depth-mastery": {
+    "bg_color": "8adc8a",
+    "created_at": "2025-02-23T13:31:29.241375",
+    "image_url": "./assets/icons/docker-in-depth-mastery.png"
+  },
+  "docker-interview-questions": {
+    "bg_color": "b5d1df",
+    "created_at": "2025-07-31T09:24:39.327273",
+    "image_url": "./assets/icons/docker.png"
+  },
+  "docker-practice-challenges": {
+    "bg_color": "cbe3b8",
+    "created_at": "2025-02-23T13:31:37.622672",
+    "image_url": "./assets/icons/docker-practice-challenges.png"
+  },
+  "docker-practice-labs": {
+    "bg_color": "dad3e6",
+    "created_at": "2025-02-23T13:31:39.441655",
+    "image_url": "./assets/icons/docker-practice-labs.png"
+  },
+  "docker-practice-plus": {
+    "bg_color": "edb78e",
+    "created_at": "2025-02-23T13:31:38.898783",
+    "image_url": "./assets/icons/docker-practice-plus.png"
+  },
+  "fault-injection-verification-of-system-fault-tolerance": {
+    "bg_color": "e6e1b8",
+    "created_at": "2025-07-24T02:12:52.541935",
+    "image_url": "./assets/icons/fault-injection-verification-of-system-fault-tolerance.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2927/2927617.png"
+  },
+  "file-system-navigation-and-file-operations": {
+    "ai_description": "",
+    "ai_subject": "Filing Cabinet",
+    "bg_color": "e6caeb",
+    "created_at": "2026-01-03T09:50:00.265770",
+    "image_url": "./assets/icons/file-system-navigation-and-file-operations.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4595/4595149.png",
+    "tag": "module 02"
+  },
+  "firewalld-configuration": {
+    "ai_description": "",
+    "ai_subject": "Gateway",
+    "bg_color": "c2eaf5",
+    "created_at": "2026-01-03T10:15:35.227266",
+    "image_url": "./assets/icons/firewalld-configuration.png"
+  },
+  "foundations-of-deep-learning": {
+    "bg_color": "acd2a8",
+    "created_at": "2025-02-23T13:31:31.208907",
+    "image_url": "./assets/icons/foundations-of-deep-learning.png"
+  },
+  "fundamentals-of-web-development": {
+    "bg_color": "ffc0d2",
+    "created_at": "2025-02-23T13:31:37.474274",
+    "image_url": "./assets/icons/fundamentals-of-web-development.png"
+  },
+  "getting-started-with-algorithm": {
+    "bg_color": "a9dfdf",
+    "created_at": "2025-02-23T13:31:39.721932",
+    "image_url": "./assets/icons/getting-started-with-algorithm.png"
+  },
+  "getting-started-with-ansible": {
+    "bg_color": "f8f0c2",
+    "created_at": "2025-02-23T13:31:34.505176",
+    "image_url": "./assets/icons/getting-started-with-ansible.png"
+  },
+  "getting-started-with-c": {
+    "bg_color": "acb0e7",
+    "created_at": "2025-02-23T13:31:32.361216",
+    "image_url": "./assets/icons/getting-started-with-c.png"
+  },
+  "getting-started-with-cpp": {
+    "bg_color": "eef8cb",
+    "created_at": "2025-02-23T13:31:35.614468",
+    "image_url": "./assets/icons/getting-started-with-cpp.png"
+  },
+  "getting-started-with-css": {
+    "bg_color": "dcd0c2",
+    "created_at": "2025-02-23T13:31:34.227411",
+    "image_url": "./assets/icons/getting-started-with-css.png"
+  },
+  "getting-started-with-django": {
+    "bg_color": "fcff9b",
+    "created_at": "2025-02-23T13:31:33.118900",
+    "image_url": "./assets/icons/getting-started-with-django.png"
+  },
+  "getting-started-with-docker": {
+    "bg_color": "eaf8a4",
+    "created_at": "2025-02-23T13:31:41.084220",
+    "image_url": "./assets/icons/getting-started-with-docker.png"
+  },
+  "getting-started-with-flask": {
+    "bg_color": "ccd285",
+    "created_at": "2025-02-23T13:31:38.997272",
+    "image_url": "./assets/icons/getting-started-with-flask.png"
+  },
+  "getting-started-with-git": {
+    "bg_color": "c4dcf2",
+    "created_at": "2025-02-23T13:31:36.928396",
+    "image_url": "./assets/icons/getting-started-with-git.png"
+  },
+  "getting-started-with-go": {
+    "bg_color": "debe90",
+    "created_at": "2025-02-23T13:31:29.618643",
+    "image_url": "./assets/icons/getting-started-with-go.png"
+  },
+  "getting-started-with-html": {
+    "bg_color": "f8f6ba",
+    "created_at": "2025-02-23T13:31:32.066157",
+    "image_url": "./assets/icons/getting-started-with-html.png"
+  },
+  "getting-started-with-java": {
+    "bg_color": "edeac4",
+    "created_at": "2025-02-23T13:31:39.093476",
+    "image_url": "./assets/icons/getting-started-with-java.png"
+  },
+  "getting-started-with-javascript": {
+    "bg_color": "e3e9eb",
+    "created_at": "2025-02-23T13:31:34.388829",
+    "image_url": "./assets/icons/getting-started-with-javascript.png"
+  },
+  "getting-started-with-jquery": {
+    "bg_color": "ccf2e9",
+    "created_at": "2025-02-23T13:31:36.909855",
+    "image_url": "./assets/icons/getting-started-with-jquery.png"
+  },
+  "getting-started-with-linux": {
+    "bg_color": "ffd48c",
+    "created_at": "2025-02-23T13:31:37.760415",
+    "image_url": "./assets/icons/getting-started-with-linux.png"
+  },
+  "getting-started-with-matplotlib": {
+    "bg_color": "d3b2ff",
+    "created_at": "2025-02-23T13:31:35.060392",
+    "image_url": "./assets/icons/getting-started-with-matplotlib.png"
+  },
+  "getting-started-with-numpy": {
+    "bg_color": "8fd3e3",
+    "created_at": "2025-02-23T13:31:33.107060",
+    "image_url": "./assets/icons/getting-started-with-numpy.png"
+  },
+  "getting-started-with-opencv": {
+    "bg_color": "f2f296",
+    "created_at": "2025-02-23T13:31:40.666207",
+    "image_url": "./assets/icons/getting-started-with-opencv.png"
+  },
+  "getting-started-with-pandas": {
+    "bg_color": "d3f1c0",
+    "created_at": "2025-02-23T13:31:41.256583",
+    "image_url": "./assets/icons/getting-started-with-pandas.png"
+  },
+  "getting-started-with-python": {
+    "bg_color": "c8dfc7",
+    "created_at": "2025-02-23T13:31:40.495982",
+    "image_url": "./assets/icons/getting-started-with-python.png"
+  },
+  "getting-started-with-react": {
+    "bg_color": "fbffac",
+    "created_at": "2025-02-23T13:31:34.383003",
+    "image_url": "./assets/icons/getting-started-with-react.png"
+  },
+  "getting-started-with-rust": {
+    "bg_color": "f9e9e9",
+    "created_at": "2025-02-23T13:31:38.957586",
+    "image_url": "./assets/icons/getting-started-with-rust.png"
+  },
+  "getting-started-with-scikit-learn": {
+    "bg_color": "f1c4c4",
+    "created_at": "2025-02-23T13:31:39.178137",
+    "image_url": "./assets/icons/getting-started-with-scikit-learn.png"
+  },
+  "getting-started-with-shell": {
+    "bg_color": "ecf1ce",
+    "created_at": "2025-02-23T13:31:41.292471",
+    "image_url": "./assets/icons/getting-started-with-shell.png"
+  },
+  "getting-started-with-tensorflow": {
+    "bg_color": "e8fcc8",
+    "created_at": "2025-02-23T13:31:30.184355",
+    "image_url": "./assets/icons/getting-started-with-tensorflow.png"
+  },
+  "git-for-beginners": {
+    "ai_description": "3D matte toy style Git logo featuring a red-orange diamond with white branching nodes and connecting lines.",
+    "bg_color": "bbdac6",
+    "created_at": "2025-12-25T15:35:27.921269",
+    "image_url": "./assets/icons/git-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3739/3739294.png"
+  },
+  "git-in-depth-mastery": {
+    "bg_color": "fee7af",
+    "created_at": "2025-02-23T13:31:34.005679",
+    "image_url": "./assets/icons/git-in-depth-mastery.png"
+  },
+  "git-interview-questions": {
+    "bg_color": "d0f6c1",
+    "created_at": "2025-07-31T09:24:39.808313",
+    "image_url": "./assets/icons/git.png"
+  },
+  "git-practice-challenges": {
+    "ai_description": "",
+    "ai_subject": "Lighthouse",
+    "bg_color": "d6f6c6",
+    "created_at": "2025-12-28T16:40:54.785334",
+    "image_url": "./assets/icons/git-practice-challenges.png"
+  },
+  "git-practice-labs": {
+    "bg_color": "dbc0e4",
+    "created_at": "2025-02-23T13:31:37.001135",
+    "image_url": "./assets/icons/git-practice-labs.png"
+  },
+  "git-practice-plus": {
+    "bg_color": "fab598",
+    "created_at": "2025-02-23T13:31:37.425357",
+    "image_url": "./assets/icons/git-practice-plus.png"
+  },
+  "github-actions-cicd": {
+    "ai_description": "",
+    "ai_subject": "Lighthouse Beacon",
+    "bg_color": "e0b4bc",
+    "created_at": "2026-01-03T11:03:30.411829",
+    "image_url": "./assets/icons/github-actions-cicd.png"
+  },
+  "github-actions-for-beginners": {
+    "ai_description": "The official GitHub Actions rocket icon in 3D matte toy style, centered on a smooth circular background with soft, professional lighting and depth.",
+    "bg_color": "d9b4b4",
+    "created_at": "2025-12-26T10:27:27.802465",
+    "image_url": "./assets/icons/github-actions-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/5664/5664562.png"
+  },
+  "go-interview-questions": {
+    "bg_color": "f0f3ed",
+    "created_at": "2025-07-31T09:24:41.807528",
+    "image_url": "./assets/icons/go.png"
+  },
+  "go-practice-challenges": {
+    "bg_color": "bad2c9",
+    "created_at": "2025-02-23T13:31:39.787989",
+    "image_url": "./assets/icons/go-practice-challenges.png"
+  },
+  "go-practice-labs": {
+    "bg_color": "e8d6c5",
+    "created_at": "2025-02-23T13:31:32.919819",
+    "image_url": "./assets/icons/go-practice-labs.png"
+  },
+  "go-practice-plus": {
+    "bg_color": "87d4e2",
+    "created_at": "2025-02-23T13:31:32.596214",
+    "image_url": "./assets/icons/go-practice-plus.png"
+  },
+  "golang-for-beginners": {
+    "bg_color": "debe90",
+    "created_at": "2025-02-23T13:31:34.951145",
+    "image_url": "./assets/icons/quick-start-with-go.png"
+  },
+  "grafana-data-visualization": {
+    "ai_description": "",
+    "ai_subject": "Dashboard Display Panel",
+    "bg_color": "b8babe",
+    "created_at": "2026-01-03T10:20:57.844577",
+    "image_url": "./assets/icons/grafana-data-visualization.png"
+  },
+  "hadoop-in-depth-mastery": {
+    "bg_color": "ffa8b9",
+    "created_at": "2025-02-23T13:31:37.083054",
+    "image_url": "./assets/icons/hadoop-in-depth-mastery.png"
+  },
+  "hadoop-practice-challenges": {
+    "bg_color": "cfc9e9",
+    "created_at": "2025-02-23T13:31:37.144460",
+    "image_url": "./assets/icons/hadoop-practice-challenges.png"
+  },
+  "hadoop-practice-labs": {
+    "bg_color": "d1cddb",
+    "created_at": "2025-02-23T13:31:36.710645",
+    "image_url": "./assets/icons/hadoop-practice-labs.png"
+  },
+  "hands-on-network-scanning-with-nmap-on-linux": {
+    "bg_color": "d0fabd",
+    "created_at": "2025-03-14T07:10:02.447657",
+    "image_url": "./assets/icons/hands-on-network-scanning-with-nmap-on-linux.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3924/3924570.png"
+  },
+  "haproxy-load-balancing": {
+    "ai_description": "",
+    "ai_subject": "Traffic Signal Light",
+    "bg_color": "ece0b8",
+    "created_at": "2026-01-03T10:18:16.992938",
+    "image_url": "./assets/icons/haproxy-load-balancing.png"
+  },
+  "hashcat-for-beginners": {
+    "ai_description": "3D matte toy style icon featuring the official Hashcat cat-head silhouette in vibrant orange, centered on a clean, dark circular background.",
+    "bg_color": "d5d8bc",
+    "created_at": "2025-12-26T10:21:14.147415",
+    "image_url": "./assets/icons/hashcat-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/530/530680.png"
+  },
+  "html-for-beginners": {
+    "bg_color": "c2c2bb",
+    "created_at": "2025-02-23T13:31:31.196773",
+    "image_url": "./assets/icons/html-for-beginners.png"
+  },
+  "html-interview-questions": {
+    "bg_color": "f8c1dc",
+    "created_at": "2025-07-31T09:24:43.903053",
+    "image_url": "./assets/icons/html.png"
+  },
+  "html-practice-challenges": {
+    "bg_color": "fdc3b9",
+    "created_at": "2025-02-23T13:31:40.571030",
+    "image_url": "./assets/icons/html-practice-challenges.png"
+  },
+  "html-practice-labs": {
+    "bg_color": "c9ccc3",
+    "created_at": "2025-02-23T13:31:38.569132",
+    "image_url": "./assets/icons/html-practice-labs.png"
+  },
+  "html-practice-plus": {
+    "bg_color": "d6e4cd",
+    "created_at": "2025-02-23T13:31:38.035338",
+    "image_url": "./assets/icons/html-practice-plus.png"
+  },
+  "hydra-cybersecurity-attack-labs": {
+    "bg_color": "c2e4c9",
+    "created_at": "2025-04-02T10:38:51.910398",
+    "image_url": "./assets/icons/hydra-cybersecurity-attack-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/17535/17535595.png"
+  },
+  "hydra-for-beginners": {
+    "ai_description": "A cute 3D toy panda wearing a headset, playfully cracking digital locks on colorful floating server blocks.",
+    "bg_color": "ffdfe7",
+    "created_at": "2025-12-25T19:06:06.529145",
+    "image_url": "./assets/icons/hydra-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/6109/6109048.png"
+  },
+  "hydra-interview-questions": {
+    "bg_color": "b5d6c3",
+    "created_at": "2025-07-31T09:24:40.619208",
+    "image_url": "./assets/icons/hydra.png"
+  },
+  "implement-automated-deployment-by-using-jenkins-and-oos": {
+    "bg_color": "dfc6fb",
+    "created_at": "2025-02-23T13:31:38.596328",
+    "image_url": "./assets/icons/implement-automated-deployment-by-using-jenkins-and-oos.png"
+  },
+  "install-hadoop-on-a-single-ecs": {
+    "bg_color": "fdede2",
+    "created_at": "2025-02-23T13:31:30.689435",
+    "image_url": "./assets/icons/install-hadoop-on-a-single-ecs.png"
+  },
+  "integrate-ansible-with-jenkins-for-automated-deployment": {
+    "bg_color": "dab6fb",
+    "created_at": "2025-02-23T13:31:29.336675",
+    "image_url": "./assets/icons/integrate-ansible-with-jenkins-for-automated-deployment.png"
+  },
+  "java-exercises": {
+    "bg_color": "fdd1d5",
+    "created_at": "2025-02-23T13:31:36.372484",
+    "image_url": "./assets/icons/java-exercises.png"
+  },
+  "java-for-beginners": {
+    "bg_color": "edeac4",
+    "created_at": "2025-02-23T13:31:39.459572",
+    "image_url": "./assets/icons/quick-start-with-java.png"
+  },
+  "java-interview-questions": {
+    "bg_color": "e3b5c4",
+    "created_at": "2025-07-31T09:24:40.767591",
+    "image_url": "./assets/icons/java.png"
+  },
+  "java-practice-challenges": {
+    "bg_color": "eee5c1",
+    "created_at": "2025-02-23T13:31:38.255569",
+    "image_url": "./assets/icons/java-practice-challenges.png"
+  },
+  "java-practice-labs": {
+    "bg_color": "c2e9fe",
+    "created_at": "2025-02-23T13:31:30.636100",
+    "image_url": "./assets/icons/java-practice-labs.png"
+  },
+  "java-practice-plus": {
+    "bg_color": "ccd474",
+    "created_at": "2025-02-23T13:31:30.196725",
+    "image_url": "./assets/icons/java-practice-plus.png"
+  },
+  "javascript-for-beginners": {
+    "bg_color": "e3e9eb",
+    "created_at": "2025-02-23T13:31:34.388829",
+    "image_url": "./assets/icons/getting-started-with-javascript.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/10809/10809622.png"
+  },
+  "javascript-interview-questions": {
+    "bg_color": "e1b6c5",
+    "created_at": "2025-07-31T09:24:44.239793",
+    "image_url": "./assets/icons/javascript.png"
+  },
+  "javascript-practice-challenges": {
+    "bg_color": "f5ecd6",
+    "created_at": "2025-02-23T13:31:33.095699",
+    "image_url": "./assets/icons/javascript-practice-challenges.png"
+  },
+  "javascript-practice-labs": {
+    "bg_color": "fad9fa",
+    "created_at": "2025-02-23T13:31:34.435829",
+    "image_url": "./assets/icons/javascript-practice-labs.png"
+  },
+  "javascript-practice-plus": {
+    "bg_color": "e4e2c1",
+    "created_at": "2025-02-23T13:31:34.048448",
+    "image_url": "./assets/icons/javascript-practice-plus.png"
+  },
+  "jenkins-for-beginners": {
+    "ai_description": "The official Jenkins butler logo in a 3D matte toy style, centered on a solid circular background disc for a clean, professional look.",
+    "bg_color": "fdb6dc",
+    "created_at": "2025-12-25T15:49:28.956944",
+    "image_url": "./assets/icons/jenkins-for-beginners.png"
+  },
+  "jquery-practice-challenges": {
+    "bg_color": "def0d2",
+    "created_at": "2025-02-23T13:31:34.033981",
+    "image_url": "./assets/icons/jquery-practice-challenges.png"
+  },
+  "jquery-practice-labs": {
+    "bg_color": "cff1ff",
+    "created_at": "2025-02-23T13:31:32.853924",
+    "image_url": "./assets/icons/jquery-practice-labs.png"
+  },
+  "kali-interview-questions": {
+    "bg_color": "e7c7c2",
+    "created_at": "2025-07-31T09:24:44.583995",
+    "image_url": "./assets/icons/kali.png"
+  },
+  "kali-linux-for-beginners": {
+    "ai_description": "The official Linux penguin, Tux, rendered in a 3D matte toy style, sitting centered on a clean circular background with soft studio lighting.",
+    "bg_color": "cdc7fe",
+    "created_at": "2025-12-26T10:24:33.369687",
+    "image_url": "./assets/icons/kali-linux-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/692/692388.png"
+  },
+  "kali-linux-security-labs": {
+    "bg_color": "edfada",
+    "created_at": "2025-04-14T12:02:14.600670",
+    "image_url": "./assets/icons/kali-linux-security-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4053/4053472.png"
+  },
+  "kali-server-exploitation-in-action": {
+    "bg_color": "b5ffc7",
+    "created_at": "2025-02-23T13:31:32.725643",
+    "image_url": "./assets/icons/kali-server-exploitation-in-action.png"
+  },
+  "kali-web-application-attacks-in-action": {
+    "bg_color": "acdbdf",
+    "created_at": "2025-02-23T13:31:29.809141",
+    "image_url": "./assets/icons/kali-web-application-attacks-in-action.png"
+  },
+  "keepalived-high-availability": {
+    "ai_description": "",
+    "ai_subject": "Two Interconnected Routers",
+    "bg_color": "ccd9cf",
+    "created_at": "2026-01-03T10:19:11.061248",
+    "image_url": "./assets/icons/keepalived-high-availability.png"
+  },
+  "kubernetes-cluster-administration": {
+    "ai_description": "",
+    "ai_subject": "Walkie-Talkie",
+    "bg_color": "f0d6e6",
+    "created_at": "2026-01-03T10:25:23.286407",
+    "image_url": "./assets/icons/kubernetes-cluster-administration.png"
+  },
+  "kubernetes-for-beginners": {
+    "ai_description": "A 3D matte toy-style seven-sided blue nautical steering wheel with a thick white border, clean and professional.",
+    "bg_color": "feeae1",
+    "created_at": "2025-12-25T15:38:08.829141",
+    "image_url": "./assets/icons/kubernetes-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4107/4107772.png"
+  },
+  "kubernetes-for-noobs": {
+    "bg_color": "ccd4ec",
+    "created_at": "2025-09-25T09:00:31.250585",
+    "image_url": "./assets/icons/kubernetes-for-noobs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/5740/5740261.png"
+  },
+  "kubernetes-fundamentals": {
+    "ai_description": "",
+    "ai_subject": "Container Ship",
+    "bg_color": "e6e6c9",
+    "created_at": "2026-01-03T10:35:50.487751",
+    "image_url": "./assets/icons/kubernetes-fundamentals.png"
+  },
+  "kubernetes-interview-questions": {
+    "bg_color": "dae9bc",
+    "created_at": "2025-07-31T09:24:39.489652",
+    "image_url": "./assets/icons/kubernetes.png"
+  },
+  "kubernetes-practice-challenges": {
+    "bg_color": "f8c9d4",
+    "created_at": "2025-02-23T13:31:36.229173",
+    "image_url": "./assets/icons/kubernetes-practice-challenges.png"
+  },
+  "kubernetes-practice-labs": {
+    "bg_color": "c7f1b7",
+    "created_at": "2025-02-23T13:31:37.865789",
+    "image_url": "./assets/icons/kubernetes-practice-labs.png"
+  },
+  "kubernetes-practice-plus": {
+    "bg_color": "87d4e2",
+    "created_at": "2025-02-23T13:31:37.156676",
+    "image_url": "./assets/icons/kubernetes-practice-plus.png"
+  },
+  "lab-with-the-auto-scaling-feature-of-node-pools": {
+    "bg_color": "f1dbda",
+    "created_at": "2025-02-23T13:31:38.870148",
+    "image_url": "./assets/icons/lab-with-the-auto-scaling-feature-of-node-pools.png"
+  },
+  "labex-playground": {
+    "bg_color": "bab8f7",
+    "created_at": "2025-02-23T13:31:37.938965",
+    "image_url": "./assets/icons/labex-playground.png"
+  },
+  "labex-vm": {
+    "bg_color": "deb9ee",
+    "created_at": "2025-02-23T13:31:37.808536",
+    "image_url": "./assets/icons/labex-vm.png"
+  },
+  "linux-basic-commands-practice-online": {
+    "ai_description": "A sleek black terminal console window featuring a prominent emerald green command prompt symbol and a glowing white cursor.",
+    "bg_color": "b6dfdc",
+    "created_at": "2025-12-18T13:46:26.107363",
+    "image_url": "./assets/icons/linux-basic-commands-practice-online.png"
+  },
+  "linux-commands-list": {
+    "bg_color": "dcdbdc",
+    "created_at": "2025-02-23T13:31:41.013203",
+    "image_url": "./assets/icons/linux-commands-list.png"
+  },
+  "linux-for-noobs": {
+    "ai_description": "A cute, round penguin chick wearing a bright orange construction helmet and holding a tiny green wrench.",
+    "bg_color": "c0d7cd",
+    "created_at": "2025-12-18T14:29:14.528258",
+    "image_url": "./assets/icons/linux-for-noobs.png"
+  },
+  "linux-in-depth-mastery": {
+    "bg_color": "ddc1a7",
+    "created_at": "2025-02-23T13:31:38.151385",
+    "image_url": "./assets/icons/linux-in-depth-mastery.png"
+  },
+  "linux-interview-questions": {
+    "bg_color": "c9e9b5",
+    "created_at": "2025-07-31T09:24:38.325564",
+    "image_url": "./assets/icons/linux.png"
+  },
+  "linux-networking-fundamentals": {
+    "ai_description": "",
+    "ai_subject": "Network Hub",
+    "bg_color": "ddefd9",
+    "created_at": "2026-01-03T11:04:11.331731",
+    "image_url": "./assets/icons/linux-networking-fundamentals.png"
+  },
+  "linux-practice-challenges": {
+    "ai_description": "A cheerful, chubby orange penguin wearing a bright teal construction helmet and holding a small lime green wrench.",
+    "bg_color": "ede4fd",
+    "created_at": "2025-12-18T14:24:14.519296",
+    "image_url": "./assets/icons/linux-practice-challenges.png"
+  },
+  "linux-practice-labs": {
+    "bg_color": "f6dee6",
+    "created_at": "2025-02-23T13:31:41.407647",
+    "image_url": "./assets/icons/linux-practice-labs.png"
+  },
+  "linux-practice-plus": {
+    "bg_color": "c8dfc7",
+    "created_at": "2025-02-23T13:31:41.859985",
+    "image_url": "./assets/icons/linux-practice-plus.png"
+  },
+  "linux-software-playgrounds": {
+    "bg_color": "c2ebbd",
+    "created_at": "2025-02-23T13:31:30.126041",
+    "image_url": "./assets/icons/linux-software-playgrounds.png"
+  },
+  "linux-status-and-configuration": {
+    "bg_color": "c1d6dd",
+    "created_at": "2025-04-29T08:29:25.409056",
+    "image_url": "./assets/icons/linux-status-and-configuration.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/7862/7862916.png"
+  },
+  "linux-terminal-basics": {
+    "ai_description": "",
+    "ai_subject": "Computer Terminal Screen",
+    "bg_color": "c0e4f4",
+    "created_at": "2026-01-03T09:49:09.171526",
+    "image_url": "./assets/icons/linux-terminal-basics.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1199/1199101.png",
+    "tag": "module 01"
+  },
+  "log-management-and-text-processing": {
+    "ai_description": "",
+    "ai_subject": "Magnifying Glass with Light",
+    "bg_color": "e1dac7",
+    "created_at": "2026-01-03T10:00:33.478182",
+    "image_url": "./assets/icons/log-management-and-text-processing.png"
+  },
+  "manage-application-configurations-on-a-kubernetes-cluster": {
+    "bg_color": "e4d2c8",
+    "created_at": "2025-02-23T13:31:39.325061",
+    "image_url": "./assets/icons/manage-application-configurations-on-a-kubernetes-cluster.png"
+  },
+  "matplotlib-for-beginners": {
+    "bg_color": "d3b2ff",
+    "created_at": "2025-02-23T13:31:35.060392",
+    "image_url": "./assets/icons/getting-started-with-matplotlib.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1181/1181358.png"
+  },
+  "matplotlib-interview-questions": {
+    "bg_color": "e3b8fe",
+    "created_at": "2025-07-31T09:24:43.392258",
+    "image_url": "./assets/icons/matplotlib.png"
+  },
+  "matplotlib-practice-labs": {
+    "bg_color": "bdf1e1",
+    "created_at": "2025-02-23T13:31:31.092588",
+    "image_url": "./assets/icons/matplotlib-practice-labs.png"
+  },
+  "matplotlib-practice-plus": {
+    "bg_color": "d7d5b1",
+    "created_at": "2025-02-23T13:31:30.882723",
+    "image_url": "./assets/icons/matplotlib-practice-plus.png"
+  },
+  "metasploit-for-beginners": {
+    "ai_description": "A 3D matte toy-style stylized blue \"M\" shield icon centered on a clean circular background, representing the official Metasploit symbol without any text.",
+    "bg_color": "babfe4",
+    "created_at": "2025-12-26T10:21:57.158884",
+    "image_url": "./assets/icons/metasploit-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/6214/6214140.png"
+  },
+  "ml-interview-questions": {
+    "bg_color": "f7fbce",
+    "created_at": "2025-07-31T09:24:42.661776",
+    "image_url": "./assets/icons/ml.png"
+  },
+  "ml-practice-challenges": {
+    "bg_color": "ebf9dd",
+    "created_at": "2025-02-23T13:31:34.599554",
+    "image_url": "./assets/icons/ml-practice-challenges.png"
+  },
+  "ml-practice-labs": {
+    "bg_color": "f4feb6",
+    "created_at": "2025-02-23T13:31:38.089283",
+    "image_url": "./assets/icons/ml-practice-labs.png"
+  },
+  "ml-practice-plus": {
+    "bg_color": "b4e8f7",
+    "created_at": "2025-02-23T13:31:38.496569",
+    "image_url": "./assets/icons/ml-practice-plus.png"
+  },
+  "mongodb-for-beginners": {
+    "bg_color": "c3bdba",
+    "created_at": "2025-02-23T13:31:33.429713",
+    "image_url": "./assets/icons/quick-start-with-mongodb.png"
+  },
+  "mongodb-interview-questions": {
+    "bg_color": "d6e8d4",
+    "created_at": "2025-07-31T09:24:41.634500",
+    "image_url": "./assets/icons/mongodb.png"
+  },
+  "monitoring-and-logging-for-devops": {
+    "ai_description": "A tiny 3D chick wearing a headset, monitoring glowing holographic Grafana dashboards and colorful data charts.",
+    "bg_color": "e2c1f2",
+    "created_at": "2025-12-25T15:28:46.078278",
+    "image_url": "./assets/icons/monitoring-and-logging-for-devops.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1356/1356133.png"
+  },
+  "multi-tenant-business-system-solution-with-list-default-hash-partitioning-of-polardb-mysql": {
+    "bg_color": "bacdc9",
+    "created_at": "2025-02-23T13:31:37.832492",
+    "image_url": "./assets/icons/multi-tenant-business-system-solution-with-list-default-hash-partitioning-of-polardb-mysql.png"
+  },
+  "mysql-database-basics": {
+    "ai_description": "",
+    "ai_subject": "Database Server Rack",
+    "bg_color": "f9e5cf",
+    "created_at": "2026-01-03T10:09:15.241796",
+    "image_url": "./assets/icons/mysql-database-basics.png"
+  },
+  "mysql-for-beginners": {
+    "bg_color": "e8f083",
+    "created_at": "2025-02-23T13:31:33.131830",
+    "image_url": "./assets/icons/getting-started-with-mysql.png"
+  },
+  "mysql-interview-questions": {
+    "bg_color": "e4f0e3",
+    "created_at": "2025-07-31T09:24:41.277041",
+    "image_url": "./assets/icons/mysql.png"
+  },
+  "mysql-practice-challenges": {
+    "bg_color": "e7efd0",
+    "created_at": "2025-02-23T13:31:36.205497",
+    "image_url": "./assets/icons/mysql-practice-challenges.png"
+  },
+  "mysql-practice-labs": {
+    "bg_color": "f9f0e6",
+    "created_at": "2025-02-23T13:31:33.525346",
+    "image_url": "./assets/icons/mysql-practice-labs.png"
+  },
+  "mysql-practice-plus": {
+    "bg_color": "f7e1ca",
+    "created_at": "2025-02-23T13:31:33.830699",
+    "image_url": "./assets/icons/mysql-practice-plus.png"
+  },
+  "nfs-and-samba-file-sharing": {
+    "ai_description": "",
+    "ai_subject": "Mail Sorter (for directing packages)",
+    "bg_color": "effef6",
+    "created_at": "2026-01-03T10:13:46.851784",
+    "image_url": "./assets/icons/nfs-and-samba-file-sharing.png"
+  },
+  "nginx-web-server": {
+    "ai_description": "",
+    "ai_subject": "Traffic Cop Signal Light",
+    "bg_color": "bcc0d0",
+    "created_at": "2026-01-03T10:34:46.849432",
+    "image_url": "./assets/icons/nginx-web-server.png"
+  },
+  "nmap-for-beginners": {
+    "ai_description": "A 3D matte toy representation of the Nmap eye within a blue globe, centered on a clean circular background with no text.",
+    "bg_color": "a3c6c4",
+    "created_at": "2025-12-26T10:23:30.443136",
+    "image_url": "./assets/icons/nmap-for-beginners.png"
+  },
+  "nmap-interview-questions": {
+    "bg_color": "c2f4e6",
+    "created_at": "2025-07-31T09:24:40.299554",
+    "image_url": "./assets/icons/nmap.png"
+  },
+  "numpy-for-beginners": {
+    "bg_color": "8fd3e3",
+    "created_at": "2025-02-23T13:31:40.059424",
+    "image_url": "./assets/icons/quick-start-with-numpy.png"
+  },
+  "numpy-interview-questions": {
+    "bg_color": "c2d8bc",
+    "created_at": "2025-07-31T09:24:43.005529",
+    "image_url": "./assets/icons/numpy.png"
+  },
+  "numpy-practice-challenges": {
+    "bg_color": "bccfdb",
+    "created_at": "2025-02-23T13:31:33.776210",
+    "image_url": "./assets/icons/numpy-practice-challenges.png"
+  },
+  "numpy-practice-labs": {
+    "bg_color": "d1bac6",
+    "created_at": "2025-02-23T13:31:31.866039",
+    "image_url": "./assets/icons/numpy-practice-labs.png"
+  },
+  "numpy-practice-plus": {
+    "bg_color": "d2d9e3",
+    "created_at": "2025-02-23T13:31:31.309007",
+    "image_url": "./assets/icons/numpy-practice-plus.png"
+  },
+  "one-click-deployment-of-qwen3-series-models-based-on-compute-nest": {
+    "bg_color": "c1b6c0",
+    "created_at": "2025-05-29T09:05:47.361463",
+    "image_url": "./assets/icons/one-click-deployment-of-qwen3-series-models-based-on-compute-nest.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/769/769241.png"
+  },
+  "open-service-apis-for-alibaba-cloud-api-gateway": {
+    "bg_color": "b9c8d4",
+    "created_at": "2025-02-23T13:31:39.926072",
+    "image_url": "./assets/icons/open-service-apis-for-alibaba-cloud-api-gateway.png"
+  },
+  "oss-cross-region-replication-data": {
+    "bg_color": "cfc2f5",
+    "created_at": "2025-05-15T07:45:26.894049",
+    "image_url": "./assets/icons/oss-cross-region-replication-data.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2032/2032371.png"
+  },
+  "pandas-for-beginners": {
+    "bg_color": "d3f1c0",
+    "created_at": "2025-02-23T13:31:41.256583",
+    "image_url": "./assets/icons/getting-started-with-pandas.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4681/4681111.png"
+  },
+  "pandas-interview-questions": {
+    "bg_color": "f9f4f2",
+    "created_at": "2025-07-31T09:24:42.861486",
+    "image_url": "./assets/icons/pandas.png"
+  },
+  "pandas-practice-challenges": {
+    "bg_color": "c8e2de",
+    "created_at": "2025-02-23T13:31:33.011372",
+    "image_url": "./assets/icons/pandas-practice-challenges.png"
+  },
+  "pandas-practice-labs": {
+    "bg_color": "f4f8ec",
+    "created_at": "2025-02-23T13:31:32.642470",
+    "image_url": "./assets/icons/pandas-practice-labs.png"
+  },
+  "pandas-practice-plus": {
+    "bg_color": "fcd45f",
+    "created_at": "2025-02-23T13:31:32.972214",
+    "image_url": "./assets/icons/pandas-practice-plus.png"
+  },
+  "penetration-testing-for-beginners": {
+    "bg_color": "e3c5fc",
+    "created_at": "2025-09-22T08:37:43.688863",
+    "image_url": "./assets/icons/penetration-testing-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2377/2377475.png"
+  },
+  "postgresql-for-beginners": {
+    "bg_color": "c1cee1",
+    "created_at": "2025-04-03T10:13:30.325133",
+    "image_url": "./assets/icons/postgresql-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3499/3499623.png"
+  },
+  "postgresql-interview-questions": {
+    "bg_color": "f7e3c0",
+    "created_at": "2025-07-31T09:24:41.100171",
+    "image_url": "./assets/icons/postgresql.png"
+  },
+  "practical-python-programming": {
+    "bg_color": "fbf3d8",
+    "created_at": "2025-02-23T13:31:35.197922",
+    "image_url": "./assets/icons/practical-python-programming.png"
+  },
+  "privilege-escalation-techniques-on-linux": {
+    "ai_description": "",
+    "ai_subject": "Trojan Horse Statue",
+    "bg_color": "b8b2a6",
+    "created_at": "2025-12-28T16:46:48.118190",
+    "image_url": "./assets/icons/privilege-escalation-techniques-on-linux.png"
+  },
+  "processes-and-job-control": {
+    "ai_description": "",
+    "ai_subject": "Traffic Light",
+    "bg_color": "ebcbba",
+    "created_at": "2026-01-03T09:54:25.008265",
+    "image_url": "./assets/icons/processes-and-job-control.png",
+    "tag": "module 07"
+  },
+  "project-2048-web-game-using-jquery": {
+    "bg_color": "c9c0ec",
+    "created_at": "2025-02-23T13:31:40.868313",
+    "image_url": "./assets/icons/project-2048-web-game-using-jquery.png"
+  },
+  "project-a-good-review-for-the-takeout": {
+    "bg_color": "ccdfdb",
+    "created_at": "2025-02-23T13:31:41.882532",
+    "image_url": "./assets/icons/project-a-good-review-for-the-takeout.png"
+  },
+  "project-a-simple-course-database": {
+    "bg_color": "dde2d7",
+    "created_at": "2025-02-23T13:31:42.008410",
+    "image_url": "./assets/icons/project-a-simple-course-database.png"
+  },
+  "project-account-verification": {
+    "bg_color": "d9f9f0",
+    "created_at": "2025-02-23T13:31:41.676304",
+    "image_url": "./assets/icons/project-account-verification.png"
+  },
+  "project-add-course-index": {
+    "bg_color": "f9f8d5",
+    "created_at": "2025-02-23T13:31:37.346298",
+    "image_url": "./assets/icons/project-add-course-index.png"
+  },
+  "project-add-new-address": {
+    "bg_color": "f1ccd0",
+    "created_at": "2025-02-23T13:31:35.475427",
+    "image_url": "./assets/icons/project-add-new-address.png"
+  },
+  "project-add-student-information-to-table": {
+    "bg_color": "dff3cc",
+    "created_at": "2025-02-23T13:31:29.279595",
+    "image_url": "./assets/icons/project-add-student-information-to-table.png"
+  },
+  "project-add-student-personal-information": {
+    "bg_color": "eacbea",
+    "created_at": "2025-02-23T13:31:29.691522",
+    "image_url": "./assets/icons/project-add-student-personal-information.png"
+  },
+  "project-adding-constraints-to-the-course-schedule": {
+    "bg_color": "ebbfb9",
+    "created_at": "2025-02-23T13:31:34.733062",
+    "image_url": "./assets/icons/project-adding-constraints-to-the-course-schedule.png"
+  },
+  "project-adding-unique-constraint-to-city-names": {
+    "bg_color": "fbd6ce",
+    "created_at": "2025-02-23T13:31:31.733977",
+    "image_url": "./assets/icons/project-adding-unique-constraint-to-city-names.png"
+  },
+  "project-affine-encryption": {
+    "bg_color": "ccf4bd",
+    "created_at": "2025-02-23T13:31:34.540303",
+    "image_url": "./assets/icons/project-affine-encryption.png"
+  },
+  "project-area-of-a-circle": {
+    "bg_color": "e2cbe0",
+    "created_at": "2025-02-23T13:31:32.536749",
+    "image_url": "./assets/icons/project-area-of-a-circle.png"
+  },
+  "project-ascii-art-animation-with-opencv": {
+    "bg_color": "d7d8da",
+    "created_at": "2025-02-23T13:31:37.267127",
+    "image_url": "./assets/icons/project-ascii-art-animation-with-opencv.png"
+  },
+  "project-atomic-css": {
+    "bg_color": "d2d86e",
+    "created_at": "2025-02-23T13:31:36.458898",
+    "image_url": "./assets/icons/project-atomic-css.png"
+  },
+  "project-automatic-registration-of-subclasses": {
+    "bg_color": "bae9dc",
+    "created_at": "2025-02-23T13:31:39.606830",
+    "image_url": "./assets/icons/project-automatic-registration-of-subclasses.png"
+  },
+  "project-automatic-spaceship-detection-script": {
+    "bg_color": "dcd0c1",
+    "created_at": "2025-02-23T13:31:30.836005",
+    "image_url": "./assets/icons/project-automatic-spaceship-detection-script.png"
+  },
+  "project-average-salaries-per-department-descending": {
+    "bg_color": "fddfe2",
+    "created_at": "2025-02-23T13:31:29.523782",
+    "image_url": "./assets/icons/project-average-salaries-per-department-descending.png"
+  },
+  "project-avoid-accidental-deletion": {
+    "ai_description": "A cute 3D toy owl carefully placing a file into a tiny safety bin instead of a shredder.",
+    "bg_color": "b6f4b4",
+    "created_at": "2025-12-22T11:21:30.476601",
+    "image_url": "./assets/icons/project-avoid-accidental-deletion.png"
+  },
+  "project-backup-data-table": {
+    "bg_color": "f7b5d1",
+    "created_at": "2025-02-23T13:31:41.539423",
+    "image_url": "./assets/icons/project-backup-data-table.png"
+  },
+  "project-balanced-batch-generation-for-imbalanced-datasets": {
+    "bg_color": "eacdbc",
+    "created_at": "2025-02-23T13:31:38.632151",
+    "image_url": "./assets/icons/project-balanced-batch-generation-for-imbalanced-datasets.png"
+  },
+  "project-beautiful-sentences": {
+    "bg_color": "cad4d9",
+    "created_at": "2025-02-23T13:31:33.548276",
+    "image_url": "./assets/icons/project-beautiful-sentences.png"
+  },
+  "project-bing-dwen-dwen-mood-scale": {
+    "bg_color": "ceb7dd",
+    "created_at": "2025-02-23T13:31:35.911093",
+    "image_url": "./assets/icons/project-bing-dwen-dwen-mood-scale.png"
+  },
+  "project-biology-course-alumni-search": {
+    "bg_color": "c1f3d2",
+    "created_at": "2025-02-23T13:31:32.319228",
+    "image_url": "./assets/icons/project-biology-course-alumni-search.png"
+  },
+  "project-broad-listening-leads-to-insight": {
+    "bg_color": "e6ccbb",
+    "created_at": "2025-02-23T13:31:41.595679",
+    "image_url": "./assets/icons/project-broad-listening-leads-to-insight.png"
+  },
+  "project-browser-window-size": {
+    "bg_color": "cbfdd7",
+    "created_at": "2025-02-23T13:31:30.710932",
+    "image_url": "./assets/icons/project-browser-window-size.png"
+  },
+  "project-build-a-digital-clock-with-python": {
+    "bg_color": "f8edce",
+    "created_at": "2025-02-23T13:31:39.106973",
+    "image_url": "./assets/icons/project-build-a-digital-clock-with-python.png"
+  },
+  "project-build-a-linux-system-monitor-using-bash": {
+    "ai_description": "",
+    "ai_subject": "Maintenance Checklist Clipboard",
+    "bg_color": "bcb6d5",
+    "created_at": "2025-12-28T16:43:27.283108",
+    "image_url": "./assets/icons/project-build-a-linux-system-monitor-using-bash.png"
+  },
+  "project-build-a-simple-markdown-editor-with-live-preview": {
+    "bg_color": "ffe8d1",
+    "created_at": "2025-02-23T13:31:38.483277",
+    "image_url": "./assets/icons/project-build-a-simple-markdown-editor-with-live-preview.png"
+  },
+  "project-build-a-simple-translator-using-google-translate-api": {
+    "bg_color": "d9f0f4",
+    "created_at": "2025-02-23T13:31:31.462601",
+    "image_url": "./assets/icons/project-build-a-simple-translator-using-google-translate-api.png"
+  },
+  "project-build-a-simple-url-shortener-with-flask-and-mysql": {
+    "bg_color": "facf5a",
+    "created_at": "2025-02-23T13:31:37.280730",
+    "image_url": "./assets/icons/project-build-a-simple-url-shortener-with-flask-and-mysql.png"
+  },
+  "project-build-a-sliding-puzzle-game-with-javascript": {
+    "bg_color": "fff57c",
+    "created_at": "2025-02-23T13:31:40.225306",
+    "image_url": "./assets/icons/project-build-a-sliding-puzzle-game-with-javascript.png"
+  },
+  "project-build-a-task-scheduler-using-bash": {
+    "ai_description": "",
+    "ai_subject": "Clockwork Music Box",
+    "bg_color": "dbebeb",
+    "created_at": "2025-12-28T16:50:34.380858",
+    "image_url": "./assets/icons/project-build-a-task-scheduler-using-bash.png"
+  },
+  "project-build-a-tic-tac-toe-web-app": {
+    "bg_color": "c8ebe9",
+    "created_at": "2025-02-23T13:31:35.825354",
+    "image_url": "./assets/icons/project-build-a-tic-tac-toe-web-app.png"
+  },
+  "project-build-a-web-based-tcp-port-scanner": {
+    "bg_color": "c1ea9f",
+    "created_at": "2025-02-23T13:31:31.610400",
+    "image_url": "./assets/icons/project-build-a-web-based-tcp-port-scanner.png"
+  },
+  "project-build-aliens-game-using-pygame": {
+    "bg_color": "bbf8f7",
+    "created_at": "2025-02-23T13:31:31.776144",
+    "image_url": "./assets/icons/project-build-aliens-game-using-pygame.png"
+  },
+  "project-build-an-image-cropping-tool-using-html5": {
+    "bg_color": "e2c1f8",
+    "created_at": "2025-02-23T13:31:37.093251",
+    "image_url": "./assets/icons/project-build-an-image-cropping-tool-using-html5.png"
+  },
+  "project-build-an-vscode-extension-with-chatgpt": {
+    "bg_color": "bde4c6",
+    "created_at": "2025-02-23T13:31:36.571895",
+    "image_url": "./assets/icons/project-build-an-vscode-extension-with-chatgpt.png"
+  },
+  "project-build-flappy-bird-using-pygame": {
+    "bg_color": "afe7e9",
+    "created_at": "2025-02-23T13:31:37.840981",
+    "image_url": "./assets/icons/project-build-flappy-bird-using-pygame.png"
+  },
+  "project-build-maze-game-using-pygame": {
+    "bg_color": "edd0b6",
+    "created_at": "2025-02-23T13:31:41.706822",
+    "image_url": "./assets/icons/project-build-maze-game-using-pygame.png"
+  },
+  "project-building-a-christmas-wish-list-builder-in-react": {
+    "bg_color": "bfffd5",
+    "created_at": "2025-02-23T13:31:35.707033",
+    "image_url": "./assets/icons/project-building-a-christmas-wish-list-builder-in-react.png"
+  },
+  "project-building-a-expense-splitter-web-app": {
+    "bg_color": "f2f3ed",
+    "created_at": "2025-02-23T13:31:40.989601",
+    "image_url": "./assets/icons/project-building-a-expense-splitter-web-app.png"
+  },
+  "project-building-a-network-scanner-in-python": {
+    "bg_color": "feffe3",
+    "created_at": "2025-02-23T13:31:34.769294",
+    "image_url": "./assets/icons/project-building-a-network-scanner-in-python.png"
+  },
+  "project-building-a-port-scanner-with-python": {
+    "bg_color": "fce38a",
+    "created_at": "2025-02-23T13:31:33.956423",
+    "image_url": "./assets/icons/project-building-a-port-scanner-with-python.png"
+  },
+  "project-building-a-react-drag-and-drop-puzzle-game": {
+    "bg_color": "f1e7e7",
+    "created_at": "2025-02-23T13:31:35.452782",
+    "image_url": "./assets/icons/project-building-a-react-drag-and-drop-puzzle-game.png"
+  },
+  "project-building-a-react-github-heatmap-contributions": {
+    "bg_color": "a6e3b4",
+    "created_at": "2025-02-23T13:31:35.511921",
+    "image_url": "./assets/icons/project-building-a-react-github-heatmap-contributions.png"
+  },
+  "project-building-a-rest-api-in-flask-with-sqlite": {
+    "bg_color": "c7f7e9",
+    "created_at": "2025-02-23T13:31:36.683818",
+    "image_url": "./assets/icons/project-building-a-rest-api-in-flask-with-sqlite.png"
+  },
+  "project-building-a-web-avoiding-block-game": {
+    "bg_color": "d09195",
+    "created_at": "2025-02-23T13:31:32.779205",
+    "image_url": "./assets/icons/project-building-a-web-avoiding-block-game.png"
+  },
+  "project-building-flappy-bird-using-c": {
+    "bg_color": "8bd7ba",
+    "created_at": "2025-02-23T13:31:29.750006",
+    "image_url": "./assets/icons/project-building-flappy-bird-using-c.png"
+  },
+  "project-bulk-creation-and-deletion-of-users-and-groups": {
+    "ai_description": "A 3D toy panda happily sorting student and teacher ID badges into organized digital folders on a glowing screen.",
+    "bg_color": "f6e4d2",
+    "created_at": "2025-12-22T11:18:42.519461",
+    "image_url": "./assets/icons/project-bulk-creation-and-deletion-of-users-and-groups.png"
+  },
+  "project-bulk-insert-data-into-course-schedule": {
+    "bg_color": "fffdf6",
+    "created_at": "2025-02-23T13:31:34.412630",
+    "image_url": "./assets/icons/project-bulk-insert-data-into-course-schedule.png"
+  },
+  "project-cache-request-execution-results": {
+    "bg_color": "dfd6ea",
+    "created_at": "2025-02-23T13:31:37.182616",
+    "image_url": "./assets/icons/project-cache-request-execution-results.png"
+  },
+  "project-caesar-cipher": {
+    "bg_color": "b5e2ec",
+    "created_at": "2025-02-23T13:31:29.219077",
+    "image_url": "./assets/icons/project-caesar-cipher.png"
+  },
+  "project-calculate-defective-rate-for-clone-human": {
+    "bg_color": "d8cbfc",
+    "created_at": "2025-02-23T13:31:37.256272",
+    "image_url": "./assets/icons/project-calculate-defective-rate-for-clone-human.png"
+  },
+  "project-calculate-users-encrypted-password": {
+    "bg_color": "e3f5fb",
+    "created_at": "2025-02-23T13:31:40.264698",
+    "image_url": "./assets/icons/project-calculate-users-encrypted-password.png"
+  },
+  "project-calculating-laser-weapon-damage": {
+    "bg_color": "e8baf4",
+    "created_at": "2025-02-23T13:31:38.980638",
+    "image_url": "./assets/icons/project-calculating-laser-weapon-damage.png"
+  },
+  "project-calculation-of-factorial": {
+    "bg_color": "efdcc3",
+    "created_at": "2025-02-23T13:31:35.174077",
+    "image_url": "./assets/icons/project-calculation-of-factorial.png"
+  },
+  "project-callback-functions": {
+    "bg_color": "f0b6be",
+    "created_at": "2025-02-23T13:31:35.881053",
+    "image_url": "./assets/icons/project-callback-functions.png"
+  },
+  "project-certificate-configuration": {
+    "ai_description": "A 3D toy-style cat joyfully stamping a golden certificate to unlock a miniature glowing server door.",
+    "bg_color": "b8ccde",
+    "created_at": "2025-12-22T11:12:25.626241",
+    "image_url": "./assets/icons/project-certificate-configuration.png"
+  },
+  "project-change-default-value-for-countrylanguage-table": {
+    "bg_color": "d8d5d6",
+    "created_at": "2025-02-23T13:31:33.211781",
+    "image_url": "./assets/icons/project-change-default-value-for-countrylanguage-table.png"
+  },
+  "project-change-page-theme": {
+    "bg_color": "c6c4c1",
+    "created_at": "2025-02-23T13:31:40.048233",
+    "image_url": "./assets/icons/project-change-page-theme.png"
+  },
+  "project-changing-the-error-log-location": {
+    "bg_color": "d6d8ca",
+    "created_at": "2025-02-23T13:31:40.922035",
+    "image_url": "./assets/icons/project-changing-the-error-log-location.png"
+  },
+  "project-chaotic-typewriter": {
+    "bg_color": "e8b8d6",
+    "created_at": "2025-02-23T13:31:37.724036",
+    "image_url": "./assets/icons/project-chaotic-typewriter.png"
+  },
+  "project-chess-board-in-terminal": {
+    "ai_description": "A 3D toy-style cat sitting at a tiny terminal, coding a checkered board with glowing green loops.",
+    "bg_color": "c5d200",
+    "created_at": "2025-12-22T11:15:53.830644",
+    "image_url": "./assets/icons/project-chess-board-in-terminal.png"
+  },
+  "project-chessboard-encryption": {
+    "bg_color": "e4dcba",
+    "created_at": "2025-02-23T13:31:35.581140",
+    "image_url": "./assets/icons/project-chessboard-encryption.png"
+  },
+  "project-chinese-english-information-switching-via-ioc": {
+    "bg_color": "f9fbd0",
+    "created_at": "2025-02-23T13:31:36.426584",
+    "image_url": "./assets/icons/project-chinese-english-information-switching-via-ioc.png"
+  },
+  "project-cities-with-over-one-million-population": {
+    "bg_color": "d0e5bf",
+    "created_at": "2025-02-23T13:31:32.619469",
+    "image_url": "./assets/icons/project-cities-with-over-one-million-population.png"
+  },
+  "project-city-names-and-respective-countries": {
+    "bg_color": "dde9d6",
+    "created_at": "2025-02-23T13:31:32.668602",
+    "image_url": "./assets/icons/project-city-names-and-respective-countries.png"
+  },
+  "project-city-province-query": {
+    "bg_color": "e4f2c0",
+    "created_at": "2025-02-23T13:31:36.109121",
+    "image_url": "./assets/icons/project-city-province-query.png"
+  },
+  "project-classic-pong-game-using-python-and-pygame": {
+    "bg_color": "d0d1db",
+    "created_at": "2025-02-23T13:31:35.763770",
+    "image_url": "./assets/icons/project-classic-pong-game-using-python-and-pygame.png"
+  },
+  "project-classifying-iris-using-svm": {
+    "bg_color": "b9c0dd",
+    "created_at": "2025-02-23T13:31:40.546428",
+    "image_url": "./assets/icons/project-classifying-iris-using-svm.png"
+  },
+  "project-clear-code-encryption": {
+    "bg_color": "cbd6b5",
+    "created_at": "2025-02-23T13:31:38.402984",
+    "image_url": "./assets/icons/project-clear-code-encryption.png"
+  },
+  "project-collect-files-from-specified-time": {
+    "ai_description": "A 3D toy owl sorting 2022-dated scrolls into tiny wooden crates, preserving their perfect library order.",
+    "bg_color": "cdcfb8",
+    "created_at": "2025-12-22T11:19:15.950898",
+    "image_url": "./assets/icons/project-collect-files-from-specified-time.png"
+  },
+  "project-collection-of-films": {
+    "bg_color": "ecfdf8",
+    "created_at": "2025-02-23T13:31:35.727580",
+    "image_url": "./assets/icons/project-collection-of-films.png"
+  },
+  "project-colour-changeable-light": {
+    "bg_color": "f6c3e3",
+    "created_at": "2025-02-23T13:31:37.648080",
+    "image_url": "./assets/icons/project-colour-changeable-light.png"
+  },
+  "project-colour-filter": {
+    "bg_color": "f0e1f6",
+    "created_at": "2025-02-23T13:31:37.672120",
+    "image_url": "./assets/icons/project-colour-filter.png"
+  },
+  "project-columbus-discovery-of-the-new-world": {
+    "bg_color": "c8dcf2",
+    "created_at": "2025-02-23T13:31:31.070141",
+    "image_url": "./assets/icons/project-columbus-discovery-of-the-new-world.png"
+  },
+  "project-column-permutation-encryption": {
+    "bg_color": "c3efe1",
+    "created_at": "2025-02-23T13:31:31.489955",
+    "image_url": "./assets/icons/project-column-permutation-encryption.png"
+  },
+  "project-command-line-arguments": {
+    "bg_color": "e4d5d8",
+    "created_at": "2025-02-23T13:31:36.882508",
+    "image_url": "./assets/icons/project-command-line-arguments.png"
+  },
+  "project-comprehensive-challenge-of-basic-functions": {
+    "bg_color": "f0ddb6",
+    "created_at": "2025-02-23T13:31:33.899112",
+    "image_url": "./assets/icons/project-comprehensive-challenge-of-basic-functions.png"
+  },
+  "project-comprehensive-challenge-of-this-section": {
+    "bg_color": "bdccbb",
+    "created_at": "2025-02-23T13:31:32.010271",
+    "image_url": "./assets/icons/project-comprehensive-challenge-of-this-section.png"
+  },
+  "project-comprehensive-challenge-on-conversion-functions": {
+    "bg_color": "fff0cb",
+    "created_at": "2025-02-23T13:31:36.398796",
+    "image_url": "./assets/icons/project-comprehensive-challenge-on-conversion-functions.png"
+  },
+  "project-configuring-with-yaml-files": {
+    "bg_color": "d8eef5",
+    "created_at": "2025-02-23T13:31:33.034938",
+    "image_url": "./assets/icons/project-configuring-with-yaml-files.png"
+  },
+  "project-confusing-this": {
+    "bg_color": "f7b4df",
+    "created_at": "2025-02-23T13:31:33.852835",
+    "image_url": "./assets/icons/project-confusing-this.png"
+  },
+  "project-connect-four-game-human-vs-ai": {
+    "bg_color": "d0c3f7",
+    "created_at": "2025-02-23T13:31:39.144249",
+    "image_url": "./assets/icons/project-connect-four-game-human-vs-ai.png"
+  },
+  "project-constraints-comprehensive": {
+    "bg_color": "d1bad4",
+    "created_at": "2025-02-23T13:31:32.262452",
+    "image_url": "./assets/icons/project-constraints-comprehensive.png"
+  },
+  "project-convert-json-to-csv": {
+    "bg_color": "f0edf2",
+    "created_at": "2025-02-23T13:31:29.877454",
+    "image_url": "./assets/icons/project-convert-json-to-csv.png"
+  },
+  "project-copy-specified-files": {
+    "ai_description": "A 3D matte toy otter carefully organizing large pebbles into identical smaller patterns across two riverbanks.",
+    "bg_color": "cce4cf",
+    "created_at": "2025-12-22T11:16:27.509220",
+    "image_url": "./assets/icons/project-copy-specified-files.png"
+  },
+  "project-correctly-warn-incorrect-v-slot-usage": {
+    "bg_color": "9dd3cc",
+    "created_at": "2025-02-23T13:31:38.066897",
+    "image_url": "./assets/icons/project-correctly-warn-incorrect-v-slot-usage.png"
+  },
+  "project-count-each-type-characters": {
+    "bg_color": "cbe9d8",
+    "created_at": "2025-02-23T13:31:38.321291",
+    "image_url": "./assets/icons/project-count-each-type-characters.png"
+  },
+  "project-counting-access-times-by-ip": {
+    "bg_color": "fcc7dc",
+    "created_at": "2025-02-23T13:31:34.685585",
+    "image_url": "./assets/icons/project-counting-access-times-by-ip.png"
+  },
+  "project-countries-and-codes-in-region": {
+    "bg_color": "f1ceb4",
+    "created_at": "2025-02-23T13:31:38.682060",
+    "image_url": "./assets/icons/project-countries-and-codes-in-region.png"
+  },
+  "project-countries-with-1-billion-population": {
+    "bg_color": "bac3c3",
+    "created_at": "2025-02-23T13:31:33.622495",
+    "image_url": "./assets/icons/project-countries-with-1-billion-population.png"
+  },
+  "project-country-gdp-query": {
+    "bg_color": "d5c6d9",
+    "created_at": "2025-02-23T13:31:38.059846",
+    "image_url": "./assets/icons/project-country-gdp-query.png"
+  },
+  "project-country-gnp-and-population-query": {
+    "bg_color": "bdf7b7",
+    "created_at": "2025-02-23T13:31:40.022796",
+    "image_url": "./assets/icons/project-country-gnp-and-population-query.png"
+  },
+  "project-course-list": {
+    "bg_color": "cdb8d8",
+    "created_at": "2025-02-23T13:31:35.026300",
+    "image_url": "./assets/icons/project-course-list.png"
+  },
+  "project-course-schedule-crud-with-mybatis": {
+    "bg_color": "ead0d2",
+    "created_at": "2025-02-23T13:31:31.635354",
+    "image_url": "./assets/icons/project-course-schedule-crud-with-mybatis.png"
+  },
+  "project-course-schedule-logging": {
+    "bg_color": "d9cde5",
+    "created_at": "2025-02-23T13:31:36.794427",
+    "image_url": "./assets/icons/project-course-schedule-logging.png"
+  },
+  "project-course-statistics": {
+    "bg_color": "f0e7db",
+    "created_at": "2025-02-23T13:31:35.604515",
+    "image_url": "./assets/icons/project-course-statistics.png"
+  },
+  "project-course-update-tracking": {
+    "bg_color": "c0fefc",
+    "created_at": "2025-02-23T13:31:34.877653",
+    "image_url": "./assets/icons/project-course-update-tracking.png"
+  },
+  "project-covid-19-data-statistics": {
+    "bg_color": "c1d8da",
+    "created_at": "2025-02-23T13:31:30.664131",
+    "image_url": "./assets/icons/project-covid-19-data-statistics.png"
+  },
+  "project-create-a-2048-game-in-python-with-tkinter": {
+    "bg_color": "fbefe4",
+    "created_at": "2025-02-23T13:31:33.965957",
+    "image_url": "./assets/icons/project-create-a-2048-game-in-python-with-tkinter.png"
+  },
+  "project-create-a-gui-calculator-with-python": {
+    "bg_color": "d5c2bc",
+    "created_at": "2025-02-23T13:31:34.146458",
+    "image_url": "./assets/icons/project-create-a-gui-calculator-with-python.png"
+  },
+  "project-create-a-notes-app-using-react": {
+    "bg_color": "f5e8c8",
+    "created_at": "2025-02-23T13:31:32.887321",
+    "image_url": "./assets/icons/project-create-a-notes-app-using-react.png"
+  },
+  "project-create-a-pixel-art-animator-with-react": {
+    "bg_color": "d5c1b1",
+    "created_at": "2025-02-23T13:31:32.159698",
+    "image_url": "./assets/icons/project-create-a-pixel-art-animator-with-react.png"
+  },
+  "project-create-a-simple-stopwatch-app-using-gtk": {
+    "bg_color": "e7e7e7",
+    "created_at": "2025-02-23T13:31:31.705934",
+    "image_url": "./assets/icons/project-create-a-simple-stopwatch-app-using-gtk.png"
+  },
+  "project-create-a-sudoku-game-using-python-and-pygame": {
+    "bg_color": "ede0d4",
+    "created_at": "2025-02-23T13:31:41.067312",
+    "image_url": "./assets/icons/project-create-a-sudoku-game-using-python-and-pygame.png"
+  },
+  "project-create-a-swiper-carousel-web-app": {
+    "bg_color": "c0e6cc",
+    "created_at": "2025-02-23T13:31:40.580505",
+    "image_url": "./assets/icons/project-create-a-swiper-carousel-web-app.png"
+  },
+  "project-create-confusion-matrix": {
+    "bg_color": "eec5e6",
+    "created_at": "2025-02-23T13:31:41.700928",
+    "image_url": "./assets/icons/project-create-confusion-matrix.png"
+  },
+  "project-create-user": {
+    "bg_color": "c2eef8",
+    "created_at": "2025-02-23T13:31:38.113016",
+    "image_url": "./assets/icons/project-create-user.png"
+  },
+  "project-creating-a-2048-game-in-c": {
+    "bg_color": "ff9bbf",
+    "created_at": "2025-02-23T13:31:29.286086",
+    "image_url": "./assets/icons/project-creating-a-2048-game-in-c.png"
+  },
+  "project-creating-a-code-rain-animation-using-pygame": {
+    "bg_color": "b89ac2",
+    "created_at": "2025-02-23T13:31:41.268324",
+    "image_url": "./assets/icons/project-creating-a-code-rain-animation-using-pygame.png"
+  },
+  "project-creating-a-code-rain-in-c-using-ncurses": {
+    "bg_color": "bcf8e9",
+    "created_at": "2025-02-23T13:31:32.956115",
+    "image_url": "./assets/icons/project-creating-a-code-rain-in-c-using-ncurses.png"
+  },
+  "project-creating-a-drawing-board-web-app": {
+    "bg_color": "d8d3b8",
+    "created_at": "2025-02-23T13:31:36.857660",
+    "image_url": "./assets/icons/project-creating-a-drawing-board-web-app.png"
+  },
+  "project-creating-a-dynamic-heart-animation-with-c": {
+    "bg_color": "c2a3d2",
+    "created_at": "2025-02-23T13:31:40.856963",
+    "image_url": "./assets/icons/project-creating-a-dynamic-heart-animation-with-c.png"
+  },
+  "project-creating-a-gomoku-game-in-c": {
+    "bg_color": "f2e7e7",
+    "created_at": "2025-02-23T13:31:36.673307",
+    "image_url": "./assets/icons/project-creating-a-gomoku-game-in-c.png"
+  },
+  "project-creating-a-minesweeper-game-with-javascript": {
+    "bg_color": "faf5e4",
+    "created_at": "2025-02-23T13:31:32.430993",
+    "image_url": "./assets/icons/project-creating-a-minesweeper-game-with-javascript.png"
+  },
+  "project-creating-a-simple-clock-animation-using-opengl-and-glut": {
+    "bg_color": "f6eff8",
+    "created_at": "2025-02-23T13:31:40.724475",
+    "image_url": "./assets/icons/project-creating-a-simple-clock-animation-using-opengl-and-glut.png"
+  },
+  "project-creating-a-simple-docker-container-in-cpp": {
+    "bg_color": "c0e9d7",
+    "created_at": "2025-02-23T13:31:32.745291",
+    "image_url": "./assets/icons/project-creating-a-simple-docker-container-in-cpp.png"
+  },
+  "project-creating-a-simple-tic-tac-toe-game-in-c": {
+    "bg_color": "25d3de",
+    "created_at": "2025-02-23T13:31:29.011782",
+    "image_url": "./assets/icons/project-creating-a-simple-tic-tac-toe-game-in-c.png"
+  },
+  "project-creating-a-snake-game-in-c": {
+    "bg_color": "ddc485",
+    "created_at": "2025-02-23T13:31:40.239755",
+    "image_url": "./assets/icons/project-creating-a-snake-game-in-c.png"
+  },
+  "project-creating-a-task-timer-web-app": {
+    "bg_color": "cdded7",
+    "created_at": "2025-02-23T13:31:30.290820",
+    "image_url": "./assets/icons/project-creating-a-task-timer-web-app.png"
+  },
+  "project-creating-a-typing-game-using-bash": {
+    "ai_description": "A cute 3D matte owl frantically tapping a tiny mechanical keyboard to catch falling holographic letters.",
+    "bg_color": "f6eb74",
+    "created_at": "2025-12-22T11:12:58.739890",
+    "image_url": "./assets/icons/project-creating-a-typing-game-using-bash.png"
+  },
+  "project-creating-a-url-shortener-with-python-and-flask": {
+    "bg_color": "c8d4dc",
+    "created_at": "2025-02-23T13:31:39.939783",
+    "image_url": "./assets/icons/project-creating-a-url-shortener-with-python-and-flask.png"
+  },
+  "project-creating-a-whack-a-mole-web-game": {
+    "bg_color": "fcbac5",
+    "created_at": "2025-02-23T13:31:38.845338",
+    "image_url": "./assets/icons/project-creating-a-whack-a-mole-web-game.png"
+  },
+  "project-creating-product-information-table": {
+    "bg_color": "def9cf",
+    "created_at": "2025-02-23T13:31:36.180871",
+    "image_url": "./assets/icons/project-creating-product-information-table.png"
+  },
+  "project-creating-the-solar-system-in-opengl": {
+    "bg_color": "f6facd",
+    "created_at": "2025-02-23T13:31:34.166077",
+    "image_url": "./assets/icons/project-creating-the-solar-system-in-opengl.png"
+  },
+  "project-creating-website-homepage": {
+    "bg_color": "f5eac7",
+    "created_at": "2025-02-23T13:31:32.583896",
+    "image_url": "./assets/icons/project-creating-website-homepage.png"
+  },
+  "project-creative-billboard": {
+    "bg_color": "b5cfd8",
+    "created_at": "2025-02-23T13:31:30.889147",
+    "image_url": "./assets/icons/project-creative-billboard.png"
+  },
+  "project-credit-card-holder-risk-prediction": {
+    "bg_color": "c5b5e6",
+    "created_at": "2025-02-23T13:31:33.653506",
+    "image_url": "./assets/icons/project-credit-card-holder-risk-prediction.png"
+  },
+  "project-csv-data-purification": {
+    "bg_color": "c3f1c4",
+    "created_at": "2025-02-23T13:31:36.484598",
+    "image_url": "./assets/icons/project-csv-data-purification.png"
+  },
+  "project-custom-form-validator": {
+    "bg_color": "cce2ce",
+    "created_at": "2025-02-23T13:31:36.849362",
+    "image_url": "./assets/icons/project-custom-form-validator.png"
+  },
+  "project-custom-type-handler": {
+    "bg_color": "f5f1dd",
+    "created_at": "2025-02-23T13:31:33.479864",
+    "image_url": "./assets/icons/project-custom-type-handler.png"
+  },
+  "project-database-enhancement": {
+    "bg_color": "d5b4e3",
+    "created_at": "2025-02-23T13:31:38.344878",
+    "image_url": "./assets/icons/project-database-enhancement.png"
+  },
+  "project-ddl-related-operations": {
+    "bg_color": "e9d4ca",
+    "created_at": "2025-02-23T13:31:39.659295",
+    "image_url": "./assets/icons/project-ddl-related-operations.png"
+  },
+  "project-decipher-acrostic-poetry": {
+    "bg_color": "c7ccb4",
+    "created_at": "2025-02-23T13:31:32.770307",
+    "image_url": "./assets/icons/project-decipher-acrostic-poetry.png"
+  },
+  "project-decrypting-the-triangle-cipher": {
+    "bg_color": "e1c9cf",
+    "created_at": "2025-02-23T13:31:40.794206",
+    "image_url": "./assets/icons/project-decrypting-the-triangle-cipher.png"
+  },
+  "project-delete-city-table": {
+    "bg_color": "c0d0be",
+    "created_at": "2025-02-23T13:31:36.277830",
+    "image_url": "./assets/icons/project-delete-city-table.png"
+  },
+  "project-delete-course-schedule-view-data": {
+    "bg_color": "fabfea",
+    "created_at": "2025-02-23T13:31:39.391519",
+    "image_url": "./assets/icons/project-delete-course-schedule-view-data.png"
+  },
+  "project-delete-expired-course-information": {
+    "bg_color": "baf8ef",
+    "created_at": "2025-02-23T13:31:32.237649",
+    "image_url": "./assets/icons/project-delete-expired-course-information.png"
+  },
+  "project-deploying-a-simple-tensorflow-model": {
+    "bg_color": "ffbdc0",
+    "created_at": "2025-02-23T13:31:33.708074",
+    "image_url": "./assets/icons/project-deploying-a-simple-tensorflow-model.png"
+  },
+  "project-deploying-mobilenet-with-tensorflowjs-and-flask": {
+    "ai_description": "A 3D toy sheep in a lab coat using a tablet to scan and classify colorful digital clovers.",
+    "bg_color": "e0ffcd",
+    "created_at": "2025-12-25T15:54:03.349194",
+    "image_url": "./assets/icons/project-deploying-mobilenet-with-tensorflowjs-and-flask.png"
+  },
+  "project-deprecated-addroutes": {
+    "bg_color": "efd5b7",
+    "created_at": "2025-02-23T13:31:41.515634",
+    "image_url": "./assets/icons/project-deprecated-addroutes.png"
+  },
+  "project-depth-of-field-in-images": {
+    "bg_color": "fee3ce",
+    "created_at": "2025-02-23T13:31:41.652899",
+    "image_url": "./assets/icons/project-depth-of-field-in-images.png"
+  },
+  "project-developing-a-simple-online-chat-room-using-flask": {
+    "bg_color": "ff8f73",
+    "created_at": "2025-02-23T13:31:32.897115",
+    "image_url": "./assets/icons/project-developing-a-simple-online-chat-room-using-flask.png"
+  },
+  "project-development-of-golang-caching-component": {
+    "bg_color": "ffdb1a",
+    "created_at": "2025-02-23T13:31:39.339964",
+    "image_url": "./assets/icons/project-development-of-golang-caching-component.png"
+  },
+  "project-directory-size": {
+    "ai_description": "A cute 3D seal organizing colorful toy crates by size, neatly labeling them with a tiny digital stylus.",
+    "bg_color": "f0bbbf",
+    "created_at": "2025-12-22T11:16:59.486151",
+    "image_url": "./assets/icons/project-directory-size.png"
+  },
+  "project-displaying-query-results-using-el-expressions": {
+    "bg_color": "c8f9d3",
+    "created_at": "2025-02-23T13:31:30.315084",
+    "image_url": "./assets/icons/project-displaying-query-results-using-el-expressions.png"
+  },
+  "project-divide-dataset-into-mini-batches": {
+    "bg_color": "d8f8be",
+    "created_at": "2025-02-23T13:31:37.508186",
+    "image_url": "./assets/icons/project-divide-dataset-into-mini-batches.png"
+  },
+  "project-dml-comprehensive-challenge": {
+    "bg_color": "c8bfe3",
+    "created_at": "2025-02-23T13:31:41.836956",
+    "image_url": "./assets/icons/project-dml-comprehensive-challenge.png"
+  },
+  "project-do-a-search": {
+    "bg_color": "8ea5eb",
+    "created_at": "2025-02-23T13:31:34.915113",
+    "image_url": "./assets/icons/project-do-a-search.png"
+  },
+  "project-dont-step-on-the-white-tile": {
+    "bg_color": "ffe8ed",
+    "created_at": "2025-02-23T13:31:31.170158",
+    "image_url": "./assets/icons/project-dont-step-on-the-white-tile.png"
+  },
+  "project-doubly-linked-list": {
+    "bg_color": "bdeaed",
+    "created_at": "2025-02-23T13:31:40.391001",
+    "image_url": "./assets/icons/project-doubly-linked-list.png"
+  },
+  "project-draw-a-koala": {
+    "bg_color": "eacdbd",
+    "created_at": "2025-02-23T13:31:31.516439",
+    "image_url": "./assets/icons/project-draw-a-koala.png"
+  },
+  "project-druid-database-connection-pool-access": {
+    "bg_color": "fdebe2",
+    "created_at": "2025-02-23T13:31:36.666835",
+    "image_url": "./assets/icons/project-druid-database-connection-pool-access.png"
+  },
+  "project-dynamic-tab-bar": {
+    "bg_color": "b793e6",
+    "created_at": "2025-02-23T13:31:41.775779",
+    "image_url": "./assets/icons/project-dynamic-tab-bar.png"
+  },
+  "project-dynamization-of-homepage-data": {
+    "bg_color": "b6f7f1",
+    "created_at": "2025-02-23T13:31:40.978947",
+    "image_url": "./assets/icons/project-dynamization-of-homepage-data.png"
+  },
+  "project-early-stopping": {
+    "bg_color": "e1b4fc",
+    "created_at": "2025-02-23T13:31:31.289617",
+    "image_url": "./assets/icons/project-early-stopping.png"
+  },
+  "project-employee-data-filtering": {
+    "bg_color": "bec2db",
+    "created_at": "2025-02-23T13:31:33.503054",
+    "image_url": "./assets/icons/project-employee-data-filtering.png"
+  },
+  "project-employee-management-file-integration": {
+    "bg_color": "fbb6ce",
+    "created_at": "2025-02-23T13:31:41.432013",
+    "image_url": "./assets/icons/project-employee-management-file-integration.png"
+  },
+  "project-empty-city-data": {
+    "bg_color": "dec1dc",
+    "created_at": "2025-02-23T13:31:30.270299",
+    "image_url": "./assets/icons/project-empty-city-data.png"
+  },
+  "project-empty-pathmatch-for-correct-path-calculation": {
+    "bg_color": "eecdd5",
+    "created_at": "2025-02-23T13:31:32.350564",
+    "image_url": "./assets/icons/project-empty-pathmatch-for-correct-path-calculation.png"
+  },
+  "project-encapsulate-promisify-function": {
+    "bg_color": "e9ccf3",
+    "created_at": "2025-02-23T13:31:35.419697",
+    "image_url": "./assets/icons/project-encapsulate-promisify-function.png"
+  },
+  "project-encoding-label-to-one-hot": {
+    "bg_color": "badbf2",
+    "created_at": "2025-02-23T13:31:33.378591",
+    "image_url": "./assets/icons/project-encoding-label-to-one-hot.png"
+  },
+  "project-escape-from-the-dual-vector-foil": {
+    "bg_color": "f8b6c9",
+    "created_at": "2025-02-23T13:31:33.752658",
+    "image_url": "./assets/icons/project-escape-from-the-dual-vector-foil.png"
+  },
+  "project-exploring-the-earth": {
+    "bg_color": "c4f0c5",
+    "created_at": "2025-02-23T13:31:37.539852",
+    "image_url": "./assets/icons/project-exploring-the-earth.png"
+  },
+  "project-extract-information-from-parameters": {
+    "bg_color": "e1e0d3",
+    "created_at": "2025-02-23T13:31:39.022278",
+    "image_url": "./assets/icons/project-extract-information-from-parameters.png"
+  },
+  "project-extract-movie-information": {
+    "bg_color": "f9f3e8",
+    "created_at": "2025-02-23T13:31:36.157056",
+    "image_url": "./assets/icons/project-extract-movie-information.png"
+  },
+  "project-extracting-information-from-text": {
+    "ai_description": "A 3D toy fox wearing goggles, meticulously picking glowing image icons out of a giant paper scroll.",
+    "bg_color": "dbbbe7",
+    "created_at": "2025-12-22T11:19:50.161895",
+    "image_url": "./assets/icons/project-extracting-information-from-text.png"
+  },
+  "project-extracting-link-information-from-text": {
+    "ai_description": "A cute 3D toy duck using a magnifying glass to find hidden web links in a giant book.",
+    "bg_color": "c3fee0",
+    "created_at": "2025-12-22T11:20:26.784387",
+    "image_url": "./assets/icons/project-extracting-link-information-from-text.png"
+  },
+  "project-extracting-user-input-information": {
+    "bg_color": "dfe9c9",
+    "created_at": "2025-02-23T13:31:32.056914",
+    "image_url": "./assets/icons/project-extracting-user-input-information.png"
+  },
+  "project-file-type-statistics": {
+    "bg_color": "d1fedf",
+    "created_at": "2025-02-23T13:31:40.747073",
+    "image_url": "./assets/icons/project-file-type-statistics.png"
+  },
+  "project-file-type-statistics-using-c": {
+    "bg_color": "5de6b4",
+    "created_at": "2025-02-23T13:31:39.256046",
+    "image_url": "./assets/icons/project-file-type-statistics-using-c.png"
+  },
+  "project-first-program-with-quartz-framework": {
+    "bg_color": "c7ddb8",
+    "created_at": "2025-02-23T13:31:36.609475",
+    "image_url": "./assets/icons/project-first-program-with-quartz-framework.png"
+  },
+  "project-fix-the-incorrectly-implemented-lab-class": {
+    "bg_color": "d5f7c9",
+    "created_at": "2025-02-23T13:31:29.420645",
+    "image_url": "./assets/icons/project-fix-the-incorrectly-implemented-lab-class.png"
+  },
+  "project-fix-the-test-in-asyncspecjs": {
+    "bg_color": "f0c5da",
+    "created_at": "2025-02-23T13:31:40.206249",
+    "image_url": "./assets/icons/project-fix-the-test-in-asyncspecjs.png"
+  },
+  "project-fix-website-display": {
+    "bg_color": "e0c5cf",
+    "created_at": "2025-02-23T13:31:33.596665",
+    "image_url": "./assets/icons/project-fix-website-display.png"
+  },
+  "project-flappy-bird-detection-in-video-using-match-template": {
+    "bg_color": "f7d9d9",
+    "created_at": "2025-02-23T13:31:32.437652",
+    "image_url": "./assets/icons/project-flappy-bird-detection-in-video-using-match-template.png"
+  },
+  "project-flex-dice-layout": {
+    "bg_color": "d8c0cc",
+    "created_at": "2025-02-23T13:31:28.988679",
+    "image_url": "./assets/icons/project-flex-dice-layout.png"
+  },
+  "project-flexible-card": {
+    "bg_color": "e9e6b9",
+    "created_at": "2025-02-23T13:31:37.319593",
+    "image_url": "./assets/icons/project-flexible-card.png"
+  },
+  "project-folding-accordion": {
+    "bg_color": "ecebff",
+    "created_at": "2025-02-23T13:31:36.826664",
+    "image_url": "./assets/icons/project-folding-accordion.png"
+  },
+  "project-food-protein-revealed": {
+    "bg_color": "fec9f5",
+    "created_at": "2025-02-23T13:31:36.030401",
+    "image_url": "./assets/icons/project-food-protein-revealed.png"
+  },
+  "project-format-query-for-teacher-salary": {
+    "bg_color": "f5f7e1",
+    "created_at": "2025-02-23T13:31:34.851427",
+    "image_url": "./assets/icons/project-format-query-for-teacher-salary.png"
+  },
+  "project-fresh-vegetables": {
+    "bg_color": "d5dcbf",
+    "created_at": "2025-02-23T13:31:35.558783",
+    "image_url": "./assets/icons/project-fresh-vegetables.png"
+  },
+  "project-fruit-arrangement": {
+    "bg_color": "d2dec3",
+    "created_at": "2025-02-23T13:31:39.284640",
+    "image_url": "./assets/icons/project-fruit-arrangement.png"
+  },
+  "project-fruit-for-fun": {
+    "bg_color": "d0bac0",
+    "created_at": "2025-02-23T13:31:36.054136",
+    "image_url": "./assets/icons/project-fruit-for-fun.png"
+  },
+  "project-fruit-platter": {
+    "bg_color": "d7feda",
+    "created_at": "2025-02-23T13:31:34.709218",
+    "image_url": "./assets/icons/project-fruit-platter.png"
+  },
+  "project-fruit-stacker": {
+    "bg_color": "dcc3cc",
+    "created_at": "2025-02-23T13:31:34.307209",
+    "image_url": "./assets/icons/project-fruit-stacker.png"
+  },
+  "project-ftp-enumeration-and-anonymous-access": {
+    "ai_description": "A cute 3D toy owl wearing a headset, scanning a glowing map to find hidden digital treasure chests.",
+    "bg_color": "c0e2cb",
+    "created_at": "2025-12-22T11:24:01.612418",
+    "image_url": "./assets/icons/project-ftp-enumeration-and-anonymous-access.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3619/3619171.png"
+  },
+  "project-ftp-weak-password-scanner-using-python": {
+    "bg_color": "fdbf8a",
+    "created_at": "2025-02-23T13:31:29.533040",
+    "image_url": "./assets/icons/project-ftp-weak-password-scanner-using-python.png"
+  },
+  "project-fun-shopping": {
+    "bg_color": "c2c9d1",
+    "created_at": "2025-02-23T13:31:33.993645",
+    "image_url": "./assets/icons/project-fun-shopping.png"
+  },
+  "project-general-function-comprehensive-challenge": {
+    "bg_color": "c3fdc6",
+    "created_at": "2025-02-23T13:31:31.020412",
+    "image_url": "./assets/icons/project-general-function-comprehensive-challenge.png"
+  },
+  "project-generating-a-battle-report": {
+    "bg_color": "e7b9b4",
+    "created_at": "2025-02-23T13:31:32.877644",
+    "image_url": "./assets/icons/project-generating-a-battle-report.png"
+  },
+  "project-get-program-that-satisfies-the-condition": {
+    "ai_description": "A cute 3D toy koala wearing a headset, scanning a glowing network port to find a hidden program.",
+    "bg_color": "e0d6b8",
+    "created_at": "2025-12-22T11:20:58.802918",
+    "image_url": "./assets/icons/project-get-program-that-satisfies-the-condition.png"
+  },
+  "project-get-system-information": {
+    "ai_description": "",
+    "ai_subject": "Binoculars",
+    "bg_color": "ead5f6",
+    "created_at": "2025-12-28T16:45:43.516157",
+    "image_url": "./assets/icons/project-get-system-information.png"
+  },
+  "project-give-your-page-a-makeover": {
+    "bg_color": "d2e2e7",
+    "created_at": "2025-02-23T13:31:41.314576",
+    "image_url": "./assets/icons/project-give-your-page-a-makeover.png"
+  },
+  "project-go-to-the-next-step": {
+    "bg_color": "e1c4f9",
+    "created_at": "2025-02-23T13:31:30.581182",
+    "image_url": "./assets/icons/project-go-to-the-next-step.png"
+  },
+  "project-gravitational-simulation-of-earth-and-super-jupiter": {
+    "bg_color": "81d4f2",
+    "created_at": "2025-02-23T13:31:35.739084",
+    "image_url": "./assets/icons/project-gravitational-simulation-of-earth-and-super-jupiter.png"
+  },
+  "project-group-comprehensive-challenge": {
+    "bg_color": "e9f5e1",
+    "created_at": "2025-02-23T13:31:31.383023",
+    "image_url": "./assets/icons/project-group-comprehensive-challenge.png"
+  },
+  "project-guess-the-coin": {
+    "bg_color": "d9dcfe",
+    "created_at": "2025-02-23T13:31:32.136112",
+    "image_url": "./assets/icons/project-guess-the-coin.png"
+  },
+  "project-handling-dates-in-any-year": {
+    "bg_color": "c7b8eb",
+    "created_at": "2025-02-23T13:31:35.051065",
+    "image_url": "./assets/icons/project-handling-dates-in-any-year.png"
+  },
+  "project-handling-null-values-correctly": {
+    "bg_color": "e5b9e2",
+    "created_at": "2025-02-23T13:31:36.251962",
+    "image_url": "./assets/icons/project-handling-null-values-correctly.png"
+  },
+  "project-hard-work-pays-off": {
+    "bg_color": "ffd6d6",
+    "created_at": "2025-02-23T13:31:40.101938",
+    "image_url": "./assets/icons/project-hard-work-pays-off.png"
+  },
+  "project-haste-makes-waste": {
+    "bg_color": "b5cfcd",
+    "created_at": "2025-02-23T13:31:34.367002",
+    "image_url": "./assets/icons/project-haste-makes-waste.png"
+  },
+  "project-holiday-greeting-card": {
+    "bg_color": "caf9c7",
+    "created_at": "2025-02-23T13:31:38.726784",
+    "image_url": "./assets/icons/project-holiday-greeting-card.png"
+  },
+  "project-http-enumeration-and-directory-traversal": {
+    "ai_description": "A 3D toy-style koala wearing a headset, using a magnifying glass to find hidden doors in a digital tree.",
+    "bg_color": "f8e6ef",
+    "created_at": "2025-12-25T19:13:32.495878",
+    "image_url": "./assets/icons/project-http-enumeration-and-directory-traversal.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1045/1045513.png"
+  },
+  "project-identify-mvp-recipient-in-game": {
+    "bg_color": "b4c4f7",
+    "created_at": "2025-02-23T13:31:36.349791",
+    "image_url": "./assets/icons/project-identify-mvp-recipient-in-game.png"
+  },
+  "project-image-upload-based-on-tcp-protocol": {
+    "bg_color": "ffe8bb",
+    "created_at": "2025-02-23T13:31:30.055243",
+    "image_url": "./assets/icons/project-image-upload-based-on-tcp-protocol.png"
+  },
+  "project-image-viewer-using-python-and-tkinter": {
+    "bg_color": "fff3e0",
+    "created_at": "2025-02-23T13:31:37.074403",
+    "image_url": "./assets/icons/project-image-viewer-using-python-and-tkinter.png"
+  },
+  "project-implement-a-magnifying-glass-effect-using-canvas": {
+    "bg_color": "eeffc7",
+    "created_at": "2025-02-23T13:31:32.101623",
+    "image_url": "./assets/icons/project-implement-a-magnifying-glass-effect-using-canvas.png"
+  },
+  "project-implement-a-simple-named-tuple": {
+    "bg_color": "bcd2e8",
+    "created_at": "2025-02-23T13:31:36.977600",
+    "image_url": "./assets/icons/project-implement-a-simple-named-tuple.png"
+  },
+  "project-implement-card-binding-function": {
+    "bg_color": "dfcdf4",
+    "created_at": "2025-02-23T13:31:37.960898",
+    "image_url": "./assets/icons/project-implement-card-binding-function.png"
+  },
+  "project-implement-json-comment-interpreter": {
+    "bg_color": "eeb8e9",
+    "created_at": "2025-02-23T13:31:39.134622",
+    "image_url": "./assets/icons/project-implement-json-comment-interpreter.png"
+  },
+  "project-implement-thread-communication": {
+    "bg_color": "ccfdee",
+    "created_at": "2025-02-23T13:31:34.908361",
+    "image_url": "./assets/icons/project-implement-thread-communication.png"
+  },
+  "project-implement-user-login-function": {
+    "bg_color": "d4f2f0",
+    "created_at": "2025-02-23T13:31:40.690389",
+    "image_url": "./assets/icons/project-implement-user-login-function.png"
+  },
+  "project-implementation-of-ajax-requests-using-js": {
+    "bg_color": "eee7e9",
+    "created_at": "2025-02-23T13:31:38.177804",
+    "image_url": "./assets/icons/project-implementation-of-ajax-requests-using-js.png"
+  },
+  "project-implementing-a-queue": {
+    "bg_color": "f2e5c0",
+    "created_at": "2025-02-23T13:31:38.946295",
+    "image_url": "./assets/icons/project-implementing-a-queue.png"
+  },
+  "project-implementing-an-immutable-dictionary": {
+    "bg_color": "f1ebb9",
+    "created_at": "2025-02-23T13:31:33.323794",
+    "image_url": "./assets/icons/project-implementing-an-immutable-dictionary.png"
+  },
+  "project-implementing-minkowski-distance-metric": {
+    "bg_color": "eff9c6",
+    "created_at": "2025-02-23T13:31:32.716041",
+    "image_url": "./assets/icons/project-implementing-minkowski-distance-metric.png"
+  },
+  "project-input-parameter-practice": {
+    "bg_color": "eaf7e2",
+    "created_at": "2025-02-23T13:31:29.498058",
+    "image_url": "./assets/icons/project-input-parameter-practice.png"
+  },
+  "project-input-search-suggestions": {
+    "bg_color": "c6bfca",
+    "created_at": "2025-02-23T13:31:41.745223",
+    "image_url": "./assets/icons/project-input-search-suggestions.png"
+  },
+  "project-installing-a-git-server": {
+    "ai_description": "The official Git branching icon as a 3D matte orange symbol, centered on a clean white circular background in a professional toy style.",
+    "bg_color": "e3d9ca",
+    "created_at": "2025-12-26T10:34:53.253120",
+    "image_url": "./assets/icons/project-installing-a-git-server.png"
+  },
+  "project-installing-and-configuring-a-mail-server": {
+    "ai_description": "",
+    "ai_subject": "Weather Vane",
+    "bg_color": "83c4de",
+    "created_at": "2025-12-28T16:44:42.170520",
+    "image_url": "./assets/icons/project-installing-and-configuring-a-mail-server.png"
+  },
+  "project-javabean-mutiple-parameters": {
+    "bg_color": "b8bfee",
+    "created_at": "2025-02-23T13:31:29.606181",
+    "image_url": "./assets/icons/project-javabean-mutiple-parameters.png"
+  },
+  "project-join-query-comprehensive-challenge": {
+    "bg_color": "b6dbdf",
+    "created_at": "2025-02-23T13:31:40.713965",
+    "image_url": "./assets/icons/project-join-query-comprehensive-challenge.png"
+  },
+  "project-jquery-flip-puzzle-game": {
+    "bg_color": "a2dcff",
+    "created_at": "2025-02-23T13:31:41.326329",
+    "image_url": "./assets/icons/project-jquery-flip-puzzle-game.png"
+  },
+  "project-json-data-transfer-with-ajax": {
+    "bg_color": "cbd0c3",
+    "created_at": "2025-02-23T13:31:36.326093",
+    "image_url": "./assets/icons/project-json-data-transfer-with-ajax.png"
+  },
+  "project-k-nearest-neighbors-regression-algorithm-implementation": {
+    "bg_color": "bbfece",
+    "created_at": "2025-02-23T13:31:31.914423",
+    "image_url": "./assets/icons/project-k-nearest-neighbors-regression-algorithm-implementation.png"
+  },
+  "project-k-th-rightmost-digit": {
+    "bg_color": "bbf5f9",
+    "created_at": "2025-02-23T13:31:36.744895",
+    "image_url": "./assets/icons/project-k-th-rightmost-digit.png"
+  },
+  "project-labex-knowledge-network": {
+    "bg_color": "ffd5d8",
+    "created_at": "2025-02-23T13:31:40.624650",
+    "image_url": "./assets/icons/project-labex-knowledge-network.png"
+  },
+  "project-largest-population-by-country": {
+    "bg_color": "dfe5f8",
+    "created_at": "2025-02-23T13:31:39.537182",
+    "image_url": "./assets/icons/project-largest-population-by-country.png"
+  },
+  "project-largest-population-in-five-countries": {
+    "bg_color": "c1f5bf",
+    "created_at": "2025-02-23T13:31:31.240076",
+    "image_url": "./assets/icons/project-largest-population-in-five-countries.png"
+  },
+  "project-layout-switch": {
+    "bg_color": "d4c07a",
+    "created_at": "2025-02-23T13:31:33.353749",
+    "image_url": "./assets/icons/project-layout-switch.png"
+  },
+  "project-leap-year-or-common-year": {
+    "bg_color": "c0e0d3",
+    "created_at": "2025-02-23T13:31:37.051448",
+    "image_url": "./assets/icons/project-leap-year-or-common-year.png"
+  },
+  "project-lets-have-a-meeting-together": {
+    "bg_color": "ddf6ed",
+    "created_at": "2025-02-23T13:31:34.648078",
+    "image_url": "./assets/icons/project-lets-have-a-meeting-together.png"
+  },
+  "project-linear-regression-fitting-and-plotting": {
+    "bg_color": "dff2bd",
+    "created_at": "2025-02-23T13:31:29.740196",
+    "image_url": "./assets/icons/project-linear-regression-fitting-and-plotting.png"
+  },
+  "project-linear-validation-method": {
+    "bg_color": "c0c2de",
+    "created_at": "2025-02-23T13:31:36.003713",
+    "image_url": "./assets/icons/project-linear-validation-method.png"
+  },
+  "project-linux-system-monitor-using-tkinter": {
+    "bg_color": "f7e1cd",
+    "created_at": "2025-02-23T13:31:32.187466",
+    "image_url": "./assets/icons/project-linux-system-monitor-using-tkinter.png"
+  },
+  "project-log-analysis": {
+    "ai_description": "A cute 3D toy cat sorting colorful \"404\" and \"IP\" blocks into organized digital piles.",
+    "bg_color": "deb7e0",
+    "created_at": "2025-12-22T11:18:08.875396",
+    "image_url": "./assets/icons/project-log-analysis.png"
+  },
+  "project-log-backup": {
+    "ai_description": "A round, 3D toy cat wearing a headset, diligently filing tiny glowing scrolls into a mechanical calendar clock.",
+    "bg_color": "e0c0c6",
+    "created_at": "2025-12-22T11:15:20.473947",
+    "image_url": "./assets/icons/project-log-backup.png"
+  },
+  "project-logging-project-information-with-log4j2": {
+    "bg_color": "f0d8ee",
+    "created_at": "2025-02-23T13:31:29.667843",
+    "image_url": "./assets/icons/project-logging-project-information-with-log4j2.png"
+  },
+  "project-magic-failure": {
+    "bg_color": "f8e6cd",
+    "created_at": "2025-02-23T13:31:35.686427",
+    "image_url": "./assets/icons/project-magic-failure.png"
+  },
+  "project-making-a-simple-calculator-using-c": {
+    "bg_color": "f0cda9",
+    "created_at": "2025-02-23T13:31:38.471385",
+    "image_url": "./assets/icons/project-making-a-simple-calculator-using-c.png"
+  },
+  "project-managing-specific-dates-in-a-year": {
+    "bg_color": "fbcbb6",
+    "created_at": "2025-02-23T13:31:30.774739",
+    "image_url": "./assets/icons/project-managing-specific-dates-in-a-year.png"
+  },
+  "project-matrix-operations": {
+    "bg_color": "efd6ea",
+    "created_at": "2025-02-23T13:31:29.471845",
+    "image_url": "./assets/icons/project-matrix-operations.png"
+  },
+  "project-maximum-value-judgment": {
+    "bg_color": "dbe5d4",
+    "created_at": "2025-02-23T13:31:30.800918",
+    "image_url": "./assets/icons/project-maximum-value-judgment.png"
+  },
+  "project-menu-tree-search": {
+    "bg_color": "b8fdd3",
+    "created_at": "2025-02-23T13:31:39.874836",
+    "image_url": "./assets/icons/project-menu-tree-search.png"
+  },
+  "project-merge-multiple-files-alternately": {
+    "bg_color": "fbb5d8",
+    "created_at": "2025-02-23T13:31:32.830777",
+    "image_url": "./assets/icons/project-merge-multiple-files-alternately.png"
+  },
+  "project-missing-token": {
+    "bg_color": "c8e0dd",
+    "created_at": "2025-02-23T13:31:40.519145",
+    "image_url": "./assets/icons/project-missing-token.png"
+  },
+  "project-modify-countrylanguage-table": {
+    "bg_color": "c5fdf8",
+    "created_at": "2025-02-23T13:31:30.607679",
+    "image_url": "./assets/icons/project-modify-countrylanguage-table.png"
+  },
+  "project-modify-primary-key-of-countrylanguage-table": {
+    "bg_color": "f7edc1",
+    "created_at": "2025-02-23T13:31:37.749236",
+    "image_url": "./assets/icons/project-modify-primary-key-of-countrylanguage-table.png"
+  },
+  "project-modify-student-table-attributes": {
+    "bg_color": "ece3b8",
+    "created_at": "2025-02-23T13:31:35.360418",
+    "image_url": "./assets/icons/project-modify-student-table-attributes.png"
+  },
+  "project-modifying-the-teacher-table-using-preparedstatement": {
+    "bg_color": "d6eedb",
+    "created_at": "2025-02-23T13:31:30.248039",
+    "image_url": "./assets/icons/project-modifying-the-teacher-table-using-preparedstatement.png"
+  },
+  "project-monty-hall-problem-simulation-using-tkinter": {
+    "bg_color": "97d9d0",
+    "created_at": "2025-02-23T13:31:30.489033",
+    "image_url": "./assets/icons/project-monty-hall-problem-simulation-using-tkinter.png"
+  },
+  "project-monty-hall-problem-simulation-web-app": {
+    "bg_color": "f9ce67",
+    "created_at": "2025-02-23T13:31:36.495724",
+    "image_url": "./assets/icons/project-monty-hall-problem-simulation-web-app.png"
+  },
+  "project-movie-theater-seat-arrangement": {
+    "bg_color": "dabce9",
+    "created_at": "2025-02-23T13:31:30.149517",
+    "image_url": "./assets/icons/project-movie-theater-seat-arrangement.png"
+  },
+  "project-movie-ticket-reservation": {
+    "bg_color": "c4bbde",
+    "created_at": "2025-02-23T13:31:33.296189",
+    "image_url": "./assets/icons/project-movie-ticket-reservation.png"
+  },
+  "project-multiple-line-function-comprehensive-challenge": {
+    "bg_color": "f7e6bc",
+    "created_at": "2025-02-23T13:31:30.367002",
+    "image_url": "./assets/icons/project-multiple-line-function-comprehensive-challenge.png"
+  },
+  "project-multiple-slashes": {
+    "bg_color": "ddc5cd",
+    "created_at": "2025-02-23T13:31:30.339914",
+    "image_url": "./assets/icons/project-multiple-slashes.png"
+  },
+  "project-mysterious-incantation": {
+    "bg_color": "bcbfbb",
+    "created_at": "2025-02-23T13:31:40.363635",
+    "image_url": "./assets/icons/project-mysterious-incantation.png"
+  },
+  "project-naughty-modal-box": {
+    "bg_color": "f2f9e6",
+    "created_at": "2025-02-23T13:31:32.032666",
+    "image_url": "./assets/icons/project-naughty-modal-box.png"
+  },
+  "project-navigation-features": {
+    "bg_color": "d8faf5",
+    "created_at": "2025-02-23T13:31:39.416400",
+    "image_url": "./assets/icons/project-navigation-features.png"
+  },
+  "project-network-data-packet-statistics": {
+    "ai_description": "A cute 3D toy hedgehog wearing headphones, counting glowing digital cubes flying through a tiny network tunnel.",
+    "bg_color": "c9d2f7",
+    "created_at": "2025-12-22T11:22:03.006839",
+    "image_url": "./assets/icons/project-network-data-packet-statistics.png"
+  },
+  "project-new-colleague-system-account-setup": {
+    "ai_description": "A cute 3D toy penguin wearing a headset, diligently setting up a tiny server for a new colleague.",
+    "bg_color": "bacee5",
+    "created_at": "2025-12-22T11:17:35.014073",
+    "image_url": "./assets/icons/project-new-colleague-system-account-setup.png"
+  },
+  "project-news-api": {
+    "bg_color": "c7cdce",
+    "created_at": "2025-02-23T13:31:38.827585",
+    "image_url": "./assets/icons/project-news-api.png"
+  },
+  "project-nmap-port-scanning-and-telnet-access": {
+    "ai_description": "A round, 3D matte owl wearing goggles, scanning glowing digital ports on a floating holographic network map.",
+    "bg_color": "cbd5d9",
+    "created_at": "2025-12-22T11:23:28.978240",
+    "image_url": "./assets/icons/project-nmap-port-scanning-and-telnet-access.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1666/1666371.png"
+  },
+  "project-number-of-users-with-modify-permissions": {
+    "bg_color": "f1efd4",
+    "created_at": "2025-02-23T13:31:39.683085",
+    "image_url": "./assets/icons/project-number-of-users-with-modify-permissions.png"
+  },
+  "project-obtain-pi-with-two-decimals": {
+    "bg_color": "daccd4",
+    "created_at": "2025-02-23T13:31:41.769390",
+    "image_url": "./assets/icons/project-obtain-pi-with-two-decimals.png"
+  },
+  "project-official-languages-in-various-countries": {
+    "bg_color": "f8f5fb",
+    "created_at": "2025-02-23T13:31:35.140507",
+    "image_url": "./assets/icons/project-official-languages-in-various-countries.png"
+  },
+  "project-one-cut-into-two": {
+    "bg_color": "b5e8ef",
+    "created_at": "2025-02-23T13:31:33.921432",
+    "image_url": "./assets/icons/project-one-cut-into-two.png"
+  },
+  "project-operate-the-course-table": {
+    "bg_color": "fbd7fa",
+    "created_at": "2025-02-23T13:31:35.852144",
+    "image_url": "./assets/icons/project-operate-the-course-table.png"
+  },
+  "project-operations-with-the-os-module": {
+    "bg_color": "b4eece",
+    "created_at": "2025-02-23T13:31:38.704762",
+    "image_url": "./assets/icons/project-operations-with-the-os-module.png"
+  },
+  "project-order-of-performance": {
+    "bg_color": "faebf6",
+    "created_at": "2025-02-23T13:31:39.560981",
+    "image_url": "./assets/icons/project-order-of-performance.png"
+  },
+  "project-ordinary-least-squares-python-implementation": {
+    "bg_color": "d1d1d5",
+    "created_at": "2025-02-23T13:31:34.114639",
+    "image_url": "./assets/icons/project-ordinary-least-squares-python-implementation.png"
+  },
+  "project-organizing-course-list": {
+    "bg_color": "e2ddbf",
+    "created_at": "2025-02-23T13:31:33.266810",
+    "image_url": "./assets/icons/project-organizing-course-list.png"
+  },
+  "project-output-a-quote": {
+    "bg_color": "c0bfec",
+    "created_at": "2025-02-23T13:31:29.772798",
+    "image_url": "./assets/icons/project-output-a-quote.png"
+  },
+  "project-outputting-triangle-with-out-object": {
+    "bg_color": "b6d8d7",
+    "created_at": "2025-02-23T13:31:41.144669",
+    "image_url": "./assets/icons/project-outputting-triangle-with-out-object.png"
+  },
+  "project-pagination-component": {
+    "bg_color": "e1fae0",
+    "created_at": "2025-02-23T13:31:41.629657",
+    "image_url": "./assets/icons/project-pagination-component.png"
+  },
+  "project-parse-username-string": {
+    "bg_color": "e8d9c3",
+    "created_at": "2025-02-23T13:31:35.638139",
+    "image_url": "./assets/icons/project-parse-username-string.png"
+  },
+  "project-parsing-web-elements": {
+    "bg_color": "d2dae9",
+    "created_at": "2025-02-23T13:31:31.817492",
+    "image_url": "./assets/icons/project-parsing-web-elements.png"
+  },
+  "project-password-generator": {
+    "ai_description": "A cute 3D matte seal balancing a glowing digit, letter, and symbol on its nose to build a password.",
+    "bg_color": "cce1c3",
+    "created_at": "2025-12-22T11:22:54.271514",
+    "image_url": "./assets/icons/project-password-generator.png"
+  },
+  "project-perfect-numbers": {
+    "bg_color": "ffbae9",
+    "created_at": "2025-02-23T13:31:32.389805",
+    "image_url": "./assets/icons/project-perfect-numbers.png"
+  },
+  "project-permission-management": {
+    "bg_color": "cac0dd",
+    "created_at": "2025-02-23T13:31:35.444983",
+    "image_url": "./assets/icons/project-permission-management.png"
+  },
+  "project-personal-card-generator": {
+    "bg_color": "b9f6c1",
+    "created_at": "2025-02-23T13:31:32.212232",
+    "image_url": "./assets/icons/project-personal-card-generator.png"
+  },
+  "project-personnel-grouping": {
+    "bg_color": "e1e2cf",
+    "created_at": "2025-02-23T13:31:29.581491",
+    "image_url": "./assets/icons/project-personnel-grouping.png"
+  },
+  "project-personnel-management-system-database-setup": {
+    "bg_color": "efe5e8",
+    "created_at": "2025-02-23T13:31:30.223489",
+    "image_url": "./assets/icons/project-personnel-management-system-database-setup.png"
+  },
+  "project-polynomial-regression-implementation-and-application": {
+    "bg_color": "f1f9bf",
+    "created_at": "2025-02-23T13:31:41.978291",
+    "image_url": "./assets/icons/project-polynomial-regression-implementation-and-application.png"
+  },
+  "project-portal": {
+    "bg_color": "b9e937",
+    "created_at": "2025-02-23T13:31:37.273899",
+    "image_url": "./assets/icons/project-portal.png"
+  },
+  "project-practical-use-of-resultmap": {
+    "bg_color": "ecb5ca",
+    "created_at": "2025-02-23T13:31:36.131739",
+    "image_url": "./assets/icons/project-practical-use-of-resultmap.png"
+  },
+  "project-print-current-login-user-information": {
+    "bg_color": "d4ebcc",
+    "created_at": "2025-02-23T13:31:32.464732",
+    "image_url": "./assets/icons/project-print-current-login-user-information.png"
+  },
+  "project-print-current-time": {
+    "bg_color": "dbfedc",
+    "created_at": "2025-02-23T13:31:40.897018",
+    "image_url": "./assets/icons/project-print-current-time.png"
+  },
+  "project-print-standard-body-temperature-in-fahrenheit": {
+    "bg_color": "fee9b6",
+    "created_at": "2025-02-23T13:31:29.194655",
+    "image_url": "./assets/icons/project-print-standard-body-temperature-in-fahrenheit.png"
+  },
+  "project-prize-draw": {
+    "bg_color": "bff1d5",
+    "created_at": "2025-02-23T13:31:30.173513",
+    "image_url": "./assets/icons/project-prize-draw.png"
+  },
+  "project-push-box-game-with-pygame": {
+    "bg_color": "fcd720",
+    "created_at": "2025-02-23T13:31:38.879701",
+    "image_url": "./assets/icons/project-push-box-game-with-pygame.png"
+  },
+  "project-qr-code-generator-using-python": {
+    "bg_color": "d9d3e0",
+    "created_at": "2025-02-23T13:31:41.910814",
+    "image_url": "./assets/icons/project-qr-code-generator-using-python.png"
+  },
+  "project-query-city-information-for-specified-ids": {
+    "bg_color": "b9f9d1",
+    "created_at": "2025-02-23T13:31:31.659768",
+    "image_url": "./assets/icons/project-query-city-information-for-specified-ids.png"
+  },
+  "project-query-city-names-with-country": {
+    "bg_color": "eccdc6",
+    "created_at": "2025-02-23T13:31:32.807270",
+    "image_url": "./assets/icons/project-query-city-names-with-country.png"
+  },
+  "project-query-employee-information": {
+    "bg_color": "babdc9",
+    "created_at": "2025-02-23T13:31:40.949030",
+    "image_url": "./assets/icons/project-query-employee-information.png"
+  },
+  "project-query-gdp-for-all-countries": {
+    "bg_color": "d6f9e6",
+    "created_at": "2025-02-23T13:31:41.454848",
+    "image_url": "./assets/icons/project-query-gdp-for-all-countries.png"
+  },
+  "project-query-is-so-slow": {
+    "bg_color": "f7b8cc",
+    "created_at": "2025-02-23T13:31:41.936673",
+    "image_url": "./assets/icons/project-query-is-so-slow.png"
+  },
+  "project-query-population-of-all-countries": {
+    "bg_color": "edc3b8",
+    "created_at": "2025-02-23T13:31:29.062207",
+    "image_url": "./assets/icons/project-query-population-of-all-countries.png"
+  },
+  "project-query-teacher-salary-using-preparedstatement": {
+    "bg_color": "c7efe6",
+    "created_at": "2025-02-23T13:31:37.231654",
+    "image_url": "./assets/icons/project-query-teacher-salary-using-preparedstatement.png"
+  },
+  "project-query-user-level": {
+    "bg_color": "b7e7d3",
+    "created_at": "2025-02-23T13:31:39.075047",
+    "image_url": "./assets/icons/project-query-user-level.png"
+  },
+  "project-query-user-levels-with-left-join": {
+    "bg_color": "daebe2",
+    "created_at": "2025-02-23T13:31:41.478291",
+    "image_url": "./assets/icons/project-query-user-levels-with-left-join.png"
+  },
+  "project-querying-country-codes-range": {
+    "bg_color": "ebcbc4",
+    "created_at": "2025-02-23T13:31:39.899439",
+    "image_url": "./assets/icons/project-querying-country-codes-range.png"
+  },
+  "project-querying-official-languages-and-sorting": {
+    "bg_color": "b4c3c4",
+    "created_at": "2025-02-23T13:31:37.449980",
+    "image_url": "./assets/icons/project-querying-official-languages-and-sorting.png"
+  },
+  "project-querying-official-languages-of-each-country": {
+    "bg_color": "bec0e1",
+    "created_at": "2025-02-23T13:31:39.764724",
+    "image_url": "./assets/icons/project-querying-official-languages-of-each-country.png"
+  },
+  "project-racing-game-using-pygame": {
+    "bg_color": "a7ccff",
+    "created_at": "2025-02-23T13:31:31.434097",
+    "image_url": "./assets/icons/project-racing-game-using-pygame.png"
+  },
+  "project-rail-fence-cipher": {
+    "bg_color": "dcd5cf",
+    "created_at": "2025-02-23T13:31:33.683577",
+    "image_url": "./assets/icons/project-rail-fence-cipher.png"
+  },
+  "project-rdp-enumeration-and-weak-password-access": {
+    "ai_description": "A 3D toy-style parrot wearing a tiny headset, pecking at a glowing keyboard to crack a digital padlock.",
+    "bg_color": "e8b8dc",
+    "created_at": "2025-12-25T19:12:53.751996",
+    "image_url": "./assets/icons/project-rdp-enumeration-and-weak-password-access.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1233/1233674.png"
+  },
+  "project-read-it": {
+    "bg_color": "d59bf6",
+    "created_at": "2025-02-23T13:31:34.546992",
+    "image_url": "./assets/icons/project-read-it.png"
+  },
+  "project-recording-web-page-accesses-using-listeners": {
+    "bg_color": "eec0d3",
+    "created_at": "2025-02-23T13:31:39.237087",
+    "image_url": "./assets/icons/project-recording-web-page-accesses-using-listeners.png"
+  },
+  "project-remote-shell": {
+    "bg_color": "f1d9d9",
+    "created_at": "2025-02-23T13:31:40.149959",
+    "image_url": "./assets/icons/project-remote-shell.png"
+  },
+  "project-remove-duplicates": {
+    "bg_color": "d4d8b8",
+    "created_at": "2025-02-23T13:31:34.826130",
+    "image_url": "./assets/icons/project-remove-duplicates.png"
+  },
+  "project-remove-the-warning-generated-by-pathmatch": {
+    "bg_color": "d2ffcf",
+    "created_at": "2025-02-23T13:31:32.560317",
+    "image_url": "./assets/icons/project-remove-the-warning-generated-by-pathmatch.png"
+  },
+  "project-responsive-page-layout": {
+    "bg_color": "bbbccb",
+    "created_at": "2025-02-23T13:31:29.942144",
+    "image_url": "./assets/icons/project-responsive-page-layout.png"
+  },
+  "project-responsive-web-design": {
+    "bg_color": "e0c3da",
+    "created_at": "2025-02-23T13:31:31.840369",
+    "image_url": "./assets/icons/project-responsive-web-design.png"
+  },
+  "project-restful-api-development": {
+    "bg_color": "c6c1c1",
+    "created_at": "2025-02-23T13:31:37.696950",
+    "image_url": "./assets/icons/project-restful-api-development.png"
+  },
+  "project-restore-access-to-website": {
+    "ai_description": "A cute 3D toy koala wearing a hard hat, focused on fixing a glowing server with a wrench.",
+    "bg_color": "defec6",
+    "created_at": "2025-12-22T11:14:15.066830",
+    "image_url": "./assets/icons/project-restore-access-to-website.png"
+  },
+  "project-retrieving-object-parameters-from-query": {
+    "bg_color": "cad2f0",
+    "created_at": "2025-02-23T13:31:37.385528",
+    "image_url": "./assets/icons/project-retrieving-object-parameters-from-query.png"
+  },
+  "project-reverse-print-file-content-command": {
+    "bg_color": "e6f7c9",
+    "created_at": "2025-02-23T13:31:40.180947",
+    "image_url": "./assets/icons/project-reverse-print-file-content-command.png"
+  },
+  "project-reverse-proxy": {
+    "bg_color": "cfe1ed",
+    "created_at": "2025-02-23T13:31:34.759252",
+    "image_url": "./assets/icons/project-reverse-proxy.png"
+  },
+  "project-reverse-shell-to-control-multiple-targets": {
+    "bg_color": "e4c144",
+    "created_at": "2025-02-23T13:31:30.550762",
+    "image_url": "./assets/icons/project-reverse-shell-to-control-multiple-targets.png"
+  },
+  "project-revisit-route-triggers-too-early": {
+    "bg_color": "d2c5d8",
+    "created_at": "2025-02-23T13:31:39.584667",
+    "image_url": "./assets/icons/project-revisit-route-triggers-too-early.png"
+  },
+  "project-right-outer-join-query-user-level": {
+    "bg_color": "c6bbe9",
+    "created_at": "2025-02-23T13:31:39.489201",
+    "image_url": "./assets/icons/project-right-outer-join-query-user-level.png"
+  },
+  "project-router-query-value-changed": {
+    "bg_color": "d8eaea",
+    "created_at": "2025-02-23T13:31:30.077931",
+    "image_url": "./assets/icons/project-router-query-value-changed.png"
+  },
+  "project-rsync-enumeration-and-anonymous-sync": {
+    "bg_color": "b8d0b5",
+    "created_at": "2025-09-17T10:12:26.541201",
+    "image_url": "./assets/icons/project-rsync-enumeration-and-anonymous-sync.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/7233/7233953.png"
+  },
+  "project-salary-range-for-teachers-by-department": {
+    "bg_color": "dff2f3",
+    "created_at": "2025-02-23T13:31:38.377144",
+    "image_url": "./assets/icons/project-salary-range-for-teachers-by-department.png"
+  },
+  "project-sales-dashboard": {
+    "bg_color": "c7c6c8",
+    "created_at": "2025-02-23T13:31:32.092630",
+    "image_url": "./assets/icons/project-sales-dashboard.png"
+  },
+  "project-samba-file-sharing-on-linux": {
+    "bg_color": "e5d5ea",
+    "created_at": "2025-02-23T13:31:35.083688",
+    "image_url": "./assets/icons/project-samba-file-sharing-on-linux.png"
+  },
+  "project-scratch-card-game": {
+    "bg_color": "d6edd2",
+    "created_at": "2025-02-23T13:31:29.823899",
+    "image_url": "./assets/icons/project-scratch-card-game.png"
+  },
+  "project-search-for-favorite-courses": {
+    "bg_color": "bbbce5",
+    "created_at": "2025-02-23T13:31:31.264685",
+    "image_url": "./assets/icons/project-search-for-favorite-courses.png"
+  },
+  "project-search-for-text-files-in-directory": {
+    "bg_color": "e2e0f2",
+    "created_at": "2025-02-23T13:31:38.203114",
+    "image_url": "./assets/icons/project-search-for-text-files-in-directory.png"
+  },
+  "project-searching-for-specific-files": {
+    "ai_description": "A cute 3D panda wearing glasses, sorting through glowing digital bamboo folders to find a hidden \"labex\" file.",
+    "bg_color": "c7fefc",
+    "created_at": "2025-12-22T11:14:48.789038",
+    "image_url": "./assets/icons/project-searching-for-specific-files.png"
+  },
+  "project-setting-up-spring-development-environment": {
+    "bg_color": "bddefc",
+    "created_at": "2025-02-23T13:31:30.480052",
+    "image_url": "./assets/icons/project-setting-up-spring-development-environment.png"
+  },
+  "project-shopping-cart": {
+    "bg_color": "f6f9d7",
+    "created_at": "2025-02-23T13:31:35.501604",
+    "image_url": "./assets/icons/project-shopping-cart.png"
+  },
+  "project-show-and-hide": {
+    "bg_color": "ffeee2",
+    "created_at": "2025-02-23T13:31:41.509130",
+    "image_url": "./assets/icons/project-show-and-hide.png"
+  },
+  "project-simple-handwritten-character-recognition-classifier": {
+    "bg_color": "e9f7f1",
+    "created_at": "2025-02-23T13:31:33.403581",
+    "image_url": "./assets/icons/project-simple-handwritten-character-recognition-classifier.png"
+  },
+  "project-skeleton-screen": {
+    "bg_color": "dedacd",
+    "created_at": "2025-02-23T13:31:41.383688",
+    "image_url": "./assets/icons/project-skeleton-screen.png"
+  },
+  "project-skip-when-a-multiple-of-x": {
+    "bg_color": "d2d3df",
+    "created_at": "2025-02-23T13:31:32.284485",
+    "image_url": "./assets/icons/project-skip-when-a-multiple-of-x.png"
+  },
+  "project-smb-enumeration-and-guest-access": {
+    "ai_description": "A 3D matte toy raccoon wearing a headset, playfully prying open a glowing digital crate to find hidden files.",
+    "bg_color": "bed2be",
+    "created_at": "2025-12-25T19:13:13.366277",
+    "image_url": "./assets/icons/project-smb-enumeration-and-guest-access.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/6401/6401644.png"
+  },
+  "project-snake-game-using-python-and-pygame": {
+    "bg_color": "fdbdc1",
+    "created_at": "2025-02-23T13:31:32.488997",
+    "image_url": "./assets/icons/project-snake-game-using-python-and-pygame.png"
+  },
+  "project-soldier-serial-number-generator": {
+    "bg_color": "eee1f6",
+    "created_at": "2025-02-23T13:31:33.875251",
+    "image_url": "./assets/icons/project-soldier-serial-number-generator.png"
+  },
+  "project-spell-out-a-future": {
+    "bg_color": "d5ccde",
+    "created_at": "2025-02-23T13:31:34.190841",
+    "image_url": "./assets/icons/project-spell-out-a-future.png"
+  },
+  "project-spring-course-information": {
+    "bg_color": "d4d5e8",
+    "created_at": "2025-02-23T13:31:31.142484",
+    "image_url": "./assets/icons/project-spring-course-information.png"
+  },
+  "project-spring-ioc-employee-management-system": {
+    "bg_color": "bddabe",
+    "created_at": "2025-02-23T13:31:40.844949",
+    "image_url": "./assets/icons/project-spring-ioc-employee-management-system.png"
+  },
+  "project-square-root-and-cube-root": {
+    "bg_color": "d6d8cf",
+    "created_at": "2025-02-23T13:31:38.656731",
+    "image_url": "./assets/icons/project-square-root-and-cube-root.png"
+  },
+  "project-square-root-formatting": {
+    "bg_color": "eff9c9",
+    "created_at": "2025-02-23T13:31:31.356759",
+    "image_url": "./assets/icons/project-square-root-formatting.png"
+  },
+  "project-ssh-enumeration-and-key-based-access": {
+    "bg_color": "fae1fd",
+    "created_at": "2025-09-17T10:13:51.066877",
+    "image_url": "./assets/icons/project-ssh-enumeration-and-key-based-access.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/844/844794.png"
+  },
+  "project-statement-for-querying-teacher-table": {
+    "bg_color": "eed5bc",
+    "created_at": "2025-02-23T13:31:38.923042",
+    "image_url": "./assets/icons/project-statement-for-querying-teacher-table.png"
+  },
+  "project-statistical-analysis-of-json-data": {
+    "bg_color": "c8dae3",
+    "created_at": "2025-02-23T13:31:34.974674",
+    "image_url": "./assets/icons/project-statistical-analysis-of-json-data.png"
+  },
+  "project-stopwatch-using-python-and-tkinter": {
+    "bg_color": "eebfea",
+    "created_at": "2025-02-23T13:31:29.312287",
+    "image_url": "./assets/icons/project-stopwatch-using-python-and-tkinter.png"
+  },
+  "project-string-manipulation": {
+    "bg_color": "bcd1c4",
+    "created_at": "2025-02-23T13:31:40.648390",
+    "image_url": "./assets/icons/project-string-manipulation.png"
+  },
+  "project-string-tokenization": {
+    "bg_color": "b8c3db",
+    "created_at": "2025-02-23T13:31:40.602835",
+    "image_url": "./assets/icons/project-string-tokenization.png"
+  },
+  "project-student-achievement-statistics": {
+    "bg_color": "c5f8cd",
+    "created_at": "2025-02-23T13:31:29.164063",
+    "image_url": "./assets/icons/project-student-achievement-statistics.png"
+  },
+  "project-student-class-test": {
+    "bg_color": "d6f2d8",
+    "created_at": "2025-02-23T13:31:31.541791",
+    "image_url": "./assets/icons/project-student-class-test.png"
+  },
+  "project-student-grade-management-system": {
+    "bg_color": "ece7e1",
+    "created_at": "2025-02-23T13:31:38.288383",
+    "image_url": "./assets/icons/project-student-grade-management-system.png"
+  },
+  "project-student-management-module-unit-testing": {
+    "bg_color": "c1cedd",
+    "created_at": "2025-02-23T13:31:37.206419",
+    "image_url": "./assets/icons/project-student-management-module-unit-testing.png"
+  },
+  "project-student-table-view": {
+    "bg_color": "f0ebd4",
+    "created_at": "2025-02-23T13:31:29.036733",
+    "image_url": "./assets/icons/project-student-table-view.png"
+  },
+  "project-subquery-comprehensive-challenge": {
+    "bg_color": "c5dcfe",
+    "created_at": "2025-02-23T13:31:34.343388",
+    "image_url": "./assets/icons/project-subquery-comprehensive-challenge.png"
+  },
+  "project-sum-of-a-special-number-series": {
+    "bg_color": "c2cbd3",
+    "created_at": "2025-02-23T13:31:33.818362",
+    "image_url": "./assets/icons/project-sum-of-a-special-number-series.png"
+  },
+  "project-sum-of-prime-numbers-under-100": {
+    "bg_color": "d1d7d0",
+    "created_at": "2025-02-23T13:31:30.102089",
+    "image_url": "./assets/icons/project-sum-of-prime-numbers-under-100.png"
+  },
+  "project-swap-values-of-3-variables": {
+    "bg_color": "decece",
+    "created_at": "2025-02-23T13:31:40.291400",
+    "image_url": "./assets/icons/project-swap-values-of-3-variables.png"
+  },
+  "project-switch-between-light-and-dark": {
+    "bg_color": "d5bcea",
+    "created_at": "2025-02-23T13:31:31.332795",
+    "image_url": "./assets/icons/project-switch-between-light-and-dark.png"
+  },
+  "project-switch-business-status": {
+    "bg_color": "cef4c5",
+    "created_at": "2025-02-23T13:31:35.274232",
+    "image_url": "./assets/icons/project-switch-business-status.png"
+  },
+  "project-table-data-conversion": {
+    "bg_color": "dcd8d5",
+    "created_at": "2025-02-23T13:31:37.026516",
+    "image_url": "./assets/icons/project-table-data-conversion.png"
+  },
+  "project-telnet-brute-force-and-weak-credentials": {
+    "bg_color": "dbc3e7",
+    "created_at": "2025-09-17T10:14:25.090355",
+    "image_url": "./assets/icons/project-telnet-brute-force-and-weak-credentials.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4964/4964891.png"
+  },
+  "project-the-boundless-sea-of-learning": {
+    "bg_color": "c9efd9",
+    "created_at": "2025-02-23T13:31:36.770181",
+    "image_url": "./assets/icons/project-the-boundless-sea-of-learning.png"
+  },
+  "project-tic-tac-toe-using-pygame": {
+    "bg_color": "bddebc",
+    "created_at": "2025-02-23T13:31:33.454400",
+    "image_url": "./assets/icons/project-tic-tac-toe-using-pygame.png"
+  },
+  "project-time-conversion-tool": {
+    "bg_color": "ebcdf8",
+    "created_at": "2025-02-23T13:31:37.916105",
+    "image_url": "./assets/icons/project-time-conversion-tool.png"
+  },
+  "project-time-management-master": {
+    "bg_color": "dbe7c8",
+    "created_at": "2025-02-23T13:31:34.496905",
+    "image_url": "./assets/icons/project-time-management-master.png"
+  },
+  "project-time-travel-destination": {
+    "bg_color": "eeb7c9",
+    "created_at": "2025-02-23T13:31:31.117624",
+    "image_url": "./assets/icons/project-time-travel-destination.png"
+  },
+  "project-time-with-your-phone": {
+    "bg_color": "ceeacb",
+    "created_at": "2025-02-23T13:31:37.995693",
+    "image_url": "./assets/icons/project-time-with-your-phone.png"
+  },
+  "project-top-5-countries-by-land-area": {
+    "bg_color": "f1bbe9",
+    "created_at": "2025-02-23T13:31:30.454387",
+    "image_url": "./assets/icons/project-top-5-countries-by-land-area.png"
+  },
+  "project-transparent-modification-of-http-requests": {
+    "bg_color": "cadbc2",
+    "created_at": "2025-02-23T13:31:34.255053",
+    "image_url": "./assets/icons/project-transparent-modification-of-http-requests.png"
+  },
+  "project-typing-practice-program-using-c": {
+    "bg_color": "dcedbc",
+    "created_at": "2025-02-23T13:31:33.630801",
+    "image_url": "./assets/icons/project-typing-practice-program-using-c.png"
+  },
+  "project-unfold-your-fan": {
+    "bg_color": "82c7eb",
+    "created_at": "2025-02-23T13:31:37.358124",
+    "image_url": "./assets/icons/project-unfold-your-fan.png"
+  },
+  "project-university-information-query-system": {
+    "bg_color": "c5e3ff",
+    "created_at": "2025-02-23T13:31:31.961861",
+    "image_url": "./assets/icons/project-university-information-query-system.png"
+  },
+  "project-update-gpa": {
+    "bg_color": "e9e3dd",
+    "created_at": "2025-02-23T13:31:30.427750",
+    "image_url": "./assets/icons/project-update-gpa.png"
+  },
+  "project-update-student-view": {
+    "bg_color": "e9c3b6",
+    "created_at": "2025-02-23T13:31:29.394402",
+    "image_url": "./assets/icons/project-update-student-view.png"
+  },
+  "project-use-properties-to-modify-database-configuration": {
+    "bg_color": "b7febe",
+    "created_at": "2025-02-23T13:31:36.081753",
+    "image_url": "./assets/icons/project-use-properties-to-modify-database-configuration.png"
+  },
+  "project-user-binary-log": {
+    "bg_color": "bab4d6",
+    "created_at": "2025-02-23T13:31:31.766371",
+    "image_url": "./assets/icons/project-user-binary-log.png"
+  },
+  "project-user-business-cards": {
+    "bg_color": "cbc2f5",
+    "created_at": "2025-02-23T13:31:39.812028",
+    "image_url": "./assets/icons/project-user-business-cards.png"
+  },
+  "project-user-permission-management": {
+    "bg_color": "dbd5bf",
+    "created_at": "2025-02-23T13:31:38.799271",
+    "image_url": "./assets/icons/project-user-permission-management.png"
+  },
+  "project-valuable-vote": {
+    "bg_color": "ded4ee",
+    "created_at": "2025-02-23T13:31:35.974096",
+    "image_url": "./assets/icons/project-valuable-vote.png"
+  },
+  "project-vanished-into-thin-air": {
+    "bg_color": "ccd7fc",
+    "created_at": "2025-02-23T13:31:29.715443",
+    "image_url": "./assets/icons/project-vanished-into-thin-air.png"
+  },
+  "project-view-for-course-information": {
+    "bg_color": "bee5c6",
+    "created_at": "2025-02-23T13:31:39.512390",
+    "image_url": "./assets/icons/project-view-for-course-information.png"
+  },
+  "project-view-user-permissions": {
+    "bg_color": "fdddf8",
+    "created_at": "2025-02-23T13:31:37.564691",
+    "image_url": "./assets/icons/project-view-user-permissions.png"
+  },
+  "project-virtual-scroll-list": {
+    "bg_color": "d3e8d1",
+    "created_at": "2025-02-23T13:31:40.443697",
+    "image_url": "./assets/icons/project-virtual-scroll-list.png"
+  },
+  "project-weather-forecast-query": {
+    "bg_color": "cbf7bd",
+    "created_at": "2025-02-23T13:31:30.862598",
+    "image_url": "./assets/icons/project-weather-forecast-query.png"
+  },
+  "project-weather-trend": {
+    "bg_color": "f3d0ba",
+    "created_at": "2025-02-23T13:31:33.061684",
+    "image_url": "./assets/icons/project-weather-trend.png"
+  },
+  "project-web-ppt": {
+    "bg_color": "dbc5d7",
+    "created_at": "2025-02-23T13:31:33.947301",
+    "image_url": "./assets/icons/project-web-ppt.png"
+  },
+  "project-weekly-report-template-creation": {
+    "bg_color": "fafae5",
+    "created_at": "2025-02-23T13:31:34.280779",
+    "image_url": "./assets/icons/project-weekly-report-template-creation.png"
+  },
+  "project-westward-journey-to-heavenly-west": {
+    "bg_color": "b6e6f6",
+    "created_at": "2025-02-23T13:31:30.746485",
+    "image_url": "./assets/icons/project-westward-journey-to-heavenly-west.png"
+  },
+  "project-what-day-is-it-today": {
+    "bg_color": "fbf3cd",
+    "created_at": "2025-02-23T13:31:36.817046",
+    "image_url": "./assets/icons/project-what-day-is-it-today.png"
+  },
+  "project-wish-sticky-note": {
+    "bg_color": "f9d4d6",
+    "created_at": "2025-02-23T13:31:36.543957",
+    "image_url": "./assets/icons/project-wish-sticky-note.png"
+  },
+  "project-wuxu-reform-duration-calculation": {
+    "bg_color": "e5d7da",
+    "created_at": "2025-02-23T13:31:31.419538",
+    "image_url": "./assets/icons/project-wuxu-reform-duration-calculation.png"
+  },
+  "project-yin-book-encryption": {
+    "bg_color": "e7d7d0",
+    "created_at": "2025-02-23T13:31:41.193231",
+    "image_url": "./assets/icons/project-yin-book-encryption.png"
+  },
+  "prometheus-monitoring": {
+    "ai_description": "",
+    "ai_subject": "Lighthouse",
+    "bg_color": "eec2cc",
+    "created_at": "2026-01-03T10:20:04.614553",
+    "image_url": "./assets/icons/prometheus-monitoring.png"
+  },
+  "python-cheatsheet": {
+    "ai_description": "Multi-tool with red casing and various foldable metal blades.",
+    "ai_subject": "Swiss Army Knife",
+    "bg_color": "bec2ce",
+    "created_at": "2025-12-28T16:26:02.324901",
+    "image_url": "./assets/icons/python-cheatsheet.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/6614/6614671.png"
+  },
+  "python-for-beginners": {
+    "bg_color": "dcd3b2",
+    "created_at": "2025-05-28T08:36:05.143447",
+    "image_url": "./assets/icons/quick-start-with-python.png"
+  },
+  "python-for-operations": {
+    "ai_description": "",
+    "ai_subject": "Python Snake",
+    "bg_color": "e3fdbc",
+    "created_at": "2026-01-03T10:26:15.359045",
+    "image_url": "./assets/icons/python-for-operations.png"
+  },
+  "python-in-depth-mastery": {
+    "bg_color": "fbe6dd",
+    "created_at": "2025-02-23T13:31:38.607476",
+    "image_url": "./assets/icons/python-in-depth-mastery.png"
+  },
+  "python-interview-questions": {
+    "bg_color": "f1bec9",
+    "created_at": "2025-07-31T09:24:39.175143",
+    "image_url": "./assets/icons/python.png"
+  },
+  "python-practice-challenges": {
+    "ai_description": "",
+    "ai_subject": "Whetstone",
+    "bg_color": "c0d3c8",
+    "created_at": "2025-12-28T16:42:22.912596",
+    "image_url": "./assets/icons/python-practice-challenges.png"
+  },
+  "python-practice-labs": {
+    "bg_color": "cedab6",
+    "created_at": "2025-02-23T13:31:35.789177",
+    "image_url": "./assets/icons/python-practice-labs.png"
+  },
+  "python-practice-plus": {
+    "bg_color": "f8bd86",
+    "created_at": "2025-02-23T13:31:35.395993",
+    "image_url": "./assets/icons/python-practice-plus.png"
+  },
+  "python-remote-access-trojan": {
+    "bg_color": "e3e5ff",
+    "created_at": "2025-02-23T13:31:34.078732",
+    "image_url": "./assets/icons/python-remote-access-trojan.png"
+  },
+  "quick-start-ecs-deployment-sets": {
+    "bg_color": "b8b5e3",
+    "created_at": "2025-05-09T02:52:28.683167",
+    "image_url": "./assets/icons/quick-start-ecs-deployment-sets.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/851/851973.png"
+  },
+  "quick-start-with-algorithm": {
+    "bg_color": "a9dfdf",
+    "created_at": "2025-02-23T13:31:29.088224",
+    "image_url": "./assets/icons/quick-start-with-algorithm.png"
+  },
+  "quick-start-with-c": {
+    "bg_color": "acb0e7",
+    "created_at": "2025-02-23T13:31:40.070665",
+    "image_url": "./assets/icons/quick-start-with-c.png"
+  },
+  "quick-start-with-cpp": {
+    "bg_color": "eef8cb",
+    "created_at": "2025-02-23T13:31:41.549195",
+    "image_url": "./assets/icons/quick-start-with-cpp.png"
+  },
+  "quick-start-with-css": {
+    "bg_color": "dcd0c2",
+    "created_at": "2025-02-23T13:31:30.280083",
+    "image_url": "./assets/icons/quick-start-with-css.png"
+  },
+  "quick-start-with-django": {
+    "bg_color": "fcff9b",
+    "created_at": "2025-02-23T13:31:32.930891",
+    "image_url": "./assets/icons/quick-start-with-django.png"
+  },
+  "quick-start-with-docker": {
+    "bg_color": "eaf8a4",
+    "created_at": "2025-02-23T13:31:41.239974",
+    "image_url": "./assets/icons/quick-start-with-docker.png"
+  },
+  "quick-start-with-flask": {
+    "bg_color": "ccd285",
+    "created_at": "2025-02-23T13:31:33.699921",
+    "image_url": "./assets/icons/quick-start-with-flask.png"
+  },
+  "quick-start-with-git": {
+    "bg_color": "c4dcf2",
+    "created_at": "2025-02-23T13:31:41.167418",
+    "image_url": "./assets/icons/quick-start-with-git.png"
+  },
+  "quick-start-with-hadoop": {
+    "bg_color": "ffdaa2",
+    "created_at": "2025-02-23T13:31:37.291537",
+    "image_url": "./assets/icons/quick-start-with-hadoop.png"
+  },
+  "quick-start-with-html": {
+    "bg_color": "f8f6ba",
+    "created_at": "2025-02-23T13:31:31.602438",
+    "image_url": "./assets/icons/quick-start-with-html.png"
+  },
+  "quick-start-with-java": {
+    "bg_color": "edeac4",
+    "created_at": "2025-02-23T13:31:39.459572",
+    "image_url": "./assets/icons/quick-start-with-java.png"
+  },
+  "quick-start-with-javascript": {
+    "bg_color": "e3e9eb",
+    "created_at": "2025-02-23T13:31:35.886672",
+    "image_url": "./assets/icons/quick-start-with-javascript.png"
+  },
+  "quick-start-with-jenkins": {
+    "bg_color": "fdb6dc",
+    "created_at": "2025-02-23T13:31:34.516556",
+    "image_url": "./assets/icons/quick-start-with-jenkins.png"
+  },
+  "quick-start-with-jquery": {
+    "bg_color": "ccf2e9",
+    "created_at": "2025-02-23T13:31:35.310109",
+    "image_url": "./assets/icons/quick-start-with-jquery.png"
+  },
+  "quick-start-with-kubernetes": {
+    "bg_color": "f2c8b7",
+    "created_at": "2025-02-23T13:31:38.835521",
+    "image_url": "./assets/icons/quick-start-with-kubernetes.png"
+  },
+  "quick-start-with-linux": {
+    "ai_description": "A cute, chubby penguin wearing a bright orange backpack and yellow sneakers, ready for a quick adventure.",
+    "bg_color": "d6d2ea",
+    "created_at": "2025-12-18T14:17:59.246580",
+    "image_url": "./assets/icons/quick-start-with-linux.png"
+  },
+  "quick-start-with-matplotlib": {
+    "bg_color": "d3b2ff",
+    "created_at": "2025-02-23T13:31:36.918213",
+    "image_url": "./assets/icons/quick-start-with-matplotlib.png"
+  },
+  "quick-start-with-mysql": {
+    "bg_color": "e8f083",
+    "created_at": "2025-02-23T13:31:39.301655",
+    "image_url": "./assets/icons/quick-start-with-mysql.png"
+  },
+  "quick-start-with-numpy": {
+    "bg_color": "8fd3e3",
+    "created_at": "2025-02-23T13:31:40.059424",
+    "image_url": "./assets/icons/quick-start-with-numpy.png"
+  },
+  "quick-start-with-opencv": {
+    "bg_color": "f2f296",
+    "created_at": "2025-02-23T13:31:41.606912",
+    "image_url": "./assets/icons/quick-start-with-opencv.png"
+  },
+  "quick-start-with-pandas": {
+    "bg_color": "d3f1c0",
+    "created_at": "2025-02-23T13:31:41.098274",
+    "image_url": "./assets/icons/quick-start-with-pandas.png"
+  },
+  "quick-start-with-python": {
+    "ai_description": "3D matte toy-style Python snakes, in blue and yellow, intertwined on a solid navy blue circular disc, clean and iconic with no text.",
+    "bg_color": "c8dfc7",
+    "created_at": "2025-12-25T15:51:33.985936",
+    "image_url": "./assets/icons/quick-start-with-python.png"
+  },
+  "quick-start-with-react": {
+    "bg_color": "fbffac",
+    "created_at": "2025-02-23T13:31:42.032555",
+    "image_url": "./assets/icons/quick-start-with-react.png"
+  },
+  "quick-start-with-rust": {
+    "bg_color": "f9e9e9",
+    "created_at": "2025-02-23T13:31:39.365178",
+    "image_url": "./assets/icons/quick-start-with-rust.png"
+  },
+  "quick-start-with-scikit-learn": {
+    "bg_color": "f1c4c4",
+    "created_at": "2025-02-23T13:31:41.333328",
+    "image_url": "./assets/icons/quick-start-with-scikit-learn.png"
+  },
+  "quick-start-with-shell": {
+    "bg_color": "ecf1ce",
+    "created_at": "2025-02-23T13:31:34.472088",
+    "image_url": "./assets/icons/quick-start-with-shell.png"
+  },
+  "quick-start-with-tensorflow": {
+    "bg_color": "e8fcc8",
+    "created_at": "2025-02-23T13:31:41.279483",
+    "image_url": "./assets/icons/quick-start-with-tensorflow.png"
+  },
+  "quickly-deploy-nginx-workload-using-ack-auto-mode-cluster": {
+    "bg_color": "ddf5fa",
+    "created_at": "2025-06-17T13:56:45.109273",
+    "image_url": "./assets/icons/quickly-deploy-nginx-workload-using-ack-auto-mode-cluster.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/377/377080.png"
+  },
+  "react-for-beginners": {
+    "bg_color": "fbffac",
+    "created_at": "2025-02-23T13:31:34.383003",
+    "image_url": "./assets/icons/getting-started-with-react.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/3334/3334976.png"
+  },
+  "react-interview-questions": {
+    "bg_color": "efd7e0",
+    "created_at": "2025-07-31T09:24:44.409694",
+    "image_url": "./assets/icons/react.png"
+  },
+  "react-practice-challenges": {
+    "bg_color": "dfd0e7",
+    "created_at": "2025-02-23T13:31:39.170554",
+    "image_url": "./assets/icons/react-practice-challenges.png"
+  },
+  "react-practice-labs": {
+    "bg_color": "e5b5f3",
+    "created_at": "2025-02-23T13:31:35.335407",
+    "image_url": "./assets/icons/react-practice-labs.png"
+  },
+  "react-practice-plus": {
+    "bg_color": "ffdd99",
+    "created_at": "2025-02-23T13:31:35.698755",
+    "image_url": "./assets/icons/react-practice-plus.png"
+  },
+  "red-hat-enterprise-linux-automation-with-ansible-rh294": {
+    "bg_color": "c4d1c0",
+    "created_at": "2025-06-19T09:24:17.351641",
+    "image_url": "./assets/icons/red-hat-enterprise-linux-automation-with-ansible-rh294.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/5486/5486502.png"
+  },
+  "red-hat-system-administration-rh124-labs": {
+    "bg_color": "fcd8d6",
+    "created_at": "2025-06-04T09:55:47.000204",
+    "image_url": "./assets/icons/red-hat-system-administration-rh124-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/1612/1612340.png"
+  },
+  "red-hat-system-administration-rh134-labs": {
+    "bg_color": "d3faff",
+    "created_at": "2025-06-10T01:46:22.889805",
+    "image_url": "./assets/icons/red-hat-system-administration-rh134-labs.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/9851/9851853.png"
+  },
+  "redis-for-beginners": {
+    "bg_color": "c1e5d5",
+    "created_at": "2025-04-09T15:18:55.142411",
+    "image_url": "./assets/icons/redis-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/737/737261.png"
+  },
+  "redis-intermediate-to-advanced": {
+    "bg_color": "e7d1cf",
+    "created_at": "2025-04-09T08:13:51.816028",
+    "image_url": "./assets/icons/redis-intermediate-to-advanced.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/5740/5740831.png"
+  },
+  "redis-interview-questions": {
+    "bg_color": "f6c5fa",
+    "created_at": "2025-07-31T09:24:41.451603",
+    "image_url": "./assets/icons/redis.png"
+  },
+  "remote-access-and-secure-file-transfer": {
+    "ai_description": "",
+    "ai_subject": "Padlock",
+    "bg_color": "c4dab9",
+    "created_at": "2026-01-03T09:57:54.249560",
+    "image_url": "./assets/icons/remote-access-and-secure-file-transfer.png"
+  },
+  "rhcsa-certification-exam-practice-exercises": {
+    "bg_color": "ddcbf9",
+    "created_at": "2025-02-23T13:31:29.131637",
+    "image_url": "./assets/icons/rhcsa-certification-exam-practice-exercises.png"
+  },
+  "rhel-interview-questions": {
+    "bg_color": "f8fcb7",
+    "created_at": "2025-07-31T09:24:39.633184",
+    "image_url": "./assets/icons/rhel.png"
+  },
+  "rpm-and-dnf-package-management": {
+    "ai_description": "",
+    "ai_subject": "Shipping Container",
+    "bg_color": "dec3d5",
+    "created_at": "2026-01-03T10:14:43.094630",
+    "image_url": "./assets/icons/rpm-and-dnf-package-management.png"
+  },
+  "run-hadoop-jobs-on-e-mapreduce": {
+    "bg_color": "c8d7d4",
+    "created_at": "2025-02-23T13:31:30.029574",
+    "image_url": "./assets/icons/run-hadoop-jobs-on-e-mapreduce.png"
+  },
+  "rust-practice-labs": {
+    "bg_color": "ccd3f4",
+    "created_at": "2025-02-23T13:31:29.447867",
+    "image_url": "./assets/icons/rust-practice-labs.png"
+  },
+  "rust-practice-plus": {
+    "bg_color": "9de3b1",
+    "created_at": "2025-02-23T13:31:28.885723",
+    "image_url": "./assets/icons/rust-practice-plus.png"
+  },
+  "scheduled-tasks-and-routine-maintenance": {
+    "ai_description": "",
+    "ai_subject": "Clockwork Mechanism",
+    "bg_color": "b6dec8",
+    "created_at": "2026-01-03T10:04:52.063507",
+    "image_url": "./assets/icons/scheduled-tasks-and-routine-maintenance.png"
+  },
+  "scikit-learn-for-beginners": {
+    "bg_color": "f1c4c4",
+    "created_at": "2025-02-23T13:31:39.178137",
+    "image_url": "./assets/icons/getting-started-with-scikit-learn.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2132/2132578.png"
+  },
+  "seaborn-data-visualization-basics": {
+    "bg_color": "ffc44d",
+    "created_at": "2025-02-23T13:31:37.973235",
+    "image_url": "./assets/icons/seaborn-data-visualization-basics.png"
+  },
+  "selinux-administration": {
+    "ai_description": "",
+    "ai_subject": "Padlock",
+    "bg_color": "bee1ca",
+    "created_at": "2026-01-03T10:16:29.141151",
+    "image_url": "./assets/icons/selinux-administration.png"
+  },
+  "service-management-with-systemd": {
+    "ai_description": "",
+    "ai_subject": "Service Manual",
+    "bg_color": "f4ccf7",
+    "created_at": "2026-01-03T10:32:55.715408",
+    "image_url": "./assets/icons/service-management-with-systemd.png"
+  },
+  "shell-environment-and-variables": {
+    "ai_description": "",
+    "ai_subject": "Seashell",
+    "bg_color": "bdd7ea",
+    "created_at": "2026-01-03T09:52:37.837825",
+    "image_url": "./assets/icons/shell-environment-and-variables.png",
+    "tag": "module 05"
+  },
+  "shell-for-beginners": {
+    "ai_description": "A 3D matte toy-style iconic command prompt symbol on a sleek circular background, representing the official BASH brand without any text or letters.",
+    "bg_color": "bbc4f7",
+    "created_at": "2025-12-26T10:29:01.991961",
+    "image_url": "./assets/icons/shell-for-beginners.png"
+  },
+  "shell-interview-questions": {
+    "bg_color": "d0e2dd",
+    "created_at": "2025-07-31T09:24:40.128829",
+    "image_url": "./assets/icons/shell.png"
+  },
+  "shell-practice-challenges": {
+    "bg_color": "f0c4c9",
+    "created_at": "2025-02-23T13:31:30.925544",
+    "image_url": "./assets/icons/shell-practice-challenges.png"
+  },
+  "shell-practice-labs": {
+    "bg_color": "e9cfca",
+    "created_at": "2025-02-23T13:31:30.973767",
+    "image_url": "./assets/icons/shell-practice-labs.png"
+  },
+  "shell-practice-plus": {
+    "bg_color": "c7dc9f",
+    "created_at": "2025-02-23T13:31:31.157573",
+    "image_url": "./assets/icons/shell-practice-plus.png"
+  },
+  "shell-redirection-and-pipelines": {
+    "ai_description": "",
+    "ai_subject": "Water Hose",
+    "bg_color": "d9e5e7",
+    "created_at": "2026-01-03T09:51:43.010902",
+    "image_url": "./assets/icons/shell-redirection-and-pipelines.png",
+    "tag": "module 04"
+  },
+  "shell-scripting-fundamentals": {
+    "ai_description": "",
+    "ai_subject": "Seashell",
+    "bg_color": "efc6f9",
+    "created_at": "2026-01-03T10:02:19.466306",
+    "image_url": "./assets/icons/shell-scripting-fundamentals.png"
+  },
+  "sklearn-interview-questions": {
+    "bg_color": "d7c0fb",
+    "created_at": "2025-07-31T09:24:43.209321",
+    "image_url": "./assets/icons/sklearn.png"
+  },
+  "sklearn-practice-challenges": {
+    "bg_color": "c3bdbb",
+    "created_at": "2025-02-23T13:31:35.936972",
+    "image_url": "./assets/icons/sklearn-practice-challenges.png"
+  },
+  "sklearn-practice-labs": {
+    "bg_color": "c1f1d7",
+    "created_at": "2025-02-23T13:31:39.991143",
+    "image_url": "./assets/icons/sklearn-practice-labs.png"
+  },
+  "sklearn-practice-plus": {
+    "bg_color": "d3f09c",
+    "created_at": "2025-02-23T13:31:40.314484",
+    "image_url": "./assets/icons/sklearn-practice-plus.png"
+  },
+  "software-package-management": {
+    "ai_description": "",
+    "ai_subject": "Toolbox",
+    "bg_color": "d9cbea",
+    "created_at": "2026-01-03T09:58:48.595369",
+    "image_url": "./assets/icons/software-package-management.png"
+  },
+  "sqlite-for-beginners": {
+    "bg_color": "e0c2ef",
+    "created_at": "2025-04-15T15:22:42.735097",
+    "image_url": "./assets/icons/sqlite-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/5360/5360422.png"
+  },
+  "sqlite-intermediate-to-advanced": {
+    "bg_color": "cbe5f2",
+    "created_at": "2025-04-16T15:45:48.238981",
+    "image_url": "./assets/icons/sqlite-intermediate-to-advanced.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2689/2689779.png"
+  },
+  "sqlite-interview-questions": {
+    "bg_color": "ededd1",
+    "created_at": "2025-07-31T09:24:40.931405",
+    "image_url": "./assets/icons/sqlite.png"
+  },
+  "stress-test-mysql-8.0-with-the-tpc-c-benchmark": {
+    "bg_color": "beddda",
+    "created_at": "2025-02-23T13:31:33.236089",
+    "image_url": "./assets/icons/stress-test-mysql-8.0-with-the-tpc-c-benchmark.png"
+  },
+  "supervised-learning-classification": {
+    "bg_color": "d6e7d6",
+    "created_at": "2025-02-23T13:31:30.985064",
+    "image_url": "./assets/icons/supervised-learning-classification.png"
+  },
+  "supervised-learning-regression": {
+    "bg_color": "f4fbf2",
+    "created_at": "2025-02-23T13:31:41.720101",
+    "image_url": "./assets/icons/supervised-learning-regression.png"
+  },
+  "system-information-and-resource-monitoring": {
+    "ai_description": "",
+    "ai_subject": "Dashboard Gauge Cluster",
+    "bg_color": "e4c6ea",
+    "created_at": "2026-01-03T09:55:19.366537",
+    "image_url": "./assets/icons/system-information-and-resource-monitoring.png"
+  },
+  "terraform-for-beginners": {
+    "ai_description": "The official Terraform logo featuring interlocking purple geometric shapes, centered on a solid circular disc in a professional 3D matte toy style.",
+    "bg_color": "ded6fa",
+    "created_at": "2025-12-25T15:49:03.554582",
+    "image_url": "./assets/icons/terraform-for-beginners.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/4293/4293933.png"
+  },
+  "terraform-infrastructure-as-code": {
+    "ai_description": "",
+    "ai_subject": "Blueprint",
+    "bg_color": "fbf1e6",
+    "created_at": "2026-01-03T10:23:36.836041",
+    "image_url": "./assets/icons/terraform-infrastructure-as-code.png"
+  },
+  "text-processing-with-awk-and-sed": {
+    "ai_description": "",
+    "ai_subject": "Text Editor Scroll",
+    "bg_color": "e1dbb9",
+    "created_at": "2026-01-03T10:04:00.214322",
+    "image_url": "./assets/icons/text-processing-with-awk-and-sed.png"
+  },
+  "the-advanced-python-mastery": {
+    "bg_color": "c2e1da",
+    "created_at": "2025-02-23T13:31:38.542361",
+    "image_url": "./assets/icons/the-advanced-python-mastery.png"
+  },
+  "thousands-python-challenges": {
+    "bg_color": "dfc6d9",
+    "created_at": "2025-02-23T13:31:39.631385",
+    "image_url": "./assets/icons/thousands-python-challenges.png"
+  },
+  "thousands-python-interactive-challenges": {
+    "bg_color": "b8eed3",
+    "created_at": "2025-02-23T13:31:38.228426",
+    "image_url": "./assets/icons/thousands-python-interactive-challenges.png"
+  },
+  "unsupervised-learning-clustering": {
+    "bg_color": "c0d3c9",
+    "created_at": "2025-02-23T13:31:31.793126",
+    "image_url": "./assets/icons/unsupervised-learning-clustering.png"
+  },
+  "upgrade-apsaradb-rds-for-mysql-to-apsara-polardb-for-mysql": {
+    "bg_color": "ebd4db",
+    "created_at": "2025-02-23T13:31:35.535580",
+    "image_url": "./assets/icons/upgrade-apsaradb-rds-for-mysql-to-apsara-polardb-for-mysql.png"
+  },
+  "usage-of-pod-controllers-frequently-used-in-kubernetes": {
+    "bg_color": "dacefd",
+    "created_at": "2025-02-23T13:31:40.482338",
+    "image_url": "./assets/icons/usage-of-pod-controllers-frequently-used-in-kubernetes.png"
+  },
+  "use-ai-container-image-to-deploy-the-qwen-large-language-model": {
+    "bg_color": "c3b8df",
+    "created_at": "2025-03-14T02:19:02.947757",
+    "image_url": "./assets/icons/use-ai-container-image-to-deploy-the-qwen-large-language-model.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2421/2421015.png"
+  },
+  "use-alibaba-cloud-asm-for-phased-release-in-container-service": {
+    "bg_color": "eeb6fa",
+    "created_at": "2025-02-23T13:31:35.298560",
+    "image_url": "./assets/icons/use-alibaba-cloud-asm-for-phased-release-in-container-service.png"
+  },
+  "use-alibaba-cloud-pai-to-build-a-heart-disease-prediction-model": {
+    "bg_color": "d8cfb9",
+    "created_at": "2025-02-23T13:31:34.573140",
+    "image_url": "./assets/icons/use-alibaba-cloud-pai-to-build-a-heart-disease-prediction-model.png"
+  },
+  "use-alibaba-cloud-prometheus-to-monitor-mysql-databases": {
+    "bg_color": "d2b5fc",
+    "created_at": "2025-02-23T13:31:32.513850",
+    "image_url": "./assets/icons/use-alibaba-cloud-prometheus-to-monitor-mysql-databases.png"
+  },
+  "use-canal-to-synchronize-mysql-data-to-redis": {
+    "bg_color": "c8c9c9",
+    "created_at": "2025-02-23T13:31:38.137056",
+    "image_url": "./assets/icons/use-canal-to-synchronize-mysql-data-to-redis.png"
+  },
+  "use-compute-nest-to-deploy-n8n": {
+    "bg_color": "c3c1f8",
+    "created_at": "2025-07-09T02:23:09.635851",
+    "image_url": "./assets/icons/use-compute-nest-to-deploy-n8n.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2031/2031600.png"
+  },
+  "use-compute-nest-to-deploy-nextcloud": {
+    "bg_color": "c1b7dd",
+    "created_at": "2025-05-23T08:36:05.143447",
+    "image_url": "./assets/icons/use-compute-nest-to-deploy-nextcloud.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/2535/2535404.png"
+  },
+  "use-dts-to-migrate-a-self-built-mysql-database-to-a-polardb": {
+    "bg_color": "c0d5be",
+    "created_at": "2025-02-23T13:31:39.966432",
+    "image_url": "./assets/icons/use-dts-to-migrate-a-self-built-mysql-database-to-a-polardb.png"
+  },
+  "use-ecs-to-deploy-a-web-based-ide": {
+    "bg_color": "e6f0e5",
+    "created_at": "2025-02-23T13:31:34.940270",
+    "image_url": "./assets/icons/use-ecs-to-deploy-a-web-based-ide.png"
+  },
+  "use-function-compute-to-develop-an-ip-lookup-tool": {
+    "bg_color": "efd8c6",
+    "created_at": "2025-08-13T07:29:01.994835",
+    "image_url": "./assets/icons/use-function-compute-to-develop-an-ip-lookup-tool.png",
+    "remote_url": "https://cdn-icons-png.freepik.com/512/6383/6383225.png"
+  },
+  "use-helm-to-deploy-applications-in-kubernetes": {
+    "bg_color": "fae7fe",
+    "created_at": "2025-02-23T13:31:36.301036",
+    "image_url": "./assets/icons/use-helm-to-deploy-applications-in-kubernetes.png"
+  },
+  "use-istio-to-manage-application-services-across-kubernetes-and-ecs-instances": {
+    "bg_color": "c5dfbe",
+    "created_at": "2025-02-23T13:31:36.953550",
+    "image_url": "./assets/icons/use-istio-to-manage-application-services-across-kubernetes-and-ecs-instances.png"
+  },
+  "use-jenkins-for-continuous-integration": {
+    "bg_color": "ead7b4",
+    "created_at": "2025-02-23T13:31:29.801656",
+    "image_url": "./assets/icons/use-jenkins-for-continuous-integration.png"
+  },
+  "use-jenkins-pipelines-to-build-a-project": {
+    "bg_color": "f7d9f2",
+    "created_at": "2025-02-23T13:31:30.513228",
+    "image_url": "./assets/icons/use-jenkins-pipelines-to-build-a-project.png"
+  },
+  "use-log-service-to-collect-kubernetes-container-logs": {
+    "bg_color": "e4cdff",
+    "created_at": "2025-02-23T13:31:41.359185",
+    "image_url": "./assets/icons/use-log-service-to-collect-kubernetes-container-logs.png"
+  },
+  "use-npd-to-detect-node-problems-in-kubernetes-clusters": {
+    "bg_color": "e6bce3",
+    "created_at": "2025-02-23T13:31:31.045612",
+    "image_url": "./assets/icons/use-npd-to-detect-node-problems-in-kubernetes-clusters.png"
+  },
+  "use-serverless-to-create-a-todolist-application": {
+    "bg_color": "d4b4c2",
+    "created_at": "2025-02-23T13:31:32.693786",
+    "image_url": "./assets/icons/use-serverless-to-create-a-todolist-application.png"
+  },
+  "use-serverless-to-deploy-hexo": {
+    "bg_color": "c7bbba",
+    "created_at": "2025-02-23T13:31:41.121503",
+    "image_url": "./assets/icons/use-serverless-to-deploy-hexo.png"
+  },
+  "use-the-backup-center-feature-of-ack-to-back-up-a-kubernetes-cluster": {
+    "bg_color": "bbcff3",
+    "created_at": "2025-02-23T13:31:39.202881",
+    "image_url": "./assets/icons/use-the-backup-center-feature-of-ack-to-back-up-a-kubernetes-cluster.png"
+  },
+  "users-groups-and-permissions": {
+    "ai_description": "",
+    "ai_subject": "Lock and Key",
+    "bg_color": "f7b9ce",
+    "created_at": "2026-01-03T09:53:30.853732",
+    "image_url": "./assets/icons/users-groups-and-permissions.png",
+    "tag": "module 06"
+  },
+  "version-control-with-git": {
+    "ai_description": "",
+    "ai_subject": "History Book",
+    "bg_color": "dfe2ed",
+    "created_at": "2026-01-03T10:07:30.714665",
+    "image_url": "./assets/icons/version-control-with-git.png"
+  },
+  "viewing-searching-and-editing-files": {
+    "ai_description": "",
+    "ai_subject": "Magnifying Glass",
+    "bg_color": "c7d7d9",
+    "created_at": "2026-01-03T09:50:51.739120",
+    "image_url": "./assets/icons/viewing-searching-and-editing-files.png",
+    "tag": "module 03"
+  },
+  "web-development-interactive-challenges": {
+    "bg_color": "f2ddd3",
+    "created_at": "2025-02-23T13:31:29.365201",
+    "image_url": "./assets/icons/web-development-interactive-challenges.png"
+  },
+  "web-vulnerability-mastery": {
+    "ai_description": "A 3D toy hamster wearing a tiny hoodie, playfully hacking into a giant cheese-shaped server with a glowing laptop.",
+    "bg_color": "f3f2b4",
+    "created_at": "2025-12-25T19:06:49.095502",
+    "image_url": "./assets/icons/web-vulnerability-mastery.png"
+  },
+  "webdev-interview-questions": {
+    "bg_color": "bcbfdb",
+    "created_at": "2025-07-31T09:24:43.561738",
+    "image_url": "./assets/icons/webdev.png"
+  },
+  "wireshark-for-beginners": {
+    "bg_color": "efd8f4",
+    "created_at": "2025-02-23T13:31:38.351151",
+    "image_url": "./assets/icons/quick-start-with-wireshark.png"
+  },
+  "wireshark-interview-questions": {
+    "bg_color": "caebc0",
+    "created_at": "2025-07-31T09:24:40.439805",
+    "image_url": "./assets/icons/wireshark.png"
+  },
+  "work-with-service-objects-and-pod-probes-in-kubernetes": {
+    "bg_color": "f2bbc0",
+    "created_at": "2025-02-23T13:31:34.999062",
+    "image_url": "./assets/icons/work-with-service-objects-and-pod-probes-in-kubernetes.png"
+  }
+}
