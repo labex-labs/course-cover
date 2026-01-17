@@ -1,7 +1,7 @@
 const DEFAULT_COVER = 'https://cdn.jsdelivr.net/gh/labex-labs/course-cover@master/default.png';
 const JSDELIVR_BASE = 'https://cdn.jsdelivr.net/gh/labex-labs/course-cover@latest/public';
 
-interface Env {}
+interface Env { }
 
 async function checkImageExists(url: string): Promise<boolean> {
 	try {
@@ -22,7 +22,7 @@ async function fetchImage(url: string): Promise<Response | null> {
 			'content-type': contentType || 'image/png',
 			'cache-control': 'public, max-age=2592000',
 		});
-		
+
 		return new Response(response.body, { headers });
 	} catch {
 		return null;
@@ -34,7 +34,6 @@ export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
 		try {
 			const url = new URL(request.url);
-			console.log(`Processing request for URL: ${url.toString()}`);
 
 			// Skip browser special requests
 			const skipPaths = ['/favicon.png', '/favicon.ico', '/apple-touch-icon.png', '/apple-touch-icon-precomposed.png', '/robots.txt'];
@@ -66,20 +65,18 @@ export default {
 			// Validate language parameter
 			let lang = url.searchParams.get('lang') || 'en';
 			if (!supportedLangs.has(lang)) {
-				console.log(`Unsupported language: ${lang}, falling back to 'en'`);
 				lang = 'en';
 			}
 
 			// Extract course alias from path
 			const match = url.pathname.match(/\/([a-z0-9-]+)\.png$/);
 			if (!match) {
-				console.log('No course alias found in URL, returning default cover');
+				console.log(`[GET ${url.pathname}] result=invalid_path, fallback=default`);
 				const defaultImage = await fetchImage(DEFAULT_COVER);
 				return defaultImage || new Response('Image not found', { status: 404 });
 			}
 
 			const courseAlias = match[1];
-			console.log(`Request parameters - Course: ${courseAlias}, Lang: ${lang}`);
 
 			// Construct cover URL
 			const coverUrl = `${JSDELIVR_BASE}/${lang}/${courseAlias}.png`;
@@ -88,17 +85,18 @@ export default {
 			const coverExists = await checkImageExists(coverUrl);
 
 			if (coverExists) {
-				console.log(`Using existing cover image: ${coverUrl}`);
+				console.log(`[GET ${url.pathname}] course=${courseAlias}, lang=${lang}, result=exists, url=${coverUrl}`);
 				const image = await fetchImage(coverUrl);
 				if (image) return image;
 			}
 
 			// If cover doesn't exist, return default cover
-			console.log(`Cover not found for ${courseAlias} (${lang}), returning default cover`);
+			console.log(`[GET ${url.pathname}] course=${courseAlias}, lang=${lang}, result=not_found, fallback=default`);
 			const defaultImage = await fetchImage(DEFAULT_COVER);
 			return defaultImage || new Response('Image not found', { status: 404 });
 		} catch (error) {
-			console.error('Error processing request:', error);
+			const url = new URL(request.url);
+			console.error(`[GET ${url.pathname}] result=error, message=${error instanceof Error ? error.message : String(error)}, fallback=default`);
 			const defaultImage = await fetchImage(DEFAULT_COVER);
 			return defaultImage || new Response('Image not found', { status: 404 });
 		}
