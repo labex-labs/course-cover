@@ -9,6 +9,10 @@
     {
       "pattern": "course-cover.labex.io",
       "custom_domain": true
+    },
+    {
+      "pattern": "cover-creator.labex.io",
+      "custom_domain": true
     }
   ],
   "observability": {
