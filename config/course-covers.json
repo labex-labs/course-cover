@@ -3100,6 +3100,13 @@
     "created_at": "2025-02-23T13:31:35.274232",
     "image_url": "./assets/icons/project-switch-business-status.png"
   },
+  "project-system-rescue-and-initialization": {
+    "ai_description": "",
+    "ai_subject": "Fire Extinguisher",
+    "bg_color": "caebff",
+    "created_at": "2026-01-29T08:41:41.616371",
+    "image_url": "./assets/icons/project-system-rescue-and-initialization.png"
+  },
   "project-table-data-conversion": {
     "bg_color": "dcd8d5",
     "created_at": "2025-02-23T13:31:37.026516",
