@@ -1310,6 +1310,13 @@
     "created_at": "2025-02-23T13:31:36.458898",
     "image_url": "./assets/icons/project-atomic-css.png"
   },
+  "project-automated-ops-toolkit-development": {
+    "ai_description": "",
+    "ai_subject": "Wrench set",
+    "bg_color": "fcdafb",
+    "created_at": "2026-01-29T10:35:42.368161",
+    "image_url": "./assets/icons/project-automated-ops-toolkit-development.png"
+  },
   "project-automatic-registration-of-subclasses": {
     "bg_color": "bae9dc",
     "created_at": "2025-02-23T13:31:39.606830",
@@ -3242,6 +3249,13 @@
     "bg_color": "dbc5d7",
     "created_at": "2025-02-23T13:31:33.947301",
     "image_url": "./assets/icons/project-web-ppt.png"
+  },
+  "project-web-server-deployment-and-disaster-recovery": {
+    "ai_description": "",
+    "ai_subject": "Circuit Breaker Box",
+    "bg_color": "f6ffcc",
+    "created_at": "2026-01-29T10:33:45.118110",
+    "image_url": "./assets/icons/project-web-server-deployment-and-disaster-recovery.png"
   },
   "project-weekly-report-template-creation": {
     "bg_color": "fafae5",
