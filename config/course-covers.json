@@ -1610,6 +1610,13 @@
     "created_at": "2025-02-23T13:31:38.402984",
     "image_url": "./assets/icons/project-clear-code-encryption.png"
   },
+  "project-cloud-native-deployment": {
+    "ai_description": "",
+    "ai_subject": "Cloud",
+    "bg_color": "cefaf1",
+    "created_at": "2026-01-31T20:08:21.634662",
+    "image_url": "./assets/icons/project-cloud-native-deployment.png"
+  },
   "project-collect-files-from-specified-time": {
     "ai_description": "A 3D toy owl sorting 2022-dated scrolls into tiny wooden crates, preserving their perfect library order.",
     "bg_color": "cdcfb8",
@@ -2282,6 +2289,13 @@
     "created_at": "2025-02-23T13:31:34.367002",
     "image_url": "./assets/icons/project-haste-makes-waste.png"
   },
+  "project-high-availability-and-automation": {
+    "ai_description": "",
+    "ai_subject": "Load Balancer Rack",
+    "bg_color": "e8bede",
+    "created_at": "2026-01-31T20:07:56.492947",
+    "image_url": "./assets/icons/project-high-availability-and-automation.png"
+  },
   "project-holiday-greeting-card": {
     "bg_color": "caf9c7",
     "created_at": "2025-02-23T13:31:38.726784",
@@ -2293,6 +2307,13 @@
     "created_at": "2025-12-25T19:13:32.495878",
     "image_url": "./assets/icons/project-http-enumeration-and-directory-traversal.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/1045/1045513.png"
+  },
+  "project-hybrid-infrastructure-deployment": {
+    "ai_description": "",
+    "ai_subject": "Blue Whale",
+    "bg_color": "ffbfc3",
+    "created_at": "2026-01-31T20:07:35.642954",
+    "image_url": "./assets/icons/project-hybrid-infrastructure-deployment.png"
   },
   "project-identify-mvp-recipient-in-game": {
     "bg_color": "b4c4f7",
@@ -2584,6 +2605,13 @@
     "bg_color": "c9d2f7",
     "created_at": "2025-12-22T11:22:03.006839",
     "image_url": "./assets/icons/project-network-data-packet-statistics.png"
+  },
+  "project-network-service-administration": {
+    "ai_description": "",
+    "ai_subject": "Router",
+    "bg_color": "d3f0cd",
+    "created_at": "2026-01-31T20:09:44.214613",
+    "image_url": "./assets/icons/project-network-service-administration.png"
   },
   "project-new-colleague-system-account-setup": {
     "ai_description": "A cute 3D toy penguin wearing a headset, diligently setting up a tiny server for a new colleague.",
