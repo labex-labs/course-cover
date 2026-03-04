@@ -126,6 +126,13 @@
     "created_at": "2025-02-23T13:31:36.440603",
     "image_url": "./assets/icons/build-a-project-with-jenkins.png"
   },
+  "building-custom-security-tools": {
+    "ai_description": "",
+    "ai_subject": "Swiss Army Knife",
+    "bg_color": "f9e4c1",
+    "created_at": "2026-03-04T16:25:18.413207",
+    "image_url": "./assets/icons/building-custom-security-tools.png"
+  },
   "c-interview-questions": {
     "bg_color": "bceeea",
     "created_at": "2025-07-31T09:24:42.169910",
@@ -237,6 +244,13 @@
     "bg_color": "f2d7c3",
     "created_at": "2025-02-23T13:31:33.346975",
     "image_url": "./assets/icons/cpp-programming-for-beginners.png"
+  },
+  "cryptography-essentials": {
+    "ai_description": "",
+    "ai_subject": "Message Bottle",
+    "bg_color": "e2ebd1",
+    "created_at": "2026-03-04T16:19:46.802684",
+    "image_url": "./assets/icons/cryptography-essentials.png"
   },
   "cryptography-for-beginners": {
     "ai_description": "A 3D toy panda playfully locking a bamboo treasure chest with a glowing digital key.",
@@ -368,6 +382,13 @@
     "bg_color": "c9eade",
     "created_at": "2026-01-03T10:12:46.738036",
     "image_url": "./assets/icons/dhcp-service-administration.png"
+  },
+  "digital-forensics-basics": {
+    "ai_description": "",
+    "ai_subject": "Magnifying Glass",
+    "bg_color": "f4c8b6",
+    "created_at": "2026-03-04T16:21:39.921856",
+    "image_url": "./assets/icons/digital-forensics-basics.png"
   },
   "disk-filesystems-and-storage-management": {
     "ai_description": "",
@@ -976,6 +997,13 @@
     "created_at": "2025-02-23T13:31:41.859985",
     "image_url": "./assets/icons/linux-practice-plus.png"
   },
+  "linux-privilege-escalation": {
+    "ai_description": "",
+    "ai_subject": "Skeleton Key",
+    "bg_color": "f4f1ec",
+    "created_at": "2026-03-04T16:18:43.196770",
+    "image_url": "./assets/icons/linux-privilege-escalation.png"
+  },
   "linux-software-playgrounds": {
     "bg_color": "c2ebbd",
     "created_at": "2025-02-23T13:31:30.126041",
@@ -1003,6 +1031,13 @@
     "created_at": "2026-01-03T10:00:33.478182",
     "image_url": "./assets/icons/log-management-and-text-processing.png"
   },
+  "malware-analysis-basics": {
+    "ai_description": "",
+    "ai_subject": "Scalpel",
+    "bg_color": "d2decc",
+    "created_at": "2026-03-04T16:23:26.728439",
+    "image_url": "./assets/icons/malware-analysis-basics.png"
+  },
   "manage-application-configurations-on-a-kubernetes-cluster": {
     "bg_color": "e4d2c8",
     "created_at": "2025-02-23T13:31:39.325061",
@@ -1028,6 +1063,13 @@
     "bg_color": "d7d5b1",
     "created_at": "2025-02-23T13:31:30.882723",
     "image_url": "./assets/icons/matplotlib-practice-plus.png"
+  },
+  "memory-forensics-basics": {
+    "ai_description": "",
+    "ai_subject": "Computer RAM stick",
+    "bg_color": "fde9c3",
+    "created_at": "2026-03-04T16:22:42.250427",
+    "image_url": "./assets/icons/memory-forensics-basics.png"
   },
   "metasploit-for-beginners": {
     "ai_description": "A 3D matte toy-style stylized blue \"M\" shield icon centered on a clean circular background, representing the official Metasploit symbol without any text.",
@@ -1160,6 +1202,13 @@
     "created_at": "2025-02-23T13:31:31.309007",
     "image_url": "./assets/icons/numpy-practice-plus.png"
   },
+  "offline-password-cracking": {
+    "ai_description": "",
+    "ai_subject": "Padlock",
+    "bg_color": "d6d6b9",
+    "created_at": "2026-03-04T16:20:46.398954",
+    "image_url": "./assets/icons/offline-password-cracking.png"
+  },
   "one-click-deployment-of-qwen3-series-models-based-on-compute-nest": {
     "bg_color": "c1b6c0",
     "created_at": "2025-05-29T09:05:47.361463",
@@ -1176,6 +1225,13 @@
     "created_at": "2025-05-15T07:45:26.894049",
     "image_url": "./assets/icons/oss-cross-region-replication-data.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/2032/2032371.png"
+  },
+  "packet-analysis-with-tcpdump": {
+    "ai_description": "",
+    "ai_subject": "Fishing Net",
+    "bg_color": "b7eaee",
+    "created_at": "2026-03-04T16:15:46.258739",
+    "image_url": "./assets/icons/packet-analysis-with-tcpdump.png"
   },
   "pandas-for-beginners": {
     "bg_color": "d3f1c0",
@@ -3322,6 +3378,13 @@
     "created_at": "2026-01-03T10:20:04.614553",
     "image_url": "./assets/icons/prometheus-monitoring.png"
   },
+  "protocol-analysis-with-tshark": {
+    "ai_description": "",
+    "ai_subject": "Shark",
+    "bg_color": "e8eaf6",
+    "created_at": "2026-03-04T16:26:23.829979",
+    "image_url": "./assets/icons/protocol-analysis-with-tshark.png"
+  },
   "python-cheatsheet": {
     "ai_description": "Multi-tool with red casing and various foldable metal blades.",
     "ai_subject": "Swiss Army Knife",
@@ -3341,6 +3404,13 @@
     "bg_color": "e3fdbc",
     "created_at": "2026-01-03T10:26:15.359045",
     "image_url": "./assets/icons/python-for-operations.png"
+  },
+  "python-for-security-operations": {
+    "ai_description": "",
+    "ai_subject": "Python Snake",
+    "bg_color": "d5dbca",
+    "created_at": "2026-03-04T16:24:28.026903",
+    "image_url": "./assets/icons/python-for-security-operations.png"
   },
   "python-in-depth-mastery": {
     "bg_color": "fbe6dd",

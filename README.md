@@ -29,6 +29,7 @@ https://course-cover.labex.io/{course-alias}.png?lang={lang}
 ```
 
 **Parameters:**
+
 - `lang` (optional): `en` | `zh` | `es` | `fr` | `de` | `ja` | `ru` | `ko` | `pt`
 
 ## Development
