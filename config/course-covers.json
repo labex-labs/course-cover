@@ -2436,6 +2436,13 @@
     "created_at": "2025-02-23T13:31:32.716041",
     "image_url": "./assets/icons/project-implementing-minkowski-distance-metric.png"
   },
+  "project-incident-response-and-malware-triage": {
+    "ai_description": "",
+    "ai_subject": "Microscope",
+    "bg_color": "f4cad0",
+    "created_at": "2026-03-17T15:44:44.657604",
+    "image_url": "./assets/icons/project-incident-response-and-malware-triage.png"
+  },
   "project-input-parameter-practice": {
     "bg_color": "eaf7e2",
     "created_at": "2025-02-23T13:31:29.498058",
@@ -2458,6 +2465,13 @@
     "bg_color": "83c4de",
     "created_at": "2025-12-28T16:44:42.170520",
     "image_url": "./assets/icons/project-installing-and-configuring-a-mail-server.png"
+  },
+  "project-internal-compromise-and-privilege-escalation": {
+    "ai_description": "",
+    "ai_subject": "Skeleton Key",
+    "bg_color": "b4d6e2",
+    "created_at": "2026-03-17T15:54:42.214678",
+    "image_url": "./assets/icons/project-internal-compromise-and-privilege-escalation.png"
   },
   "project-javabean-mutiple-parameters": {
     "bg_color": "b8bfee",
@@ -2828,6 +2842,13 @@
     "created_at": "2025-02-23T13:31:38.879701",
     "image_url": "./assets/icons/project-push-box-game-with-pygame.png"
   },
+  "project-python-security-automation-capstone": {
+    "ai_description": "",
+    "ai_subject": "Python Snake",
+    "bg_color": "ccf0d7",
+    "created_at": "2026-03-17T15:42:58.377645",
+    "image_url": "./assets/icons/project-python-security-automation-capstone.png"
+  },
   "project-qr-code-generator-using-python": {
     "bg_color": "d9d3e0",
     "created_at": "2025-02-23T13:31:41.910814",
@@ -3033,6 +3054,13 @@
     "created_at": "2025-12-22T11:14:48.789038",
     "image_url": "./assets/icons/project-searching-for-specific-files.png"
   },
+  "project-secret-recovery-and-password-audit": {
+    "ai_description": "",
+    "ai_subject": "Skeleton Key",
+    "bg_color": "f5dcfb",
+    "created_at": "2026-03-17T15:42:12.733927",
+    "image_url": "./assets/icons/project-secret-recovery-and-password-audit.png"
+  },
   "project-setting-up-spring-development-environment": {
     "bg_color": "bddefc",
     "created_at": "2025-02-23T13:31:30.480052",
@@ -3074,6 +3102,13 @@
     "bg_color": "fdbdc1",
     "created_at": "2025-02-23T13:31:32.488997",
     "image_url": "./assets/icons/project-snake-game-using-python-and-pygame.png"
+  },
+  "project-soc-foundations-review": {
+    "ai_description": "",
+    "ai_subject": "Shield",
+    "bg_color": "bfdbcb",
+    "created_at": "2026-03-17T15:41:37.682172",
+    "image_url": "./assets/icons/project-soc-foundations-review.png"
   },
   "project-soldier-serial-number-generator": {
     "bg_color": "eee1f6",
