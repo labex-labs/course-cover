@@ -2148,6 +2148,13 @@
     "created_at": "2025-02-23T13:31:37.539852",
     "image_url": "./assets/icons/project-exploring-the-earth.png"
   },
+  "project-external-attack-surface-assessment": {
+    "ai_description": "",
+    "ai_subject": "Lighthouse",
+    "bg_color": "eaceb5",
+    "created_at": "2026-03-17T17:38:50.537605",
+    "image_url": "./assets/icons/project-external-attack-surface-assessment.png"
+  },
   "project-extract-information-from-parameters": {
     "bg_color": "e1e0d3",
     "created_at": "2025-02-23T13:31:39.022278",
@@ -3363,6 +3370,13 @@
     "bg_color": "f3d0ba",
     "created_at": "2025-02-23T13:31:33.061684",
     "image_url": "./assets/icons/project-weather-trend.png"
+  },
+  "project-web-application-breach-simulation": {
+    "ai_description": "",
+    "ai_subject": "Skeleton Key",
+    "bg_color": "fcf4c4",
+    "created_at": "2026-03-17T17:37:25.075019",
+    "image_url": "./assets/icons/project-web-application-breach-simulation.png"
   },
   "project-web-ppt": {
     "bg_color": "dbc5d7",
