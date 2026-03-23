@@ -1,54 +1,54 @@
 #!/bin/bash
 
-labex course create-cover -r --tag course -a linux-terminal-basics
-labex course create-cover -r --tag course -a file-system-navigation-and-rile-operations
-labex course create-cover -r --tag course -a viewing-searching-and-editing-riles
-labex course create-cover -r --tag course -a shell-redirection-and-pipelines
-labex course create-cover -r --tag course -a shell-environment-and-variables
-labex course create-cover -r --tag course -a users-groups-and-permissions
-labex course create-cover -r --tag course -a processes-and-job-control
-labex course create-cover -r --tag course -a system-information-and-resource-monitoring
-labex course create-cover -r --tag course -a disk-rilesystems-and-storage-management
-labex course create-cover -r --tag course -a linux-networking-rundamentals
-labex course create-cover -r --tag course -a remote-access-and-secure-rile-transfer
-labex course create-cover -r --tag course -a software-package-management
-labex course create-cover -r --tag course -a service-management-with-systemd
-labex course create-cover -r --tag course -a log-management-and-text-processing
-labex course create-cover -r --tag course -a archiving-and-backup
-labex course create-cover -r --tag course -a shell-scripting-rundamentals
-labex course create-cover -r --tag course -a advanced-shell-scripting-techniques
-labex course create-cover -r --tag course -a text-processing-with-awk-and-sed
-labex course create-cover -r --tag course -a scheduled-tasks-and-routine-maintenance
-labex course create-cover -r --tag course -a boot-process-and-recovery
-labex course create-cover -r --tag course -a basic-system-security
-labex course create-cover -r --tag course -a version-control-with-git
-labex course create-cover -r --tag course -a docker-container-basics
-labex course create-cover -r --tag course -a mysql-database-basics
-labex course create-cover -r --tag course -a nginx-web-server
-labex course create-cover -r --tag course -a apache-web-server
-labex course create-cover -r --tag course -a dns-service-administration
-labex course create-cover -r --tag course -a dhcp-service-administration
-labex course create-cover -r --tag course -a nfs-and-samba-rile-sharing
-labex course create-cover -r --tag course -a rpm-and-dnf-package-management
-labex course create-cover -r --tag course -a firewalld-configuration
-labex course create-cover -r --tag course -a selinux-administration
-labex course create-cover -r --tag course -a ansible-automation
-labex course create-cover -r --tag course -a haproxy-load-balancing
-labex course create-cover -r --tag course -a keepalived-high-availability
-labex course create-cover -r --tag course -a prometheus-monitoring
-labex course create-cover -r --tag course -a grafana-data-visualization
-labex course create-cover -r --tag course -a centralized-log-management
-labex course create-cover -r --tag course -a github-actions-cicd
-labex course create-cover -r --tag course -a terraform-infrastructure-as-code
-labex course create-cover -r --tag course -a kubernetes-rundamentals
-labex course create-cover -r --tag course -a kubernetes-cluster-administration
-labex course create-cover -r --tag course -a python-for-operations
+labex course create-cover --rebuild --random-color --tag course -a linux-terminal-basics
+labex course create-cover --rebuild --random-color --tag course -a file-system-navigation-and-file-operations
+labex course create-cover --rebuild --random-color --tag course -a viewing-searching-and-editing-files
+labex course create-cover --rebuild --random-color --tag course -a shell-redirection-and-pipelines
+labex course create-cover --rebuild --random-color --tag course -a shell-environment-and-variables
+labex course create-cover --rebuild --random-color --tag course -a users-groups-and-permissions
+labex course create-cover --rebuild --random-color --tag course -a processes-and-job-control
+labex course create-cover --rebuild --random-color --tag course -a system-information-and-resource-monitoring
+labex course create-cover --rebuild --random-color --tag course -a disk-filesystems-and-storage-management
+labex course create-cover --rebuild --random-color --tag course -a linux-networking-fundamentals
+labex course create-cover --rebuild --random-color --tag course -a remote-access-and-secure-file-transfer
+labex course create-cover --rebuild --random-color --tag course -a software-package-management
+labex course create-cover --rebuild --random-color --tag course -a service-management-with-systemd
+labex course create-cover --rebuild --random-color --tag course -a log-management-and-text-processing
+labex course create-cover --rebuild --random-color --tag course -a archiving-and-backup
+labex course create-cover --rebuild --random-color --tag course -a shell-scripting-fundamentals
+labex course create-cover --rebuild --random-color --tag course -a advanced-shell-scripting-techniques
+labex course create-cover --rebuild --random-color --tag course -a text-processing-with-awk-and-sed
+labex course create-cover --rebuild --random-color --tag course -a scheduled-tasks-and-routine-maintenance
+labex course create-cover --rebuild --random-color --tag course -a boot-process-and-recovery
+labex course create-cover --rebuild --random-color --tag course -a basic-system-security
+labex course create-cover --rebuild --random-color --tag course -a version-control-with-git
+labex course create-cover --rebuild --random-color --tag course -a docker-container-basics
+labex course create-cover --rebuild --random-color --tag course -a mysql-database-basics
+labex course create-cover --rebuild --random-color --tag course -a nginx-web-server
+labex course create-cover --rebuild --random-color --tag course -a apache-web-server
+labex course create-cover --rebuild --random-color --tag course -a dns-service-administration
+labex course create-cover --rebuild --random-color --tag course -a dhcp-service-administration
+labex course create-cover --rebuild --random-color --tag course -a nfs-and-samba-file-sharing
+labex course create-cover --rebuild --random-color --tag course -a rpm-and-dnf-package-management
+labex course create-cover --rebuild --random-color --tag course -a firewalld-configuration
+labex course create-cover --rebuild --random-color --tag course -a selinux-administration
+labex course create-cover --rebuild --random-color --tag course -a ansible-automation
+labex course create-cover --rebuild --random-color --tag course -a haproxy-load-balancing
+labex course create-cover --rebuild --random-color --tag course -a keepalived-high-availability
+labex course create-cover --rebuild --random-color --tag course -a prometheus-monitoring
+labex course create-cover --rebuild --random-color --tag course -a grafana-data-visualization
+labex course create-cover --rebuild --random-color --tag course -a centralized-log-management
+labex course create-cover --rebuild --random-color --tag course -a github-actions-cicd
+labex course create-cover --rebuild --random-color --tag course -a terraform-infrastructure-as-code
+labex course create-cover --rebuild --random-color --tag course -a kubernetes-fundamentals
+labex course create-cover --rebuild --random-color --tag course -a kubernetes-cluster-administration
+labex course create-cover --rebuild --random-color --tag course -a python-for-operations
 
-labex course create-cover -r --tag project -a project-system-rescue-and-initialization
-labex course create-cover -r --tag project -a project-web-server-deployment-and-disaster-recovery
-labex course create-cover -r --tag project -a project-automated-ops-toolkit-development
-labex course create-cover -r --tag project -a project-hybrid-infrastructure-deployment
-labex course create-cover -r --tag project -a project-network-service-administration
-labex course create-cover -r --tag project -a project-high-availability-and-automation
-labex course create-cover -r --tag project -a project-observability-stack
-labex course create-cover -r --tag project -a project-cloud-native-deployment
+labex course create-cover --rebuild --random-color --tag project -a project-system-rescue-and-initialization
+labex course create-cover --rebuild --random-color --tag project -a project-web-server-deployment-and-disaster-recovery
+labex course create-cover --rebuild --random-color --tag project -a project-automated-ops-toolkit-development
+labex course create-cover --rebuild --random-color --tag project -a project-hybrid-infrastructure-deployment
+labex course create-cover --rebuild --random-color --tag project -a project-network-service-administration
+labex course create-cover --rebuild --random-color --tag project -a project-high-availability-and-automation
+labex course create-cover --rebuild --random-color --tag project -a project-observability-stack
+labex course create-cover --rebuild --random-color --tag project -a project-cloud-native-deployment
