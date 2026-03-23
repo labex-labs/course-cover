@@ -68,9 +68,10 @@
   },
   "apache-web-server": {
     "ai_description": "",
-    "ai_subject": "Horse-drawn Carriage",
+    "ai_subject": "Feather",
     "bg_color": "e6fdd3",
-    "created_at": "2026-01-03T10:11:01.453524",
+    "created_at": "2026-03-23T09:53:41.562733",
+    "icon_style": "clay",
     "image_url": "./assets/icons/apache-web-server.png"
   },
   "archiving-and-backup": {
@@ -378,9 +379,10 @@
   },
   "dhcp-service-administration": {
     "ai_description": "",
-    "ai_subject": "Network Router",
+    "ai_subject": "Traffic cone",
     "bg_color": "c9eade",
-    "created_at": "2026-01-03T10:12:46.738036",
+    "created_at": "2026-03-23T09:54:27.513963",
+    "icon_style": "clay",
     "image_url": "./assets/icons/dhcp-service-administration.png"
   },
   "digital-forensics-basics": {
@@ -399,9 +401,10 @@
   },
   "dns-service-administration": {
     "ai_description": "",
-    "ai_subject": "Telephone Directory",
+    "ai_subject": "Phone Directory",
     "bg_color": "dcddea",
-    "created_at": "2026-01-03T11:02:36.260875",
+    "created_at": "2026-03-23T09:54:04.535679",
+    "icon_style": "clay",
     "image_url": "./assets/icons/dns-service-administration.png"
   },
   "docker-command-labs": {
@@ -414,7 +417,8 @@
     "ai_description": "",
     "ai_subject": "Blue Whale",
     "bg_color": "e1d0e4",
-    "created_at": "2026-01-03T10:08:23.489202",
+    "created_at": "2026-03-23T09:52:33.584401",
+    "icon_style": "clay",
     "image_url": "./assets/icons/docker-container-basics.png"
   },
   "docker-for-beginners": {
@@ -465,9 +469,10 @@
   },
   "firewalld-configuration": {
     "ai_description": "",
-    "ai_subject": "Gateway",
+    "ai_subject": "Shield",
     "bg_color": "c2eaf5",
-    "created_at": "2026-01-03T10:15:35.227266",
+    "created_at": "2026-03-23T09:56:08.039064",
+    "icon_style": "clay",
     "image_url": "./assets/icons/firewalld-configuration.png"
   },
   "foundations-of-deep-learning": {
@@ -641,9 +646,10 @@
   },
   "github-actions-cicd": {
     "ai_description": "",
-    "ai_subject": "Lighthouse Beacon",
+    "ai_subject": "Octopus",
     "bg_color": "e0b4bc",
-    "created_at": "2026-01-03T11:03:30.411829",
+    "created_at": "2026-03-23T10:04:46.054221",
+    "icon_style": "clay",
     "image_url": "./assets/icons/github-actions-cicd.png"
   },
   "github-actions-for-beginners": {
@@ -887,9 +893,10 @@
   },
   "kubernetes-cluster-administration": {
     "ai_description": "",
-    "ai_subject": "Walkie-Talkie",
+    "ai_subject": "Helm",
     "bg_color": "f0d6e6",
-    "created_at": "2026-01-03T10:25:23.286407",
+    "created_at": "2026-03-23T10:02:53.481478",
+    "icon_style": "clay",
     "image_url": "./assets/icons/kubernetes-cluster-administration.png"
   },
   "kubernetes-for-beginners": {
@@ -907,9 +914,10 @@
   },
   "kubernetes-fundamentals": {
     "ai_description": "",
-    "ai_subject": "Container Ship",
+    "ai_subject": "Ships Wheel",
     "bg_color": "e6e6c9",
-    "created_at": "2026-01-03T10:35:50.487751",
+    "created_at": "2026-03-23T10:02:30.237390",
+    "icon_style": "clay",
     "image_url": "./assets/icons/kubernetes-fundamentals.png"
   },
   "kubernetes-interview-questions": {
@@ -1122,9 +1130,10 @@
   },
   "mysql-database-basics": {
     "ai_description": "",
-    "ai_subject": "Database Server Rack",
+    "ai_subject": "Dolphin",
     "bg_color": "f9e5cf",
-    "created_at": "2026-01-03T10:09:15.241796",
+    "created_at": "2026-03-23T09:52:56.251893",
+    "icon_style": "clay",
     "image_url": "./assets/icons/mysql-database-basics.png"
   },
   "mysql-for-beginners": {
@@ -1154,16 +1163,18 @@
   },
   "nfs-and-samba-file-sharing": {
     "ai_description": "",
-    "ai_subject": "Mail Sorter (for directing packages)",
+    "ai_subject": "Network Cable",
     "bg_color": "effef6",
-    "created_at": "2026-01-03T10:13:46.851784",
+    "created_at": "2026-03-23T09:55:14.347015",
+    "icon_style": "clay",
     "image_url": "./assets/icons/nfs-and-samba-file-sharing.png"
   },
   "nginx-web-server": {
     "ai_description": "",
-    "ai_subject": "Traffic Cop Signal Light",
+    "ai_subject": "Traffic Policeman",
     "bg_color": "bcc0d0",
-    "created_at": "2026-01-03T10:34:46.849432",
+    "created_at": "2026-03-23T09:53:18.605634",
+    "icon_style": "clay",
     "image_url": "./assets/icons/nginx-web-server.png"
   },
   "nmap-for-beginners": {
@@ -1290,9 +1301,10 @@
   },
   "processes-and-job-control": {
     "ai_description": "",
-    "ai_subject": "Traffic Light",
+    "ai_subject": "Conductor Baton",
     "bg_color": "ebcbba",
-    "created_at": "2026-01-03T09:54:25.008265",
+    "created_at": "2026-03-23T10:01:00.260903",
+    "icon_style": "clay",
     "image_url": "./assets/icons/processes-and-job-control.png",
     "tag": "module 07"
   },
@@ -3451,7 +3463,8 @@
     "ai_description": "",
     "ai_subject": "Python Snake",
     "bg_color": "e3fdbc",
-    "created_at": "2026-01-03T10:26:15.359045",
+    "created_at": "2026-03-23T10:06:06.941457",
+    "icon_style": "clay",
     "image_url": "./assets/icons/python-for-operations.png"
   },
   "python-for-security-operations": {
@@ -3722,9 +3735,10 @@
   },
   "rpm-and-dnf-package-management": {
     "ai_description": "",
-    "ai_subject": "Shipping Container",
+    "ai_subject": "Cardboard shipping box",
     "bg_color": "dec3d5",
-    "created_at": "2026-01-03T10:14:43.094630",
+    "created_at": "2026-03-23T09:55:41.055692",
+    "icon_style": "clay",
     "image_url": "./assets/icons/rpm-and-dnf-package-management.png"
   },
   "run-hadoop-jobs-on-e-mapreduce": {
@@ -3762,9 +3776,10 @@
   },
   "selinux-administration": {
     "ai_description": "",
-    "ai_subject": "Padlock",
+    "ai_subject": "Shield",
     "bg_color": "bee1ca",
-    "created_at": "2026-01-03T10:16:29.141151",
+    "created_at": "2026-03-23T09:56:31.829722",
+    "icon_style": "clay",
     "image_url": "./assets/icons/selinux-administration.png"
   },
   "service-management-with-systemd": {
@@ -3884,9 +3899,10 @@
   },
   "system-information-and-resource-monitoring": {
     "ai_description": "",
-    "ai_subject": "Dashboard Gauge Cluster",
+    "ai_subject": "Dashboard Gauge",
     "bg_color": "e4c6ea",
-    "created_at": "2026-01-03T09:55:19.366537",
+    "created_at": "2026-03-23T10:01:22.712775",
+    "icon_style": "clay",
     "image_url": "./assets/icons/system-information-and-resource-monitoring.png"
   },
   "terraform-for-beginners": {
@@ -3900,7 +3916,8 @@
     "ai_description": "",
     "ai_subject": "Blueprint",
     "bg_color": "fbf1e6",
-    "created_at": "2026-01-03T10:23:36.836041",
+    "created_at": "2026-03-23T10:02:06.292606",
+    "icon_style": "clay",
     "image_url": "./assets/icons/terraform-infrastructure-as-code.png"
   },
   "text-processing-with-awk-and-sed": {
@@ -4041,17 +4058,19 @@
   },
   "users-groups-and-permissions": {
     "ai_description": "",
-    "ai_subject": "Lock and Key",
+    "ai_subject": "Keychain",
     "bg_color": "f7b9ce",
-    "created_at": "2026-01-03T09:53:30.853732",
+    "created_at": "2026-03-23T10:00:36.964779",
+    "icon_style": "clay",
     "image_url": "./assets/icons/users-groups-and-permissions.png",
     "tag": "module 06"
   },
   "version-control-with-git": {
     "ai_description": "",
-    "ai_subject": "History Book",
+    "ai_subject": "Tree",
     "bg_color": "dfe2ed",
-    "created_at": "2026-01-03T10:07:30.714665",
+    "created_at": "2026-03-23T09:52:09.820973",
+    "icon_style": "clay",
     "image_url": "./assets/icons/version-control-with-git.png"
   },
   "viewing-searching-and-editing-files": {
