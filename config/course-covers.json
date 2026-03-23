@@ -46,7 +46,7 @@
   "ansible-automation": {
     "ai_description": "",
     "ai_subject": "Chain Links",
-    "bg_color": "cad3de",
+    "bg_color": "d5f5e0",
     "created_at": "2026-01-03T10:17:22.965621",
     "image_url": "./assets/icons/ansible-automation.png"
   },
@@ -69,7 +69,7 @@
   "apache-web-server": {
     "ai_description": "",
     "ai_subject": "Feather",
-    "bg_color": "e6fdd3",
+    "bg_color": "f0e1c4",
     "created_at": "2026-03-23T09:53:41.562733",
     "icon_style": "clay",
     "image_url": "./assets/icons/apache-web-server.png"
@@ -77,7 +77,7 @@
   "archiving-and-backup": {
     "ai_description": "",
     "ai_subject": "Safe Deposit Box",
-    "bg_color": "e7e6dd",
+    "bg_color": "fcb5c5",
     "created_at": "2026-01-03T10:01:26.632006",
     "image_url": "./assets/icons/archiving-and-backup.png"
   },
@@ -95,7 +95,7 @@
   "basic-system-security": {
     "ai_description": "",
     "ai_subject": "Padlock",
-    "bg_color": "ddc5da",
+    "bg_color": "f4b4d0",
     "created_at": "2026-01-03T10:06:37.824723",
     "image_url": "./assets/icons/basic-system-security.png"
   },
@@ -168,7 +168,7 @@
   "centralized-log-management": {
     "ai_description": "",
     "ai_subject": "Library Card Catalog",
-    "bg_color": "b7e7d6",
+    "bg_color": "f8cbeb",
     "created_at": "2026-01-03T10:21:49.789762",
     "image_url": "./assets/icons/centralized-log-management.png"
   },
@@ -380,7 +380,7 @@
   "dhcp-service-administration": {
     "ai_description": "",
     "ai_subject": "Traffic cone",
-    "bg_color": "c9eade",
+    "bg_color": "cef8bc",
     "created_at": "2026-03-23T09:54:27.513963",
     "icon_style": "clay",
     "image_url": "./assets/icons/dhcp-service-administration.png"
@@ -395,7 +395,7 @@
   "disk-filesystems-and-storage-management": {
     "ai_description": "",
     "ai_subject": "Hard Disk Drive",
-    "bg_color": "d0c5cd",
+    "bg_color": "c0f7d2",
     "created_at": "2026-01-03T09:56:10.244558",
     "image_url": "./assets/icons/disk-filesystems-and-storage-management.png"
   },
@@ -461,7 +461,7 @@
   "file-system-navigation-and-file-operations": {
     "ai_description": "",
     "ai_subject": "Filing Cabinet",
-    "bg_color": "e6caeb",
+    "bg_color": "b4def6",
     "created_at": "2026-01-03T09:50:00.265770",
     "image_url": "./assets/icons/file-system-navigation-and-file-operations.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/4595/4595149.png",
@@ -470,7 +470,7 @@
   "firewalld-configuration": {
     "ai_description": "",
     "ai_subject": "Shield",
-    "bg_color": "c2eaf5",
+    "bg_color": "bdbbfb",
     "created_at": "2026-03-23T09:56:08.039064",
     "icon_style": "clay",
     "image_url": "./assets/icons/firewalld-configuration.png"
@@ -647,7 +647,7 @@
   "github-actions-cicd": {
     "ai_description": "",
     "ai_subject": "Octopus",
-    "bg_color": "e0b4bc",
+    "bg_color": "d1f6c0",
     "created_at": "2026-03-23T10:04:46.054221",
     "icon_style": "clay",
     "image_url": "./assets/icons/github-actions-cicd.png"
@@ -894,7 +894,7 @@
   "kubernetes-cluster-administration": {
     "ai_description": "",
     "ai_subject": "Helm",
-    "bg_color": "f0d6e6",
+    "bg_color": "b4f9cc",
     "created_at": "2026-03-23T10:02:53.481478",
     "icon_style": "clay",
     "image_url": "./assets/icons/kubernetes-cluster-administration.png"
@@ -1131,7 +1131,7 @@
   "mysql-database-basics": {
     "ai_description": "",
     "ai_subject": "Dolphin",
-    "bg_color": "f9e5cf",
+    "bg_color": "e8d1f0",
     "created_at": "2026-03-23T09:52:56.251893",
     "icon_style": "clay",
     "image_url": "./assets/icons/mysql-database-basics.png"
@@ -1164,7 +1164,7 @@
   "nfs-and-samba-file-sharing": {
     "ai_description": "",
     "ai_subject": "Network Cable",
-    "bg_color": "effef6",
+    "bg_color": "c0f4c3",
     "created_at": "2026-03-23T09:55:14.347015",
     "icon_style": "clay",
     "image_url": "./assets/icons/nfs-and-samba-file-sharing.png"
@@ -3248,7 +3248,7 @@
   "project-system-rescue-and-initialization": {
     "ai_description": "",
     "ai_subject": "Fire Extinguisher",
-    "bg_color": "caebff",
+    "bg_color": "f8c7c9",
     "created_at": "2026-01-29T08:41:41.616371",
     "image_url": "./assets/icons/project-system-rescue-and-initialization.png"
   },
@@ -3398,7 +3398,7 @@
   "project-web-server-deployment-and-disaster-recovery": {
     "ai_description": "",
     "ai_subject": "Circuit Breaker Box",
-    "bg_color": "f6ffcc",
+    "bg_color": "f7d4e2",
     "created_at": "2026-01-29T10:33:45.118110",
     "image_url": "./assets/icons/project-web-server-deployment-and-disaster-recovery.png"
   },
@@ -3435,7 +3435,7 @@
   "prometheus-monitoring": {
     "ai_description": "",
     "ai_subject": "Lighthouse",
-    "bg_color": "eec2cc",
+    "bg_color": "d9e9f9",
     "created_at": "2026-01-03T10:20:04.614553",
     "image_url": "./assets/icons/prometheus-monitoring.png"
   },
@@ -3719,7 +3719,7 @@
   "remote-access-and-secure-file-transfer": {
     "ai_description": "",
     "ai_subject": "Padlock",
-    "bg_color": "c4dab9",
+    "bg_color": "ccfaef",
     "created_at": "2026-01-03T09:57:54.249560",
     "image_url": "./assets/icons/remote-access-and-secure-file-transfer.png"
   },
@@ -3736,7 +3736,7 @@
   "rpm-and-dnf-package-management": {
     "ai_description": "",
     "ai_subject": "Cardboard shipping box",
-    "bg_color": "dec3d5",
+    "bg_color": "f3b8f2",
     "created_at": "2026-03-23T09:55:41.055692",
     "icon_style": "clay",
     "image_url": "./assets/icons/rpm-and-dnf-package-management.png"
@@ -3759,7 +3759,7 @@
   "scheduled-tasks-and-routine-maintenance": {
     "ai_description": "",
     "ai_subject": "Clockwork Mechanism",
-    "bg_color": "b6dec8",
+    "bg_color": "f0dfce",
     "created_at": "2026-01-03T10:04:52.063507",
     "image_url": "./assets/icons/scheduled-tasks-and-routine-maintenance.png"
   },
@@ -3777,7 +3777,7 @@
   "selinux-administration": {
     "ai_description": "",
     "ai_subject": "Shield",
-    "bg_color": "bee1ca",
+    "bg_color": "fbd8e0",
     "created_at": "2026-03-23T09:56:31.829722",
     "icon_style": "clay",
     "image_url": "./assets/icons/selinux-administration.png"
@@ -3792,7 +3792,7 @@
   "shell-environment-and-variables": {
     "ai_description": "",
     "ai_subject": "Seashell",
-    "bg_color": "bdd7ea",
+    "bg_color": "f1bcc4",
     "created_at": "2026-01-03T09:52:37.837825",
     "image_url": "./assets/icons/shell-environment-and-variables.png",
     "tag": "module 05"
@@ -3826,7 +3826,7 @@
   "shell-redirection-and-pipelines": {
     "ai_description": "",
     "ai_subject": "Water Hose",
-    "bg_color": "d9e5e7",
+    "bg_color": "f2debe",
     "created_at": "2026-01-03T09:51:43.010902",
     "image_url": "./assets/icons/shell-redirection-and-pipelines.png",
     "tag": "module 04"
@@ -3834,7 +3834,7 @@
   "shell-scripting-fundamentals": {
     "ai_description": "",
     "ai_subject": "Seashell",
-    "bg_color": "efc6f9",
+    "bg_color": "f0d9b5",
     "created_at": "2026-01-03T10:02:19.466306",
     "image_url": "./assets/icons/shell-scripting-fundamentals.png"
   },
@@ -3900,7 +3900,7 @@
   "system-information-and-resource-monitoring": {
     "ai_description": "",
     "ai_subject": "Dashboard Gauge",
-    "bg_color": "e4c6ea",
+    "bg_color": "d8faeb",
     "created_at": "2026-03-23T10:01:22.712775",
     "icon_style": "clay",
     "image_url": "./assets/icons/system-information-and-resource-monitoring.png"
@@ -3915,7 +3915,7 @@
   "terraform-infrastructure-as-code": {
     "ai_description": "",
     "ai_subject": "Blueprint",
-    "bg_color": "fbf1e6",
+    "bg_color": "b2def7",
     "created_at": "2026-03-23T10:02:06.292606",
     "icon_style": "clay",
     "image_url": "./assets/icons/terraform-infrastructure-as-code.png"
@@ -3923,7 +3923,7 @@
   "text-processing-with-awk-and-sed": {
     "ai_description": "",
     "ai_subject": "Text Editor Scroll",
-    "bg_color": "e1dbb9",
+    "bg_color": "c5f5ec",
     "created_at": "2026-01-03T10:04:00.214322",
     "image_url": "./assets/icons/text-processing-with-awk-and-sed.png"
   },
@@ -4059,7 +4059,7 @@
   "users-groups-and-permissions": {
     "ai_description": "",
     "ai_subject": "Keychain",
-    "bg_color": "f7b9ce",
+    "bg_color": "f4bec6",
     "created_at": "2026-03-23T10:00:36.964779",
     "icon_style": "clay",
     "image_url": "./assets/icons/users-groups-and-permissions.png",
