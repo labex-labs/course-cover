@@ -1177,9 +1177,12 @@
     "image_url": "./assets/icons/mysql-database-basics.png"
   },
   "mysql-for-beginners": {
+    "ai_description": "",
+    "ai_subject": "Dolphin",
     "bg_color": "e8f083",
-    "created_at": "2025-02-23T13:31:33.131830",
-    "image_url": "./assets/icons/getting-started-with-mysql.png"
+    "created_at": "2026-03-23T12:45:46.284115",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/mysql-for-beginners.png"
   },
   "mysql-interview-questions": {
     "bg_color": "e4f0e3",
@@ -1234,9 +1237,11 @@
     "image_url": "./assets/icons/nmap-fingerprinting-the-scripting-engine.png"
   },
   "nmap-for-beginners": {
-    "ai_description": "A 3D matte toy representation of the Nmap eye within a blue globe, centered on a clean circular background with no text.",
+    "ai_description": "",
+    "ai_subject": "Map",
     "bg_color": "a3c6c4",
-    "created_at": "2025-12-26T10:23:30.443136",
+    "created_at": "2026-03-23T12:44:55.908444",
+    "icon_style": "clay",
     "image_url": "./assets/icons/nmap-for-beginners.png"
   },
   "nmap-interview-questions": {
@@ -3683,9 +3688,11 @@
     "image_url": "./assets/icons/quick-start-with-pandas.png"
   },
   "quick-start-with-python": {
-    "ai_description": "3D matte toy-style Python snakes, in blue and yellow, intertwined on a solid navy blue circular disc, clean and iconic with no text.",
+    "ai_description": "",
+    "ai_subject": "Python Snake",
     "bg_color": "c8dfc7",
-    "created_at": "2025-12-25T15:51:33.985936",
+    "created_at": "2026-03-23T12:44:01.095536",
+    "icon_style": "clay",
     "image_url": "./assets/icons/quick-start-with-python.png"
   },
   "quick-start-with-react": {
