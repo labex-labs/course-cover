@@ -319,9 +319,11 @@
     "image_url": "./assets/icons/cybersecurity.png"
   },
   "cybersecurity-labs-for-beginners": {
-    "ai_description": "A cute fox wearing a headset and using a magnifying glass to inspect glowing green network data on a laptop.",
+    "ai_description": "",
+    "ai_subject": "Padlock",
     "bg_color": "ebd3cb",
-    "created_at": "2025-12-22T09:02:32.371609",
+    "created_at": "2026-03-23T14:08:55.961694",
+    "icon_style": "clay",
     "image_url": "./assets/icons/cybersecurity-labs-for-beginners.png"
   },
   "cysec-practice-labs": {
