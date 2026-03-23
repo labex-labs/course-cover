@@ -446,8 +446,11 @@
     "image_url": "./assets/icons/docker.png"
   },
   "docker-practice-challenges": {
+    "ai_description": "",
+    "ai_subject": "Blue Whale",
     "bg_color": "cbe3b8",
-    "created_at": "2025-02-23T13:31:37.622672",
+    "created_at": "2026-03-23T12:51:09.638666",
+    "icon_style": "clay",
     "image_url": "./assets/icons/docker-practice-challenges.png"
   },
   "docker-practice-labs": {
