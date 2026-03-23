@@ -130,7 +130,7 @@
   "building-custom-security-tools": {
     "ai_description": "",
     "ai_subject": "Swiss Army Knife",
-    "bg_color": "f9e4c1",
+    "bg_color": "e0d2fa",
     "created_at": "2026-03-04T16:25:18.413207",
     "image_url": "./assets/icons/building-custom-security-tools.png"
   },
@@ -171,6 +171,14 @@
     "bg_color": "f8cbeb",
     "created_at": "2026-01-03T10:21:49.789762",
     "image_url": "./assets/icons/centralized-log-management.png"
+  },
+  "client-side-attacks-authentication": {
+    "ai_description": "",
+    "ai_subject": "Skeleton Key",
+    "bg_color": "fbf7e2",
+    "created_at": "2026-03-23T10:25:43.241690",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/client-side-attacks-authentication.png"
   },
   "comptia-a-plus-training-labs": {
     "bg_color": "c0c7e9",
@@ -249,7 +257,7 @@
   "cryptography-essentials": {
     "ai_description": "",
     "ai_subject": "Message Bottle",
-    "bg_color": "e2ebd1",
+    "bg_color": "f3e9fd",
     "created_at": "2026-03-04T16:19:46.802684",
     "image_url": "./assets/icons/cryptography-essentials.png"
   },
@@ -774,6 +782,14 @@
     "created_at": "2025-02-23T13:31:38.596328",
     "image_url": "./assets/icons/implement-automated-deployment-by-using-jenkins-and-oos.png"
   },
+  "injection-vulnerabilities": {
+    "ai_description": "",
+    "ai_subject": "Syringe",
+    "bg_color": "eae0fd",
+    "created_at": "2026-03-23T10:25:18.766506",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/injection-vulnerabilities.png"
+  },
   "install-hadoop-on-a-single-ecs": {
     "bg_color": "fdede2",
     "created_at": "2025-02-23T13:31:30.689435",
@@ -1051,6 +1067,14 @@
     "created_at": "2025-02-23T13:31:39.325061",
     "image_url": "./assets/icons/manage-application-configurations-on-a-kubernetes-cluster.png"
   },
+  "mastering-nmap-host-discovery-port-scanning": {
+    "ai_description": "",
+    "ai_subject": "Map",
+    "bg_color": "f1fae5",
+    "created_at": "2026-03-23T10:31:58.356308",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/mastering-nmap-host-discovery-port-scanning.png"
+  },
   "matplotlib-for-beginners": {
     "bg_color": "d3b2ff",
     "created_at": "2025-02-23T13:31:35.060392",
@@ -1085,6 +1109,22 @@
     "created_at": "2025-12-26T10:21:57.158884",
     "image_url": "./assets/icons/metasploit-for-beginners.png",
     "remote_url": "https://cdn-icons-png.freepik.com/512/6214/6214140.png"
+  },
+  "metasploit-framework-fundamentals": {
+    "ai_description": "",
+    "ai_subject": "Skeleton Key",
+    "bg_color": "f4d9e9",
+    "created_at": "2026-03-23T10:26:35.218643",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/metasploit-framework-fundamentals.png"
+  },
+  "meterpreter-post-exploitation-operations": {
+    "ai_description": "",
+    "ai_subject": "Spying Glass",
+    "bg_color": "ecdafa",
+    "created_at": "2026-03-23T10:27:02.182636",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/meterpreter-post-exploitation-operations.png"
   },
   "ml-interview-questions": {
     "bg_color": "f7fbce",
@@ -1161,6 +1201,14 @@
     "created_at": "2025-02-23T13:31:33.830699",
     "image_url": "./assets/icons/mysql-practice-plus.png"
   },
+  "network-intrusion-detection-with-snort": {
+    "ai_description": "",
+    "ai_subject": "Snort (the pig nose)",
+    "bg_color": "d9f8e8",
+    "created_at": "2026-03-23T10:30:07.617792",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/network-intrusion-detection-with-snort.png"
+  },
   "nfs-and-samba-file-sharing": {
     "ai_description": "",
     "ai_subject": "Network Cable",
@@ -1176,6 +1224,14 @@
     "created_at": "2026-03-23T09:53:18.605634",
     "icon_style": "clay",
     "image_url": "./assets/icons/nginx-web-server.png"
+  },
+  "nmap-fingerprinting-the-scripting-engine": {
+    "ai_description": "",
+    "ai_subject": "Map",
+    "bg_color": "dcf7ee",
+    "created_at": "2026-03-23T10:24:07.515299",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/nmap-fingerprinting-the-scripting-engine.png"
   },
   "nmap-for-beginners": {
     "ai_description": "A 3D matte toy representation of the Nmap eye within a blue globe, centered on a clean circular background with no text.",
@@ -1230,6 +1286,14 @@
     "bg_color": "b9c8d4",
     "created_at": "2025-02-23T13:31:39.926072",
     "image_url": "./assets/icons/open-service-apis-for-alibaba-cloud-api-gateway.png"
+  },
+  "open-source-intelligence-osint-passive-recon": {
+    "ai_description": "",
+    "ai_subject": "Magnifying glass",
+    "bg_color": "e6f8e3",
+    "created_at": "2026-03-23T10:31:07.868884",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/open-source-intelligence-osint-passive-recon.png"
   },
   "oss-cross-region-replication-data": {
     "bg_color": "cfc2f5",
@@ -2488,7 +2552,7 @@
   "project-internal-compromise-and-privilege-escalation": {
     "ai_description": "",
     "ai_subject": "Skeleton Key",
-    "bg_color": "b4d6e2",
+    "bg_color": "d5dbf8",
     "created_at": "2026-03-17T15:54:42.214678",
     "image_url": "./assets/icons/project-internal-compromise-and-privilege-escalation.png"
   },
@@ -2864,7 +2928,7 @@
   "project-python-security-automation-capstone": {
     "ai_description": "",
     "ai_subject": "Python Snake",
-    "bg_color": "ccf0d7",
+    "bg_color": "dddcf7",
     "created_at": "2026-03-17T15:42:58.377645",
     "image_url": "./assets/icons/project-python-security-automation-capstone.png"
   },
@@ -3076,7 +3140,7 @@
   "project-secret-recovery-and-password-audit": {
     "ai_description": "",
     "ai_subject": "Skeleton Key",
-    "bg_color": "f5dcfb",
+    "bg_color": "f9f2e8",
     "created_at": "2026-03-17T15:42:12.733927",
     "image_url": "./assets/icons/project-secret-recovery-and-password-audit.png"
   },
@@ -3125,7 +3189,7 @@
   "project-soc-foundations-review": {
     "ai_description": "",
     "ai_subject": "Shield",
-    "bg_color": "bfdbcb",
+    "bg_color": "f5e3fc",
     "created_at": "2026-03-17T15:41:37.682172",
     "image_url": "./assets/icons/project-soc-foundations-review.png"
   },
@@ -3442,7 +3506,7 @@
   "protocol-analysis-with-tshark": {
     "ai_description": "",
     "ai_subject": "Shark",
-    "bg_color": "e8eaf6",
+    "bg_color": "d3f8db",
     "created_at": "2026-03-04T16:26:23.829979",
     "image_url": "./assets/icons/protocol-analysis-with-tshark.png"
   },
@@ -3782,6 +3846,14 @@
     "icon_style": "clay",
     "image_url": "./assets/icons/selinux-administration.png"
   },
+  "server-side-web-attacks": {
+    "ai_description": "",
+    "ai_subject": "Skeleton Key",
+    "bg_color": "f5d8e1",
+    "created_at": "2026-03-23T10:26:06.932495",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/server-side-web-attacks.png"
+  },
   "service-management-with-systemd": {
     "ai_description": "",
     "ai_subject": "Service Manual",
@@ -4081,10 +4153,26 @@
     "image_url": "./assets/icons/viewing-searching-and-editing-files.png",
     "tag": "module 03"
   },
+  "vulnerability-assessment-management": {
+    "ai_description": "",
+    "ai_subject": "Magnifying glass",
+    "bg_color": "dbfbe7",
+    "created_at": "2026-03-23T10:24:30.135310",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/vulnerability-assessment-management.png"
+  },
   "web-development-interactive-challenges": {
     "bg_color": "f2ddd3",
     "created_at": "2025-02-23T13:31:29.365201",
     "image_url": "./assets/icons/web-development-interactive-challenges.png"
+  },
+  "web-recon-intercepting-proxies": {
+    "ai_description": "",
+    "ai_subject": "Magnifying glass",
+    "bg_color": "e4f7de",
+    "created_at": "2026-03-23T10:24:52.266531",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/web-recon-intercepting-proxies.png"
   },
   "web-vulnerability-mastery": {
     "ai_description": "A 3D toy hamster wearing a tiny hoodie, playfully hacking into a giant cheese-shaped server with a glowing laptop.",
