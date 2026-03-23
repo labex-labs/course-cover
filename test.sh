@@ -1,25 +1,54 @@
 #!/bin/bash
 
-labex course create-cover -a packet-analysis-with-tcpdump --tag module
-labex course create-cover -a protocol-analysis-with-tshark --tag module
-labex course create-cover -a host-based-security-auditing --tag module
-labex course create-cover -a network-intrusion-detection-with-snort --tag module
-labex course create-cover -a open-source-intelligence-osint-passive-recon --tag module
-labex course create-cover -a mastering-nmap-host-discovery-port-scanning --tag module
-labex course create-cover -a nmap-fingerprinting-the-scripting-engine --tag module
-labex course create-cover -a vulnerability-assessment-management --tag module
-labex course create-cover -a web-recon-intercepting-proxies --tag module
-labex course create-cover -a injection-vulnerabilities --tag module
-labex course create-cover -a client-side-attacks-authentication --tag module
-labex course create-cover -a server-side-web-attacks --tag module
-labex course create-cover -a metasploit-framework-fundamentals --tag module
-labex course create-cover -a meterpreter-post-exploitation-operations --tag module
-labex course create-cover -a lateral-movement-pivoting --tag module
-labex course create-cover -a linux-privilege-escalation --tag module
-labex course create-cover -a cryptography-essentials --tag module
-labex course create-cover -a offline-password-cracking --tag module
-labex course create-cover -a digital-forensics-basics --tag module
-labex course create-cover -a memory-forensics-basics --tag module
-labex course create-cover -a malware-analysis-basics --tag module
-labex course create-cover -a python-for-security-operations --tag module
-labex course create-cover -a building-custom-security-tools --tag module
+labex course create-cover -f --tag course -a linux-terminal-basics
+labex course create-cover -f --tag course -a file-system-navigation-and-file-operations
+labex course create-cover -f --tag course -a viewing-searching-and-editing-files
+labex course create-cover -f --tag course -a shell-redirection-and-pipelines
+labex course create-cover -f --tag course -a shell-environment-and-variables
+labex course create-cover -f --tag course -a users-groups-and-permissions
+labex course create-cover -f --tag course -a processes-and-job-control
+labex course create-cover -f --tag course -a system-information-and-resource-monitoring
+labex course create-cover -f --tag course -a disk-filesystems-and-storage-management
+labex course create-cover -f --tag course -a linux-networking-fundamentals
+labex course create-cover -f --tag course -a remote-access-and-secure-file-transfer
+labex course create-cover -f --tag course -a software-package-management
+labex course create-cover -f --tag course -a service-management-with-systemd
+labex course create-cover -f --tag course -a log-management-and-text-processing
+labex course create-cover -f --tag course -a archiving-and-backup
+labex course create-cover -f --tag course -a shell-scripting-fundamentals
+labex course create-cover -f --tag course -a advanced-shell-scripting-techniques
+labex course create-cover -f --tag course -a text-processing-with-awk-and-sed
+labex course create-cover -f --tag course -a scheduled-tasks-and-routine-maintenance
+labex course create-cover -f --tag course -a boot-process-and-recovery
+labex course create-cover -f --tag course -a basic-system-security
+labex course create-cover -f --tag course -a version-control-with-git
+labex course create-cover -f --tag course -a docker-container-basics
+labex course create-cover -f --tag course -a mysql-database-basics
+labex course create-cover -f --tag course -a nginx-web-server
+labex course create-cover -f --tag course -a apache-web-server
+labex course create-cover -f --tag course -a dns-service-administration
+labex course create-cover -f --tag course -a dhcp-service-administration
+labex course create-cover -f --tag course -a nfs-and-samba-file-sharing
+labex course create-cover -f --tag course -a rpm-and-dnf-package-management
+labex course create-cover -f --tag course -a firewalld-configuration
+labex course create-cover -f --tag course -a selinux-administration
+labex course create-cover -f --tag course -a ansible-automation
+labex course create-cover -f --tag course -a haproxy-load-balancing
+labex course create-cover -f --tag course -a keepalived-high-availability
+labex course create-cover -f --tag course -a prometheus-monitoring
+labex course create-cover -f --tag course -a grafana-data-visualization
+labex course create-cover -f --tag course -a centralized-log-management
+labex course create-cover -f --tag course -a github-actions-cicd
+labex course create-cover -f --tag course -a terraform-infrastructure-as-code
+labex course create-cover -f --tag course -a kubernetes-fundamentals
+labex course create-cover -f --tag course -a kubernetes-cluster-administration
+labex course create-cover -f --tag course -a python-for-operations
+
+labex course create-cover -f --tag project -a project-system-rescue-and-initialization
+labex course create-cover -f --tag project -a project-web-server-deployment-and-disaster-recovery
+labex course create-cover -f --tag project -a project-automated-ops-toolkit-development
+labex course create-cover -f --tag project -a project-hybrid-infrastructure-deployment
+labex course create-cover -f --tag project -a project-network-service-administration
+labex course create-cover -f --tag project -a project-high-availability-and-automation
+labex course create-cover -f --tag project -a project-observability-stack
+labex course create-cover -f --tag project -a project-cloud-native-deployment
