@@ -95,7 +95,7 @@
   "basic-system-security": {
     "ai_description": "",
     "ai_subject": "Padlock",
-    "bg_color": "f4b4d0",
+    "bg_color": "dff7d7",
     "created_at": "2026-01-03T10:06:37.824723",
     "image_url": "./assets/icons/basic-system-security.png"
   },
@@ -113,7 +113,7 @@
   "boot-process-and-recovery": {
     "ai_description": "",
     "ai_subject": "Key",
-    "bg_color": "d7f7de",
+    "bg_color": "f8e9eb",
     "created_at": "2026-01-03T10:05:45.165571",
     "image_url": "./assets/icons/boot-process-and-recovery.png"
   },
@@ -4068,7 +4068,7 @@
   "version-control-with-git": {
     "ai_description": "",
     "ai_subject": "Tree",
-    "bg_color": "dfe2ed",
+    "bg_color": "dbfae5",
     "created_at": "2026-03-23T09:52:09.820973",
     "icon_style": "clay",
     "image_url": "./assets/icons/version-control-with-git.png"
