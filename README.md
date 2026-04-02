@@ -1,4 +1,4 @@
-# LabEx Course Cover Service
+# LabEx Course Cover
 
 [![JSDelivr](https://data.jsdelivr.com/v1/package/gh/labex-labs/course-cover/badge)](https://www.jsdelivr.com/package/gh/labex-labs/course-cover)
 
@@ -24,7 +24,7 @@ https://course-cover.labex.io/keepalived-high-availability.png?lang=zh
 
 ### URL Format
 
-```
+```plaintext
 https://course-cover.labex.io/{course-alias}.png?lang={lang}
 ```
 
@@ -43,6 +43,6 @@ wrangler deploy   # Deploy to production
 
 ## Architecture
 
-```
-User → Cloudflare Worker → jsDelivr CDN → Default Cover (fallback)
+```plaintext
+User → [Cloudflare Worker](https://github.com/labex-labs/course-cover-service) → [jsDelivr CDN](https://www.jsdelivr.com/package/gh/labex-labs/course-cover) → Default Cover (fallback)
 ```
