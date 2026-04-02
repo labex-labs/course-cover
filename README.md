@@ -43,6 +43,4 @@ wrangler deploy   # Deploy to production
 
 ## Architecture
 
-```plaintext
 User → [Cloudflare Worker](https://github.com/labex-labs/course-cover-service) → [jsDelivr CDN](https://www.jsdelivr.com/package/gh/labex-labs/course-cover) → Default Cover (fallback)
-```
