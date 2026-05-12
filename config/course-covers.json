@@ -1035,6 +1035,14 @@
     "created_at": "2026-03-04T16:18:43.196770",
     "image_url": "./assets/icons/linux-privilege-escalation.png"
   },
+  "linux-security-for-devsecops": {
+    "ai_description": "",
+    "ai_subject": "Penguin",
+    "bg_color": "f9d3ef",
+    "created_at": "2026-05-12T15:08:48.123634",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/linux-security-for-devsecops.png"
+  },
   "linux-software-playgrounds": {
     "bg_color": "c2ebbd",
     "created_at": "2025-02-23T13:31:30.126041",
