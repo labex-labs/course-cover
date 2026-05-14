@@ -465,6 +465,14 @@
     "created_at": "2025-02-23T13:31:38.898783",
     "image_url": "./assets/icons/docker-practice-plus.png"
   },
+  "docker-security-for-devsecops": {
+    "ai_description": "",
+    "ai_subject": "Blue Whale",
+    "bg_color": "dcd3fa",
+    "created_at": "2026-05-14T16:20:27.316438",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/docker-security-for-devsecops.png"
+  },
   "fault-injection-verification-of-system-fault-tolerance": {
     "bg_color": "e6e1b8",
     "created_at": "2025-07-24T02:12:52.541935",
