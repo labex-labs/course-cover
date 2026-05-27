@@ -994,6 +994,14 @@
     "icon_style": "clay",
     "image_url": "./assets/icons/lfcs-practice-exam-01.png"
   },
+  "lfcs-practice-exam-02": {
+    "ai_description": "",
+    "ai_subject": "Penguin",
+    "bg_color": "daecfa",
+    "created_at": "2026-05-27T09:30:17.703205",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/lfcs-practice-exam-02.png"
+  },
   "linux-basic-commands-practice-online": {
     "ai_description": "A sleek black terminal console window featuring a prominent emerald green command prompt symbol and a glowing white cursor.",
     "bg_color": "b6dfdc",
