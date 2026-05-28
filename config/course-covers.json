@@ -172,6 +172,14 @@
     "created_at": "2026-01-03T10:21:49.789762",
     "image_url": "./assets/icons/centralized-log-management.png"
   },
+  "cka-practice-exam-01": {
+    "ai_description": "",
+    "ai_subject": "Steering Wheel",
+    "bg_color": "d0d3f7",
+    "created_at": "2026-05-28T20:00:37.726638",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/cka-practice-exam-01.png"
+  },
   "client-side-attacks-authentication": {
     "ai_description": "",
     "ai_subject": "Skeleton Key",
