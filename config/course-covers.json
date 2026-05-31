@@ -196,6 +196,14 @@
     "icon_style": "clay",
     "image_url": "./assets/icons/ckad-practice-exam-02.png"
   },
+  "cks-practice-exam-02": {
+    "ai_description": "",
+    "ai_subject": "Ship steering wheel",
+    "bg_color": "fcdcd9",
+    "created_at": "2026-05-31T21:10:24.713943",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/cks-practice-exam-02.png"
+  },
   "client-side-attacks-authentication": {
     "ai_description": "",
     "ai_subject": "Skeleton Key",
