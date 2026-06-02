@@ -196,6 +196,14 @@
     "icon_style": "clay",
     "image_url": "./assets/icons/ckad-practice-exam-02.png"
   },
+  "ckad-prep": {
+    "ai_description": "",
+    "ai_subject": "Ship's Helm",
+    "bg_color": "d8e1fb",
+    "created_at": "2026-06-02T09:13:00.868855",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/ckad-prep.png"
+  },
   "cks-practice-exam-02": {
     "ai_description": "",
     "ai_subject": "Ship steering wheel",
