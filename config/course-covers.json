@@ -220,6 +220,14 @@
     "icon_style": "clay",
     "image_url": "./assets/icons/cks-practice-exam-02.png"
   },
+  "cks-prep": {
+    "ai_description": "",
+    "ai_subject": "Shield",
+    "bg_color": "ede3f6",
+    "created_at": "2026-06-03T19:25:26.218875",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/cks-prep.png"
+  },
   "client-side-attacks-authentication": {
     "ai_description": "",
     "ai_subject": "Skeleton Key",
