@@ -188,6 +188,14 @@
     "icon_style": "clay",
     "image_url": "./assets/icons/cka-practice-exam-02.png"
   },
+  "cka-prep": {
+    "ai_description": "",
+    "ai_subject": "Steering wheel of a ship",
+    "bg_color": "cff6ec",
+    "created_at": "2026-06-03T08:05:09.448135",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/cka-prep.png"
+  },
   "ckad-practice-exam-02": {
     "ai_description": "",
     "ai_subject": "Ship hull",
