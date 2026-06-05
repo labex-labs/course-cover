@@ -3902,6 +3902,14 @@
     "created_at": "2025-02-23T13:31:29.131637",
     "image_url": "./assets/icons/rhcsa-certification-exam-practice-exercises.png"
   },
+  "rhcsa-prep": {
+    "ai_description": "",
+    "ai_subject": "Red Hat",
+    "bg_color": "dae5f8",
+    "created_at": "2026-06-05T08:52:02.048298",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/rhcsa-prep.png"
+  },
   "rhel-interview-questions": {
     "bg_color": "f8fcb7",
     "created_at": "2025-07-31T09:24:39.633184",
