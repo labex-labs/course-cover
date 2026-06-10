@@ -1,4 +1,12 @@
 {
+  "100-days-of-linux-challenges": {
+    "ai_description": "",
+    "ai_subject": "Penguin",
+    "bg_color": "ede5f8",
+    "created_at": "2026-06-10T09:58:25.733885",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/100-days-of-linux-challenges.png"
+  },
   "100-numpy-exercises": {
     "bg_color": "cef7ef",
     "created_at": "2025-02-23T13:31:39.825566",
