@@ -25,6 +25,22 @@
     "icon_style": "clay",
     "image_url": "./assets/icons/30-days-of-docker-challenges.png"
   },
+  "30-days-of-kubernetes-challenges": {
+    "ai_description": "",
+    "ai_subject": "Helmsman's ship wheel",
+    "bg_color": "f8dad8",
+    "created_at": "2026-06-11T10:51:35.313979",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/30-days-of-kubernetes-challenges.png"
+  },
+  "30-days-of-red-hat-linux-challenges": {
+    "ai_description": "",
+    "ai_subject": "Red Fedora",
+    "bg_color": "dff8d3",
+    "created_at": "2026-06-11T10:50:46.309223",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/30-days-of-red-hat-linux-challenges.png"
+  },
   "a-beginner-guide-to-labex": {
     "bg_color": "e1e4ee",
     "created_at": "2025-02-23T13:31:41.812704",
