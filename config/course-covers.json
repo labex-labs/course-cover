@@ -20,7 +20,7 @@
   "30-days-of-docker-challenges": {
     "ai_description": "",
     "ai_subject": "Blue Whale",
-    "bg_color": "b6d2fa",
+    "bg_color": "d2e0fb",
     "created_at": "2026-06-11T09:45:22.535148",
     "icon_style": "clay",
     "image_url": "./assets/icons/30-days-of-docker-challenges.png"
@@ -28,7 +28,7 @@
   "30-days-of-kubernetes-challenges": {
     "ai_description": "",
     "ai_subject": "Helmsman's ship wheel",
-    "bg_color": "f8dad8",
+    "bg_color": "d2d6fb",
     "created_at": "2026-06-11T10:51:35.313979",
     "icon_style": "clay",
     "image_url": "./assets/icons/30-days-of-kubernetes-challenges.png"
