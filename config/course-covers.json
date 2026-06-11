@@ -33,6 +33,14 @@
     "icon_style": "clay",
     "image_url": "./assets/icons/30-days-of-devops-challenges.png"
   },
+  "30-days-of-devsecops-challenges": {
+    "ai_description": "",
+    "ai_subject": "Blue Whale",
+    "bg_color": "e2eafb",
+    "created_at": "2026-06-11T15:57:36.770215",
+    "icon_style": "clay",
+    "image_url": "./assets/icons/30-days-of-devsecops-challenges.png"
+  },
   "30-days-of-docker-challenges": {
     "ai_description": "",
     "ai_subject": "Blue Whale",
