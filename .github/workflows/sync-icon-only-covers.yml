@@ -1,0 +1,56 @@
+name: Sync icon-only covers
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - "assets/icons/**"
+      - "config/course-covers.json"
+      - "scripts/generate-icon-only-cover.py"
+      - "scripts/requirements.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-icon-only-covers-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r scripts/requirements.txt
+
+      - name: Generate icon-only covers
+        run: python scripts/generate-icon-only-cover.py --all
+
+      - name: Commit generated covers
+        shell: bash
+        run: |
+          if [[ -z "$(git status --porcelain -- public/icon-only)" ]]; then
+            echo "Icon-only covers are already synchronized."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/icon-only
+          git commit -m "chore: sync icon-only course covers"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
